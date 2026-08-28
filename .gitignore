@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next
+/out
+/.vercel
+
+# production
+/build
+
+# local environments
+.env*
+!.env.example
+
+# logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# local reference clone used during the V2 rebuild
+/.reference-old
+
+# local visual QA artifacts
+/.chrome-*
+/.screenshots
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
