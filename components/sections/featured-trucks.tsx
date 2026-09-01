@@ -24,7 +24,7 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
           <ButtonLink href="/trucks" variant="outline-dark" className="w-fit">View full catalog</ButtonLink>
         </div>
 
-        <div className="mt-14 grid border border-line bg-paper lg:grid-cols-[1.15fr_0.85fr]">
+        <div className="mt-14 grid border border-line bg-paper lg:grid-cols-[1.2fr_0.8fr]">
           <Link href={`/trucks/${lead.slug}`} className="group relative min-h-[390px] overflow-hidden border-b border-line bg-ink lg:min-h-[650px] lg:border-b-0 lg:border-r" aria-label={`View ${lead.brand} ${lead.model}`}>
             <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-70" />
             <div aria-hidden="true" className="absolute bottom-0 right-0 h-[55%] w-[60%] bg-brand [clip-path:polygon(45%_0,100%_0,100%_100%,0_100%)] opacity-20" />
@@ -34,7 +34,7 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
                 alt={leadImage.alt}
                 fill
                 sizes="(min-width: 1024px) 58vw, 100vw"
-                className="object-contain p-8 pb-16 transition-transform duration-700 group-hover:scale-[1.035] lg:p-14"
+                className="object-contain p-8 pb-16 drop-shadow-[0_30px_34px_rgba(0,0,0,0.42)] transition-transform duration-700 group-hover:-translate-y-1 group-hover:translate-x-1 lg:p-14"
               />
             ) : null}
             <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-gradient-to-t from-black/90 via-black/65 to-transparent px-6 pb-6 pt-24 text-white sm:px-8 sm:pb-8">
@@ -44,8 +44,8 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
           </Link>
 
           <div className="flex flex-col p-6 sm:p-9 lg:p-12">
-            <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-brand">{lead.brand} · {lead.bodyType}</p>
-            <h3 className="mt-4 font-display text-5xl font-bold uppercase leading-[0.88] tracking-[-0.025em] sm:text-6xl">{lead.model}</h3>
+            <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-brand">{lead.brand} / {lead.bodyType}</p>
+            <h3 className="mt-4 font-display text-5xl font-black uppercase leading-[0.84] tracking-[-0.035em] sm:text-6xl">{lead.model}</h3>
             <p className="mt-6 text-base leading-7 text-muted">{lead.shortDescription}</p>
             <dl className="mt-8 grid grid-cols-2 border-l border-t border-line">
               {leadSpecs.map((spec) => (
@@ -78,7 +78,7 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
                   </h3>
                 </div>
                 <div className="hidden lg:block">
-                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-muted">{truck.bodyType}{featuredSpec ? ` · ${featuredSpec.value}` : ""}</p>
+                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-muted">{truck.bodyType}{featuredSpec ? ` / ${featuredSpec.value}` : ""}</p>
                   <p className="mt-2 line-clamp-1 text-sm text-muted">{truck.shortDescription}</p>
                 </div>
                 <div className="flex items-center gap-2 sm:justify-end">

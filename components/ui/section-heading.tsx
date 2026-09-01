@@ -26,7 +26,7 @@ export function SectionHeading({
         <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-brand">{eyebrow}</p>
       </div>
       <h2
-        className={`font-display text-[clamp(2.7rem,6vw,5.8rem)] font-bold uppercase leading-[0.88] tracking-[-0.03em] ${
+        className={`font-display text-[clamp(2.9rem,6.3vw,6.2rem)] font-black uppercase leading-[0.84] tracking-[-0.04em] ${
           dark ? "text-white" : "text-ink"
         }`}
       >

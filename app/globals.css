@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --brand-orange: #ed5a1f;
-  --brand-orange-deep: #b9340d;
+  --brand-orange: #f15a22;
+  --brand-orange-deep: #b9360e;
   --brand-orange-soft: #f5a06f;
-  --ink: #181816;
-  --ink-soft: #292926;
-  --ink-muted: #45443f;
-  --sail: #f2eadc;
-  --paper: #fbfaf6;
+  --ink: #111210;
+  --ink-soft: #1d1e1b;
+  --ink-muted: #353631;
+  --sail: #ece4d6;
+  --paper: #f8f5ee;
   --white: #ffffff;
-  --muted: #68675f;
-  --line: #d9d3c7;
-  --line-dark: #393934;
+  --muted: #62635c;
+  --line: #d5cec1;
+  --line-dark: #343530;
+  --steel: #a8aaa3;
   --success: #17633f;
   --error: #b42318;
   --shadow-small: 0 12px 30px rgb(24 24 22 / 8%);
@@ -31,6 +32,7 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-line-dark: var(--line-dark);
+  --color-steel: var(--steel);
   --color-success: var(--success);
   --color-error: var(--error);
   --font-sans: var(--font-body-face);
@@ -53,6 +55,7 @@ body {
   color: var(--ink);
   font-family: var(--font-body-face), Arial, sans-serif;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
@@ -129,6 +132,26 @@ img {
   background-size: 48px 48px;
 }
 
+.vehicle-stage {
+  background:
+    linear-gradient(135deg, rgb(255 255 255 / 4%) 0 1px, transparent 1px 100%),
+    linear-gradient(90deg, rgb(255 255 255 / 4%) 1px, transparent 1px),
+    linear-gradient(rgb(255 255 255 / 4%) 1px, transparent 1px);
+  background-size: 100% 100%, 64px 64px, 64px 64px;
+}
+
+.cut-corner {
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .industrial-grid-dark {
   background-image:
     linear-gradient(rgb(24 24 22 / 7%) 1px, transparent 1px),
@@ -180,6 +203,16 @@ img {
   }
 }
 
+@keyframes truck-idle {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -5px, 0);
+  }
+}
+
 @keyframes hero-progress {
   from {
     transform: scaleX(0);
@@ -195,6 +228,10 @@ img {
 
 .animate-hero-image {
   animation: hero-image-in 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-vehicle-idle {
+  animation: truck-idle 6s ease-in-out 1s infinite;
 }
 
 .hero-progress-fill {

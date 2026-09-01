@@ -70,9 +70,9 @@ export function SiteHeader() {
         Skip to content
       </a>
 
-      <div className="hidden border-b border-white/10 bg-ink/95 text-[11px] font-bold uppercase tracking-[0.14em] text-white/65 lg:block">
+      <div className={`hidden border-b border-white/10 text-[10px] font-bold uppercase tracking-[0.18em] text-white/58 transition-colors lg:block ${scrolled ? "bg-ink" : "bg-ink/88"}`}>
         <Container className="flex h-9 items-center justify-between">
-          <p>Commercial trucks · body solutions · fleet requirements</p>
+          <p>Commercial trucks <span className="px-2 text-brand">/</span> Body solutions <span className="px-2 text-brand">/</span> Fleet requirements</p>
           <a className="flex items-center gap-2 transition-colors hover:text-brand" href={`tel:${siteConfig.contact.phoneHref}`}>
             <Phone aria-hidden="true" className="h-3.5 w-3.5" />
             {siteConfig.contact.phoneDisplay}
@@ -82,7 +82,7 @@ export function SiteHeader() {
 
       <div
         className={`border-b transition-colors duration-300 ${
-          scrolled || open ? "border-white/10 bg-ink/96 shadow-2xl shadow-black/20 backdrop-blur-md" : "border-white/12 bg-ink/82 backdrop-blur-sm"
+          scrolled || open ? "border-white/10 bg-ink/96 shadow-2xl shadow-black/20 backdrop-blur-md" : "border-white/12 bg-gradient-to-b from-ink/72 to-ink/28 backdrop-blur-[2px]"
         }`}
       >
         <Container className="flex h-[74px] items-center justify-between lg:h-[82px]">
@@ -116,7 +116,7 @@ export function SiteHeader() {
           </nav>
 
           <div className="hidden xl:block">
-            <ButtonLink href="/request-a-quote" size="sm">Request a quote</ButtonLink>
+            <ButtonLink href="/request-a-quote" size="sm" className="cut-corner">Request a quote</ButtonLink>
           </div>
 
           <button
@@ -134,18 +134,21 @@ export function SiteHeader() {
       </div>
 
       <div
-        ref={mobileNavRef}
         id="mobile-navigation"
-        role="dialog"
-        aria-modal="true"
-        aria-label="Mobile navigation"
-        className={`fixed inset-0 z-50 bg-ink pt-[74px] transition-[opacity,visibility] duration-300 lg:pt-[119px] xl:hidden ${
-          open ? "visible opacity-100" : "invisible opacity-0"
-        }`}
+        className={`fixed inset-0 z-50 transition-[opacity,visibility] duration-300 xl:hidden ${open ? "visible opacity-100" : "invisible opacity-0"}`}
       >
-        <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-60" />
-        <Container className="relative flex h-full flex-col overflow-y-auto py-8">
-          <nav aria-label="Mobile navigation" className="border-t border-white/12">
+        <button type="button" aria-label="Close navigation" onClick={() => setOpen(false)} className="absolute inset-0 bg-black/70" />
+        <div
+          ref={mobileNavRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Mobile navigation"
+          className={`absolute inset-y-0 right-0 flex w-[min(92vw,480px)] flex-col overflow-y-auto border-l border-white/12 bg-ink px-5 pb-8 pt-[98px] shadow-2xl transition-transform duration-300 sm:px-8 lg:pt-[142px] ${open ? "translate-x-0" : "translate-x-full"}`}
+        >
+          <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-45" />
+          <div className="relative flex min-h-full flex-col">
+            <p className="mb-6 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand">Navigation / Strongbuilt</p>
+            <nav aria-label="Mobile navigation" className="border-t border-white/12">
             {siteConfig.nav.map((item, index) => {
               const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href)
               return (
@@ -162,9 +165,9 @@ export function SiteHeader() {
                 </Link>
               )
             })}
-          </nav>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2">
-            <ButtonLink href="/request-a-quote" size="lg">Request a quote</ButtonLink>
+            </nav>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            <ButtonLink href="/request-a-quote" size="lg" className="cut-corner">Request a quote</ButtonLink>
             <a
               href={`tel:${siteConfig.contact.phoneHref}`}
               className="flex min-h-14 items-center justify-center gap-3 border border-white/25 px-6 text-sm font-bold uppercase tracking-[0.12em] text-white"
@@ -172,8 +175,10 @@ export function SiteHeader() {
               <Phone aria-hidden="true" className="h-4 w-4 text-brand" />
               Call sales
             </a>
+            </div>
+            <p className="mt-auto pt-10 text-[10px] font-bold uppercase tracking-[0.16em] text-white/38">Commercial vehicles configured for real operations.</p>
           </div>
-        </Container>
+        </div>
       </div>
     </header>
   )

@@ -37,7 +37,7 @@ export function ButtonLink({
   return (
     <Link
       href={href}
-      className={`group inline-flex items-center justify-center gap-3 border font-bold uppercase tracking-[0.12em] transition-colors duration-200 ${variants[variant]} ${sizes[size]} ${className}`}
+      className={`group inline-flex items-center justify-center gap-3 border font-extrabold uppercase tracking-[0.13em] transition-colors duration-200 ${variants[variant]} ${sizes[size]} ${className}`}
     >
       <span>{children}</span>
       {showArrow ? (

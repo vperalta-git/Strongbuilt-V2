@@ -80,10 +80,7 @@ export function SiteFooter() {
           {siteConfig.nav.map((item) => <Link key={item.href} href={item.href} className="hover:text-white">{item.label}</Link>)}
           <Link href="/privacy" className="hover:text-white">Privacy</Link>
         </div>
-        <div className="text-xs leading-5 text-white/55 md:text-right">
-          <p>Social links: pending confirmation</p>
-          <p>© {new Date().getFullYear()} {siteConfig.legalName}</p>
-        </div>
+        <p className="text-xs leading-5 text-white/55 md:text-right">© {new Date().getFullYear()} {siteConfig.legalName}</p>
       </Container>
     </footer>
   )

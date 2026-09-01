@@ -50,6 +50,8 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
   const related = await getRelatedTrucks(truck, 3)
   const groups = ["Powertrain", "Dimensions & capacity", "Chassis & running gear", "Equipment"] as const
   const featuredSpecs = truck.specifications.filter((spec) => spec.featured).slice(0, 4)
+  const [modelLead, ...modelDetailParts] = truck.model.split(" ")
+  const modelDetail = modelDetailParts.join(" ")
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -64,7 +66,8 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
 
   return (
     <>
-      <section className="bg-ink pb-9 pt-36 text-white sm:pt-44 lg:pt-48">
+      <section className="relative overflow-hidden bg-ink pb-8 pt-36 text-white sm:pt-44 lg:pt-48">
+        <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-45" />
         <Container>
           <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.15em] text-white/45">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
@@ -74,28 +77,32 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
         </Container>
       </section>
 
-      <section className="bg-paper pb-20 lg:pb-28">
-        <Container>
-          <div className="grid border-x border-b border-line bg-white lg:grid-cols-[1.1fr_0.9fr]">
-            <div className="border-b border-line p-4 sm:p-7 lg:border-b-0 lg:border-r lg:p-9">
+      <section className="relative overflow-hidden bg-ink pb-20 text-white lg:pb-28">
+        <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-45" />
+        <div aria-hidden="true" className="absolute -right-10 top-0 font-display text-[18rem] font-black uppercase leading-none tracking-[-0.06em] text-white/[0.025]">{truck.brand}</div>
+        <Container className="relative">
+          <div className="grid border border-white/14 bg-ink-soft lg:grid-cols-[1.12fr_0.88fr]">
+            <div className="border-b border-white/14 p-4 sm:p-7 lg:border-b-0 lg:border-r lg:p-9">
               <TruckGallery images={truck.images} />
             </div>
 
             <div className="flex flex-col p-6 sm:p-9 lg:p-12 xl:p-14">
               <div className="flex flex-wrap items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.16em]">
                 <span className="bg-brand px-3 py-2 text-white">{truck.brand}</span>
-                <span className="border border-line px-3 py-2 text-muted">{truck.bodyType}</span>
-                <span className="border border-line px-3 py-2 text-muted">{truck.category}</span>
+                <span className="border border-white/20 px-3 py-2 text-white/58">{truck.bodyType}</span>
+                <span className="border border-white/20 px-3 py-2 text-white/58">{truck.category}</span>
               </div>
-              <h1 className="mt-7 font-display text-[clamp(3.8rem,7vw,7.2rem)] font-bold uppercase leading-[0.79] tracking-[-0.035em]">{truck.model}</h1>
-              <p className="mt-7 text-base leading-7 text-muted sm:text-lg">{truck.shortDescription}</p>
+              <p className="mt-7 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand">Commercial work platform</p>
+              <h1 className="mt-3 font-display text-[clamp(4.8rem,8vw,8.5rem)] font-black uppercase leading-[0.72] tracking-[-0.05em] text-white">{modelLead}</h1>
+              {modelDetail ? <p className="mt-5 max-w-xl font-display text-2xl font-bold uppercase leading-[1.05] tracking-[0.015em] text-white/72 sm:text-3xl">{modelDetail}</p> : null}
+              <p className="mt-6 text-base leading-7 text-white/62 sm:text-lg">{truck.shortDescription}</p>
 
               {featuredSpecs.length ? (
-                <dl className="mt-8 grid grid-cols-2 border-l border-t border-line">
+                <dl className="mt-8 grid grid-cols-2 border-l border-t border-white/14">
                   {featuredSpecs.map((spec) => (
-                    <div key={spec.label} className="border-b border-r border-line p-4">
-                      <dt className="text-[9px] font-extrabold uppercase tracking-[0.13em] text-muted">{spec.label}</dt>
-                      <dd className="mt-2 text-sm font-bold leading-5 text-ink">{spec.value}</dd>
+                    <div key={spec.label} className="border-b border-r border-white/14 p-4">
+                      <dt className="text-[9px] font-extrabold uppercase tracking-[0.13em] text-white/42">{spec.label}</dt>
+                      <dd className="mt-2 font-display text-xl font-bold leading-5 text-white">{spec.value}</dd>
                     </div>
                   ))}
                 </dl>
@@ -103,11 +110,11 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
 
               <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:mt-auto lg:pt-9">
                 <ButtonLink href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} size="lg">Request a quote</ButtonLink>
-                <a href={`tel:${siteConfig.contact.phoneHref}`} className="inline-flex min-h-14 items-center justify-center gap-3 border border-ink/30 px-6 text-sm font-extrabold uppercase tracking-[0.12em] transition-colors hover:border-ink hover:bg-ink hover:text-white">
+                <a href={`tel:${siteConfig.contact.phoneHref}`} className="inline-flex min-h-14 items-center justify-center gap-3 border border-white/28 px-6 text-sm font-extrabold uppercase tracking-[0.12em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink">
                   <Phone aria-hidden="true" className="h-4 w-4" /> Contact sales
                 </a>
               </div>
-              <p className="mt-4 text-xs leading-5 text-muted">Specifications and configuration availability are subject to sales confirmation.</p>
+              <p className="mt-4 text-xs leading-5 text-white/42">Specifications and configuration availability are subject to sales confirmation.</p>
             </div>
           </div>
         </Container>

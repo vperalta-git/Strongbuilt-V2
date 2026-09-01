@@ -9,10 +9,12 @@ import { siteConfig } from "@/config/site"
 
 const slides = [
   {
-    code: "Fleet / 01",
-    kicker: "Commercial vehicle solutions",
-    title: ["Work configured", "for the real job."],
-    copy: "Truck sourcing, body solutions, and practical vehicle configuration shaped around your operation.",
+    code: "Heavy duty / 01",
+    kicker: "Strongbuilt commercial vehicles",
+    title: ["Built for", "the work."],
+    copy: "Commercial trucks and body solutions configured around real operating requirements.",
+    vehicle: "SHACMAN X3000",
+    vehicleType: "420 HP / 6×4 tractor head",
     image: "/images/trucks/shacman-x3000-420.png",
     alt: "SHACMAN X3000 heavy-duty tractor head",
     objectPosition: "center",
@@ -23,9 +25,11 @@ const slides = [
   {
     code: "Worksite / 02",
     kicker: "Dump & construction applications",
-    title: ["Built around", "the load."],
+    title: ["Move the load.", "Own the work."],
     copy: "Match capacity, chassis, and body requirements to the actual material, route, and worksite.",
     image: "/images/trucks/forland-dump-3cbm.png",
+    vehicle: "FORLAND 3CBM",
+    vehicleType: "Commercial dump truck",
     alt: "Forland 3CBM commercial dump truck",
     objectPosition: "center",
     surface: "from-[#32251d] via-[#1d1b18] to-[#0d0d0c]",
@@ -35,9 +39,11 @@ const slides = [
   {
     code: "Routes / 03",
     kicker: "Cargo & delivery platforms",
-    title: ["Right-sized for", "every route."],
+    title: ["Right truck.", "Every route."],
     copy: "From city deliveries to regional distribution, start with route, cargo, and loading requirements.",
     image: "/images/trucks/forland-cargo-double-cab.png",
+    vehicle: "FORLAND DOUBLE CAB",
+    vehicleType: "Cargo / crew configuration",
     alt: "Forland double-cabin cargo truck",
     objectPosition: "center",
     surface: "from-[#1b292b] via-[#181c1c] to-[#0c0d0d]",
@@ -47,9 +53,11 @@ const slides = [
   {
     code: "Heavy / 04",
     kicker: "Trailer & fleet requirements",
-    title: ["Heavy transport", "starts here."],
+    title: ["Heavy transport.", "No guesswork."],
     copy: "Evaluate tractor-head and trailer combinations with your payload, route, and operating cycle in view.",
     image: "/images/trucks/cimc-flatbed-40ft.png",
+    vehicle: "CIMC FLAT-BED",
+    vehicleType: "40-foot commercial trailer",
     alt: "CIMC 40-foot flat-bed commercial trailer",
     objectPosition: "center",
     surface: "from-[#27251e] via-[#181816] to-[#0b0b0a]",
@@ -103,7 +111,7 @@ export function HomeHero() {
     <section
       aria-roledescription="carousel"
       aria-label="Strongbuilt commercial truck solutions"
-      className="relative min-h-[790px] overflow-hidden bg-ink text-white sm:min-h-[820px] lg:min-h-[780px] lg:h-[100svh] lg:max-h-[980px]"
+      className="relative min-h-[820px] overflow-hidden bg-ink text-white sm:min-h-[900px] lg:h-[100svh] lg:min-h-[760px] lg:max-h-[980px]"
       onMouseEnter={() => setHoverPaused(true)}
       onMouseLeave={() => setHoverPaused(false)}
       onFocusCapture={() => setHoverPaused(true)}
@@ -122,34 +130,34 @@ export function HomeHero() {
     >
       <div className={`absolute inset-0 bg-gradient-to-br ${slide.surface} transition-colors duration-700`} />
       <p className="sr-only" aria-live="polite" aria-atomic="true">{announcement}</p>
-      <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-60" />
-      <div aria-hidden="true" className="absolute -right-[8%] top-[18%] h-[70vw] max-h-[850px] w-[70vw] max-w-[850px] rounded-full border border-white/[0.06]" />
-      <div aria-hidden="true" className="absolute -right-[3%] top-[25%] h-[55vw] max-h-[670px] w-[55vw] max-w-[670px] rounded-full border border-brand/20" />
-      <div aria-hidden="true" className="absolute bottom-0 right-0 h-1/2 w-[44%] bg-brand [clip-path:polygon(72%_0,100%_0,100%_100%,0_100%)] opacity-[0.12]" />
+      <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-50" />
+      <div aria-hidden="true" className="absolute inset-y-0 right-0 w-[48%] border-l border-white/[0.06] bg-white/[0.018]" />
+      <div aria-hidden="true" className="absolute -right-[6%] top-[14%] hidden font-display text-[clamp(12rem,21vw,23rem)] font-black uppercase leading-none tracking-[-0.06em] text-white/[0.025] lg:block">SB</div>
+      <div aria-hidden="true" className="absolute bottom-0 right-0 h-[42%] w-[46%] bg-brand [clip-path:polygon(78%_0,100%_0,100%_100%,0_100%)] opacity-[0.14]" />
 
-      <Container className="relative grid min-h-[790px] grid-cols-[minmax(0,1fr)] grid-rows-[auto_1fr_auto] pb-8 pt-[116px] sm:min-h-[820px] sm:pt-[132px] lg:h-full lg:min-h-0 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:grid-rows-[1fr_auto] lg:items-center lg:pb-9 lg:pt-[122px]">
-        <div key={`copy-${active}`} className="animate-reveal-up relative z-20 min-w-0 w-[calc(100vw-2.5rem)] max-w-[calc(100vw-2.5rem)] self-center pt-7 sm:w-full sm:max-w-[760px] lg:pb-12 lg:pt-0">
-          <div className="mb-6 flex items-center gap-3 text-[11px] font-extrabold uppercase tracking-[0.2em] text-brand sm:text-xs">
-            <span className="h-[2px] w-9 bg-brand" />
-            {slide.kicker}
+      <Container className="relative grid min-h-[820px] min-w-0 grid-cols-[minmax(0,1fr)] grid-rows-[auto_auto_1fr_auto] pb-7 pt-[112px] sm:min-h-[900px] sm:pb-9 sm:pt-[132px] lg:h-full lg:min-h-0 lg:grid-cols-[minmax(0,0.82fr)_minmax(0,1.18fr)] lg:grid-rows-[1fr_auto] lg:items-center lg:pt-[122px]">
+        <div key={`copy-${active}`} className="animate-reveal-up relative z-20 min-w-0 self-center pt-8 sm:max-w-[760px] lg:pb-10 lg:pt-0">
+          <div className="mb-5 flex items-center gap-3 text-[10px] font-extrabold uppercase tracking-[0.24em] text-brand sm:text-xs">
+            <span className="h-[2px] w-10 bg-brand" />{slide.kicker}
           </div>
-          <h1 className="max-w-full font-display text-[clamp(3.05rem,13vw,8.8rem)] font-bold uppercase leading-[0.8] tracking-[-0.035em]">
+          <p aria-hidden="true" className="mb-4 font-display text-xl font-bold uppercase tracking-[0.28em] text-white/28 sm:text-2xl">Strongbuilt</p>
+          <h1 className="max-w-full text-balance font-display text-[clamp(3.45rem,16vw,5.5rem)] font-black uppercase leading-[0.78] tracking-[-0.045em] sm:text-[clamp(5rem,12vw,7.5rem)] lg:text-[clamp(5.7rem,7.2vw,8.6rem)]">
             <span className="block">{slide.title[0]}</span>
             <span className="block text-brand">{slide.title[1]}</span>
           </h1>
-          <p className="mt-7 max-w-xl text-base leading-7 text-white/68 sm:text-lg sm:leading-8">{slide.copy}</p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link href={slide.primary.href} className="group inline-flex min-h-14 items-center justify-center gap-3 bg-brand px-6 text-sm font-extrabold uppercase tracking-[0.12em] transition-colors hover:bg-brand-deep">
+          <p className="mt-6 max-w-lg text-sm leading-6 text-white/66 sm:mt-7 sm:text-lg sm:leading-8">{slide.copy}</p>
+          <div className="mt-7 flex flex-col gap-3 min-[430px]:flex-row sm:mt-8">
+            <Link href={slide.primary.href} className="cut-corner group inline-flex min-h-14 items-center justify-center gap-3 bg-brand px-6 text-xs font-extrabold uppercase tracking-[0.14em] transition-colors hover:bg-brand-deep sm:text-sm">
               {slide.primary.label}
               <ArrowUpRight aria-hidden="true" className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </Link>
-            <Link href={slide.secondary.href} className="inline-flex min-h-14 items-center justify-center border border-white/30 px-6 text-sm font-extrabold uppercase tracking-[0.12em] transition-colors hover:border-white hover:bg-white hover:text-ink">
+            <Link href={slide.secondary.href} className="inline-flex min-h-14 items-center justify-center border border-white/30 px-6 text-xs font-extrabold uppercase tracking-[0.14em] transition-colors hover:border-white hover:bg-white hover:text-ink sm:text-sm">
               {slide.secondary.label}
             </Link>
           </div>
         </div>
 
-        <div key={`image-${active}`} className="animate-hero-image pointer-events-none relative z-10 mx-0 h-[300px] min-w-0 w-[calc(100vw-2.5rem)] max-w-[calc(100vw-2.5rem)] self-end sm:h-[365px] sm:w-full sm:max-w-none lg:-mr-[8vw] lg:ml-[-5vw] lg:h-[min(64vh,650px)] lg:w-auto lg:self-center">
+        <div key={`image-${active}`} className="animate-hero-image pointer-events-none relative z-10 h-[250px] min-w-0 self-end sm:h-[330px] lg:-mr-[7vw] lg:ml-[-8vw] lg:h-[min(68vh,690px)] lg:self-center">
           <Image
             src={slide.image}
             alt={slide.alt}
@@ -157,25 +165,29 @@ export function HomeHero() {
             priority={active === 0}
             fetchPriority={active === 0 ? "high" : "auto"}
             sizes="(min-width: 1024px) 58vw, 100vw"
-            className="object-contain drop-shadow-[0_34px_38px_rgba(0,0,0,0.45)]"
+            className="hero-vehicle-idle object-contain drop-shadow-[0_36px_42px_rgba(0,0,0,0.52)]"
             style={{ objectPosition: slide.objectPosition }}
           />
         </div>
 
-        <div className="relative z-30 col-span-full flex w-[calc(100vw-2.5rem)] max-w-[calc(100vw-2.5rem)] items-end justify-between gap-5 border-t border-white/15 pt-5 sm:w-full sm:max-w-none">
-          <div className="flex min-w-0 flex-1 items-center gap-4 sm:max-w-xl">
-            <span className="shrink-0 font-display text-2xl font-bold text-brand">{String(active + 1).padStart(2, "0")}</span>
-            <div className="h-[2px] min-w-10 flex-1 overflow-hidden bg-white/18">
+        <div className="relative z-30 col-span-full grid min-w-0 gap-5 border-t border-white/15 pt-5 sm:grid-cols-[1fr_auto] sm:items-end">
+          <div className="min-w-0">
+            <p className="truncate font-display text-xl font-bold uppercase tracking-[0.04em] text-white sm:text-2xl">{slide.vehicle}</p>
+            <p className="mt-1 text-[9px] font-extrabold uppercase tracking-[0.16em] text-white/45 sm:text-[10px]">{slide.vehicleType}</p>
+            <div className="mt-4 flex min-w-0 items-center gap-4 sm:max-w-xl">
+              <span className="shrink-0 font-display text-2xl font-bold text-brand">{String(active + 1).padStart(2, "0")}</span>
+              <div className="h-[2px] min-w-10 flex-1 overflow-hidden bg-white/18">
               <span
                 key={`progress-${active}-${interactionPaused}`}
                 className="hero-progress-fill block h-full bg-brand"
                 style={{ animationPlayState: paused ? "paused" : "running" }}
               />
+              </div>
+              <span className="shrink-0 text-[9px] font-bold uppercase tracking-[0.16em] text-white/45 sm:text-[10px]">{slide.code}</span>
             </div>
-            <span className="shrink-0 text-[10px] font-bold uppercase tracking-[0.18em] text-white/45">{slide.code}</span>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 sm:justify-end">
             <button
               type="button"
               onClick={() => setUserPaused((value) => !value)}

@@ -60,14 +60,14 @@ export function AboutPageContent() {
             </div>
           </div>
 
-          <div className="relative min-h-[460px] overflow-hidden border-t border-line bg-ink lg:min-h-full lg:border-l lg:border-t-0">
+          <div className="vehicle-stage relative min-h-[460px] overflow-hidden border-t border-line bg-ink lg:min-h-full lg:border-l lg:border-t-0">
             <Image
               src="/images/trucks/shacman-x3000-420.png"
               alt="Commercial tractor head documented in the Strongbuilt catalog"
               fill
               priority
               sizes="(min-width: 1024px) 55vw, 100vw"
-              className="object-cover object-center"
+              className="object-contain object-center p-6 pb-28 drop-shadow-[0_30px_34px_rgba(0,0,0,0.42)] sm:p-10 sm:pb-32"
             />
             <div className="absolute inset-x-0 bottom-0 bg-ink/90 px-6 py-6 text-white sm:px-8 lg:px-10">
               <div className="flex items-end justify-between gap-8">

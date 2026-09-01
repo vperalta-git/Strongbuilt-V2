@@ -1,52 +1,36 @@
-import { ClipboardCheck, Layers3, Route, Wrench } from "lucide-react"
+import { ArrowDownRight } from "lucide-react"
 import { Container } from "@/components/ui/container"
-import { SectionHeading } from "@/components/ui/section-heading"
 
 const values = [
-  {
-    icon: ClipboardCheck,
-    title: "Requirement-first selection",
-    copy: "The shortlist begins with payload, route, environment, and operating purpose.",
-  },
-  {
-    icon: Layers3,
-    title: "Multiple platform options",
-    copy: "Compare relevant vehicle classes and documented brands without forcing one answer onto every job.",
-  },
-  {
-    icon: Wrench,
-    title: "Body and chassis thinking",
-    copy: "Treat the base truck and working body as one commercial configuration.",
-  },
-  {
-    icon: Route,
-    title: "Business-focused consultation",
-    copy: "Keep the discussion tied to routes, loads, crews, fleet standards, and daily use.",
-  },
-]
+  ["Requirement first", "Payload, route, environment, and operating purpose shape the shortlist."],
+  ["Multi-brand sourcing", "Relevant commercial platforms can be compared without forcing one answer onto every job."],
+  ["Body and chassis thinking", "The base truck and working body are considered as one commercial configuration."],
+  ["Business-focused coordination", "The discussion stays tied to routes, loads, crews, standards, and daily use."],
+] as const
 
 export function WhyStrongbuilt() {
   return (
-    <section className="bg-sail py-20 sm:py-28 lg:py-32">
+    <section className="border-y border-line bg-sail py-20 sm:py-28 lg:py-32">
       <Container>
-        <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-          <SectionHeading eyebrow="Why Strongbuilt" title={<>Clarity before <span className="text-brand">commitment.</span></>} />
-          <p className="max-w-2xl text-lg leading-8 text-muted lg:pb-1">
-            A commercial vehicle is an operating decision. Strongbuilt helps buyers organize the questions that matter before a unit is selected.
-          </p>
-        </div>
+        <div className="grid gap-12 lg:grid-cols-[0.72fr_1.28fr] lg:gap-20">
+          <div className="lg:sticky lg:top-36 lg:self-start">
+            <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-brand">Why Strongbuilt</p>
+            <h2 className="mt-5 font-display text-[clamp(3.4rem,6.4vw,6.5rem)] font-black uppercase leading-[0.84] tracking-[-0.04em] text-ink">
+              Clarity before <span className="text-brand">commitment.</span>
+            </h2>
+            <p className="mt-7 max-w-lg text-base leading-7 text-muted">A commercial vehicle is an operating decision. The useful questions come before the unit selection.</p>
+            <ArrowDownRight aria-hidden="true" className="mt-10 hidden h-10 w-10 text-brand lg:block" />
+          </div>
 
-        <div className="mt-14 grid border-l border-t border-line sm:grid-cols-2 lg:grid-cols-4">
-          {values.map((value, index) => (
-            <article key={value.title} className="relative min-h-72 border-b border-r border-line p-6 sm:p-8">
-              <div className="flex items-start justify-between">
-                <value.icon aria-hidden="true" className="h-8 w-8 stroke-[1.5] text-brand" />
-                <span className="text-[10px] font-extrabold tracking-[0.15em] text-muted">0{index + 1}</span>
-              </div>
-              <h3 className="mt-14 font-display text-3xl font-bold uppercase leading-[0.95]">{value.title}</h3>
-              <p className="mt-4 text-sm leading-6 text-muted">{value.copy}</p>
-            </article>
-          ))}
+          <ol className="border-t border-line">
+            {values.map(([title, copy], index) => (
+              <li key={title} className="group grid gap-5 border-b border-line py-8 sm:grid-cols-[52px_0.8fr_1fr] sm:items-start sm:gap-7 lg:py-10">
+                <span className="font-display text-2xl font-black text-brand">0{index + 1}</span>
+                <h3 className="font-display text-3xl font-black uppercase leading-[0.94] tracking-[-0.025em] transition-colors group-hover:text-brand sm:text-4xl">{title}</h3>
+                <p className="max-w-lg text-sm leading-6 text-muted sm:text-base sm:leading-7">{copy}</p>
+              </li>
+            ))}
+          </ol>
         </div>
       </Container>
     </section>

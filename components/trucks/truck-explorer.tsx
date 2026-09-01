@@ -23,6 +23,7 @@ function FilterPanel({
   setBrand,
   setBodyType,
   reset,
+  showBrands = true,
 }: {
   brands: string[]
   bodyTypes: string[]
@@ -31,6 +32,7 @@ function FilterPanel({
   setBrand: (brand: string) => void
   setBodyType: (type: string) => void
   reset: () => void
+  showBrands?: boolean
 }) {
   return (
     <div>
@@ -41,7 +43,7 @@ function FilterPanel({
         </button>
       </div>
 
-      <fieldset className="border-b border-line py-6">
+      {showBrands ? <fieldset className="border-b border-line py-6">
         <legend className="text-xs font-extrabold uppercase tracking-[0.16em] text-ink">Brand</legend>
         <div className="mt-4 grid gap-1.5">
           {["", ...brands].map((option) => (
@@ -59,7 +61,7 @@ function FilterPanel({
             </button>
           ))}
         </div>
-      </fieldset>
+      </fieldset> : null}
 
       <fieldset className="py-6">
         <legend className="text-xs font-extrabold uppercase tracking-[0.16em] text-ink">Truck / body type</legend>
@@ -206,9 +208,29 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
 
   return (
     <div className="grid gap-8 lg:grid-cols-[265px_1fr] xl:gap-12">
+      <div className="min-w-0 border-y border-line py-5 lg:col-span-2">
+        <div className="mb-4 flex items-center justify-between gap-6">
+          <p className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-muted">Shop by brand</p>
+          {brand ? <button type="button" onClick={() => selectBrand("")} className="text-[10px] font-extrabold uppercase tracking-[0.15em] text-brand hover:text-brand-deep">Clear brand</button> : null}
+        </div>
+        <div className="hide-scrollbar flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Filter catalog by brand">
+          {["", ...brands].map((option) => (
+            <button
+              key={option || "all-brands-rail"}
+              type="button"
+              aria-pressed={brand === option}
+              onClick={() => selectBrand(option)}
+              className={`cut-corner min-h-12 shrink-0 border px-5 text-xs font-extrabold uppercase tracking-[0.12em] transition-colors ${brand === option ? "border-ink bg-ink text-white" : "border-line bg-white text-ink hover:border-brand hover:text-brand"}`}
+            >
+              {option || "All brands"}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <aside className="hidden lg:block">
         <div className="sticky top-36 border border-line bg-paper p-6">
-          <FilterPanel brands={brands} bodyTypes={bodyTypes} brand={brand} bodyType={bodyType} setBrand={selectBrand} setBodyType={selectBodyType} reset={reset} />
+          <FilterPanel brands={brands} bodyTypes={bodyTypes} brand={brand} bodyType={bodyType} setBrand={selectBrand} setBodyType={selectBodyType} reset={reset} showBrands={false} />
         </div>
       </aside>
 

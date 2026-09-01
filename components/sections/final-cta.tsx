@@ -11,13 +11,13 @@ export function FinalCta() {
       <div className="absolute inset-0 bg-gradient-to-r from-ink/75 via-ink/95 to-ink" />
       <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-35" />
       <Container className="relative">
-        <div className="ml-auto max-w-4xl border-l-2 border-brand pl-6 sm:pl-10 lg:pl-14">
-          <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-brand">Build the requirement with us</p>
-          <h2 className="mt-6 font-display text-[clamp(3.7rem,8vw,8rem)] font-bold uppercase leading-[0.8] tracking-[-0.035em]">
-            Your next work truck starts with a <span className="text-brand">conversation.</span>
+        <div className="ml-auto max-w-5xl border-l-2 border-brand pl-6 sm:pl-10 lg:pl-14">
+          <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-brand">Bring us the requirement</p>
+          <h2 className="mt-6 font-display text-[clamp(3.8rem,8.5vw,8.7rem)] font-black uppercase leading-[0.78] tracking-[-0.045em]">
+            Need the right truck <span className="block text-brand">for the job?</span>
           </h2>
           <p className="mt-8 max-w-2xl text-base leading-7 text-white/65 sm:text-lg">
-            Tell us about the load, route, body, quantity, and application. Strongbuilt will help organize the next step.
+            Tell us what the truck needs to do. Start with the load, route, body, quantity, and application.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <ButtonLink href="/request-a-quote" size="lg">Request a quote</ButtonLink>
