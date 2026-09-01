@@ -18,6 +18,25 @@
   --error: #b42318;
   --shadow-small: 0 12px 30px rgb(24 24 22 / 8%);
   --shadow-large: 0 30px 80px rgb(24 24 22 / 18%);
+
+  /* Semantic interface colors */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --surface-dark: var(--ink);
+  --surface-dark-secondary: var(--ink-soft);
+  --surface-light: var(--paper);
+  --surface-cream: var(--sail);
+  --text-primary: var(--ink);
+  --text-secondary: #4f504a;
+  --text-muted: var(--muted);
+  --text-on-dark: #f8f5ee;
+  --text-on-dark-muted: #b8b8b1;
+  --text-on-light: var(--ink);
+  --text-on-orange: var(--ink);
+  --accent: var(--brand-orange);
+  --accent-hover: var(--brand-orange-deep);
+  --border-dark: var(--line-dark);
+  --border-light: var(--line);
 }
 
 @theme inline {
@@ -35,6 +54,22 @@
   --color-steel: var(--steel);
   --color-success: var(--success);
   --color-error: var(--error);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface-dark: var(--surface-dark);
+  --color-surface-dark-secondary: var(--surface-dark-secondary);
+  --color-surface-light: var(--surface-light);
+  --color-surface-cream: var(--surface-cream);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-on-dark: var(--text-on-dark);
+  --color-text-on-light: var(--text-on-light);
+  --color-text-on-orange: var(--text-on-orange);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-border-dark: var(--border-dark);
+  --color-border-light: var(--border-light);
   --font-sans: var(--font-body-face);
   --font-display: var(--font-display-face);
 }
@@ -51,8 +86,8 @@ html {
 body {
   margin: 0;
   overflow-x: clip;
-  background: var(--paper);
-  color: var(--ink);
+  background: var(--background);
+  color: var(--foreground);
   font-family: var(--font-body-face), Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -88,8 +123,14 @@ img {
 }
 
 :focus-visible {
-  outline: 3px solid color-mix(in srgb, var(--brand-orange) 85%, white);
+  outline: 3px solid var(--brand-orange);
   outline-offset: 3px;
+}
+
+@supports (color: color-mix(in srgb, white, black)) {
+  :focus-visible {
+    outline-color: color-mix(in srgb, var(--brand-orange) 85%, white);
+  }
 }
 
 .font-display {
@@ -107,14 +148,6 @@ img {
 .bg-ink .text-brand,
 .bg-ink-soft .text-brand {
   color: var(--brand-orange);
-}
-
-.bg-brand.text-white {
-  background-color: var(--brand-orange-deep);
-}
-
-.bg-brand.text-ink {
-  background-color: var(--brand-orange);
 }
 
 .text-balance {
@@ -150,6 +183,27 @@ img {
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
+}
+
+.catalog-interactive-results {
+  display: none;
+}
+
+html[data-catalog-hydrated="true"] .catalog-server-results {
+  display: none;
+}
+
+html[data-catalog-hydrated="true"] .catalog-interactive-results {
+  display: block;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: var(--text-on-light);
+  caret-color: var(--text-on-light);
+  box-shadow: 0 0 0 1000px var(--surface-light) inset;
+  transition: background-color 9999s ease-out 0s;
 }
 
 .industrial-grid-dark {

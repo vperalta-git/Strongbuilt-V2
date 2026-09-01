@@ -45,11 +45,11 @@ export function TruckTypesSection() {
                 onFocus={() => setActive(index)}
                 onClick={() => setActive(index)}
                 aria-pressed={active === index}
-                className={`group grid min-h-[101px] w-full grid-cols-[42px_1fr_auto] items-center gap-4 px-6 text-left transition-colors xl:px-8 ${active === index ? "bg-brand text-white" : "text-white hover:bg-white/[0.045]"}`}
+                className={`group grid min-h-[101px] w-full grid-cols-[42px_1fr_auto] items-center gap-4 px-6 text-left transition-colors xl:px-8 ${active === index ? "bg-brand text-ink" : "text-white hover:bg-white/[0.06]"}`}
               >
-                <span className={`text-[10px] font-extrabold tracking-[0.16em] ${active === index ? "text-white/65" : "text-brand"}`}>0{index + 1}</span>
+                <span className={`text-[10px] font-extrabold tracking-[0.16em] ${active === index ? "text-ink/70" : "text-brand"}`}>0{index + 1}</span>
                 <span className="font-display text-3xl font-black uppercase leading-none tracking-[-0.02em] xl:text-4xl">{type.name}</span>
-                <ArrowUpRight aria-hidden="true" className={`h-5 w-5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 ${active === index ? "text-white" : "text-white/30"}`} />
+                <ArrowUpRight aria-hidden="true" className={`h-5 w-5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 ${active === index ? "text-ink" : "text-white/55"}`} />
               </button>
             ))}
           </div>
@@ -70,7 +70,7 @@ export function TruckTypesSection() {
                 <h3 className="mt-2 font-display text-4xl font-black uppercase tracking-[-0.025em] xl:text-5xl">{selected.name}</h3>
                 <p className="mt-3 max-w-lg text-sm leading-6 text-white/58">{selected.note}</p>
               </div>
-              <Link href={`/trucks?type=${encodeURIComponent(selected.query)}`} className="cut-corner grid h-14 w-14 place-items-center bg-brand text-white transition-colors hover:bg-white hover:text-ink" aria-label={`Browse ${selected.name} vehicles`}>
+              <Link href={`/trucks?type=${encodeURIComponent(selected.query)}`} className="cut-corner grid h-14 w-14 place-items-center bg-brand text-ink transition-colors hover:bg-white hover:text-ink" aria-label={`Browse ${selected.name} vehicles`}>
                 <ArrowUpRight aria-hidden="true" className="h-5 w-5" />
               </Link>
             </div>

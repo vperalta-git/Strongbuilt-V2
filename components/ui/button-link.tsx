@@ -12,12 +12,12 @@ type ButtonLinkProps = {
 }
 
 const variants = {
-  brand: "bg-brand text-white border-brand hover:bg-brand-deep hover:border-brand-deep",
-  light: "bg-white text-ink border-white hover:bg-sail hover:border-sail",
-  dark: "bg-ink text-white border-ink hover:bg-ink-soft hover:border-ink-soft",
-  "outline-light": "bg-transparent text-white border-white/45 hover:border-brand hover:text-brand",
-  "outline-dark": "bg-transparent text-ink border-ink/30 hover:border-brand hover:text-brand",
-  text: "border-transparent bg-transparent text-current hover:text-brand",
+  brand: "border-accent bg-accent text-text-on-orange hover:border-accent-hover hover:bg-accent-hover hover:text-text-on-dark",
+  light: "border-surface-light bg-surface-light text-text-on-light hover:border-surface-cream hover:bg-surface-cream hover:text-text-on-light",
+  dark: "border-surface-dark bg-surface-dark text-text-on-dark hover:border-accent hover:bg-accent hover:text-text-on-orange",
+  "outline-light": "border-white/55 bg-transparent text-text-on-dark hover:border-white hover:bg-white hover:text-text-on-light",
+  "outline-dark": "border-ink/40 bg-transparent text-text-on-light hover:border-surface-dark hover:bg-surface-dark hover:text-text-on-dark",
+  text: "border-transparent bg-transparent text-text-on-light hover:text-brand-deep",
 }
 
 const sizes = {

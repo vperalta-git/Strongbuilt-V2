@@ -18,7 +18,10 @@ export default function PrivacyPage() {
             Strongbuilt uses the information you submit through contact and quotation forms to respond to your inquiry, understand your commercial vehicle requirement, and coordinate with relevant sales personnel.
           </p>
           <p>
-            Submitted information may include your name, company, contact details, intended application, selected vehicle, and message. Production retention, access, and deletion procedures should be finalized before this website begins collecting live inquiries.
+            Submitted information may include your name, company, contact details, intended application, selected vehicle, and message. Strongbuilt retains inquiry information only as needed to respond, coordinate the request, and meet applicable operational or legal requirements.
+          </p>
+          <p>
+            To request access to, correction of, or deletion of information submitted through this website, contact the Strongbuilt sales team using the details on the Contact page.
           </p>
           <p>
             For questions about information submitted through this website, contact the Strongbuilt sales team using the details on the Contact page.

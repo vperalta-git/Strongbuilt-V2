@@ -39,7 +39,7 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
             ) : null}
             <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-gradient-to-t from-black/90 via-black/65 to-transparent px-6 pb-6 pt-24 text-white sm:px-8 sm:pb-8">
               <span className="text-xs font-extrabold uppercase tracking-[0.16em]">View vehicle</span>
-              <span className="grid h-11 w-11 place-items-center border border-white/35 transition-colors group-hover:border-brand group-hover:bg-brand"><ArrowUpRight aria-hidden="true" className="h-5 w-5" /></span>
+              <span className="grid h-11 w-11 place-items-center border border-white/45 transition-colors group-hover:border-brand group-hover:bg-brand group-hover:text-ink"><ArrowUpRight aria-hidden="true" className="h-5 w-5" /></span>
             </div>
           </Link>
 
@@ -82,8 +82,8 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
                   <p className="mt-2 line-clamp-1 text-sm text-muted">{truck.shortDescription}</p>
                 </div>
                 <div className="flex items-center gap-2 sm:justify-end">
-                  <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="grid h-11 w-11 place-items-center border border-line transition-colors hover:border-brand hover:bg-brand hover:text-white" aria-label={`Request a quote for ${truck.model}`}><FileText aria-hidden="true" className="h-4 w-4" /></Link>
-                  <Link href={`/trucks/${truck.slug}`} className="grid h-11 w-11 place-items-center bg-ink text-white transition-colors group-hover:bg-brand" aria-label={`View ${truck.model}`}><ArrowRight aria-hidden="true" className="h-4 w-4" /></Link>
+                  <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="grid h-11 w-11 place-items-center border border-line transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label={`Request a quote for ${truck.model}`}><FileText aria-hidden="true" className="h-4 w-4" /></Link>
+                  <Link href={`/trucks/${truck.slug}`} className="grid h-11 w-11 place-items-center bg-ink text-white transition-colors group-hover:bg-brand group-hover:text-ink" aria-label={`View ${truck.model}`}><ArrowRight aria-hidden="true" className="h-4 w-4" /></Link>
                 </div>
               </article>
             )

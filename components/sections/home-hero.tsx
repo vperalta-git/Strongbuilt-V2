@@ -140,18 +140,18 @@ export function HomeHero() {
           <div className="mb-5 flex items-center gap-3 text-[10px] font-extrabold uppercase tracking-[0.24em] text-brand sm:text-xs">
             <span className="h-[2px] w-10 bg-brand" />{slide.kicker}
           </div>
-          <p aria-hidden="true" className="mb-4 font-display text-xl font-bold uppercase tracking-[0.28em] text-white/28 sm:text-2xl">Strongbuilt</p>
+          <p aria-hidden="true" className="mb-4 font-display text-xl font-bold uppercase tracking-[0.28em] text-white/38 sm:text-2xl">Strongbuilt</p>
           <h1 className="max-w-full text-balance font-display text-[clamp(3.45rem,16vw,5.5rem)] font-black uppercase leading-[0.78] tracking-[-0.045em] sm:text-[clamp(5rem,12vw,7.5rem)] lg:text-[clamp(5.7rem,7.2vw,8.6rem)]">
             <span className="block">{slide.title[0]}</span>
             <span className="block text-brand">{slide.title[1]}</span>
           </h1>
           <p className="mt-6 max-w-lg text-sm leading-6 text-white/66 sm:mt-7 sm:text-lg sm:leading-8">{slide.copy}</p>
           <div className="mt-7 flex flex-col gap-3 min-[430px]:flex-row sm:mt-8">
-            <Link href={slide.primary.href} className="cut-corner group inline-flex min-h-14 items-center justify-center gap-3 bg-brand px-6 text-xs font-extrabold uppercase tracking-[0.14em] transition-colors hover:bg-brand-deep sm:text-sm">
+            <Link href={slide.primary.href} className="cut-corner group inline-flex min-h-14 items-center justify-center gap-3 bg-brand px-6 text-xs font-extrabold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-brand-deep hover:text-white sm:text-sm">
               {slide.primary.label}
               <ArrowUpRight aria-hidden="true" className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </Link>
-            <Link href={slide.secondary.href} className="inline-flex min-h-14 items-center justify-center border border-white/30 px-6 text-xs font-extrabold uppercase tracking-[0.14em] transition-colors hover:border-white hover:bg-white hover:text-ink sm:text-sm">
+            <Link href={slide.secondary.href} className="inline-flex min-h-14 items-center justify-center border border-white/50 px-6 text-xs font-extrabold uppercase tracking-[0.14em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink sm:text-sm">
               {slide.secondary.label}
             </Link>
           </div>
@@ -173,7 +173,7 @@ export function HomeHero() {
         <div className="relative z-30 col-span-full grid min-w-0 gap-5 border-t border-white/15 pt-5 sm:grid-cols-[1fr_auto] sm:items-end">
           <div className="min-w-0">
             <p className="truncate font-display text-xl font-bold uppercase tracking-[0.04em] text-white sm:text-2xl">{slide.vehicle}</p>
-            <p className="mt-1 text-[9px] font-extrabold uppercase tracking-[0.16em] text-white/45 sm:text-[10px]">{slide.vehicleType}</p>
+            <p className="mt-1 text-[9px] font-extrabold uppercase tracking-[0.16em] text-white/68 sm:text-[10px]">{slide.vehicleType}</p>
             <div className="mt-4 flex min-w-0 items-center gap-4 sm:max-w-xl">
               <span className="shrink-0 font-display text-2xl font-bold text-brand">{String(active + 1).padStart(2, "0")}</span>
               <div className="h-[2px] min-w-10 flex-1 overflow-hidden bg-white/18">
@@ -183,7 +183,7 @@ export function HomeHero() {
                 style={{ animationPlayState: paused ? "paused" : "running" }}
               />
               </div>
-              <span className="shrink-0 text-[9px] font-bold uppercase tracking-[0.16em] text-white/45 sm:text-[10px]">{slide.code}</span>
+              <span className="shrink-0 text-[9px] font-bold uppercase tracking-[0.16em] text-white/68 sm:text-[10px]">{slide.code}</span>
             </div>
           </div>
 
@@ -192,15 +192,15 @@ export function HomeHero() {
               type="button"
               onClick={() => setUserPaused((value) => !value)}
               disabled={reducedMotion}
-              className="grid h-11 w-11 place-items-center border border-white/25 text-white transition-colors hover:border-brand hover:bg-brand disabled:cursor-not-allowed disabled:opacity-45"
+              className="grid h-11 w-11 place-items-center border border-white/35 text-white transition-colors hover:border-brand hover:bg-brand hover:text-ink disabled:cursor-not-allowed disabled:border-white/20 disabled:text-white/55 disabled:opacity-100"
               aria-label={reducedMotion ? "Slideshow autoplay disabled by reduced-motion preference" : userPaused ? "Play slideshow" : "Pause slideshow"}
             >
               {userPaused || reducedMotion ? <Play aria-hidden="true" className="h-4 w-4" /> : <Pause aria-hidden="true" className="h-4 w-4" />}
             </button>
-            <button type="button" onClick={() => goTo(active - 1)} className="grid h-11 w-11 place-items-center border border-white/25 text-white transition-colors hover:border-brand hover:bg-brand" aria-label="Previous slide">
+            <button type="button" onClick={() => goTo(active - 1)} className="grid h-11 w-11 place-items-center border border-white/35 text-white transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label="Previous slide">
               <ArrowLeft aria-hidden="true" className="h-4 w-4" />
             </button>
-            <button type="button" onClick={() => goTo(active + 1)} className="grid h-11 w-11 place-items-center border border-white/25 text-white transition-colors hover:border-brand hover:bg-brand" aria-label="Next slide">
+            <button type="button" onClick={() => goTo(active + 1)} className="grid h-11 w-11 place-items-center border border-white/35 text-white transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label="Next slide">
               <ArrowRight aria-hidden="true" className="h-4 w-4" />
             </button>
           </div>
@@ -209,7 +209,7 @@ export function HomeHero() {
 
       <a
         href={`tel:${siteConfig.contact.phoneHref}`}
-        className="absolute bottom-[86px] right-0 z-30 hidden min-h-12 items-center gap-3 bg-white px-5 text-xs font-extrabold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-brand hover:text-white 2xl:flex"
+        className="absolute bottom-[86px] right-0 z-30 hidden min-h-12 items-center gap-3 bg-white px-5 text-xs font-extrabold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-brand hover:text-ink 2xl:flex"
       >
         <Phone aria-hidden="true" className="h-4 w-4" />
         {siteConfig.contact.phoneDisplay}

@@ -110,6 +110,13 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
   const filterButtonRef = useRef<HTMLButtonElement>(null)
   const drawerRef = useRef<HTMLDivElement>(null)
 
+  useEffect(() => {
+    document.documentElement.dataset.catalogHydrated = "true"
+    return () => {
+      delete document.documentElement.dataset.catalogHydrated
+    }
+  }, [])
+
   const brands = useMemo(() => [...new Set(trucks.map((truck) => truck.brand))].sort(), [trucks])
   const bodyTypes = useMemo(() => [...new Set(trucks.map((truck) => truck.bodyType))].sort(), [trucks])
 
@@ -248,7 +255,7 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
                 if (event.key === "Enter") syncUrl({ query })
               }}
               placeholder="Search brand, model, body type, or application"
-              className="h-13 w-full border border-line bg-white pl-11 pr-4 text-sm text-ink outline-none transition-colors placeholder:text-muted/70 focus:border-brand"
+              className="h-13 w-full border border-line bg-white pl-11 pr-4 text-sm text-ink outline-none transition-colors placeholder:text-muted/90 hover:border-ink/45 focus:border-brand focus:ring-2 focus:ring-brand/20"
             />
           </label>
 
@@ -294,7 +301,7 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
             <div className="max-w-md">
               <p className="font-display text-4xl font-bold uppercase">No exact match</p>
               <p className="mt-4 text-sm leading-6 text-muted">Try a broader search or clear the filters. You can also send Strongbuilt a requirement even if a matching unit is not yet listed.</p>
-              <button type="button" onClick={reset} className="mt-6 min-h-12 bg-ink px-5 text-xs font-extrabold uppercase tracking-[0.14em] text-white hover:bg-brand">Reset catalog</button>
+              <button type="button" onClick={reset} className="mt-6 min-h-12 bg-ink px-5 text-xs font-extrabold uppercase tracking-[0.14em] text-white hover:bg-brand hover:text-ink">Reset catalog</button>
             </div>
           </div>
         )}
@@ -312,7 +319,7 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
             <button type="button" onClick={() => {
               syncUrl()
               setMobileFiltersOpen(false)
-            }} className="sticky bottom-0 mt-4 min-h-14 w-full bg-brand px-5 text-sm font-extrabold uppercase tracking-[0.12em] text-white shadow-[0_-16px_30px_var(--paper)] hover:bg-brand-deep">
+            }} className="sticky bottom-0 mt-4 min-h-14 w-full bg-brand px-5 text-sm font-extrabold uppercase tracking-[0.12em] text-ink shadow-[0_-16px_30px_var(--paper)] hover:bg-brand-deep hover:text-white">
               Show {filtered.length} {filtered.length === 1 ? "vehicle" : "vehicles"}
             </button>
           </div>

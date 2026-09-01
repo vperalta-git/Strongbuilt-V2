@@ -69,7 +69,7 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
       <section className="relative overflow-hidden bg-ink pb-8 pt-36 text-white sm:pt-44 lg:pt-48">
         <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-45" />
         <Container>
-          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.15em] text-white/45">
+          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.15em] text-white/68">
             <Link href="/" className="hover:text-white">Home</Link><span>/</span>
             <Link href="/trucks" className="hover:text-white">Trucks</Link><span>/</span>
             <span aria-current="page" className="text-brand">{truck.model}</span>
@@ -88,7 +88,7 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
 
             <div className="flex flex-col p-6 sm:p-9 lg:p-12 xl:p-14">
               <div className="flex flex-wrap items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.16em]">
-                <span className="bg-brand px-3 py-2 text-white">{truck.brand}</span>
+                <span className="bg-brand px-3 py-2 text-ink">{truck.brand}</span>
                 <span className="border border-white/20 px-3 py-2 text-white/58">{truck.bodyType}</span>
                 <span className="border border-white/20 px-3 py-2 text-white/58">{truck.category}</span>
               </div>
@@ -101,7 +101,7 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
                 <dl className="mt-8 grid grid-cols-2 border-l border-t border-white/14">
                   {featuredSpecs.map((spec) => (
                     <div key={spec.label} className="border-b border-r border-white/14 p-4">
-                      <dt className="text-[9px] font-extrabold uppercase tracking-[0.13em] text-white/42">{spec.label}</dt>
+                      <dt className="text-[9px] font-extrabold uppercase tracking-[0.13em] text-white/68">{spec.label}</dt>
                       <dd className="mt-2 font-display text-xl font-bold leading-5 text-white">{spec.value}</dd>
                     </div>
                   ))}
@@ -110,11 +110,11 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
 
               <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:mt-auto lg:pt-9">
                 <ButtonLink href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} size="lg">Request a quote</ButtonLink>
-                <a href={`tel:${siteConfig.contact.phoneHref}`} className="inline-flex min-h-14 items-center justify-center gap-3 border border-white/28 px-6 text-sm font-extrabold uppercase tracking-[0.12em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink">
+                <a href={`tel:${siteConfig.contact.phoneHref}`} className="inline-flex min-h-14 items-center justify-center gap-3 border border-white/50 px-6 text-sm font-extrabold uppercase tracking-[0.12em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink">
                   <Phone aria-hidden="true" className="h-4 w-4" /> Contact sales
                 </a>
               </div>
-              <p className="mt-4 text-xs leading-5 text-white/42">Specifications and configuration availability are subject to sales confirmation.</p>
+              <p className="mt-4 text-xs leading-5 text-white/65">Specifications and configuration availability are subject to sales confirmation.</p>
             </div>
           </div>
         </Container>
@@ -199,9 +199,9 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
               {truck.brochureUrl ? (
                 <a href={truck.brochureUrl} className="inline-flex min-h-13 items-center justify-center gap-3 bg-white px-5 text-xs font-extrabold uppercase tracking-[0.12em] text-ink"><Download aria-hidden="true" className="h-4 w-4" />Download brochure</a>
               ) : (
-                <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="inline-flex min-h-13 items-center justify-center gap-3 bg-white px-5 text-xs font-extrabold uppercase tracking-[0.12em] text-ink transition-colors hover:bg-brand hover:text-white"><FileText aria-hidden="true" className="h-4 w-4" />Request brochure</Link>
+                <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="inline-flex min-h-13 items-center justify-center gap-3 bg-white px-5 text-xs font-extrabold uppercase tracking-[0.12em] text-ink transition-colors hover:bg-brand hover:text-ink"><FileText aria-hidden="true" className="h-4 w-4" />Request brochure</Link>
               )}
-              <a href={`mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(`${truck.brand} ${truck.model} inquiry`)}`} className="inline-flex min-h-13 items-center justify-center gap-3 border border-white/25 px-5 text-xs font-extrabold uppercase tracking-[0.12em] hover:border-brand hover:text-brand"><Mail aria-hidden="true" className="h-4 w-4" />Email sales</a>
+              <a href={`mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(`${truck.brand} ${truck.model} inquiry`)}`} className="inline-flex min-h-13 items-center justify-center gap-3 border border-white/50 px-5 text-xs font-extrabold uppercase tracking-[0.12em] text-white hover:border-brand hover:text-brand"><Mail aria-hidden="true" className="h-4 w-4" />Email sales</a>
             </div>
           </div>
         </Container>

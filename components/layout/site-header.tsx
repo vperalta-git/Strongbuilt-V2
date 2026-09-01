@@ -70,7 +70,7 @@ export function SiteHeader() {
         Skip to content
       </a>
 
-      <div className={`hidden border-b border-white/10 text-[10px] font-bold uppercase tracking-[0.18em] text-white/58 transition-colors lg:block ${scrolled ? "bg-ink" : "bg-ink/88"}`}>
+      <div className={`hidden border-b border-white/15 text-[10px] font-bold uppercase tracking-[0.18em] text-white/72 transition-colors lg:block ${scrolled ? "bg-ink" : "bg-ink/90"}`}>
         <Container className="flex h-9 items-center justify-between">
           <p>Commercial trucks <span className="px-2 text-brand">/</span> Body solutions <span className="px-2 text-brand">/</span> Fleet requirements</p>
           <a className="flex items-center gap-2 transition-colors hover:text-brand" href={`tel:${siteConfig.contact.phoneHref}`}>
@@ -106,7 +106,7 @@ export function SiteHeader() {
                   href={item.href}
                   aria-current={active ? "page" : undefined}
                   className={`relative px-3 py-3 text-xs font-bold uppercase tracking-[0.14em] transition-colors after:absolute after:inset-x-3 after:bottom-1 after:h-[2px] after:origin-left after:bg-brand after:transition-transform ${
-                    active ? "text-white after:scale-x-100" : "text-white/68 after:scale-x-0 hover:text-white hover:after:scale-x-100"
+                    active ? "text-white after:scale-x-100" : "text-white/80 after:scale-x-0 hover:text-white hover:after:scale-x-100"
                   }`}
                 >
                   {item.label}
@@ -122,7 +122,7 @@ export function SiteHeader() {
           <button
             ref={menuButtonRef}
             type="button"
-            className="relative z-[60] grid h-12 w-12 place-items-center border border-white/20 text-white transition-colors hover:border-brand hover:text-brand xl:hidden"
+            className="relative z-[60] grid h-12 w-12 place-items-center border border-white/45 text-white transition-colors hover:border-brand hover:text-brand xl:hidden"
             aria-label={open ? "Close navigation" : "Open navigation"}
             aria-expanded={open}
             aria-controls="mobile-navigation"
@@ -170,13 +170,13 @@ export function SiteHeader() {
             <ButtonLink href="/request-a-quote" size="lg" className="cut-corner">Request a quote</ButtonLink>
             <a
               href={`tel:${siteConfig.contact.phoneHref}`}
-              className="flex min-h-14 items-center justify-center gap-3 border border-white/25 px-6 text-sm font-bold uppercase tracking-[0.12em] text-white"
+              className="flex min-h-14 items-center justify-center gap-3 border border-white/50 px-6 text-sm font-bold uppercase tracking-[0.12em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink"
             >
               <Phone aria-hidden="true" className="h-4 w-4 text-brand" />
               Call sales
             </a>
             </div>
-            <p className="mt-auto pt-10 text-[10px] font-bold uppercase tracking-[0.16em] text-white/38">Commercial vehicles configured for real operations.</p>
+            <p className="mt-auto pt-10 text-[10px] font-bold uppercase tracking-[0.16em] text-white/65">Commercial vehicles configured for real operations.</p>
           </div>
         </div>
       </div>

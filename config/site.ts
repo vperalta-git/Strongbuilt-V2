@@ -12,7 +12,9 @@ export const siteConfig = {
     addressLines: [
       "4th Floor, Unit 405, Mercedes Plaza I",
       "Mercedes Avenue corner Luis Street",
-      "Barangay San Miguel, Pasig City 1600",
+      "Barangay San Miguel",
+      "Pasig City 1600",
+      "Philippines",
     ],
     hours: "Monday to Friday, 9:00 AM–6:00 PM PHT",
   },

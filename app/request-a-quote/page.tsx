@@ -63,7 +63,7 @@ export default async function RequestQuotePage({ searchParams }: RequestQuotePag
             <div className="border-t border-white/18 pt-6 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
               <ShieldCheck aria-hidden="true" className="size-7 text-brand" />
               <p className="mt-4 font-display text-2xl font-bold uppercase">No account required</p>
-              <p className="mt-3 text-sm leading-6 text-white/52">
+              <p className="mt-3 text-sm leading-6 text-white/68">
                 Send the requirement directly. Only the information needed to understand and respond to the inquiry is requested.
               </p>
             </div>
@@ -88,7 +88,7 @@ export default async function RequestQuotePage({ searchParams }: RequestQuotePag
                         className="object-contain p-5"
                       />
                     ) : null}
-                    <span className="absolute left-0 top-0 bg-brand px-3 py-2 text-[0.65rem] font-extrabold uppercase tracking-[0.15em] text-white">
+                    <span className="absolute left-0 top-0 bg-brand px-3 py-2 text-[0.65rem] font-extrabold uppercase tracking-[0.15em] text-ink">
                       Selected truck
                     </span>
                   </div>
@@ -169,7 +169,7 @@ export default async function RequestQuotePage({ searchParams }: RequestQuotePag
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
                 href={`tel:${siteConfig.contact.phoneHref}`}
-                className="inline-flex min-h-13 items-center justify-center gap-3 bg-ink px-6 text-xs font-extrabold uppercase tracking-[0.12em] text-white transition-colors hover:bg-brand"
+                className="inline-flex min-h-13 items-center justify-center gap-3 bg-ink px-6 text-xs font-extrabold uppercase tracking-[0.12em] text-white transition-colors hover:bg-brand hover:text-ink"
               >
                 <Phone aria-hidden="true" className="size-4" />
                 {siteConfig.contact.phoneDisplay}

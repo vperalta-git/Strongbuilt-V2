@@ -22,7 +22,7 @@ export function TruckCard({ truck, priority = false }: { truck: Truck; priority?
             className="object-contain p-5 drop-shadow-[0_18px_20px_rgba(0,0,0,0.28)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1"
           />
         ) : null}
-        <span className="absolute left-0 top-0 bg-brand px-3 py-2 text-[10px] font-extrabold uppercase tracking-[0.16em] text-white">
+        <span className="absolute left-0 top-0 bg-brand px-3 py-2 text-[10px] font-extrabold uppercase tracking-[0.16em] text-ink">
           {truck.bodyType}
         </span>
       </Link>
@@ -51,7 +51,7 @@ export function TruckCard({ truck, priority = false }: { truck: Truck; priority?
             View details
             <ArrowUpRight aria-hidden="true" className="h-4 w-4 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
           </Link>
-          <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="grid h-10 w-10 place-items-center border border-line text-ink transition-colors hover:border-brand hover:bg-brand hover:text-white" aria-label={`Request a quote for ${truck.brand} ${truck.model}`}>
+          <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="grid h-11 w-11 place-items-center border border-line text-ink transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label={`Request a quote for ${truck.brand} ${truck.model}`}>
             <FileText aria-hidden="true" className="h-4 w-4" />
           </Link>
         </div>

@@ -37,7 +37,7 @@ const emailJsConfig = {
 }
 
 const inputBase =
-  "min-h-13 w-full rounded-sm border bg-paper px-4 py-3 text-sm text-ink outline-none transition-[border-color,box-shadow,background-color] placeholder:text-muted/55 hover:border-ink/35 focus:border-brand focus:bg-white focus:ring-2 focus:ring-brand/15 disabled:cursor-not-allowed disabled:opacity-60"
+  "min-h-13 w-full rounded-sm border bg-paper px-4 py-3 text-sm text-ink outline-none transition-[border-color,box-shadow,background-color] placeholder:text-muted/80 hover:border-ink/45 focus:border-brand focus:bg-white focus:ring-2 focus:ring-brand/20 disabled:cursor-not-allowed disabled:bg-sail disabled:text-muted disabled:opacity-100"
 
 const getFormValue = (data: FormData, name: string) => {
   const value = data.get(name)
@@ -225,7 +225,7 @@ export function InquiryForm({ variant, initialSelectedTruck }: InquiryFormProps)
       kind: "warning",
       message:
         result.message ||
-        "This form is not connected for delivery in the current environment. Please call or email the sales team.",
+        "We could not deliver your inquiry online. Please call or email the Strongbuilt sales team.",
     })
   }
 
@@ -460,7 +460,7 @@ export function InquiryForm({ variant, initialSelectedTruck }: InquiryFormProps)
             <button
               type="submit"
               disabled={isSubmitting}
-              className="inline-flex min-h-14 shrink-0 items-center justify-center gap-3 rounded-sm bg-brand px-7 py-4 text-sm font-extrabold uppercase tracking-[0.1em] text-white transition-colors hover:bg-brand-deep disabled:cursor-wait disabled:opacity-70"
+              className="inline-flex min-h-14 shrink-0 items-center justify-center gap-3 rounded-sm bg-brand px-7 py-4 text-sm font-extrabold uppercase tracking-[0.1em] text-ink transition-colors hover:bg-brand-deep hover:text-white disabled:cursor-wait disabled:bg-brand-soft disabled:text-ink disabled:opacity-100"
             >
               {isSubmitting ? (
                 <LoaderCircle aria-hidden="true" className="size-4 animate-spin" />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Suspense } from "react"
 import { Container } from "@/components/ui/container"
+import { TruckCard } from "@/components/trucks/truck-card"
 import { TruckExplorer } from "@/components/trucks/truck-explorer"
 import { getTrucks } from "@/lib/data/trucks"
 
@@ -51,9 +52,27 @@ export default async function TrucksPage() {
 
       <section className="bg-paper py-12 sm:py-16 lg:py-20">
         <Container>
-          <Suspense fallback={<CatalogSkeleton />}>
-            <TruckExplorer trucks={trucks} />
-          </Suspense>
+          <div className="catalog-server-results" aria-label="Strongbuilt commercial vehicles">
+            <div className="mb-7 flex flex-wrap items-end justify-between gap-5 border-y border-line py-5">
+              <div>
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand">Available platforms</p>
+                <h2 className="mt-2 font-display text-4xl font-black uppercase tracking-[-0.025em] text-ink">Commercial truck catalog</h2>
+              </div>
+              <p className="text-sm text-muted"><strong className="text-ink">{trucks.length}</strong> vehicles in the catalog</p>
+            </div>
+            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+              {trucks.map((truck, index) => <TruckCard key={truck.slug} truck={truck} priority={index < 2} />)}
+            </div>
+            <noscript>
+              <p className="mt-8 border border-line bg-sail p-5 text-sm leading-6 text-muted">Enable JavaScript to use catalog search and filters. Every vehicle detail page remains available from the links above.</p>
+            </noscript>
+          </div>
+
+          <div className="catalog-interactive-results">
+            <Suspense fallback={<CatalogSkeleton />}>
+              <TruckExplorer trucks={trucks} />
+            </Suspense>
+          </div>
         </Container>
       </section>
     </>

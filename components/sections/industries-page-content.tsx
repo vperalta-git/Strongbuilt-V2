@@ -48,7 +48,7 @@ export function IndustriesPageContent() {
               <div className="mt-9 flex flex-wrap gap-3">
                 <Link
                   href="#industry-sectors"
-                  className="inline-flex min-h-12 items-center gap-3 rounded-sm bg-brand px-6 py-3 text-sm font-extrabold uppercase tracking-[0.08em] text-ink transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+                  className="inline-flex min-h-12 items-center gap-3 rounded-sm bg-brand px-6 py-3 text-sm font-extrabold uppercase tracking-[0.08em] text-ink transition-colors hover:bg-white hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
                 >
                   Find your sector
                   <ArrowRight className="size-4" aria-hidden="true" />

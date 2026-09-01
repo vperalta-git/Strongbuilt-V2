@@ -28,7 +28,7 @@ export function BrandsSection() {
                 )}
               </div>
               <p className="text-sm leading-6 text-muted">{brand.catalogNote}</p>
-              <span className="hidden h-11 w-11 place-items-center border border-line transition-colors group-hover:border-brand group-hover:bg-brand group-hover:text-white sm:grid">
+              <span className="hidden h-11 w-11 place-items-center border border-line transition-colors group-hover:border-brand group-hover:bg-brand group-hover:text-ink sm:grid">
                 <ArrowRight aria-hidden="true" className="h-4 w-4" />
               </span>
             </Link>

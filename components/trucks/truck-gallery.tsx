@@ -13,7 +13,7 @@ export function TruckGallery({ images }: { images: MediaAsset[] }) {
   const move = (direction: number) => setActive((index) => (index + direction + images.length) % images.length)
 
   if (!current) {
-    return <div className="grid aspect-[4/3] place-items-center bg-sail text-sm text-muted">Photography pending</div>
+    return <div className="grid aspect-[4/3] place-items-center bg-sail text-sm text-muted">Vehicle photography unavailable</div>
   }
 
   return (
@@ -38,13 +38,13 @@ export function TruckGallery({ images }: { images: MediaAsset[] }) {
           sizes="(min-width: 1024px) 58vw, 100vw"
           className="animate-hero-image object-contain p-5 drop-shadow-[0_24px_26px_rgba(0,0,0,0.18)] sm:p-9"
         />
-        <a href={current.url} target="_blank" rel="noreferrer" className="absolute right-4 top-4 grid h-11 w-11 place-items-center border border-ink/15 bg-paper/92 text-ink transition-colors hover:border-brand hover:bg-brand hover:text-white" aria-label="Open full-size vehicle image">
+        <a href={current.url} target="_blank" rel="noreferrer" className="absolute right-4 top-4 grid h-11 w-11 place-items-center border border-ink/20 bg-paper/92 text-ink transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label="Open full-size vehicle image">
           <Maximize2 aria-hidden="true" className="h-4 w-4" />
         </a>
         {images.length > 1 ? (
           <div className="absolute inset-x-4 top-1/2 flex -translate-y-1/2 justify-between">
-            <button type="button" onClick={() => move(-1)} className="grid h-12 w-12 place-items-center bg-ink text-white transition-colors hover:bg-brand" aria-label="Previous vehicle image"><ChevronLeft aria-hidden="true" /></button>
-            <button type="button" onClick={() => move(1)} className="grid h-12 w-12 place-items-center bg-ink text-white transition-colors hover:bg-brand" aria-label="Next vehicle image"><ChevronRight aria-hidden="true" /></button>
+            <button type="button" onClick={() => move(-1)} className="grid h-12 w-12 place-items-center bg-ink text-white transition-colors hover:bg-brand hover:text-ink" aria-label="Previous vehicle image"><ChevronLeft aria-hidden="true" /></button>
+            <button type="button" onClick={() => move(1)} className="grid h-12 w-12 place-items-center bg-ink text-white transition-colors hover:bg-brand hover:text-ink" aria-label="Next vehicle image"><ChevronRight aria-hidden="true" /></button>
           </div>
         ) : null}
         <p className="absolute bottom-4 left-4 bg-ink px-3 py-2 text-[10px] font-extrabold uppercase tracking-[0.15em] text-white">

@@ -44,14 +44,14 @@ export function ServicesPageContent() {
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link
                   href="#service-lines"
-                  className="inline-flex min-h-12 items-center gap-3 rounded-sm bg-brand px-6 py-3 text-sm font-extrabold uppercase tracking-[0.08em] text-ink transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+                  className="inline-flex min-h-12 items-center gap-3 rounded-sm bg-brand px-6 py-3 text-sm font-extrabold uppercase tracking-[0.08em] text-ink transition-colors hover:bg-white hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
                 >
                   Explore services
                   <ArrowDown className="size-4" aria-hidden="true" />
                 </Link>
                 <Link
                   href="/contact"
-                  className="inline-flex min-h-12 items-center gap-3 rounded-sm border border-white/30 px-6 py-3 text-sm font-extrabold uppercase tracking-[0.08em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+                  className="inline-flex min-h-12 items-center gap-3 rounded-sm border border-white/50 px-6 py-3 text-sm font-extrabold uppercase tracking-[0.08em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
                 >
                   Contact sales
                   <ArrowUpRight className="size-4" aria-hidden="true" />
@@ -186,7 +186,7 @@ export function ServicesPageContent() {
           </div>
           <Link
             href="/request-a-quote"
-            className="inline-flex min-h-14 items-center justify-center gap-3 rounded-sm bg-brand px-7 py-4 text-sm font-extrabold uppercase tracking-[0.08em] text-ink transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
+            className="inline-flex min-h-14 items-center justify-center gap-3 rounded-sm bg-brand px-7 py-4 text-sm font-extrabold uppercase tracking-[0.08em] text-ink transition-colors hover:bg-white hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand"
           >
             Request a quote
             <ArrowUpRight className="size-5" aria-hidden="true" />

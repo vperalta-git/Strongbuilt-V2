@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Commercial trucks, truck-body solutions, and fleet-focused vehicle configuration.",
     start_url: "/",
     display: "standalone",
-    background_color: "#181816",
-    theme_color: "#ed5a1f",
+    background_color: "#111210",
+    theme_color: "#f15a22",
   }
 }

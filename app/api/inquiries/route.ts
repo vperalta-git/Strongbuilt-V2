@@ -22,7 +22,7 @@ export async function POST(request: Request) {
       {
         message: result.stored
           ? "Your inquiry has been received."
-          : "Your inquiry was validated. Connect MongoDB or EmailJS to deliver production inquiries.",
+          : "We could not deliver your inquiry online. Please call or email the Strongbuilt sales team.",
         stored: result.stored,
       },
       { status: 201 },

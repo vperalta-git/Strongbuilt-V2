@@ -54,7 +54,7 @@ export function HomeIndustries() {
                   <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-brand">{selected.eyebrow}</p>
                   <h3 className="mt-2 font-display text-5xl font-black uppercase leading-none tracking-[-0.03em] text-white xl:text-6xl">{selected.name}</h3>
                 </div>
-                <span className="font-display text-6xl font-black text-white/18">{String(active + 1).padStart(2, "0")}</span>
+                <span className="font-display text-6xl font-black text-white/35" aria-label={`Industry ${active + 1}`}>{String(active + 1).padStart(2, "0")}</span>
               </div>
             </div>
             <div className="grid gap-7 border-t border-line p-7 xl:grid-cols-[1fr_0.78fr_auto] xl:items-end xl:p-9">
@@ -63,7 +63,7 @@ export function HomeIndustries() {
                 <p className="text-[9px] font-extrabold uppercase tracking-[0.16em] text-muted">Relevant body types</p>
                 <p className="mt-2 text-sm leading-6 text-muted">{selected.recommendedBodyTypes.join(" / ")}</p>
               </div>
-              <Link href={`/industries#${selected.slug}`} className="cut-corner grid h-14 w-14 place-items-center bg-ink text-white transition-colors hover:bg-brand" aria-label={`Explore ${selected.name}`}>
+              <Link href={`/industries#${selected.slug}`} className="cut-corner grid h-14 w-14 place-items-center bg-ink text-white transition-colors hover:bg-brand hover:text-ink" aria-label={`Explore ${selected.name}`}>
                 <ArrowUpRight aria-hidden="true" className="h-5 w-5" />
               </Link>
             </div>
