@@ -12,12 +12,12 @@ type ButtonLinkProps = {
 }
 
 const variants = {
-  brand: "border-accent bg-accent text-text-on-orange hover:border-accent-hover hover:bg-accent-hover hover:text-text-on-dark",
-  light: "border-surface-light bg-surface-light text-text-on-light hover:border-surface-cream hover:bg-surface-cream hover:text-text-on-light",
-  dark: "border-surface-dark bg-surface-dark text-text-on-dark hover:border-accent hover:bg-accent hover:text-text-on-orange",
-  "outline-light": "border-white/55 bg-transparent text-text-on-dark hover:border-white hover:bg-white hover:text-text-on-light",
-  "outline-dark": "border-ink/40 bg-transparent text-text-on-light hover:border-surface-dark hover:bg-surface-dark hover:text-text-on-dark",
-  text: "border-transparent bg-transparent text-text-on-light hover:text-brand-deep",
+  brand: "border-brand bg-brand text-ink hover:border-brand-deep hover:bg-brand-deep hover:text-white",
+  light: "border-paper bg-paper text-ink hover:border-sail hover:bg-sail hover:text-ink",
+  dark: "border-ink bg-ink text-white hover:border-brand hover:bg-brand hover:text-ink",
+  "outline-light": "border-white/55 bg-transparent text-white hover:border-white hover:bg-white hover:text-ink",
+  "outline-dark": "border-ink/40 bg-transparent text-ink hover:border-ink hover:bg-ink hover:text-white",
+  text: "border-transparent bg-transparent text-ink hover:text-brand-deep",
 }
 
 const sizes = {

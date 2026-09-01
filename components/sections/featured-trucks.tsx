@@ -83,7 +83,7 @@ export function FeaturedTrucks({ trucks }: { trucks: Truck[] }) {
                 </div>
                 <div className="flex items-center gap-2 sm:justify-end">
                   <Link href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} className="grid h-11 w-11 place-items-center border border-line transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label={`Request a quote for ${truck.model}`}><FileText aria-hidden="true" className="h-4 w-4" /></Link>
-                  <Link href={`/trucks/${truck.slug}`} className="grid h-11 w-11 place-items-center bg-ink text-white transition-colors group-hover:bg-brand group-hover:text-ink" aria-label={`View ${truck.model}`}><ArrowRight aria-hidden="true" className="h-4 w-4" /></Link>
+                  <Link href={`/trucks/${truck.slug}`} className="grid h-11 w-11 place-items-center bg-ink text-white transition-colors hover:bg-brand hover:text-ink" aria-label={`View ${truck.model}`}><ArrowRight aria-hidden="true" className="h-4 w-4 text-current" /></Link>
                 </div>
               </article>
             )
