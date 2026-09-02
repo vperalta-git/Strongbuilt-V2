@@ -1,5 +1,5 @@
 import type { WithId } from "mongodb"
-import { getMongoDatabase, isMongoConfigured } from "@/lib/db/mongodb"
+import { getMongoDatabase, isMongoCatalogEnabled } from "@/lib/db/mongodb"
 import { collections } from "@/lib/db/collections"
 import { mockTrucks } from "@/lib/data/mock-trucks"
 import type { Truck } from "@/types/truck"
@@ -9,7 +9,7 @@ function serializeTruck(document: WithId<Omit<Truck, "_id">>): Truck {
 }
 
 export async function getTrucks(): Promise<Truck[]> {
-  if (!isMongoConfigured()) return mockTrucks
+  if (!isMongoCatalogEnabled()) return mockTrucks
 
   try {
     const db = await getMongoDatabase()

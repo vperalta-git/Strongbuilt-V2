@@ -37,6 +37,7 @@ Copy `.env.example` to `.env.local` and provide only the integrations in use.
 | `NEXT_PUBLIC_SITE_URL` | Recommended | Canonical base URL, sitemap, and structured data |
 | `MONGODB_URI` | Optional locally | MongoDB Atlas connection string |
 | `MONGODB_DB` | Optional | Database name; defaults to `strongbuilt` |
+| `MONGODB_CATALOG_ENABLED` | Optional | Set to `true` only after the `products` collection is seeded; defaults to `false` |
 | `NEXT_PUBLIC_EMAILJS_SERVICE_ID` | Optional | EmailJS service identifier |
 | `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID` | Optional | EmailJS inquiry template identifier |
 | `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` | Optional | EmailJS public browser key |
@@ -53,7 +54,7 @@ Import `vperalta-git/Strongbuilt-V2` into Vercel or deploy it with the Vercel CL
 - Build command: `npm run build`
 - Output directory: managed automatically by Next.js
 
-Set `NEXT_PUBLIC_SITE_URL` to the final production domain. The website and mock catalog work without additional variables; inquiry delivery requires MongoDB, EmailJS, or both. Add any production variables through Vercel Project Settings rather than committing them.
+Set `NEXT_PUBLIC_SITE_URL` to the final production domain. The website and mock catalog work without additional variables; inquiry delivery requires MongoDB, EmailJS, or both. Add any production variables through Vercel Project Settings rather than committing them. After setting `MONGODB_URI` and `MONGODB_DB`, redeploy and verify `/api/health/database` returns `connected: true`. Leave `MONGODB_CATALOG_ENABLED=false` until the products collection has been seeded and approved.
 
 Every push to `main` will create a production deployment once the GitHub repository is connected to the Vercel project. Pull requests and other branches create preview deployments.
 
@@ -77,7 +78,7 @@ public/images/          Replaceable brand, truck, industry, and editorial assets
 Important data boundaries:
 
 - `lib/data/mock-trucks.ts` is the local seed/mock catalog.
-- `lib/data/trucks.ts` reads active products from MongoDB when configured. Typed mock data is used when no MongoDB URI is supplied; production database failures or an intentionally empty collection do not republish demo products.
+- `lib/data/trucks.ts` reads active products from MongoDB only when `MONGODB_CATALOG_ENABLED=true`. Typed mock data remains active when MongoDB is used only for inquiries; production database failures after enabling the catalog do not republish demo products.
 - Product images are URL/path references with optional provider metadata. Base64 image payloads are not stored in ordinary product documents.
 - `config/site.ts` is the single source for contact details, navigation, and company naming.
 - `POST /api/inquiries` validates quote/contact requests and persists them when MongoDB is configured.
