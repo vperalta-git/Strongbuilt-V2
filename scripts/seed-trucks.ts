@@ -20,11 +20,11 @@ export async function seedTrucks(
 
   const collection = getTrucksCollection(db)
   await Promise.all([
-    collection.createIndex({ slug: 1 }, { unique: true, name: "trucks_slug_unique" }),
-    collection.createIndex({ brandId: 1 }, { name: "trucks_brand" }),
-    collection.createIndex({ typeId: 1 }, { name: "trucks_type" }),
-    collection.createIndex({ featured: 1 }, { name: "trucks_featured" }),
-    collection.createIndex({ active: 1 }, { name: "trucks_active" }),
+    collection.createIndex({ slug: 1 }, { unique: true }),
+    collection.createIndex({ brandId: 1 }),
+    collection.createIndex({ typeId: 1 }),
+    collection.createIndex({ featured: 1 }),
+    collection.createIndex({ active: 1 }),
   ])
   return syncBySlug(collection, records, timestamp)
 }

@@ -5,7 +5,7 @@ import { syncBySlug, type SeedReport } from "@/scripts/seed-helpers"
 
 export async function seedTruckTypes(db: Db, seeds: TruckTypeSeed[], timestamp: Date): Promise<SeedReport & { ids: Map<string, ObjectId> }> {
   const collection = getTruckTypesCollection(db)
-  await collection.createIndex({ slug: 1 }, { unique: true, name: "truck_types_slug_unique" })
+  await collection.createIndex({ slug: 1 }, { unique: true })
   const report = await syncBySlug(collection, seeds, timestamp)
   const documents = await collection.find({ slug: { $in: seeds.map((seed) => seed.slug) } }).toArray()
   const ids = new Map(documents.map((document) => [document.slug, document._id]))

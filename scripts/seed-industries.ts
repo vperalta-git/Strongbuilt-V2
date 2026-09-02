@@ -18,6 +18,6 @@ export async function seedIndustries(
     }),
   }))
   const collection = getIndustriesCollection(db)
-  await collection.createIndex({ slug: 1 }, { unique: true, name: "industries_slug_unique" })
+  await collection.createIndex({ slug: 1 }, { unique: true })
   return syncBySlug(collection, records, timestamp)
 }

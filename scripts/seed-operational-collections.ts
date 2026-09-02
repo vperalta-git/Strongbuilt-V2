@@ -11,11 +11,11 @@ export async function prepareOperationalCollections(db: Db) {
   ])
 
   await Promise.all([
-    inquiries.createIndex({ createdAt: -1 }, { name: "inquiries_created_desc" }),
-    inquiries.createIndex({ status: 1, createdAt: -1 }, { name: "inquiries_status_created" }),
-    inquiries.createIndex({ email: 1 }, { name: "inquiries_email" }),
-    quoteRequests.createIndex({ createdAt: -1 }, { name: "quote_requests_created_desc" }),
-    quoteRequests.createIndex({ status: 1 }, { name: "quote_requests_status" }),
+    inquiries.createIndex({ createdAt: -1 }),
+    inquiries.createIndex({ status: 1, createdAt: -1 }),
+    inquiries.createIndex({ email: 1 }),
+    quoteRequests.createIndex({ createdAt: -1 }),
+    quoteRequests.createIndex({ status: 1 }),
   ])
 
   const [inquiriesAfter, quoteRequestsAfter] = await Promise.all([
