@@ -1,4 +1,11 @@
 import { z } from "zod"
+import {
+  vehicleApplicationTags,
+  vehicleBodyTypes,
+  vehicleDutyClasses,
+  vehicleFamilies,
+  vehiclePropulsions,
+} from "@/lib/domain/vehicle-taxonomy"
 
 const slugSchema = z.string().trim().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Use a lowercase URL-safe slug.")
 const imageSchema = z.object({
@@ -22,22 +29,54 @@ export const truckTypeSeedSchema = managedRecordSchema.extend({
   slug: slugSchema,
   description: z.string().trim().min(1).optional(),
   image: imageSchema.optional(),
+  vehicleFamily: z.enum(vehicleFamilies).optional(),
+  canonicalBodyType: z.enum(vehicleBodyTypes).optional(),
 })
 
 const truckImageSchema = imageSchema.extend({
   isPrimary: z.boolean(),
   order: z.number().int().nonnegative(),
+  sourceUrl: z.url().optional(),
+  sourcePage: z.url().optional(),
+  storageProvider: z.enum(["local", "cloudinary", "vercel-blob", "external"]).optional(),
+  status: z.string().trim().min(1).optional(),
 })
 
 const keySpecsSchema = z.object({
+  engine: z.string().trim().min(1).optional(),
+  engineDisplacement: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
   horsepower: z.number().nonnegative().optional(),
+  powerKw: z.number().nonnegative().optional(),
+  torqueNm: z.number().nonnegative().optional(),
   payloadKg: z.number().nonnegative().optional(),
   gvwKg: z.number().nonnegative().optional(),
+  gcmKg: z.number().nonnegative().optional(),
   gcwKg: z.number().nonnegative().optional(),
   drive: z.string().trim().min(1).optional(),
   fuelType: z.string().trim().min(1).optional(),
   transmission: z.string().trim().min(1).optional(),
   emissionStandard: z.string().trim().min(1).optional(),
+  wheelbaseMm: z.number().nonnegative().optional(),
+  seatingCapacity: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
+  batteryCapacityKwh: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
+  rangeKm: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
+  bodyCapacity: z.string().trim().min(1).optional(),
+})
+
+const brochureSchema = z.object({
+  url: z.string().trim().min(1),
+  title: z.string().trim().min(1).optional(),
+  source: z.string().trim().min(1).optional(),
+})
+
+const sourceSchema = z.object({
+  manufacturer: z.string().trim().min(1),
+  website: z.url().optional(),
+  productUrl: z.url(),
+  alternateSourceUrls: z.array(z.url()).optional(),
+  verifiedAt: z.union([z.date(), z.string().trim().min(1)]),
+  notes: z.string().trim().min(1).optional(),
+  dataWarnings: z.array(z.string().trim().min(1)).optional(),
 })
 
 const specificationItemSchema = z.object({
@@ -53,6 +92,11 @@ export const truckSeedSchema = managedRecordSchema.extend({
   name: z.string().trim().min(1),
   model: z.string().trim().min(1).optional(),
   class: z.string().trim().min(1).optional(),
+  vehicleFamily: z.enum(vehicleFamilies).optional(),
+  bodyType: z.enum(vehicleBodyTypes).optional(),
+  dutyClass: z.enum(vehicleDutyClasses).optional(),
+  propulsion: z.enum(vehiclePropulsions).optional(),
+  applicationTags: z.array(z.enum(vehicleApplicationTags)).optional(),
   shortDescription: z.string().trim().min(1).optional(),
   description: z.string().trim().min(1).optional(),
   featured: z.boolean(),
@@ -65,7 +109,9 @@ export const truckSeedSchema = managedRecordSchema.extend({
   })).optional(),
   applications: z.array(z.string().trim().min(1)).optional(),
   configurations: z.array(z.string().trim().min(1)).optional(),
+  brochure: brochureSchema.optional(),
   brochureUrl: z.string().trim().min(1).nullable().optional(),
+  source: sourceSchema.optional(),
   seo: z.object({
     title: z.string().trim().min(1).optional(),
     description: z.string().trim().min(1).optional(),

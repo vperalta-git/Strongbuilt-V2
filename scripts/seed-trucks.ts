@@ -1,5 +1,5 @@
 import type { Db, ObjectId } from "mongodb"
-import { getTrucksCollection } from "@/lib/db/collections"
+import { getVehicleDocumentsCollection, resolveBrandId } from "@/lib/db/vehicles"
 import type { TruckSeed } from "@/lib/validation/database"
 import { syncBySlug, type SeedReport } from "@/scripts/seed-helpers"
 
@@ -11,14 +11,13 @@ export async function seedTrucks(
   timestamp: Date,
 ): Promise<SeedReport> {
   const records = seeds.map(({ brandSlug, typeSlug, ...seed }) => {
-    const brandId = brandIds.get(brandSlug)
+    const brandId = resolveBrandId(brandSlug, brandIds)
     const typeId = truckTypeIds.get(typeSlug)
-    if (!brandId) throw new Error(`Truck ${seed.slug} references unknown brand ${brandSlug}.`)
     if (!typeId) throw new Error(`Truck ${seed.slug} references unknown truck type ${typeSlug}.`)
     return { ...seed, brandId, typeId }
   })
 
-  const collection = getTrucksCollection(db)
+  const collection = getVehicleDocumentsCollection(db)
   await Promise.all([
     collection.createIndex({ slug: 1 }, { unique: true }),
     collection.createIndex({ brandId: 1 }),

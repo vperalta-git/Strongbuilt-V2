@@ -10,6 +10,7 @@
     "build": "tsx scripts/seed-on-deploy.ts && next build",
     "start": "next start",
     "seed": "tsx scripts/seed-cli.ts",
+    "validate:vehicles": "tsx scripts/validate-vehicle-foundation.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },

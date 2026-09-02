@@ -23,6 +23,7 @@ Quality checks:
 ```bash
 npm run lint
 npm run typecheck
+npm run validate:vehicles
 npm run build
 ```
 
@@ -111,6 +112,8 @@ MongoDB collection names and typed helpers are defined in `lib/db/collections.ts
 - `quoteRequests`
 
 The idempotent seed synchronizes catalog and public content records while preserving all existing inquiry and quote-request documents. New contact submissions are stored in `inquiries`; new quotation submissions are stored in `quoteRequests` with a selected-truck snapshot when a catalog vehicle can be resolved.
+
+The canonical internal catalog domain is now `Vehicle`, while the MongoDB `trucks`/`truckTypes` collections, `/trucks` routes, `/api/trucks`, and quote `selectedTruck.truckId` field remain intentional compatibility contracts. Manufacturer imports must pass the non-writing staging and QA pipeline before any later promotion step. See `docs/VEHICLE-MIGRATION-FOUNDATION.md`.
 
 ## Content and asset accuracy
 

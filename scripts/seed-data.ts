@@ -12,6 +12,7 @@ import type {
   TruckTypeSeed,
 } from "@/lib/validation/database"
 import type { Truck } from "@/types/truck"
+import type { VehicleBodyType, VehicleFamily } from "@/lib/domain/vehicle-taxonomy"
 
 const truckTypeDetails: Record<(typeof truckBodyTypes)[number], { description: string; image: string }> = {
   Cargo: {
@@ -49,6 +50,18 @@ export const truckTypeSlugByName = {
   "Specialized / Custom": "specialized-custom",
 } as const
 
+const canonicalTaxonomyByLegacyType: Record<
+  (typeof truckBodyTypes)[number],
+  { vehicleFamily: VehicleFamily; bodyType: VehicleBodyType }
+> = {
+  Cargo: { vehicleFamily: "Truck", bodyType: "Cargo Truck" },
+  "Dump Truck": { vehicleFamily: "Truck", bodyType: "Dump Truck" },
+  "Tractor Head": { vehicleFamily: "Truck", bodyType: "Tractor Head" },
+  Bus: { vehicleFamily: "Bus", bodyType: "Bus" },
+  Trailer: { vehicleFamily: "Trailer", bodyType: "Trailer" },
+  "Specialized / Custom": { vehicleFamily: "Special Purpose Vehicle", bodyType: "Special Purpose Vehicle" },
+}
+
 function specificationValue(truck: Truck, label: string) {
   return truck.specifications.find((specification) => specification.label.toLowerCase() === label.toLowerCase())?.value
 }
@@ -66,6 +79,7 @@ function buildKeySpecs(truck: Truck): TruckSeed["keySpecs"] {
   const payloadSpecification = truck.specifications.find((specification) => /payload/i.test(specification.label))
 
   const values = {
+    engine: specificationValue(truck, "Engine"),
     horsepower: horsepowerMatch ? Number(horsepowerMatch[1]) : undefined,
     payloadKg: parseKilograms(payloadSpecification?.value),
     gvwKg: parseKilograms(specificationValue(truck, "Gross vehicle weight")),
@@ -103,6 +117,8 @@ export const truckTypeSeeds: TruckTypeSeed[] = truckBodyTypes.map((name, index) 
     url: truckTypeDetails[name].image,
     alt: `${name} commercial vehicle`,
   },
+  vehicleFamily: canonicalTaxonomyByLegacyType[name].vehicleFamily,
+  canonicalBodyType: canonicalTaxonomyByLegacyType[name].bodyType,
   active: true,
   displayOrder: index + 1,
 }))
@@ -114,6 +130,11 @@ export const truckSeeds: TruckSeed[] = mockTrucks.map((truck) => ({
   name: `${truck.brand} ${truck.model}`,
   model: truck.model,
   class: truck.category,
+  vehicleFamily: canonicalTaxonomyByLegacyType[truck.bodyType].vehicleFamily,
+  bodyType: canonicalTaxonomyByLegacyType[truck.bodyType].bodyType,
+  dutyClass: truck.category,
+  propulsion: "Unknown",
+  applicationTags: [],
   shortDescription: truck.shortDescription,
   description: truck.description,
   featured: truck.featured,
@@ -123,6 +144,7 @@ export const truckSeeds: TruckSeed[] = mockTrucks.map((truck) => ({
     alt: image.alt,
     isPrimary: index === 0,
     order: index + 1,
+    storageProvider: "local",
   })),
   keySpecs: buildKeySpecs(truck),
   specifications: Object.fromEntries(truck.specifications.map(({ label, value }) => [label, value])),

@@ -1,4 +1,12 @@
 import type { ObjectId } from "mongodb"
+import type {
+  VehicleApplicationTag,
+  VehicleBodyType,
+  VehicleDutyClass,
+  VehicleFamily,
+  VehiclePropulsion,
+} from "@/lib/domain/vehicle-taxonomy"
+import type { VehicleBrochure, VehicleDataIssue, VehicleNormalizationDecision } from "@/lib/domain/vehicle"
 
 export type DatabaseImage = {
   url: string
@@ -23,27 +31,48 @@ export type TruckTypeDocument = {
   slug: string
   description?: string
   image?: DatabaseImage
+  vehicleFamily?: VehicleFamily
+  canonicalBodyType?: VehicleBodyType
   active: boolean
   displayOrder: number
   createdAt: Date
   updatedAt: Date
 }
 
-export type TruckImageDocument = DatabaseImage & {
+export type VehicleImageDocument = DatabaseImage & {
   isPrimary: boolean
   order: number
+  sourceUrl?: string
+  sourcePage?: string
+  storageProvider?: "local" | "cloudinary" | "vercel-blob" | "external"
+  status?: string
 }
 
-export type TruckKeySpecs = {
+export type TruckImageDocument = VehicleImageDocument
+
+export type VehicleKeySpecsDocument = {
+  engine?: string
+  engineDisplacement?: string | number
   horsepower?: number
+  powerKw?: number
+  torqueNm?: number
   payloadKg?: number
   gvwKg?: number
+  gcmKg?: number
+  /** Legacy spelling retained while existing documents are supported. */
   gcwKg?: number
   drive?: string
   fuelType?: string
   transmission?: string
   emissionStandard?: string
+  wheelbaseMm?: number
+  seatingCapacity?: number | string
+  batteryCapacityKwh?: number | string
+  rangeKm?: number | string
+  bodyCapacity?: string
 }
+
+export type TruckKeySpecs = VehicleKeySpecsDocument
 
 export type TruckSpecificationGroup = {
   title: string
@@ -62,17 +91,36 @@ export type TruckDocument = {
   name: string
   model?: string
   class?: string
+  vehicleFamily?: VehicleFamily
+  bodyType?: VehicleBodyType
+  dutyClass?: VehicleDutyClass
+  propulsion?: VehiclePropulsion
+  applicationTags?: VehicleApplicationTag[]
   shortDescription?: string
   description?: string
   featured: boolean
   active: boolean
-  images: TruckImageDocument[]
+  images: VehicleImageDocument[]
   keySpecs?: TruckKeySpecs
   specifications?: Record<string, string | number | null>
   specificationGroups?: TruckSpecificationGroup[]
   applications?: string[]
   configurations?: string[]
+  brochure?: VehicleBrochure
   brochureUrl?: string | null
+  source?: {
+    manufacturer: string
+    website?: string
+    productUrl: string
+    alternateSourceUrls?: string[]
+    verifiedAt: Date | string
+    notes?: string
+    dataWarnings?: string[]
+  }
+  normalization?: {
+    decisions?: VehicleNormalizationDecision[]
+    warnings?: VehicleDataIssue[]
+  }
   seo?: {
     title?: string
     description?: string
@@ -151,6 +199,7 @@ export type QuoteStatus =
   | "archived"
 
 export type SelectedTruckSnapshot = {
+  /** Legacy field name intentionally retained throughout the Vehicle transition. */
   truckId?: ObjectId
   brand?: string
   model?: string

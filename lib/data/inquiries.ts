@@ -1,8 +1,8 @@
 import { randomUUID } from "node:crypto"
-import { ObjectId } from "mongodb"
 import { getInquiriesCollection, getQuoteRequestsCollection } from "@/lib/db/collections"
 import { getMongoDatabase, isMongoConfigured } from "@/lib/db/mongodb"
-import { getTrucks } from "@/lib/data/trucks"
+import { getVehicles } from "@/lib/data/vehicles"
+import { createLegacySelectedTruckSnapshot } from "@/lib/data/truck-compatibility"
 import type { ValidatedInquiry } from "@/lib/validation/inquiry"
 import type { InquiryDocument, QuoteRequestDocument, SelectedTruckSnapshot } from "@/types/database"
 
@@ -13,19 +13,15 @@ function optional(value: string) {
 async function resolveSelectedTruck(label: string): Promise<SelectedTruckSnapshot | undefined> {
   if (!label) return undefined
   const normalized = label.trim().toLowerCase()
-  const trucks = await getTrucks()
-  const truck = trucks.find((candidate) =>
-    [candidate.slug, candidate.model, `${candidate.brand} ${candidate.model}`]
-      .some((value) => value.toLowerCase() === normalized),
-  )
-  if (!truck) return undefined
+  const vehicles = await getVehicles()
+  const vehicle = vehicles.find((candidate) => {
+    const model = candidate.model || candidate.name
+    return [candidate.slug, model, `${candidate.brand.name} ${model}`]
+      .some((value) => value.toLowerCase() === normalized)
+  })
+  if (!vehicle) return undefined
 
-  return {
-    ...(truck._id ? { truckId: new ObjectId(truck._id) } : {}),
-    brand: truck.brand,
-    model: truck.model,
-    slug: truck.slug,
-  }
+  return createLegacySelectedTruckSnapshot(vehicle)
 }
 
 export async function saveInquiry(payload: ValidatedInquiry) {
