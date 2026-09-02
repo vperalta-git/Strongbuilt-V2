@@ -1,21 +1,15 @@
 import { MongoClient, type Db } from "mongodb"
 
-const uri = process.env.MONGODB_URI
-const databaseName = process.env.MONGODB_DB || "strongbuilt"
-
 type MongoGlobal = typeof globalThis & {
   _strongbuiltMongoPromise?: Promise<MongoClient>
 }
 
 export function isMongoConfigured() {
-  return Boolean(uri)
-}
-
-export function isMongoCatalogEnabled() {
-  return isMongoConfigured() && process.env.MONGODB_CATALOG_ENABLED === "true"
+  return Boolean(process.env.MONGODB_URI?.trim())
 }
 
 function getClientPromise(): Promise<MongoClient> {
+  const uri = process.env.MONGODB_URI?.trim()
   if (!uri) {
     throw new Error("MONGODB_URI is not configured.")
   }
@@ -27,7 +21,11 @@ function getClientPromise(): Promise<MongoClient> {
       maxPoolSize: 10,
       serverSelectionTimeoutMS: 5_000,
     })
-    globalWithMongo._strongbuiltMongoPromise = client.connect()
+    globalWithMongo._strongbuiltMongoPromise = client.connect().catch(async (error: unknown) => {
+      delete globalWithMongo._strongbuiltMongoPromise
+      await client.close().catch(() => undefined)
+      throw error
+    })
   }
 
   return globalWithMongo._strongbuiltMongoPromise
@@ -35,10 +33,20 @@ function getClientPromise(): Promise<MongoClient> {
 
 export async function getMongoDatabase(): Promise<Db> {
   const client = await getClientPromise()
-  return client.db(databaseName)
+  return client.db(process.env.MONGODB_DB?.trim() || "strongbuilt")
 }
 
 export async function pingMongoDatabase() {
   const db = await getMongoDatabase()
   await db.command({ ping: 1 })
+}
+
+export async function closeMongoConnection() {
+  const globalWithMongo = globalThis as MongoGlobal
+  const clientPromise = globalWithMongo._strongbuiltMongoPromise
+  if (!clientPromise) return
+
+  delete globalWithMongo._strongbuiltMongoPromise
+  const client = await clientPromise.catch(() => undefined)
+  await client?.close()
 }

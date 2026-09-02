@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
-import { isMongoCatalogEnabled, isMongoConfigured, pingMongoDatabase } from "@/lib/db/mongodb"
+import { getTrucksCollection } from "@/lib/db/collections"
+import { getMongoDatabase, isMongoConfigured, pingMongoDatabase } from "@/lib/db/mongodb"
 
 export const dynamic = "force-dynamic"
 
@@ -17,10 +18,13 @@ export async function GET() {
 
   try {
     await pingMongoDatabase()
+    const db = await getMongoDatabase()
+    const activeTruckCount = await getTrucksCollection(db).countDocuments({ active: true })
 
     return NextResponse.json({
       connected: true,
-      catalogSource: isMongoCatalogEnabled() ? "mongodb" : "mock",
+      catalogSource: activeTruckCount > 0 ? "mongodb" : "mock",
+      activeTruckCount,
     })
   } catch (error) {
     console.error("MongoDB health check failed", error)

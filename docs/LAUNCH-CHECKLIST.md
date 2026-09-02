@@ -9,7 +9,7 @@
 
 ## Integrations
 
-- Configure MongoDB Atlas and verify `products` and `inquiries` access from Vercel.
+- Run `npm run seed` and verify `trucks`, `inquiries`, and `quoteRequests` access from Vercel.
 - Configure EmailJS template fields and run an end-to-end inquiry test.
 - Add an approved map embed URL.
 - Add confirmed social URLs.

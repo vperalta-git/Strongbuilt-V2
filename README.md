@@ -35,9 +35,8 @@ Copy `.env.example` to `.env.local` and provide only the integrations in use.
 | Variable | Required | Purpose |
 | --- | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Recommended | Canonical base URL, sitemap, and structured data |
-| `MONGODB_URI` | Optional locally | MongoDB Atlas connection string |
+| `MONGODB_URI` | Required for database features | MongoDB Atlas connection string |
 | `MONGODB_DB` | Optional | Database name; defaults to `strongbuilt` |
-| `MONGODB_CATALOG_ENABLED` | Optional | Set to `true` only after the `products` collection is seeded; defaults to `false` |
 | `NEXT_PUBLIC_EMAILJS_SERVICE_ID` | Optional | EmailJS service identifier |
 | `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID` | Optional | EmailJS inquiry template identifier |
 | `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` | Optional | EmailJS public browser key |
@@ -54,7 +53,23 @@ Import `vperalta-git/Strongbuilt-V2` into Vercel or deploy it with the Vercel CL
 - Build command: `npm run build`
 - Output directory: managed automatically by Next.js
 
-Set `NEXT_PUBLIC_SITE_URL` to the final production domain. The website and mock catalog work without additional variables; inquiry delivery requires MongoDB, EmailJS, or both. Add any production variables through Vercel Project Settings rather than committing them. After setting `MONGODB_URI` and `MONGODB_DB`, redeploy and verify `/api/health/database` returns `connected: true`. Leave `MONGODB_CATALOG_ENABLED=false` until the products collection has been seeded and approved.
+Set `NEXT_PUBLIC_SITE_URL` to the final production domain. The website and mock catalog work without database variables; inquiry persistence requires MongoDB. Add production variables through Vercel Project Settings rather than committing them. After setting `MONGODB_URI` and `MONGODB_DB`, redeploy and verify `/api/health/database` returns `connected: true`.
+
+## Database setup
+
+1. Copy `.env.example` to `.env.local`.
+2. Add the MongoDB Atlas connection string to `MONGODB_URI`.
+3. Keep `MONGODB_DB=strongbuilt`.
+4. Install dependencies and run the seed:
+
+```bash
+npm install
+npm run seed
+```
+
+The seed validates the current verified Strongbuilt data, creates required indexes, and upserts records by slug. It is safe to run repeatedly and never drops collections or deletes inquiry and quotation records. After seeding, start the application normally with `npm run dev` or build it with `npm run build`.
+
+Production deployments run this same idempotent synchronization before Next.js generates the site. Non-production builds skip automatic seeding, and `npm run seed` remains the explicit command for local or maintenance runs.
 
 Every push to `main` will create a production deployment once the GitHub repository is connected to the Vercel project. Pull requests and other branches create preview deployments.
 
@@ -77,23 +92,25 @@ public/images/          Replaceable brand, truck, industry, and editorial assets
 
 Important data boundaries:
 
-- `lib/data/mock-trucks.ts` is the local seed/mock catalog.
-- `lib/data/trucks.ts` reads active products from MongoDB only when `MONGODB_CATALOG_ENABLED=true`. Typed mock data remains active when MongoDB is used only for inquiries; production database failures after enabling the catalog do not republish demo products.
+- `lib/data/mock-trucks.ts` is the verified source for the initial commercial vehicle seed.
+- `lib/data/trucks.ts` reads active trucks from the normalized MongoDB collections when seeded and falls back to the verified local catalog if MongoDB is unavailable or has no active trucks.
 - Product images are URL/path references with optional provider metadata. Base64 image payloads are not stored in ordinary product documents.
 - `config/site.ts` is the single source for contact details, navigation, and company naming.
 - `POST /api/inquiries` validates quote/contact requests and persists them when MongoDB is configured.
 - `GET /api/trucks` exposes the active public catalog for future clients and supports `brand`, `type`, and `featured=true` filters.
 
-MongoDB collection names are reserved in `lib/db/collections.ts` for:
+MongoDB collection names and typed helpers are defined in `lib/db/collections.ts` for:
 
-- `products`
 - `brands`
-- `categories`
+- `truckTypes`
+- `trucks`
 - `industries`
-- `inquiries`
+- `services`
 - `siteSettings`
+- `inquiries`
+- `quoteRequests`
 
-Only products and inquiries need live persistence in this public-first phase. The other collections are represented by typed content modules until the admin dashboard is built.
+The idempotent seed synchronizes catalog and public content records while preserving all existing inquiry and quote-request documents. New contact submissions are stored in `inquiries`; new quotation submissions are stored in `quoteRequests` with a selected-truck snapshot when a catalog vehicle can be resolved.
 
 ## Content and asset accuracy
 
@@ -115,7 +132,7 @@ Before production launch, confirm or replace:
 The next phase should add a protected `/admin` area without changing public route contracts:
 
 1. Single-admin authentication with secure server-side sessions and audit timestamps.
-2. CRUD for products, brands, categories, industries, services, homepage content, site settings, and SEO fields.
+2. CRUD for trucks, brands, truck types, industries, services, homepage content, site settings, and SEO fields.
 3. Media uploads through Cloudinary, Vercel Blob, GridFS, or another selected provider using the existing media-reference shape.
 4. Inquiry inbox with statuses, notes, assignment/export, and retention controls.
 5. Brochure upload/attachment and product display ordering.

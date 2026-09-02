@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server"
 import { getTrucks } from "@/lib/data/trucks"
-import { isMongoCatalogEnabled } from "@/lib/db/mongodb"
 
 export async function GET(request: Request) {
   const url = new URL(request.url)
@@ -19,6 +18,6 @@ export async function GET(request: Request) {
   return NextResponse.json({
     data: trucks,
     count: trucks.length,
-    source: isMongoCatalogEnabled() ? "mongodb" : "mock",
+    source: trucks.some((truck) => Boolean(truck._id)) ? "mongodb" : "mock",
   })
 }
