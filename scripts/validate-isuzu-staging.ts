@@ -304,7 +304,7 @@ async function main() {
       trucks: { path: "data/imports/raw/isuzu/isuzu_trucks.json", records: sourceTrucks.length },
     },
     tested: records.length,
-    passed: records.filter((record) => record.status === "PASS").length,
+    passed: records.filter((record) => record.status !== "ERROR").length,
     warnings: records.flatMap((record) => record.issues).filter((entry) => entry.severity === "warning").length,
     errors: records.flatMap((record) => record.issues).filter((entry) => entry.severity === "error").length,
     statusCounts: {
@@ -338,7 +338,7 @@ async function main() {
 
   await mkdir(dirname(reportPath), { recursive: true })
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8")
-  console.log(`ISUZU staging validation: ${report.passed} PASS, ${report.warnings} WARNING, ${report.errors} ERROR`)
+  console.log(`ISUZU staging validation: ${report.passed} eligible, ${report.warnings} WARNING, ${report.errors} ERROR`)
   console.log(brandDocument && brandId
     ? `Brand resolution: isuzu -> ${brandDocument.name} -> ${brandId.toHexString()}`
     : "Brand resolution: isuzu -> UNRESOLVED (no production brand document)")

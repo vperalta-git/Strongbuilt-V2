@@ -18,7 +18,19 @@ export type BrandDocument = {
   name: string
   slug: string
   logo?: DatabaseImage
+  logoMetadata?: {
+    url?: string
+    alt: string
+    suggestedLocalPath?: string
+    status?: string
+  }
+  officialWebsite?: string
   description?: string
+  source?: {
+    website: string
+    verifiedAt: Date | string
+  }
+  aliases?: string[]
   active: boolean
   displayOrder: number
   createdAt: Date

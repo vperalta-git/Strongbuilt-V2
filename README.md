@@ -118,6 +118,8 @@ The canonical internal catalog domain is now `Vehicle`, while the MongoDB `truck
 
 `npm run validate:isuzu` validates only the approved eight-model N-Series test batch. It reads MongoDB solely for brand resolution, duplicate checks, collection counts, and catalog verification; it never writes or promotes staged vehicles. The machine-readable result is generated at `data/imports/reports/isuzu-n-series-test.json`.
 
+The guarded `npm run upsert:isuzu-brand -- --confirm-brand-only` command performs only the approved idempotent ISUZU brand upsert from the prepared source file. It refuses to run without the confirmation flag, checks equivalent identities and the unique slug index before writing, runs the same upsert twice to prove idempotency, and verifies protected collection fingerprints afterward. It never writes vehicle records.
+
 ## Content and asset accuracy
 
 The V2 catalog and business contact information were derived from the existing Strongbuilt repository supplied in the project brief. Public pricing is intentionally absent everywhere, including structured data and APIs.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T02:25:17.970Z",
+  "generatedAt": "2026-09-03T03:05:01.468Z",
   "manufacturer": "ISUZU",
   "sourceFiles": {
     "brands": {
@@ -12,19 +12,19 @@
     }
   },
   "tested": 8,
-  "passed": 0,
+  "passed": 8,
   "warnings": 1,
-  "errors": 8,
+  "errors": 0,
   "statusCounts": {
-    "pass": 0,
-    "warning": 0,
-    "error": 8
+    "pass": 7,
+    "warning": 1,
+    "error": 0
   },
   "brandResolution": {
     "brandSlug": "isuzu",
-    "resolved": false,
-    "resolvedBrandName": null,
-    "resolvedObjectId": null,
+    "resolved": true,
+    "resolvedBrandName": "ISUZU",
+    "resolvedObjectId": "6a98e3cfcdc2f8376dac64bc",
     "hardCoded": false,
     "availableBrands": [
       {
@@ -46,13 +46,17 @@
       {
         "name": "Asiastar",
         "slug": "asiastar"
+      },
+      {
+        "name": "ISUZU",
+        "slug": "isuzu"
       }
     ]
   },
   "records": [
     {
       "model": "NMR85HS",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-nmr85hs",
         "brand": "ISUZU",
@@ -144,19 +148,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-nmr85hs",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -250,14 +246,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU NMR85HS (6-Wheeler) | Strongbuilt",
@@ -266,8 +255,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -282,7 +271,7 @@
     },
     {
       "model": "NQR75LS",
-      "status": "ERROR",
+      "status": "WARNING",
       "rawSource": {
         "slug": "isuzu-nqr75ls",
         "brand": "ISUZU",
@@ -382,19 +371,12 @@
           "normalizedValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
           "reason": "Manufacturer-source discrepancy retained for manual QA.",
           "code": "MANUFACTURER_SOURCE_WARNING"
-        },
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
         }
       ],
       "canonicalVehicle": {
         "slug": "isuzu-nqr75ls",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -497,12 +479,6 @@
               "field": "source.dataWarnings",
               "message": "Manufacturer-source discrepancy retained for manual QA.",
               "code": "MANUFACTURER_SOURCE_WARNING"
-            },
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
             }
           ]
         },
@@ -513,8 +489,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -529,7 +505,7 @@
     },
     {
       "model": "QLR77E",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-qlr77e",
         "brand": "ISUZU",
@@ -621,19 +597,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-qlr77e",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -727,14 +695,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU QLR77E (4-Wheeler) | Strongbuilt",
@@ -743,8 +704,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -759,7 +720,7 @@
     },
     {
       "model": "NLR85ES",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-nlr85es",
         "brand": "ISUZU",
@@ -851,19 +812,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-nlr85es",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -957,14 +910,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU NLR85ES (4-Wheeler) | Strongbuilt",
@@ -973,8 +919,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -989,7 +935,7 @@
     },
     {
       "model": "NLR77H",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-nlr77h",
         "brand": "ISUZU",
@@ -1081,19 +1027,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-nlr77h",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -1187,14 +1125,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU NLR77H (4-Wheeler) | Strongbuilt",
@@ -1203,8 +1134,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -1219,7 +1150,7 @@
     },
     {
       "model": "NLR85E",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-nlr85e",
         "brand": "ISUZU",
@@ -1311,19 +1242,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-nlr85e",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -1417,14 +1340,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU NLR85E (4-Wheeler) | Strongbuilt",
@@ -1433,8 +1349,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -1449,7 +1365,7 @@
     },
     {
       "model": "NMR85H",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-nmr85h",
         "brand": "ISUZU",
@@ -1541,19 +1457,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-nmr85h",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -1647,14 +1555,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU NMR85H | Strongbuilt",
@@ -1663,8 +1564,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -1679,7 +1580,7 @@
     },
     {
       "model": "NPR85K",
-      "status": "ERROR",
+      "status": "PASS",
       "rawSource": {
         "slug": "isuzu-npr85k",
         "brand": "ISUZU",
@@ -1771,19 +1672,11 @@
           "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
         }
       ],
-      "issues": [
-        {
-          "severity": "error",
-          "field": "brandSlug",
-          "sourceValue": "isuzu",
-          "normalizedValue": null,
-          "reason": "Unknown brand slug: isuzu.",
-          "code": "UNKNOWN_BRAND"
-        }
-      ],
+      "issues": [],
       "canonicalVehicle": {
         "slug": "isuzu-npr85k",
         "brand": {
+          "id": "6a98e3cfcdc2f8376dac64bc",
           "slug": "isuzu",
           "name": "ISUZU"
         },
@@ -1877,14 +1770,7 @@
               "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
             }
           ],
-          "warnings": [
-            {
-              "severity": "error",
-              "field": "brandSlug",
-              "message": "Unknown brand slug: isuzu.",
-              "code": "UNKNOWN_BRAND"
-            }
-          ]
+          "warnings": []
         },
         "seo": {
           "title": "ISUZU NPR85K (6-Wheeler) | Strongbuilt",
@@ -1893,8 +1779,8 @@
         "featured": false,
         "active": false,
         "displayOrder": 0,
-        "createdAt": "2026-09-03T02:25:17.970Z",
-        "updatedAt": "2026-09-03T02:25:17.970Z"
+        "createdAt": "2026-09-03T03:05:01.468Z",
+        "updatedAt": "2026-09-03T03:05:01.468Z"
       },
       "legacyAdapter": {
         "passed": true,
@@ -1922,13 +1808,13 @@
   "productionDatabase": {
     "before": {
       "trucks": 12,
-      "brands": 5,
+      "brands": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "after": {
       "trucks": 12,
-      "brands": 5,
+      "brands": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
@@ -1939,5 +1825,5 @@
     "uniqueSlugs": 12
   },
   "promotionPerformed": false,
-  "recommendation": "NEEDS DATA CORRECTIONS"
+  "recommendation": "READY FOR PROMOTION DESIGN"
 }

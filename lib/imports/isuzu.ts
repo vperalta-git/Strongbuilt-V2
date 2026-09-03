@@ -21,10 +21,18 @@ export const isuzuBrandSourceSchema = z.object({
   name: nonEmptyString,
   slug: nonEmptyString,
   officialWebsite: z.url(),
+  logo: z.object({
+    url: z.url().nullable(),
+    alt: nonEmptyString,
+    localPathSuggested: nonEmptyString.optional(),
+    status: nonEmptyString.optional(),
+  }),
+  description: nonEmptyString,
   active: z.boolean(),
+  displayOrder: z.number().int().nonnegative(),
   source: z.object({
     website: z.url(),
-    verifiedAt: nonEmptyString,
+    verifiedAt: nonEmptyString.refine((value) => !Number.isNaN(new Date(value).valueOf()), "Use a valid verification date."),
   }),
 }).passthrough()
 

@@ -21,7 +21,19 @@ export const brandSeedSchema = managedRecordSchema.extend({
   name: z.string().trim().min(1),
   slug: slugSchema,
   logo: imageSchema.optional(),
+  logoMetadata: z.object({
+    url: z.url().optional(),
+    alt: z.string().trim().min(1),
+    suggestedLocalPath: z.string().trim().min(1).optional(),
+    status: z.string().trim().min(1).optional(),
+  }).optional(),
+  officialWebsite: z.url().optional(),
   description: z.string().trim().min(1).optional(),
+  source: z.object({
+    website: z.url(),
+    verifiedAt: z.union([z.date(), z.string().trim().min(1)]),
+  }).optional(),
+  aliases: z.array(z.string().trim().min(1)).optional(),
 })
 
 export const truckTypeSeedSchema = managedRecordSchema.extend({

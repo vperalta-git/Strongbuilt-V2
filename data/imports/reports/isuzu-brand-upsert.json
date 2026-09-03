@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-03T03:04:47.563Z",
+  "source": "data/imports/raw/isuzu/isuzu_brands.json",
+  "checkBeforeWrite": {
+    "brandCount": 5,
+    "equivalentExisted": false,
+    "conflictingEquivalent": false,
+    "uniqueSlugIndex": "slug_1"
+  },
+  "result": {
+    "action": "inserted",
+    "brandSlug": "isuzu",
+    "brandName": "ISUZU",
+    "objectId": "6a98e3cfcdc2f8376dac64bc",
+    "logoUrl": null,
+    "logoStatus": "official-logo-source-confirmed-direct-asset-url-needs-extraction"
+  },
+  "idempotency": {
+    "secondExecutionMatched": true,
+    "secondExecutionInserted": 0,
+    "finalIsuzuDocumentCount": 1,
+    "passed": true
+  },
+  "counts": {
+    "before": {
+      "brands": 5,
+      "trucks": 12,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "after": {
+      "brands": 6,
+      "trucks": 12,
+      "inquiries": 0,
+      "quoteRequests": 0
+    }
+  },
+  "protectedCollectionsUnchanged": true
+}

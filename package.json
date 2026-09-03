@@ -12,6 +12,7 @@
     "seed": "tsx scripts/seed-cli.ts",
     "validate:vehicles": "tsx scripts/validate-vehicle-foundation.ts",
     "validate:isuzu": "tsx scripts/validate-isuzu-staging.ts",
+    "upsert:isuzu-brand": "tsx scripts/upsert-isuzu-brand.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
