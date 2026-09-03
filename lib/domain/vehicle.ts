@@ -35,6 +35,15 @@ export type VehicleSource = {
   dataWarnings?: string[]
 }
 
+export type VehicleImportMetadata = {
+  source: "manufacturer-import"
+  manufacturer: string
+  batch: string
+  importedAt: string
+  verifiedAt: string
+  importVersion: number
+}
+
 export type VehicleKeySpecs = {
   engine?: string
   engineDisplacement?: string | number
@@ -111,6 +120,7 @@ export type Vehicle = {
   brochure?: VehicleBrochure
   brochureUrl?: string
   source?: VehicleSource
+  importMetadata?: VehicleImportMetadata
   normalization?: {
     decisions?: VehicleNormalizationDecision[]
     warnings?: VehicleDataIssue[]

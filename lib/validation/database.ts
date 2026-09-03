@@ -95,6 +95,15 @@ const sourceSchema = z.object({
   dataWarnings: z.array(z.string().trim().min(1)).optional(),
 })
 
+const importMetadataSchema = z.object({
+  source: z.literal("manufacturer-import"),
+  manufacturer: z.string().trim().min(1),
+  batch: z.string().trim().min(1),
+  importedAt: z.union([z.date(), z.string().trim().min(1)]),
+  verifiedAt: z.union([z.date(), z.string().trim().min(1)]),
+  importVersion: z.number().int().positive(),
+})
+
 const specificationItemSchema = z.object({
   label: z.string().trim().min(1),
   value: z.string().trim().min(1),
@@ -128,6 +137,7 @@ export const truckSeedSchema = managedRecordSchema.extend({
   brochure: brochureSchema.optional(),
   brochureUrl: z.string().trim().min(1).nullable().optional(),
   source: sourceSchema.optional(),
+  importMetadata: importMetadataSchema.optional(),
   seo: z.object({
     title: z.string().trim().min(1).optional(),
     description: z.string().trim().min(1).optional(),

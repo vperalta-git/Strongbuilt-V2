@@ -73,6 +73,15 @@ export const vehicleSourceSchema = z.object({
   dataWarnings: z.array(nonEmptyString).optional(),
 })
 
+export const vehicleImportMetadataSchema = z.object({
+  source: z.literal("manufacturer-import"),
+  manufacturer: nonEmptyString,
+  batch: nonEmptyString,
+  importedAt: z.union([z.date(), nonEmptyString]),
+  verifiedAt: z.union([z.date(), nonEmptyString]),
+  importVersion: z.number().int().positive(),
+})
+
 export const mongoVehicleDocumentSchema = z.object({
   _id: z.instanceof(ObjectId),
   slug: slugSchema,
@@ -99,6 +108,7 @@ export const mongoVehicleDocumentSchema = z.object({
   brochure: vehicleBrochureSchema.optional(),
   brochureUrl: nonEmptyString.nullable().optional(),
   source: vehicleSourceSchema.optional(),
+  importMetadata: vehicleImportMetadataSchema.optional(),
   normalization: z.object({
     decisions: z.array(z.object({
       field: nonEmptyString,
@@ -149,6 +159,7 @@ export const canonicalVehicleSchema = z.object({
   brochure: vehicleBrochureSchema.optional(),
   brochureUrl: nonEmptyString.optional(),
   source: vehicleSourceSchema.optional(),
+  importMetadata: vehicleImportMetadataSchema.optional(),
   normalization: z.object({
     decisions: z.array(z.object({
       field: nonEmptyString,
@@ -177,6 +188,10 @@ export const canonicalVehicleSchema = z.object({
   if (vehicle.images.filter((image) => image.isPrimary).length !== 1) {
     context.addIssue({ code: "custom", path: ["images"], message: "Exactly one primary image is required." })
   }
+})
+
+export const vehicleInsertDocumentSchema = mongoVehicleDocumentSchema.omit({ _id: true }).extend({
+  importMetadata: vehicleImportMetadataSchema.extend({ importedAt: z.date() }).optional(),
 })
 
 export type MongoVehicleDocumentInput = z.infer<typeof mongoVehicleDocumentSchema>

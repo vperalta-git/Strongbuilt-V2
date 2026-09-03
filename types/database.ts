@@ -6,7 +6,7 @@ import type {
   VehicleFamily,
   VehiclePropulsion,
 } from "@/lib/domain/vehicle-taxonomy"
-import type { VehicleBrochure, VehicleDataIssue, VehicleNormalizationDecision } from "@/lib/domain/vehicle"
+import type { VehicleBrochure, VehicleDataIssue, VehicleImportMetadata, VehicleNormalizationDecision } from "@/lib/domain/vehicle"
 
 export type DatabaseImage = {
   url: string
@@ -132,6 +132,10 @@ export type TruckDocument = {
     verifiedAt: Date | string
     notes?: string
     dataWarnings?: string[]
+  }
+  importMetadata?: Omit<VehicleImportMetadata, "importedAt" | "verifiedAt"> & {
+    importedAt: Date
+    verifiedAt: Date | string
   }
   normalization?: {
     decisions?: VehicleNormalizationDecision[]

@@ -189,6 +189,7 @@ export function vehicleToLegacyTruck(vehicle: Vehicle): Truck {
     description: vehicle.description || "",
     images: [...vehicle.images]
       .sort((first, second) => first.order - second.order)
+      .filter((image) => !(image.storageProvider === "external" && /^https?:\/\//i.test(image.url)))
       .map(({ url, alt }) => ({ url, alt })),
     featured: vehicle.featured,
     active: vehicle.active,

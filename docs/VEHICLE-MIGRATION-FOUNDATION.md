@@ -72,7 +72,7 @@ Each staged result retains:
 - warning and error issues
 - `ready`, `needs-review`, or `rejected` status
 
-No promotion command exists yet. Manufacturer records must not be written into production until a later task adds an explicitly approved promotion step.
+The controlled promotion boundary is now explicit: `npm run promote:isuzu` is a zero-write dry run, while `npm run promote:isuzu -- --apply` is the only apply path. Apply mode is insert-only, limited to the reviewed eight-model batch, and uses one MongoDB transaction so any validation or identity conflict aborts the batch. It is not connected to build, seed, or deployment automation.
 
 ## Source fidelity and media
 

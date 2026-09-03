@@ -120,6 +120,19 @@ The canonical internal catalog domain is now `Vehicle`, while the MongoDB `truck
 
 The guarded `npm run upsert:isuzu-brand -- --confirm-brand-only` command performs only the approved idempotent ISUZU brand upsert from the prepared source file. It refuses to run without the confirmation flag, checks equivalent identities and the unique slug index before writing, runs the same upsert twice to prove idempotency, and verifies protected collection fingerprints afterward. It never writes vehicle records.
 
+### Controlled ISUZU promotion
+
+```bash
+# DRY RUN (default): reruns validation and creates a plan; performs zero writes
+npm run promote:isuzu
+
+# APPLY: atomically inserts the exact reviewed eight-model batch into production
+# WARNING: this changes the production trucks collection.
+npm run promote:isuzu -- --apply
+```
+
+Promotion is manual and insert-only. It is never invoked by `build`, `seed`, or Vercel deployment. Apply mode reruns the complete plan, requires all eight whitelisted records to be eligible, rechecks identities inside a MongoDB transaction, and aborts the entire batch on any conflict. The dry-run artifact is `data/imports/reports/isuzu-n-series-promotion-plan.json`.
+
 ## Content and asset accuracy
 
 The V2 catalog and business contact information were derived from the existing Strongbuilt repository supplied in the project brief. Public pricing is intentionally absent everywhere, including structured data and APIs.

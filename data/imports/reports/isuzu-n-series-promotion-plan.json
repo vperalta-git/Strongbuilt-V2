@@ -1,0 +1,398 @@
+{
+  "generatedAt": "2026-09-03T03:32:46.692Z",
+  "batch": "isuzu-n-series-001",
+  "manufacturer": "ISUZU",
+  "mode": "dry-run",
+  "eligible": 8,
+  "blocked": 0,
+  "applyAllowed": true,
+  "currentTruckCount": 12,
+  "expectedTruckCountAfterApply": 20,
+  "productionCounts": {
+    "before": {
+      "brands": 6,
+      "trucks": 12,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "after": {
+      "brands": 6,
+      "trucks": 12,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    }
+  },
+  "productionWritesPerformed": 0,
+  "resolvedRelationships": {
+    "brand": "ISUZU",
+    "brandId": "6a98e3cfcdc2f8376dac64bc",
+    "brandSlug": "isuzu",
+    "legacyType": "Cargo",
+    "typeId": "6a97ba5626fa08a50cf0f52f",
+    "typeSlug": "cargo",
+    "canonicalBodyType": "Rigid Truck"
+  },
+  "uniqueSlugIndex": true,
+  "transactionPolicy": "All eight insert in one MongoDB transaction; any conflict or validation failure aborts the batch.",
+  "safetyGuards": {
+    "missingApplyFlagPerformsZeroWrites": true,
+    "unknownManufacturerFails": true,
+    "unknownModelFails": true,
+    "unresolvedBrandFails": true,
+    "duplicateSlugBlocksPromotion": true,
+    "duplicateBatchModelBlocksPromotion": true,
+    "missingUniqueSlugIndexFails": true,
+    "malformedRecordBlocksAtomicBatch": true,
+    "nqrWarningRemainsNonBlocking": true
+  },
+  "seedSafety": {
+    "originalSeedSlugCount": 12,
+    "promotionSlugOverlap": [],
+    "deletesUnknownSlugs": false,
+    "importedRecordsOwnedBySeed": false,
+    "explanation": "The seed upserts only its original 12 known slugs and contains no delete operation, so separate manufacturer slugs are retained."
+  },
+  "postApplyVerificationDesign": [
+    "Verify trucks count is 20 and every slug remains unique.",
+    "Read back all eight ISUZU documents and rerun canonical validation.",
+    "Confirm /api/trucks returns 20 MongoDB records.",
+    "Confirm /trucks consumes all eight through the legacy adapter.",
+    "Confirm each /trucks/[slug] route resolves and sitemap.xml includes every slug.",
+    "Confirm request-a-quote snapshots use selectedTruck.truckId for inserted ObjectIds.",
+    "Regression-check all original 12 slugs."
+  ],
+  "records": [
+    {
+      "model": "NMR85HS",
+      "slug": "isuzu-nmr85hs",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NQR75LS",
+      "slug": "isuzu-nqr75ls",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer-source discrepancy retained for manual QA.",
+          "sourceValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
+          "normalizedValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
+          "reason": "Manufacturer-source discrepancy retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING"
+        }
+      ],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "QLR77E",
+      "slug": "isuzu-qlr77e",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NLR85ES",
+      "slug": "isuzu-nlr85es",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NLR77H",
+      "slug": "isuzu-nlr77h",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NLR85E",
+      "slug": "isuzu-nlr85e",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NMR85H",
+      "slug": "isuzu-nmr85h",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NPR85K",
+      "slug": "isuzu-npr85k",
+      "resolvedBrand": "ISUZU",
+      "resolvedBrandId": "6a98e3cfcdc2f8376dac64bc",
+      "resolvedType": "Cargo",
+      "resolvedTypeId": "6a97ba5626fa08a50cf0f52f",
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "promotionStatus": "eligible",
+      "warnings": [],
+      "errors": [],
+      "sourceUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "imageStatus": [
+        {
+          "validatedUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+          "storageProvider": "external",
+          "currentFrontendBehavior": "provenance-only; frontend shows photography unavailable until local migration"
+        }
+      ],
+      "importMetadata": {
+        "source": "manufacturer-import",
+        "manufacturer": "ISUZU",
+        "batch": "isuzu-n-series-001",
+        "importedAt": "2026-09-03T03:32:43.921Z",
+        "verifiedAt": "2026-09-02",
+        "importVersion": 1
+      },
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    }
+  ]
+}
