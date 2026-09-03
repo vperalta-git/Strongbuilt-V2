@@ -1,4 +1,4 @@
-import { ObjectId, type Db } from "mongodb"
+import { BSON, ObjectId, type Db } from "mongodb"
 import { createLegacySelectedTruckSnapshot, vehicleToLegacyTruck } from "@/lib/data/truck-compatibility"
 import { getVehicleDocumentsCollection } from "@/lib/db/vehicles"
 import type { Vehicle, VehicleNormalizationDecision } from "@/lib/domain/vehicle"
@@ -274,7 +274,16 @@ export function createInsertOnlyPromotionPlan(args: {
               issues.push(promotionIssue("error", validationIssue.path.join(".") || "document", validationIssue.message, "INSERT_DOCUMENT_VALIDATION"))
             }
           } else {
-            document = insertResult.data
+            const bsonRoundTrip = vehicleInsertDocumentSchema.safeParse(BSON.deserialize(
+              BSON.serialize(insertResult.data, { ignoreUndefined: true }),
+            ))
+            if (!bsonRoundTrip.success) {
+              for (const validationIssue of bsonRoundTrip.error.issues) {
+                issues.push(promotionIssue("error", validationIssue.path.join(".") || "document", validationIssue.message, "BSON_DOCUMENT_VALIDATION"))
+              }
+            } else {
+              document = bsonRoundTrip.data
+            }
           }
         }
       }
@@ -357,7 +366,7 @@ export async function applyPromotionPlan(
         ],
       }, { session, collation: { locale: "en", strength: 2 } })
       if (collisions) throw new Error("A promotion identity appeared after planning; transaction aborted.")
-      const result = await collection.insertMany(documents, { ordered: true, session })
+      const result = await collection.insertMany(documents, { ordered: true, session, ignoreUndefined: true })
       if (result.insertedCount !== documents.length) throw new Error("MongoDB did not acknowledge all promotion inserts.")
       const expectedCount = plan.currentTruckCount + documents.length
       const resultingCount = await collection.countDocuments({}, { session })
