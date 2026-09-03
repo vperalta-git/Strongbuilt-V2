@@ -39,14 +39,17 @@ const truckImageSchema = imageSchema.extend({
   sourceUrl: z.url().optional(),
   sourcePage: z.url().optional(),
   storageProvider: z.enum(["local", "cloudinary", "vercel-blob", "external"]).optional(),
+  suggestedLocalPath: z.string().trim().min(1).optional(),
   status: z.string().trim().min(1).optional(),
 })
 
 const keySpecsSchema = z.object({
   engine: z.string().trim().min(1).optional(),
   engineDisplacement: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
+  engineDisplacementCc: z.number().nonnegative().optional(),
   horsepower: z.number().nonnegative().optional(),
   powerKw: z.number().nonnegative().optional(),
+  powerPs: z.number().nonnegative().optional(),
   torqueNm: z.number().nonnegative().optional(),
   payloadKg: z.number().nonnegative().optional(),
   gvwKg: z.number().nonnegative().optional(),
@@ -61,6 +64,7 @@ const keySpecsSchema = z.object({
   batteryCapacityKwh: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
   rangeKm: z.union([z.string().trim().min(1), z.number().nonnegative()]).optional(),
   bodyCapacity: z.string().trim().min(1).optional(),
+  rearBodyLength: z.string().trim().min(1).optional(),
 })
 
 const brochureSchema = z.object({

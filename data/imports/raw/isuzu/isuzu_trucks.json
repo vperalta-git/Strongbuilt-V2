@@ -1,0 +1,2039 @@
+[
+  {
+    "slug": "isuzu-traviz-s",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "TRAVIZ S",
+    "model": "TRAVIZ S",
+    "productLine": "TRAVIZ",
+    "category": "Light Commercial Truck",
+    "truckTypeSlug": "light-commercial",
+    "class": "Light Duty",
+    "shortDescription": "Short-wheelbase TRAVIZ cab-and-chassis platform with a 2,950 kg GVW for compact commercial body applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Short wheelbase"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-S-UV.webp",
+        "alt": "ISUZU TRAVIZ S",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/traviz-s.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "4JA1 Direct Injection Common Rail Blue Power Diesel",
+      "displacementCc": 2499,
+      "emissionStandard": "Euro 4",
+      "maximumPower": "78 PS / 3,900 rpm",
+      "maximumTorque": "176.5 Nm / 1,800 rpm",
+      "fuelTank": "50 L",
+      "transmission": "MUA-5S 5-speed manual",
+      "gvwKg": 2950,
+      "fuelType": "Diesel",
+      "payloadKg": 1660,
+      "wheelbaseMm": 2250,
+      "overallLengthMm": 4450
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "4JA1 Direct Injection Common Rail Blue Power Diesel"
+          },
+          {
+            "label": "Displacement",
+            "value": "2,499 cc"
+          },
+          {
+            "label": "Emission Rating",
+            "value": "Euro 4"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "78 PS / 3,900 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "176.5 Nm / 1,800 rpm"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "50 L"
+          }
+        ]
+      },
+      {
+        "title": "Transmission",
+        "items": [
+          {
+            "label": "Model",
+            "value": "MUA-5S"
+          },
+          {
+            "label": "Type",
+            "value": "5-speed manual"
+          }
+        ]
+      },
+      {
+        "title": "Dimensions & Capacity",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "2,950 kg"
+          },
+          {
+            "label": "Payload",
+            "value": "1,660 kg"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "2,250 mm"
+          },
+          {
+            "label": "Overall Length",
+            "value": "4,450 mm"
+          },
+          {
+            "label": "Overall Width",
+            "value": "1,695 mm"
+          },
+          {
+            "label": "Overall Height",
+            "value": "1,955 mm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Utility Van",
+      "Aluminum Van",
+      "Dropside",
+      "Stake Body"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU TRAVIZ S | Strongbuilt",
+      "description": "Short-wheelbase TRAVIZ cab-and-chassis platform with a 2,950 kg GVW for compact commercial body applications."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/traviz",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-traviz-l",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "TRAVIZ L",
+    "model": "TRAVIZ L",
+    "productLine": "TRAVIZ",
+    "category": "Light Commercial Truck",
+    "truckTypeSlug": "light-commercial",
+    "class": "Light Duty",
+    "shortDescription": "Long-wheelbase TRAVIZ cab-and-chassis platform with a 2,950 kg GVW and additional rear-body allowance.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Long wheelbase"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-L-UV.webp",
+        "alt": "ISUZU TRAVIZ L",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/traviz-l.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "4JA1 Direct Injection Common Rail Blue Power Diesel",
+      "displacementCc": 2499,
+      "emissionStandard": "Euro 4",
+      "maximumPower": "78 PS / 3,900 rpm",
+      "maximumTorque": "176.5 Nm / 1,800 rpm",
+      "fuelTank": "50 L",
+      "transmission": "MUA-5S 5-speed manual",
+      "gvwKg": 2950,
+      "fuelType": "Diesel",
+      "payloadKg": 1655,
+      "wheelbaseMm": 2400,
+      "overallLengthMm": 4600
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "4JA1 Direct Injection Common Rail Blue Power Diesel"
+          },
+          {
+            "label": "Displacement",
+            "value": "2,499 cc"
+          },
+          {
+            "label": "Emission Rating",
+            "value": "Euro 4"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "78 PS / 3,900 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "176.5 Nm / 1,800 rpm"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "50 L"
+          }
+        ]
+      },
+      {
+        "title": "Transmission",
+        "items": [
+          {
+            "label": "Model",
+            "value": "MUA-5S"
+          },
+          {
+            "label": "Type",
+            "value": "5-speed manual"
+          }
+        ]
+      },
+      {
+        "title": "Dimensions & Capacity",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "2,950 kg"
+          },
+          {
+            "label": "Payload",
+            "value": "1,655 kg"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "2,400 mm"
+          },
+          {
+            "label": "Overall Length",
+            "value": "4,600 mm"
+          },
+          {
+            "label": "Overall Width",
+            "value": "1,695 mm"
+          },
+          {
+            "label": "Overall Height",
+            "value": "1,955 mm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Utility Van",
+      "Aluminum Van",
+      "Dropside",
+      "Stake Body"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU TRAVIZ L | Strongbuilt",
+      "description": "Long-wheelbase TRAVIZ cab-and-chassis platform with a 2,950 kg GVW and additional rear-body allowance."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/traviz",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nmr85hs",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NMR85HS (6-Wheeler)",
+    "model": "NMR85HS",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TTC diesel engine and 14 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+        "alt": "ISUZU NMR85HS (6-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nmr85hs.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 4490,
+      "engine": "4JJ1-TTC",
+      "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+      "maximumTorque": "354 Nm / 1,500 rpm",
+      "rearBodyLength": "14 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4,490 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JJ1-TTC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "91 kW (124 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "354 Nm / 1,500 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "14 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NMR85HS (6-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TTC diesel engine and 14 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nqr75ls",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NQR75LS (6-Wheeler)",
+    "model": "NQR75LS",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+        "alt": "ISUZU NQR75LS (6-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nqr75ls.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 8500,
+      "engine": "4HK1-TCN",
+      "maximumPower": "114 kW (155 PS) / 2,600 rpm",
+      "maximumTorque": "419 Nm / 1,600 rpm",
+      "rearBodyLength": "18 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "8,500 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4HK1-TCN"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "114 kW (155 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "419 Nm / 1,600 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "18 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NQR75LS (6-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS."
+  },
+  {
+    "slug": "isuzu-qlr77e",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "QLR77E (4-Wheeler)",
+    "model": "QLR77E",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 4,200 kg GVW, 4JH1-TC diesel engine and 10 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+        "alt": "ISUZU QLR77E (4-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/qlr77e.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 4200,
+      "engine": "4JH1-TC",
+      "maximumPower": "77 kW (106 PS) / 3,200 rpm",
+      "maximumTorque": "230 Nm / 1,400–3,200 rpm",
+      "rearBodyLength": "10 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4,200 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JH1-TC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "77 kW (106 PS) / 3,200 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "230 Nm / 1,400–3,200 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "10 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU QLR77E (4-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 4,200 kg GVW, 4JH1-TC diesel engine and 10 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nlr85es",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NLR85ES (4-Wheeler)",
+    "model": "NLR85ES",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+        "alt": "ISUZU NLR85ES (4-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nlr85es.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 4490,
+      "engine": "4JJ1-TCC",
+      "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+      "maximumTorque": "354 Nm / 1,500 rpm",
+      "rearBodyLength": "10 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4,490 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JJ1-TCC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "91 kW (124 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "354 Nm / 1,500 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "10 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NLR85ES (4-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nlr77h",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NLR77H (4-Wheeler)",
+    "model": "NLR77H",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JH1-TC diesel engine and 14 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+        "alt": "ISUZU NLR77H (4-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nlr77h.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 4490,
+      "engine": "4JH1-TC",
+      "maximumPower": "77 kW (106 PS) / 3,200 rpm",
+      "maximumTorque": "230 Nm / 1,400–3,200 rpm",
+      "rearBodyLength": "14 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4,490 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JH1-TC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "77 kW (106 PS) / 3,200 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "230 Nm / 1,400–3,200 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "14 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NLR77H (4-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JH1-TC diesel engine and 14 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nlr85e",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NLR85E (4-Wheeler)",
+    "model": "NLR85E",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+        "alt": "ISUZU NLR85E (4-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nlr85e.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 4490,
+      "engine": "4JJ1-TCC",
+      "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+      "maximumTorque": "354 Nm / 1,500 rpm",
+      "rearBodyLength": "10 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4,490 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JJ1-TCC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "91 kW (124 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "354 Nm / 1,500 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "10 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NLR85E (4-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nmr85h",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NMR85H",
+    "model": "NMR85H",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 14 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+        "alt": "ISUZU NMR85H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nmr85h.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 4490,
+      "engine": "4JJ1-TCC",
+      "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+      "maximumTorque": "354 Nm / 1,500 rpm",
+      "rearBodyLength": "14 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4,490 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JJ1-TCC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "91 kW (124 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "354 Nm / 1,500 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "14 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NMR85H | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 14 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-npr85k",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NPR85K (6-Wheeler)",
+    "model": "NPR85K",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 6,500 kg GVW, 4JJ1-TCC diesel engine and 16 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+        "alt": "ISUZU NPR85K (6-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/npr85k.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 6500,
+      "engine": "4JJ1-TCC",
+      "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+      "maximumTorque": "354 Nm / 1,500 rpm",
+      "rearBodyLength": "16 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "6,500 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4JJ1-TCC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "91 kW (124 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "354 Nm / 1,500 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "16 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NPR85K (6-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 6,500 kg GVW, 4JJ1-TCC diesel engine and 16 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nqr75l",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NQR75L (6-Wheeler)",
+    "model": "NQR75L",
+    "productLine": "N-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75L%201.webp",
+        "alt": "ISUZU NQR75L (6-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nqr75l.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 8500,
+      "engine": "4HK1-TCN",
+      "maximumPower": "114 kW (155 PS) / 2,600 rpm",
+      "maximumTorque": "419 Nm / 1,600–2,600 rpm",
+      "rearBodyLength": "18 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "8,500 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4HK1-TCN"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "114 kW (155 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "419 Nm / 1,600–2,600 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "18 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NQR75L (6-Wheeler) | Strongbuilt",
+      "description": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-frr90m",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FRR90 M (Cab Chassis)",
+    "model": "FRR90 M",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 10,600 kg GVW and 4HK1-TCC diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FRR90-M.png",
+        "alt": "ISUZU FRR90 M (Cab Chassis)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/frr90m.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 10600,
+      "engine": "4HK1-TCC",
+      "maximumPower": "140 kW (190 PS) / 2,600 rpm",
+      "maximumTorque": "510 Nm / 1,600–2,600 rpm",
+      "rearBodyLength": "20 ft",
+      "fuelType": "Diesel",
+      "transmission": "MZZ6W, OD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "10,600 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4HK1-TCC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "140 kW (190 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "510 Nm / 1,600–2,600 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "20 ft"
+          },
+          {
+            "label": "Transmission",
+            "value": "MZZ6W, OD"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FRR90 M (Cab Chassis) | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 10,600 kg GVW and 4HK1-TCC diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-ftr90m",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FTR90 M (Cab Chassis)",
+    "model": "FTR90 M",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 14,200 kg GVW and 4HK1-TCS diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/ftr90m2022.png",
+        "alt": "ISUZU FTR90 M (Cab Chassis)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/ftr90m.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 14200,
+      "engine": "4HK1-TCS",
+      "maximumPower": "154 kW (210 PS) / 2,600 rpm",
+      "maximumTorque": "706 Nm / 1,600 rpm",
+      "rearBodyLength": "19 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "14,200 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4HK1-TCS"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "154 kW (210 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "706 Nm / 1,600 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "19 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FTR90 M (Cab Chassis) | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 14,200 kg GVW and 4HK1-TCS diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fvr34q",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FVR34 Q (Cab Chassis)",
+    "model": "FVR34 Q",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 16,000 kg GVW and 6HK1-TCN diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//GR1_6354-FVR34-quarter%20right.png",
+        "alt": "ISUZU FVR34 Q (Cab Chassis)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fvr34q.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 16000,
+      "engine": "6HK1-TCN",
+      "maximumPower": "177 kW (240 PS) / 2,400 rpm",
+      "maximumTorque": "706 Nm / 1,450 rpm",
+      "rearBodyLength": "24 ft",
+      "fuelType": "Diesel",
+      "transmission": "MZW6P, OD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "16,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6HK1-TCN"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "177 kW (240 PS) / 2,400 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "706 Nm / 1,450 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "24 ft"
+          },
+          {
+            "label": "Transmission",
+            "value": "MZW6P, OD"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FVR34 Q (Cab Chassis) | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 16,000 kg GVW and 6HK1-TCN diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fvm34w",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FVM34 W (G-Cargo Wingvan)",
+    "model": "FVM34 W",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 26,000 kg GVW and 6HK1-TCS diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//GR1_5282-FVM34%20W%20quarter%20right.png",
+        "alt": "ISUZU FVM34 W (G-Cargo Wingvan)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fvm34w.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 26000,
+      "engine": "6HK1-TCS",
+      "maximumPower": "206 kW (280 PS) / 2,400 rpm",
+      "maximumTorque": "882 Nm / 1,450 rpm",
+      "rearBodyLength": "32 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "26,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6HK1-TCS"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "206 kW (280 PS) / 2,400 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "882 Nm / 1,450 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "32 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FVM34 W (G-Cargo Wingvan) | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 26,000 kg GVW and 6HK1-TCS diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fvm34t",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FVM34 T",
+    "model": "FVM34 T",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 26,000 kg GVW and 6HK1-TCS diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVM34-T.png",
+        "alt": "ISUZU FVM34 T",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fvm34t.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 26000,
+      "engine": "6HK1-TCS",
+      "maximumPower": "206 kW (280 PS) / 2,400 rpm",
+      "maximumTorque": "882 Nm / 1,450 rpm",
+      "rearBodyLength": "25 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "26,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6HK1-TCS"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "206 kW (280 PS) / 2,400 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "882 Nm / 1,450 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "25 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FVM34 T | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 26,000 kg GVW and 6HK1-TCS diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fxm60w",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FXM60 W",
+    "model": "FXM60 W",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 28,000 kg GVW and 6NX1-TCS diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FXM-Beauty-Shot.png",
+        "alt": "ISUZU FXM60 W",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fxm60w.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 28000,
+      "engine": "6NX1-TCS",
+      "maximumPower": "254 kW (345 PS) / 2,000 rpm",
+      "maximumTorque": "1,324 Nm / 1,300 rpm",
+      "rearBodyLength": "32 ft",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "28,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6NX1-TCS"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "254 kW (345 PS) / 2,000 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,324 Nm / 1,300 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "32 ft"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FXM60 W | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 28,000 kg GVW and 6NX1-TCS diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fvr34qs",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FVR34QS (6-Wheeler)",
+    "model": "FVR34QS",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 16,000 kg GVW and 6HK1-TCN diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVR34QS-Truck-Crane.png",
+        "alt": "ISUZU FVR34QS (6-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fvr34qs.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 16000,
+      "engine": "6HK1-TCN",
+      "maximumPower": "177 kW (240 PS) / 2,400 rpm",
+      "maximumTorque": "706 Nm / 1,450 rpm",
+      "rearBodyLength": "24 ft",
+      "fuelType": "Diesel",
+      "transmission": "MZW6P, OD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "16,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6HK1-TCN"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "177 kW (240 PS) / 2,400 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "706 Nm / 1,450 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "24 ft"
+          },
+          {
+            "label": "Transmission",
+            "value": "MZW6P, OD"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FVR34QS (6-Wheeler) | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 16,000 kg GVW and 6HK1-TCN diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-frr90ms",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FRR90MS (6-Wheeler)",
+    "model": "FRR90MS",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 10,600 kg GVW and 4HK1-TCC diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//trucks/F-SERIES_FOR_ADV.png",
+        "alt": "ISUZU FRR90MS (6-Wheeler)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/frr90ms.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 10600,
+      "engine": "4HK1-TCC",
+      "maximumPower": "140 kW (190 PS) / 2,600 rpm",
+      "maximumTorque": "510 Nm / 2,600 rpm",
+      "rearBodyLength": "20 ft",
+      "fuelType": "Diesel",
+      "transmission": "MZZ6W, OD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "10,600 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "4HK1-TCC"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "140 kW (190 PS) / 2,600 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "510 Nm / 2,600 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "20 ft"
+          },
+          {
+            "label": "Transmission",
+            "value": "MZZ6W, OD"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FRR90MS (6-Wheeler) | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 10,600 kg GVW and 4HK1-TCC diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fvz34",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FVZ34",
+    "model": "FVZ34",
+    "productLine": "F-Series",
+    "category": "Rigid Truck / Cab & Chassis",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Isuzu F-Series commercial platform with 26,000 kg GVW and 6HK1-TCS diesel engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media/f%20series%20trucks/FVZ34.webp",
+        "alt": "ISUZU FVZ34",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fvz34.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 26000,
+      "engine": "6HK1-TCS",
+      "maximumPower": "206 kW (280 PS) / 2,400 rpm",
+      "maximumTorque": "883 Nm / 1,450 rpm",
+      "rearBodyLength": "FVZ34P 18 ft / FVZ34T 25 ft (optional 32 ft)",
+      "fuelType": "Diesel",
+      "transmission": "ZFGS1110TO, OD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "26,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6HK1-TCS"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "206 kW (280 PS) / 2,400 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "883 Nm / 1,450 rpm"
+          },
+          {
+            "label": "Rear Body Length",
+            "value": "FVZ34P 18 ft / FVZ34T 25 ft (optional 32 ft)"
+          },
+          {
+            "label": "Transmission",
+            "value": "ZFGS1110TO, OD"
+          }
+        ]
+      }
+    ],
+    "applications": [],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FVZ34 | Strongbuilt",
+      "description": "Isuzu F-Series commercial platform with 26,000 kg GVW and 6HK1-TCS diesel engine."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-gxz60n-tractor-head",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "GXZ60N Tractor Head",
+    "model": "GXZ60N",
+    "productLine": "F-Series",
+    "category": "Tractor Head",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Isuzu tractor head with 26,000 kg GVW and 50,500 kg GCM for heavy road-haul operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/f-series/GXZ.webp",
+        "alt": "ISUZU GXZ60N Tractor Head",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/gxz60n.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "gvwKg": 26000,
+      "gcmKg": 50500,
+      "engine": "6NX1-TCS",
+      "maximumPower": "254 kW (345 PS) / 2,000 rpm",
+      "maximumTorque": "1,304 Nm / 1,300 rpm",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "GCM",
+            "value": "50,500 kg"
+          },
+          {
+            "label": "GVW",
+            "value": "26,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "6NX1-TCS"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "254 kW (345 PS) / 2,000 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,304 Nm / 1,300 rpm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Heavy road haulage",
+      "Trailer operations"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU GXZ60N Tractor Head | Strongbuilt",
+      "description": "Isuzu tractor head with 26,000 kg GVW and 50,500 kg GCM for heavy road-haul operations."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-traviz-puv",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "TRAVIZ PUV",
+    "model": "TRAVIZ PUV",
+    "productLine": "PUV",
+    "category": "Public Utility Vehicle",
+    "truckTypeSlug": "puv",
+    "class": null,
+    "shortDescription": "Class I TRAVIZ-based public utility vehicle with side-facing seating for 13 passengers plus driver.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Class I",
+      "Side-facing seats",
+      "13 + 1 seating"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//traviz-puv-variant.png",
+        "alt": "ISUZU TRAVIZ PUV",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/traviz-puv.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "4JA1 Euro 4",
+      "displacementCc": 2499,
+      "maximumPower": "78 PS / 3,900 rpm",
+      "maximumTorque": "176.5 Nm / 1,800 rpm",
+      "gvwKg": 2950,
+      "seatingCapacity": "13 + 1",
+      "transmission": "MUA-5S manual"
+    },
+    "specificationGroups": [
+      {
+        "title": "Powertrain",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "4JA1 Euro 4 Direct Injection Common Rail Blue Power Diesel"
+          },
+          {
+            "label": "Displacement",
+            "value": "2,499 cc"
+          },
+          {
+            "label": "Maximum Output",
+            "value": "78 PS / 3,900 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "176.5 Nm / 1,800 rpm"
+          },
+          {
+            "label": "Transmission",
+            "value": "MUA-5S manual"
+          }
+        ]
+      },
+      {
+        "title": "PUV Configuration",
+        "items": [
+          {
+            "label": "PUV Class",
+            "value": "Class I"
+          },
+          {
+            "label": "Seat Configuration",
+            "value": "Side Facing"
+          },
+          {
+            "label": "Seating Capacity",
+            "value": "13 + 1"
+          },
+          {
+            "label": "GVW",
+            "value": "2,950 kg"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "2,400 mm"
+          },
+          {
+            "label": "Overall Length",
+            "value": "4,500 mm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Public transportation"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU TRAVIZ PUV | Strongbuilt",
+      "description": "Class I TRAVIZ-based public utility vehicle with side-facing seating for 13 passengers plus driver."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/puv",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nlr77-puv",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NLR77 PUV",
+    "model": "NLR77",
+    "productLine": "PUV",
+    "category": "Public Utility Vehicle",
+    "truckTypeSlug": "puv",
+    "class": null,
+    "shortDescription": "NLR77-based public utility vehicle offered in multiple passenger-seat configurations on the official Isuzu Philippines lineup.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Class II side-facing seat configuration",
+      "Class III front-facing seat configuration"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//puv-variants/NLR77%202.0%20Almazora.png",
+        "alt": "ISUZU NLR77 PUV",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nlr77-puv.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {},
+    "specificationGroups": [],
+    "applications": [
+      "Public transportation"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NLR77 PUV | Strongbuilt",
+      "description": "NLR77-based public utility vehicle offered in multiple passenger-seat configurations on the official Isuzu Philippines lineup."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/puv",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "The official page shows NLR77 more than once with different body/seat configurations. This import consolidates them into one product-family record."
+  },
+  {
+    "slug": "isuzu-npr85-puv",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NPR85 PUV",
+    "model": "NPR85",
+    "productLine": "PUV",
+    "category": "Public Utility Vehicle",
+    "truckTypeSlug": "puv",
+    "class": null,
+    "shortDescription": "NPR85-based public utility vehicle offered with Class II side-facing and Class III front-facing seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Class II side-facing seat configuration",
+      "Class III front-facing seat configuration"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/storage/app/media//puv-variants/NPR85%20PUV.png",
+        "alt": "ISUZU NPR85 PUV",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/npr85-puv.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {},
+    "specificationGroups": [],
+    "applications": [
+      "Public transportation"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NPR85 PUV | Strongbuilt",
+      "description": "NPR85-based public utility vehicle offered with Class II side-facing and Class III front-facing seating."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/puv",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-nqr-bus",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "NQR Bus",
+    "model": "NQR",
+    "productLine": "Buses",
+    "category": "Bus",
+    "truckTypeSlug": "bus",
+    "class": null,
+    "shortDescription": "NQR-based bus available in air-conditioned and non-air-conditioned center-door configurations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Aircon center door, 28 seats (2x2)",
+      "Aircon center door, 35 seats (2x3)",
+      "Non-aircon center door, 28 seats (2x2)",
+      "Non-aircon center door, 35 seats (2x3)"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-nqr-01.webp",
+        "alt": "ISUZU NQR Bus",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/nqr-bus.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "seatingCapacityOptions": "28 / 35"
+    },
+    "specificationGroups": [
+      {
+        "title": "Passenger Configurations",
+        "items": [
+          {
+            "label": "Aircon",
+            "value": "28-seater (2x2) or 35-seater (2x3), center door"
+          },
+          {
+            "label": "Non-Aircon",
+            "value": "28-seater (2x2) or 35-seater (2x3), center door"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Public transport",
+      "Private shuttle"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU NQR Bus | Strongbuilt",
+      "description": "NQR-based bus available in air-conditioned and non-air-conditioned center-door configurations."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/buses",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "isuzu-fvr-bus",
+    "brand": "ISUZU",
+    "brandSlug": "isuzu",
+    "name": "FVR Bus",
+    "model": "FVR",
+    "productLine": "Buses",
+    "category": "Bus",
+    "truckTypeSlug": "bus",
+    "class": null,
+    "shortDescription": "FVR-based bus offered in higher-capacity air-conditioned and non-air-conditioned passenger layouts.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+    "configurations": [
+      "Aircon center door, 45 seats (2x2)",
+      "Aircon center door, 61 seats (2x3)",
+      "Non-aircon center door, 45 seats (2x2)",
+      "Non-aircon center door, 61 seats (2x3)",
+      "Non-aircon front and center door, 56 seats (2x3)"
+    ],
+    "images": [
+      {
+        "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-fvr-02.webp",
+        "alt": "ISUZU FVR Bus",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/isuzu/fvr-bus.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "seatingCapacityOptions": "45 / 56 / 61"
+    },
+    "specificationGroups": [
+      {
+        "title": "Passenger Configurations",
+        "items": [
+          {
+            "label": "Aircon, Center Door",
+            "value": "45-seater (2x2) or 61-seater (2x3)"
+          },
+          {
+            "label": "Non-Aircon, Center Door",
+            "value": "45-seater (2x2) or 61-seater (2x3)"
+          },
+          {
+            "label": "Non-Aircon, Front & Center Door",
+            "value": "56-seater (2x3)"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Public transport",
+      "Private shuttle"
+    ],
+    "brochureUrl": "https://www.isuzuphil.com/brochure/",
+    "seo": {
+      "title": "ISUZU FVR Bus | Strongbuilt",
+      "description": "FVR-based bus offered in higher-capacity air-conditioned and non-air-conditioned passenger layouts."
+    },
+    "source": {
+      "website": "Isuzu Philippines",
+      "productUrl": "https://www.isuzuphil.com/trucks/buses",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  }
+]

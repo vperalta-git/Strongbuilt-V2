@@ -15,6 +15,7 @@ export type VehicleImage = {
   sourceUrl?: string
   sourcePage?: string
   storageProvider?: "local" | "cloudinary" | "vercel-blob" | "external"
+  suggestedLocalPath?: string
   status?: string
 }
 
@@ -37,8 +38,10 @@ export type VehicleSource = {
 export type VehicleKeySpecs = {
   engine?: string
   engineDisplacement?: string | number
+  engineDisplacementCc?: number
   horsepower?: number
   powerKw?: number
+  powerPs?: number
   torqueNm?: number
   transmission?: string
   drive?: string
@@ -52,6 +55,7 @@ export type VehicleKeySpecs = {
   fuelType?: string
   emissionStandard?: string
   bodyCapacity?: string
+  rearBodyLength?: string
 }
 
 export type VehicleSpecificationGroup = {

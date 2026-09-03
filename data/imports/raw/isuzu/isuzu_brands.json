@@ -1,0 +1,20 @@
+[
+  {
+    "name": "ISUZU",
+    "slug": "isuzu",
+    "officialWebsite": "https://www.isuzuphil.com/",
+    "logo": {
+      "url": null,
+      "alt": "ISUZU logo",
+      "localPathSuggested": "/images/brands/isuzu.png",
+      "status": "official-logo-source-confirmed-direct-asset-url-needs-extraction"
+    },
+    "description": "Commercial vehicle brand represented in the Philippines by Isuzu Philippines Corporation.",
+    "active": true,
+    "displayOrder": 2,
+    "source": {
+      "website": "https://www.isuzuphil.com/",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

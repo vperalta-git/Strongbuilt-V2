@@ -28,6 +28,7 @@ const importImageSchema = z.object({
   sourceUrl: z.url().optional(),
   sourcePage: z.url().optional(),
   storageProvider: z.enum(["local", "cloudinary", "vercel-blob", "external"]).optional(),
+  suggestedLocalPath: nonEmptyString.optional(),
   status: nonEmptyString.optional(),
 })
 

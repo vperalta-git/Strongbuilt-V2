@@ -20,14 +20,17 @@ export const vehicleImageSchema = z.object({
   sourceUrl: z.url().optional(),
   sourcePage: z.url().optional(),
   storageProvider: z.enum(["local", "cloudinary", "vercel-blob", "external"]).optional(),
+  suggestedLocalPath: nonEmptyString.optional(),
   status: nonEmptyString.optional(),
 })
 
 export const vehicleKeySpecsSchema = z.object({
   engine: nonEmptyString.optional(),
   engineDisplacement: z.union([nonEmptyString, nonNegativeNumber]).optional(),
+  engineDisplacementCc: nonNegativeNumber.optional(),
   horsepower: nonNegativeNumber.optional(),
   powerKw: nonNegativeNumber.optional(),
+  powerPs: nonNegativeNumber.optional(),
   torqueNm: nonNegativeNumber.optional(),
   transmission: nonEmptyString.optional(),
   drive: nonEmptyString.optional(),
@@ -42,6 +45,7 @@ export const vehicleKeySpecsSchema = z.object({
   fuelType: nonEmptyString.optional(),
   emissionStandard: nonEmptyString.optional(),
   bodyCapacity: nonEmptyString.optional(),
+  rearBodyLength: nonEmptyString.optional(),
 })
 
 export const vehicleSpecificationGroupSchema = z.object({
@@ -118,5 +122,61 @@ export const mongoVehicleDocumentSchema = z.object({
   createdAt: z.date(),
   updatedAt: z.date(),
 }).passthrough()
+
+export const canonicalVehicleSchema = z.object({
+  _id: nonEmptyString.optional(),
+  slug: slugSchema,
+  brand: z.object({
+    id: nonEmptyString.optional(),
+    slug: slugSchema.optional(),
+    name: nonEmptyString,
+  }),
+  type: z.object({ id: nonEmptyString.optional(), slug: slugSchema.optional(), name: nonEmptyString }).optional(),
+  name: nonEmptyString,
+  model: nonEmptyString.optional(),
+  vehicleFamily: z.enum(vehicleFamilies),
+  bodyType: z.enum(vehicleBodyTypes),
+  dutyClass: z.enum(vehicleDutyClasses).optional(),
+  propulsion: z.enum(vehiclePropulsions),
+  applicationTags: z.array(z.enum(vehicleApplicationTags)),
+  shortDescription: z.string().optional(),
+  description: z.string().optional(),
+  images: z.array(vehicleImageSchema).min(1),
+  keySpecs: vehicleKeySpecsSchema.optional(),
+  specificationGroups: z.array(vehicleSpecificationGroupSchema),
+  applications: z.array(nonEmptyString),
+  configurations: z.array(nonEmptyString).optional(),
+  brochure: vehicleBrochureSchema.optional(),
+  brochureUrl: nonEmptyString.optional(),
+  source: vehicleSourceSchema.optional(),
+  normalization: z.object({
+    decisions: z.array(z.object({
+      field: nonEmptyString,
+      rawValue: z.unknown().optional(),
+      normalizedValue: z.unknown().optional(),
+      reason: nonEmptyString,
+    })).optional(),
+    warnings: z.array(z.object({
+      severity: z.enum(["warning", "error"]),
+      field: nonEmptyString.optional(),
+      message: nonEmptyString,
+      code: nonEmptyString.optional(),
+    })).optional(),
+  }).optional(),
+  seo: z.object({ title: nonEmptyString.optional(), description: nonEmptyString.optional(), image: nonEmptyString.optional() }).optional(),
+  featured: z.boolean(),
+  active: z.boolean(),
+  displayOrder: z.number().int().nonnegative(),
+  createdAt: nonEmptyString,
+  updatedAt: nonEmptyString,
+  legacy: z.object({
+    category: z.enum(["Light Duty", "Medium Duty", "Heavy Duty", "Passenger", "Trailer"]),
+    bodyType: z.enum(["Cargo", "Dump Truck", "Tractor Head", "Bus", "Trailer", "Specialized / Custom"]),
+  }).optional(),
+}).superRefine((vehicle, context) => {
+  if (vehicle.images.filter((image) => image.isPrimary).length !== 1) {
+    context.addIssue({ code: "custom", path: ["images"], message: "Exactly one primary image is required." })
+  }
+})
 
 export type MongoVehicleDocumentInput = z.infer<typeof mongoVehicleDocumentSchema>

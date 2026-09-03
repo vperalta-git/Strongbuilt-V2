@@ -24,6 +24,7 @@ Quality checks:
 npm run lint
 npm run typecheck
 npm run validate:vehicles
+npm run validate:isuzu
 npm run build
 ```
 
@@ -114,6 +115,8 @@ MongoDB collection names and typed helpers are defined in `lib/db/collections.ts
 The idempotent seed synchronizes catalog and public content records while preserving all existing inquiry and quote-request documents. New contact submissions are stored in `inquiries`; new quotation submissions are stored in `quoteRequests` with a selected-truck snapshot when a catalog vehicle can be resolved.
 
 The canonical internal catalog domain is now `Vehicle`, while the MongoDB `trucks`/`truckTypes` collections, `/trucks` routes, `/api/trucks`, and quote `selectedTruck.truckId` field remain intentional compatibility contracts. Manufacturer imports must pass the non-writing staging and QA pipeline before any later promotion step. See `docs/VEHICLE-MIGRATION-FOUNDATION.md`.
+
+`npm run validate:isuzu` validates only the approved eight-model N-Series test batch. It reads MongoDB solely for brand resolution, duplicate checks, collection counts, and catalog verification; it never writes or promotes staged vehicles. The machine-readable result is generated at `data/imports/reports/isuzu-n-series-test.json`.
 
 ## Content and asset accuracy
 

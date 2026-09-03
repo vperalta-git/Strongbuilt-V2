@@ -1,0 +1,1943 @@
+{
+  "generatedAt": "2026-09-03T02:25:17.970Z",
+  "manufacturer": "ISUZU",
+  "sourceFiles": {
+    "brands": {
+      "path": "data/imports/raw/isuzu/isuzu_brands.json",
+      "records": 1
+    },
+    "trucks": {
+      "path": "data/imports/raw/isuzu/isuzu_trucks.json",
+      "records": 26
+    }
+  },
+  "tested": 8,
+  "passed": 0,
+  "warnings": 1,
+  "errors": 8,
+  "statusCounts": {
+    "pass": 0,
+    "warning": 0,
+    "error": 8
+  },
+  "brandResolution": {
+    "brandSlug": "isuzu",
+    "resolved": false,
+    "resolvedBrandName": null,
+    "resolvedObjectId": null,
+    "hardCoded": false,
+    "availableBrands": [
+      {
+        "name": "Forland",
+        "slug": "forland"
+      },
+      {
+        "name": "SHACMAN",
+        "slug": "shacman"
+      },
+      {
+        "name": "Sinotruck",
+        "slug": "sinotruck"
+      },
+      {
+        "name": "CIMC RJST Trailer",
+        "slug": "cimc-rjst-trailer"
+      },
+      {
+        "name": "Asiastar",
+        "slug": "asiastar"
+      }
+    ]
+  },
+  "records": [
+    {
+      "model": "NMR85HS",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-nmr85hs",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NMR85HS (6-Wheeler)",
+        "model": "NMR85HS",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TTC diesel engine and 14 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+            "alt": "ISUZU NMR85HS (6-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/nmr85hs.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JJ1-TTC",
+          "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+          "maximumTorque": "354 Nm / 1,500 rpm",
+          "gvwKg": 4490,
+          "rearBodyLength": "14 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TTC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "14 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NMR85HS (6-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TTC diesel engine and 14 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-nmr85hs",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NMR85HS (6-Wheeler)",
+        "model": "NMR85HS",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TTC diesel engine and 14 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+            "alt": "ISUZU NMR85HS (6-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/nmr85hs.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JJ1-TTC",
+          "powerKw": 91,
+          "powerPs": 124,
+          "torqueNm": 354,
+          "gvwKg": 4490,
+          "fuelType": "Diesel",
+          "rearBodyLength": "14 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TTC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "14 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NMR85HS brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NMR85HS (6-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TTC diesel engine and 14 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "NQR75LS",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-nqr75ls",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NQR75LS (6-Wheeler)",
+        "model": "NQR75LS",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+            "alt": "ISUZU NQR75LS (6-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/nqr75ls.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4HK1-TCN",
+          "maximumPower": "114 kW (155 PS) / 2,600 rpm",
+          "maximumTorque": "419 Nm / 1,600 rpm",
+          "gvwKg": 8500,
+          "rearBodyLength": "18 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "8,500 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4HK1-TCN"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "114 kW (155 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "419 Nm / 1,600 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "18 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NQR75LS (6-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS."
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "sourceValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
+          "normalizedValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
+          "reason": "Manufacturer-source discrepancy retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING"
+        },
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-nqr75ls",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NQR75LS (6-Wheeler)",
+        "model": "NQR75LS",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+            "alt": "ISUZU NQR75LS (6-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/nqr75ls.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4HK1-TCN",
+          "powerKw": 114,
+          "powerPs": 155,
+          "torqueNm": 419,
+          "gvwKg": 8500,
+          "fuelType": "Diesel",
+          "rearBodyLength": "18 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "8,500 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4HK1-TCN"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "114 kW (155 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "419 Nm / 1,600 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "18 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NQR75LS brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+          "dataWarnings": [
+            "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS."
+          ]
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "warning",
+              "field": "source.dataWarnings",
+              "message": "Manufacturer-source discrepancy retained for manual QA.",
+              "code": "MANUFACTURER_SOURCE_WARNING"
+            },
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NQR75LS (6-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 8,500 kg GVW, 4HK1-TCN diesel engine and 18 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "QLR77E",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-qlr77e",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "QLR77E (4-Wheeler)",
+        "model": "QLR77E",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,200 kg GVW, 4JH1-TC diesel engine and 10 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+            "alt": "ISUZU QLR77E (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/qlr77e.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JH1-TC",
+          "maximumPower": "77 kW (106 PS) / 3,200 rpm",
+          "maximumTorque": "230 Nm / 1,400–3,200 rpm",
+          "gvwKg": 4200,
+          "rearBodyLength": "10 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,200 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JH1-TC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "77 kW (106 PS) / 3,200 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "230 Nm / 1,400–3,200 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "10 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU QLR77E (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,200 kg GVW, 4JH1-TC diesel engine and 10 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-qlr77e",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "QLR77E (4-Wheeler)",
+        "model": "QLR77E",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,200 kg GVW, 4JH1-TC diesel engine and 10 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+            "alt": "ISUZU QLR77E (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/qlr77e.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JH1-TC",
+          "powerKw": 77,
+          "powerPs": 106,
+          "torqueNm": 230,
+          "gvwKg": 4200,
+          "fuelType": "Diesel",
+          "rearBodyLength": "10 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,200 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JH1-TC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "77 kW (106 PS) / 3,200 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "230 Nm / 1,400–3,200 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "10 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "QLR77E brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU QLR77E (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,200 kg GVW, 4JH1-TC diesel engine and 10 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "NLR85ES",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-nlr85es",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NLR85ES (4-Wheeler)",
+        "model": "NLR85ES",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+            "alt": "ISUZU NLR85ES (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/nlr85es.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+          "maximumTorque": "354 Nm / 1,500 rpm",
+          "gvwKg": 4490,
+          "rearBodyLength": "10 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "10 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NLR85ES (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-nlr85es",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NLR85ES (4-Wheeler)",
+        "model": "NLR85ES",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+            "alt": "ISUZU NLR85ES (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/nlr85es.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "powerKw": 91,
+          "powerPs": 124,
+          "torqueNm": 354,
+          "gvwKg": 4490,
+          "fuelType": "Diesel",
+          "rearBodyLength": "10 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "10 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NLR85ES brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NLR85ES (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "NLR77H",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-nlr77h",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NLR77H (4-Wheeler)",
+        "model": "NLR77H",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JH1-TC diesel engine and 14 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+            "alt": "ISUZU NLR77H (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/nlr77h.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JH1-TC",
+          "maximumPower": "77 kW (106 PS) / 3,200 rpm",
+          "maximumTorque": "230 Nm / 1,400–3,200 rpm",
+          "gvwKg": 4490,
+          "rearBodyLength": "14 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JH1-TC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "77 kW (106 PS) / 3,200 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "230 Nm / 1,400–3,200 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "14 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NLR77H (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JH1-TC diesel engine and 14 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-nlr77h",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NLR77H (4-Wheeler)",
+        "model": "NLR77H",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JH1-TC diesel engine and 14 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+            "alt": "ISUZU NLR77H (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/nlr77h.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JH1-TC",
+          "powerKw": 77,
+          "powerPs": 106,
+          "torqueNm": 230,
+          "gvwKg": 4490,
+          "fuelType": "Diesel",
+          "rearBodyLength": "14 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JH1-TC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "77 kW (106 PS) / 3,200 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "230 Nm / 1,400–3,200 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "14 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NLR77H brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NLR77H (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JH1-TC diesel engine and 14 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "NLR85E",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-nlr85e",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NLR85E (4-Wheeler)",
+        "model": "NLR85E",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+            "alt": "ISUZU NLR85E (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/nlr85e.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+          "maximumTorque": "354 Nm / 1,500 rpm",
+          "gvwKg": 4490,
+          "rearBodyLength": "10 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "10 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NLR85E (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-nlr85e",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NLR85E (4-Wheeler)",
+        "model": "NLR85E",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+            "alt": "ISUZU NLR85E (4-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/nlr85e.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "powerKw": 91,
+          "powerPs": 124,
+          "torqueNm": 354,
+          "gvwKg": 4490,
+          "fuelType": "Diesel",
+          "rearBodyLength": "10 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "10 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NLR85E brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NLR85E (4-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 10 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "NMR85H",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-nmr85h",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NMR85H",
+        "model": "NMR85H",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 14 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+            "alt": "ISUZU NMR85H",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/nmr85h.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+          "maximumTorque": "354 Nm / 1,500 rpm",
+          "gvwKg": 4490,
+          "rearBodyLength": "14 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "14 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NMR85H | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 14 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-nmr85h",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NMR85H",
+        "model": "NMR85H",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 14 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+            "alt": "ISUZU NMR85H",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/nmr85h.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "powerKw": 91,
+          "powerPs": 124,
+          "torqueNm": 354,
+          "gvwKg": 4490,
+          "fuelType": "Diesel",
+          "rearBodyLength": "14 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "4,490 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "14 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NMR85H brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NMR85H | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 4,490 kg GVW, 4JJ1-TCC diesel engine and 14 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    },
+    {
+      "model": "NPR85K",
+      "status": "ERROR",
+      "rawSource": {
+        "slug": "isuzu-npr85k",
+        "brand": "ISUZU",
+        "brandSlug": "isuzu",
+        "name": "NPR85K (6-Wheeler)",
+        "model": "NPR85K",
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "truckTypeSlug": "rigid-truck",
+        "class": "Light Duty",
+        "shortDescription": "Isuzu N-Series commercial chassis with 6,500 kg GVW, 4JJ1-TCC diesel engine and 16 ft listed rear body length.",
+        "featured": false,
+        "active": true,
+        "availabilityStatus": "inquire",
+        "availabilityNote": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "configurations": [],
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+            "alt": "ISUZU NPR85K (6-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "localPathSuggested": "/images/trucks/isuzu/npr85k.webp"
+          }
+        ],
+        "imageStatus": "verified-official-url",
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "maximumPower": "91 kW (124 PS) / 2,600 rpm",
+          "maximumTorque": "354 Nm / 1,500 rpm",
+          "gvwKg": 6500,
+          "rearBodyLength": "16 ft",
+          "fuelType": "Diesel"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "6,500 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "16 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "seo": {
+          "title": "ISUZU NPR85K (6-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 6,500 kg GVW, 4JJ1-TCC diesel engine and 16 ft listed rear body length."
+        },
+        "source": {
+          "website": "Isuzu Philippines",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02"
+        },
+        "notes": null
+      },
+      "normalizationDecisions": [
+        {
+          "field": "active",
+          "rawValue": true,
+          "normalizedValue": false,
+          "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+        },
+        {
+          "field": "category",
+          "rawValue": "Rigid Truck / Cab & Chassis",
+          "normalizedValue": {
+            "vehicleFamily": "Truck",
+            "bodyType": "Rigid Truck"
+          },
+          "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+        }
+      ],
+      "issues": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "sourceValue": "isuzu",
+          "normalizedValue": null,
+          "reason": "Unknown brand slug: isuzu.",
+          "code": "UNKNOWN_BRAND"
+        }
+      ],
+      "canonicalVehicle": {
+        "slug": "isuzu-npr85k",
+        "brand": {
+          "slug": "isuzu",
+          "name": "ISUZU"
+        },
+        "name": "NPR85K (6-Wheeler)",
+        "model": "NPR85K",
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [],
+        "shortDescription": "Isuzu N-Series commercial chassis with 6,500 kg GVW, 4JJ1-TCC diesel engine and 16 ft listed rear body length.",
+        "images": [
+          {
+            "url": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+            "alt": "ISUZU NPR85K (6-Wheeler)",
+            "isPrimary": true,
+            "order": 1,
+            "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+            "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+            "storageProvider": "external",
+            "suggestedLocalPath": "/images/trucks/isuzu/npr85k.webp",
+            "status": "verified-official-url"
+          }
+        ],
+        "keySpecs": {
+          "engine": "4JJ1-TCC",
+          "powerKw": 91,
+          "powerPs": 124,
+          "torqueNm": 354,
+          "gvwKg": 6500,
+          "fuelType": "Diesel",
+          "rearBodyLength": "16 ft"
+        },
+        "specificationGroups": [
+          {
+            "title": "Key Specifications",
+            "items": [
+              {
+                "label": "GVW",
+                "value": "6,500 kg"
+              },
+              {
+                "label": "Engine",
+                "value": "4JJ1-TCC"
+              },
+              {
+                "label": "Maximum Output",
+                "value": "91 kW (124 PS) / 2,600 rpm"
+              },
+              {
+                "label": "Maximum Torque",
+                "value": "354 Nm / 1,500 rpm"
+              },
+              {
+                "label": "Rear Body Length",
+                "value": "16 ft"
+              }
+            ]
+          }
+        ],
+        "applications": [],
+        "configurations": [],
+        "brochure": {
+          "url": "https://www.isuzuphil.com/brochure/",
+          "title": "NPR85K brochure source",
+          "source": "Isuzu Philippines"
+        },
+        "brochureUrl": "https://www.isuzuphil.com/brochure/",
+        "source": {
+          "manufacturer": "ISUZU",
+          "website": "https://www.isuzuphil.com/",
+          "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+          "verifiedAt": "2026-09-02",
+          "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+        },
+        "normalization": {
+          "decisions": [
+            {
+              "field": "active",
+              "rawValue": true,
+              "normalizedValue": false,
+              "reason": "Manufacturer availability is preserved in raw data; staging candidates remain inactive until a future approved promotion."
+            },
+            {
+              "field": "category",
+              "rawValue": "Rigid Truck / Cab & Chassis",
+              "normalizedValue": {
+                "vehicleFamily": "Truck",
+                "bodyType": "Rigid Truck"
+              },
+              "reason": "Mapped the manufacturer category into the canonical Vehicle taxonomy."
+            }
+          ],
+          "warnings": [
+            {
+              "severity": "error",
+              "field": "brandSlug",
+              "message": "Unknown brand slug: isuzu.",
+              "code": "UNKNOWN_BRAND"
+            }
+          ]
+        },
+        "seo": {
+          "title": "ISUZU NPR85K (6-Wheeler) | Strongbuilt",
+          "description": "Isuzu N-Series commercial chassis with 6,500 kg GVW, 4JJ1-TCC diesel engine and 16 ft listed rear body length."
+        },
+        "featured": false,
+        "active": false,
+        "displayOrder": 0,
+        "createdAt": "2026-09-03T02:25:17.970Z",
+        "updatedAt": "2026-09-03T02:25:17.970Z"
+      },
+      "legacyAdapter": {
+        "passed": true,
+        "specificationCount": 5
+      },
+      "imageValidation": {
+        "passed": true,
+        "imageCount": 1,
+        "externalOnly": true,
+        "rehosted": false
+      }
+    }
+  ],
+  "duplicateChecks": {
+    "batchSlugCollisions": 0,
+    "productionSlugCollisions": 0,
+    "productionModelCollisions": 0,
+    "otherSourceModelCollisions": 0
+  },
+  "invalidRecordIsolation": {
+    "passed": true,
+    "validRecordsRetained": 8,
+    "malformedRecordsRejected": 1
+  },
+  "productionDatabase": {
+    "before": {
+      "trucks": 12,
+      "brands": 5,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "after": {
+      "trucks": 12,
+      "brands": 5,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "unchanged": true
+  },
+  "publicCatalog": {
+    "count": 12,
+    "uniqueSlugs": 12
+  },
+  "promotionPerformed": false,
+  "recommendation": "NEEDS DATA CORRECTIONS"
+}

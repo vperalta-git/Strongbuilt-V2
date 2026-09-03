@@ -46,6 +46,21 @@ const legacyCategories = new Set<TruckCategory>([
   "Trailer",
 ])
 
+function inferLegacySpecificationGroup(title: string, label: string): TruckSpecification["group"] | undefined {
+  if (legacySpecificationGroups.has(title as TruckSpecification["group"])) {
+    return title as TruckSpecification["group"]
+  }
+
+  const value = `${title} ${label}`.toLowerCase()
+  if (/engine|power|output|torque|fuel|transmission|emission/.test(value)) return "Powertrain"
+  if (/dimension|capacity|gvw|gcm|payload|weight|length|width|height|wheelbase|seat/.test(value)) {
+    return "Dimensions & capacity"
+  }
+  if (/chassis|axle|suspension|brake|tire|steering/.test(value)) return "Chassis & running gear"
+  if (/equipment|feature/.test(value)) return "Equipment"
+  return undefined
+}
+
 function imageStorageProvider(url: string): VehicleImage["storageProvider"] {
   return url.startsWith("/") ? "local" : "external"
 }
@@ -151,13 +166,16 @@ function resolveLegacyBodyType(vehicle: Vehicle): TruckBodyType {
 
 export function vehicleToLegacyTruck(vehicle: Vehicle): Truck {
   const specifications: TruckSpecification[] = vehicle.specificationGroups.flatMap((group) => {
-    if (!legacySpecificationGroups.has(group.title as TruckSpecification["group"])) return []
-    return group.items.map((item) => ({
-      label: item.label,
-      value: item.value,
-      group: group.title as TruckSpecification["group"],
-      ...(item.featured === undefined ? {} : { featured: item.featured }),
-    }))
+    return group.items.flatMap((item) => {
+      const legacyGroup = inferLegacySpecificationGroup(group.title, item.label)
+      if (!legacyGroup) return []
+      return [{
+        label: item.label,
+        value: item.value,
+        group: legacyGroup,
+        ...(item.featured === undefined ? {} : { featured: item.featured }),
+      }]
+    })
   })
 
   return {
