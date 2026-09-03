@@ -19,9 +19,11 @@ export function TruckCard({ truck, priority = false }: { truck: Truck; priority?
             fill
             priority={priority}
             sizes="(min-width: 1280px) 31vw, (min-width: 768px) 48vw, 100vw"
-            className="object-contain p-5 drop-shadow-[0_18px_20px_rgba(0,0,0,0.28)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1"
+            className="object-contain p-4 drop-shadow-[0_18px_20px_rgba(0,0,0,0.28)] transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1 sm:p-5"
           />
-        ) : null}
+        ) : (
+          <span className="absolute inset-0 grid place-items-center px-6 text-center text-xs font-bold uppercase tracking-[0.12em] text-white/58">Vehicle photography unavailable</span>
+        )}
         <span className="absolute left-0 top-0 bg-brand px-3 py-2 text-[10px] font-extrabold uppercase tracking-[0.16em] text-ink">
           {truck.bodyType}
         </span>
@@ -32,10 +34,10 @@ export function TruckCard({ truck, priority = false }: { truck: Truck; priority?
           <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand">{truck.brand}</p>
           <p className="text-[9px] font-extrabold uppercase tracking-[0.14em] text-muted">{truck.category}</p>
         </div>
-        <h2 className="mt-3 font-display text-4xl font-black uppercase leading-[0.9] tracking-[-0.03em]">
+        <h2 className="mt-4 min-h-[6.3rem] font-display text-[clamp(2rem,3.1vw,2.5rem)] font-black uppercase leading-[1.02] tracking-[-0.018em] [overflow-wrap:anywhere] sm:min-h-[7.4rem]">
           <Link href={`/trucks/${truck.slug}`} className="transition-colors hover:text-brand">{truck.model}</Link>
         </h2>
-        <p className="mt-4 text-sm leading-6 text-muted">{truck.shortDescription}</p>
+        <p className="mt-5 text-sm leading-6 text-muted">{truck.shortDescription}</p>
 
         <dl className="mt-6 grid gap-3 border-y border-line py-4 sm:grid-cols-3">
           {quickSpecs.map((spec) => (

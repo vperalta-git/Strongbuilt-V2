@@ -2,6 +2,7 @@ import { ObjectId } from "mongodb"
 import type { Vehicle, VehicleImage } from "@/lib/domain/vehicle"
 import type { VehicleBodyType, VehicleFamily } from "@/lib/domain/vehicle-taxonomy"
 import type { SelectedTruckSnapshot } from "@/types/database"
+import { getApprovedLocalTruckImagePath } from "@/lib/data/truck-local-images"
 import type { Truck, TruckBodyType, TruckCategory, TruckSpecification } from "@/types/truck"
 
 const legacySpecificationGroups = new Set<TruckSpecification["group"]>([
@@ -178,6 +179,14 @@ export function vehicleToLegacyTruck(vehicle: Vehicle): Truck {
     })
   })
 
+  const sortedImages = [...vehicle.images].sort((first, second) => first.order - second.order)
+  const localImagePath = getApprovedLocalTruckImagePath(vehicle.slug)
+  const images = localImagePath
+    ? [{ url: localImagePath, alt: sortedImages[0]?.alt || `${vehicle.brand.name} ${vehicle.model || vehicle.name}` }]
+    : sortedImages
+        .filter((image) => !(image.storageProvider === "external" && /^https?:\/\//i.test(image.url)))
+        .map(({ url, alt }) => ({ url, alt }))
+
   return {
     _id: vehicle._id,
     slug: vehicle.slug,
@@ -187,10 +196,7 @@ export function vehicleToLegacyTruck(vehicle: Vehicle): Truck {
     bodyType: resolveLegacyBodyType(vehicle),
     shortDescription: vehicle.shortDescription || "",
     description: vehicle.description || "",
-    images: [...vehicle.images]
-      .sort((first, second) => first.order - second.order)
-      .filter((image) => !(image.storageProvider === "external" && /^https?:\/\//i.test(image.url)))
-      .map(({ url, alt }) => ({ url, alt })),
+    images,
     featured: vehicle.featured,
     active: vehicle.active,
     applications: vehicle.applications,

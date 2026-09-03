@@ -1,4 +1,6 @@
 import assert from "node:assert/strict"
+import { readFileSync } from "node:fs"
+import { resolve } from "node:path"
 import { ObjectId } from "mongodb"
 import { resolveBrandId } from "@/lib/db/vehicles"
 import { createLegacySelectedTruckSnapshot, legacyTruckToVehicle, vehicleToLegacyTruck } from "@/lib/data/truck-compatibility"
@@ -6,6 +8,7 @@ import { isolateMongoVehicleDocuments } from "@/lib/data/vehicles"
 import { normalizeTaxonomyValue } from "@/lib/domain/vehicle-taxonomy"
 import { stageVehicleImports } from "@/lib/imports/normalize-vehicle"
 import { mockTrucks } from "@/lib/data/mock-trucks"
+import { approvedLocalTruckImagePaths } from "@/lib/data/truck-local-images"
 import { brandSeeds, truckSeeds, truckTypeSeeds } from "@/scripts/seed-data"
 
 function verifyLegacyAdapter() {
@@ -135,11 +138,38 @@ function verifyLegacyQuoteField() {
   assert.equal("vehicleId" in snapshot, false)
 }
 
+function verifyApprovedLocalImages() {
+  assert.equal(Object.keys(approvedLocalTruckImagePaths).length, 8)
+  for (const [slug, publicPath] of Object.entries(approvedLocalTruckImagePaths)) {
+    assert.match(slug, /^isuzu-/)
+    assert.match(publicPath, /^\/images\/trucks\/isuzu\/[a-z0-9-]+\.webp$/)
+    const bytes = readFileSync(resolve("public", publicPath.slice(1)))
+    assert.equal(bytes.subarray(0, 4).toString("ascii"), "RIFF")
+    assert.equal(bytes.subarray(8, 12).toString("ascii"), "WEBP")
+    assert.ok(bytes.length > 20_000 && bytes.length < 500_000)
+  }
+
+  const approvedVehicle = legacyTruckToVehicle(mockTrucks[0])
+  approvedVehicle.slug = "isuzu-nmr85hs"
+  approvedVehicle.images = [{
+    url: "https://www.isuzuphil.com/approved-source.webp",
+    alt: "ISUZU NMR85HS",
+    isPrimary: true,
+    order: 1,
+    storageProvider: "external",
+  }]
+  assert.equal(vehicleToLegacyTruck(approvedVehicle).images[0]?.url, approvedLocalTruckImagePaths["isuzu-nmr85hs"])
+
+  const unapprovedVehicle = { ...approvedVehicle, slug: "unapproved-external-truck" }
+  assert.equal(vehicleToLegacyTruck(unapprovedVehicle).images.length, 0)
+}
+
 verifyLegacyAdapter()
 verifyMongoIsolation()
 verifyBrandResolution()
 verifyStagingValidation()
 verifyLegacyQuoteField()
+verifyApprovedLocalImages()
 
 console.log("Vehicle migration foundation validation passed.")
-console.log("12 legacy records, MongoDB isolation, taxonomy, brand resolution, staging QA, and quote compatibility verified.")
+console.log("12 legacy records, 8 controlled local ISUZU images, MongoDB isolation, taxonomy, staging QA, and quote compatibility verified.")

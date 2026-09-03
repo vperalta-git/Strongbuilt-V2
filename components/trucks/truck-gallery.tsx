@@ -17,9 +17,9 @@ export function TruckGallery({ images }: { images: MediaAsset[] }) {
   }
 
   return (
-    <div>
+    <div className="w-full">
       <div
-        className="vehicle-stage relative aspect-[4/3] overflow-hidden bg-sail"
+        className="vehicle-stage relative aspect-[3/2] overflow-hidden bg-sail lg:aspect-[4/3]"
         onTouchStart={(event) => { touchStart.current = event.touches[0]?.clientX ?? null }}
         onTouchEnd={(event) => {
           if (touchStart.current === null || images.length < 2) return
@@ -35,8 +35,8 @@ export function TruckGallery({ images }: { images: MediaAsset[] }) {
           alt={current.alt}
           fill
           priority
-          sizes="(min-width: 1024px) 58vw, 100vw"
-          className="animate-hero-image object-contain p-5 drop-shadow-[0_24px_26px_rgba(0,0,0,0.18)] sm:p-9"
+          sizes="(min-width: 1440px) 52vw, (min-width: 1024px) 56vw, 100vw"
+          className="animate-hero-image object-contain p-3 drop-shadow-[0_24px_26px_rgba(0,0,0,0.18)] sm:p-6 lg:p-7"
         />
         <a href={current.url} target="_blank" rel="noreferrer" className="absolute right-4 top-4 grid h-11 w-11 place-items-center border border-ink/20 bg-paper/92 text-ink transition-colors hover:border-brand hover:bg-brand hover:text-ink" aria-label="Open full-size vehicle image">
           <Maximize2 aria-hidden="true" className="h-4 w-4" />

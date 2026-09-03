@@ -41,7 +41,7 @@ export default async function TrucksPage() {
         <Container className="relative">
           <div className="max-w-5xl">
             <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-brand">Strongbuilt commercial catalog</p>
-            <h1 className="mt-6 font-display text-[clamp(4.4rem,11.5vw,10.5rem)] font-black uppercase leading-[0.74] tracking-[-0.05em]">Find your <span className="block text-brand">workhorse.</span></h1>
+            <h1 className="mt-6 max-w-[10ch] font-display text-[clamp(3.5rem,10.8vw,9rem)] font-black uppercase leading-[0.82] tracking-[-0.035em]">Find your <span className="block text-brand">workhorse.</span></h1>
             <div className="mt-9 grid max-w-4xl gap-6 border-t border-white/15 pt-7 sm:grid-cols-[auto_1fr] sm:items-start sm:gap-10">
               <p className="font-display text-5xl font-bold text-brand">{String(trucks.length).padStart(2, "0")}</p>
               <p className="max-w-2xl text-base leading-7 text-white/62">Search commercial platforms by brand and body type, then bring the shortlisted unit into a configuration-specific sales discussion.</p>

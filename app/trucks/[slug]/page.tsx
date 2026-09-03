@@ -81,21 +81,21 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
         <div aria-hidden="true" className="industrial-grid absolute inset-0 opacity-45" />
         <div aria-hidden="true" className="absolute -right-10 top-0 font-display text-[18rem] font-black uppercase leading-none tracking-[-0.06em] text-white/[0.025]">{truck.brand}</div>
         <Container className="relative">
-          <div className="grid border border-white/14 bg-ink-soft lg:grid-cols-[1.12fr_0.88fr]">
-            <div className="border-b border-white/14 p-4 sm:p-7 lg:border-b-0 lg:border-r lg:p-9">
+          <div className="grid border border-white/14 bg-ink-soft lg:grid-cols-[minmax(0,1.08fr)_minmax(0,0.92fr)]">
+            <div className="border-b border-white/14 p-4 sm:p-7 lg:flex lg:items-center lg:border-b-0 lg:border-r lg:p-8 xl:p-9">
               <TruckGallery images={truck.images} />
             </div>
 
-            <div className="flex flex-col p-6 sm:p-9 lg:p-12 xl:p-14">
-              <div className="flex flex-wrap items-center gap-2 text-[10px] font-extrabold uppercase tracking-[0.16em]">
-                <span className="bg-brand px-3 py-2 text-ink">{truck.brand}</span>
-                <span className="border border-white/20 px-3 py-2 text-white/58">{truck.bodyType}</span>
-                <span className="border border-white/20 px-3 py-2 text-white/58">{truck.category}</span>
+            <div className="flex min-w-0 flex-col p-6 sm:p-9 lg:p-10 xl:p-12">
+              <div className="flex flex-wrap items-center gap-2.5 text-[10px] font-extrabold uppercase tracking-[0.15em]">
+                <span className="bg-brand px-3.5 py-2 text-ink">{truck.brand}</span>
+                <span className="border border-white/20 px-3.5 py-2 text-white/68">{truck.bodyType}</span>
+                <span className="border border-white/20 px-3.5 py-2 text-white/68">{truck.category}</span>
               </div>
-              <p className="mt-7 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand">Commercial work platform</p>
-              <h1 className="mt-3 font-display text-[clamp(4.8rem,8vw,8.5rem)] font-black uppercase leading-[0.72] tracking-[-0.05em] text-white">{modelLead}</h1>
-              {modelDetail ? <p className="mt-5 max-w-xl font-display text-2xl font-bold uppercase leading-[1.05] tracking-[0.015em] text-white/72 sm:text-3xl">{modelDetail}</p> : null}
-              <p className="mt-6 text-base leading-7 text-white/62 sm:text-lg">{truck.shortDescription}</p>
+              <p className="mt-8 text-[10px] font-extrabold uppercase tracking-[0.2em] text-brand">Commercial work platform</p>
+              <h1 className="mt-4 max-w-full font-display text-[clamp(3.5rem,6.6vw,7rem)] font-black uppercase leading-[0.86] tracking-[-0.035em] text-white [overflow-wrap:anywhere]">{modelLead}</h1>
+              {modelDetail ? <p className="mt-4 max-w-xl font-display text-[clamp(1.5rem,2.5vw,2rem)] font-bold uppercase leading-[1.08] tracking-[0.01em] text-white/76">{modelDetail}</p> : null}
+              <p className="mt-6 max-w-[42rem] text-base leading-7 text-white/68 sm:text-lg sm:leading-8">{truck.shortDescription}</p>
 
               {featuredSpecs.length ? (
                 <dl className="mt-8 grid grid-cols-2 border-l border-t border-white/14">
@@ -108,13 +108,13 @@ export default async function TruckDetailPage({ params }: TruckPageProps) {
                 </dl>
               ) : null}
 
-              <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:mt-auto lg:pt-9">
+              <div className="mt-9 grid gap-3 sm:grid-cols-2">
                 <ButtonLink href={`/request-a-quote?truck=${encodeURIComponent(truck.slug)}`} size="lg">Request a quote</ButtonLink>
                 <a href={`tel:${siteConfig.contact.phoneHref}`} className="inline-flex min-h-14 items-center justify-center gap-3 border border-white/50 px-6 text-sm font-extrabold uppercase tracking-[0.12em] text-white transition-colors hover:border-white hover:bg-white hover:text-ink">
                   <Phone aria-hidden="true" className="h-4 w-4" /> Contact sales
                 </a>
               </div>
-              <p className="mt-4 text-xs leading-5 text-white/65">Specifications and configuration availability are subject to sales confirmation.</p>
+              <p className="mt-3 max-w-xl text-xs leading-5 text-white/68">Specifications and configuration availability are subject to sales confirmation.</p>
             </div>
           </div>
         </Container>
