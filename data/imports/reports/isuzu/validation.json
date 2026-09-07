@@ -1,7 +1,7 @@
 {
   "manufacturer": "isuzu",
   "displayName": "ISUZU",
-  "generatedAt": "2026-09-07T08:49:17.578Z",
+  "generatedAt": "2026-09-07T11:00:15.959Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -14,32 +14,43 @@
     }
   },
   "selection": {
+    "batchId": "isuzu-remaining-001",
     "requestedModels": [
-      "NMR85HS",
-      "NQR75LS",
-      "QLR77E",
-      "NLR85ES",
-      "NLR77H",
-      "NLR85E",
-      "NMR85H",
-      "NPR85K"
+      "TRAVIZ S",
+      "TRAVIZ L",
+      "NQR75L",
+      "FRR90 M",
+      "FTR90 M",
+      "FVR34 Q",
+      "FVM34 W",
+      "FVM34 T",
+      "FXM60 W",
+      "FVR34QS",
+      "FRR90MS",
+      "FVZ34",
+      "GXZ60N",
+      "TRAVIZ PUV",
+      "NLR77",
+      "NPR85",
+      "NQR",
+      "FVR"
     ],
     "sourceRecords": 26,
-    "recordsTested": 8
+    "recordsTested": 18
   },
   "summary": {
-    "recordsLoaded": 8,
-    "recordsNormalized": 8,
-    "eligible": 0,
-    "warnings": 9,
+    "recordsLoaded": 18,
+    "recordsNormalized": 18,
+    "eligible": 18,
+    "warnings": 11,
     "errors": 0,
-    "alreadyExists": 8,
-    "expectedInserts": 0,
+    "alreadyExists": 0,
+    "expectedInserts": 18,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
-    "applyAllowed": false,
+    "applyAllowed": true,
     "blocked": 0,
     "batchErrors": []
   },
@@ -52,29 +63,145 @@
   },
   "typeCompatibility": {
     "requestedSourceTypes": [
-      "rigid-truck"
+      "light-commercial",
+      "rigid-truck",
+      "tractor-head",
+      "puv",
+      "bus"
     ],
     "resolvedSourceTypes": [
-      "rigid-truck"
+      "light-commercial",
+      "rigid-truck",
+      "tractor-head",
+      "puv",
+      "bus"
     ],
-    "allResolved": true
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
   },
   "duplicateChecks": {
-    "alreadyExists": 8,
+    "alreadyExists": 0,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "productionIdentityConflicts": 0,
-    "sharedOfficialProductUrls": 1
+    "sharedOfficialProductUrls": 4
   },
   "imageStatus": {
-    "imagesTested": 8,
-    "localAssetsReady": 8,
+    "imagesTested": 18,
+    "localAssetsReady": 18,
     "localMigrationRequired": 0,
     "missingImageRecords": 0
   },
+  "frontendCompatibility": {
+    "recordsTested": 18,
+    "recordsPassed": 18,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": true
+  },
   "promotion": {
     "writesPerformed": 0,
-    "expectedInserts": 0,
+    "expectedInserts": 18,
     "expectedUpdates": 0,
     "expectedDeletes": 0,
     "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
@@ -128,21 +255,28 @@
   },
   "records": [
     {
-      "model": "NMR85HS",
-      "slug": "isuzu-nmr85hs",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
-      "warnings": [
-        {
-          "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-nmr85hs",
-          "normalizedValue": "isuzu-nmr85hs"
-        }
-      ],
+      "model": "TRAVIZ S",
+      "slug": "isuzu-traviz-s",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "TRAVIZ",
+        "category": "Light Commercial Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Short wheelbase"
+        ],
+        "applications": [
+          "Utility Van",
+          "Aluminum Van",
+          "Dropside",
+          "Stake Body"
+        ],
+        "gvwKg": 2950,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "light-commercial"
+      },
+      "warnings": [],
       "errors": [],
       "brandResolution": {
         "slug": "isuzu",
@@ -158,7 +292,7 @@
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Rigid Truck",
+        "bodyType": "Mini Truck",
         "dutyClass": "Light Duty",
         "propulsion": "Diesel",
         "applicationTags": []
@@ -166,16 +300,16 @@
       "source": {
         "manufacturer": "ISUZU",
         "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+        "productUrl": "https://www.isuzuphil.com/trucks/traviz",
         "verifiedAt": "2026-09-02",
         "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-S-UV.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nmr85hs.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-s.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -183,35 +317,33 @@
       "legacyCompatibility": {
         "passed": true,
         "imagesExposed": 1,
-        "specifications": 5,
+        "specifications": 14,
         "quoteSnapshotCompatible": true
       }
     },
     {
-      "model": "NQR75LS",
-      "slug": "isuzu-nqr75ls",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
-      "warnings": [
-        {
-          "severity": "warning",
-          "field": "source.dataWarnings",
-          "message": "Manufacturer-source discrepancy retained for manual QA.",
-          "sourceValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
-          "normalizedValue": "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS.",
-          "reason": "Manufacturer-source discrepancy retained for manual QA.",
-          "code": "MANUFACTURER_SOURCE_WARNING"
-        },
-        {
-          "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-nqr75ls",
-          "normalizedValue": "isuzu-nqr75ls"
-        }
-      ],
+      "model": "TRAVIZ L",
+      "slug": "isuzu-traviz-l",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "TRAVIZ",
+        "category": "Light Commercial Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Long wheelbase"
+        ],
+        "applications": [
+          "Utility Van",
+          "Aluminum Van",
+          "Dropside",
+          "Stake Body"
+        ],
+        "gvwKg": 2950,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "light-commercial"
+      },
+      "warnings": [],
       "errors": [],
       "brandResolution": {
         "slug": "isuzu",
@@ -227,7 +359,7 @@
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Rigid Truck",
+        "bodyType": "Mini Truck",
         "dutyClass": "Light Duty",
         "propulsion": "Diesel",
         "applicationTags": []
@@ -235,79 +367,16 @@
       "source": {
         "manufacturer": "ISUZU",
         "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
-        "verifiedAt": "2026-09-02",
-        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
-        "dataWarnings": [
-          "The official N-Series model card currently displays '115 PS', while the specification table on the same page states 114 kW (155 PS). This record uses the specification-table value of 155 PS."
-        ]
-      },
-      "images": [
-        {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nqr75ls.webp",
-          "localAssetExists": true,
-          "status": "LOCAL_ASSET_READY"
-        }
-      ],
-      "legacyCompatibility": {
-        "passed": true,
-        "imagesExposed": 1,
-        "specifications": 5,
-        "quoteSnapshotCompatible": true
-      }
-    },
-    {
-      "model": "QLR77E",
-      "slug": "isuzu-qlr77e",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
-      "warnings": [
-        {
-          "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-qlr77e",
-          "normalizedValue": "isuzu-qlr77e"
-        }
-      ],
-      "errors": [],
-      "brandResolution": {
-        "slug": "isuzu",
-        "name": "ISUZU",
-        "resolved": true,
-        "matchedBy": "slug"
-      },
-      "typeResolution": {
-        "resolved": true,
-        "id": "6a97ba5626fa08a50cf0f52f",
-        "name": "Cargo",
-        "slug": "cargo"
-      },
-      "taxonomy": {
-        "vehicleFamily": "Truck",
-        "bodyType": "Rigid Truck",
-        "dutyClass": "Light Duty",
-        "propulsion": "Diesel",
-        "applicationTags": []
-      },
-      "source": {
-        "manufacturer": "ISUZU",
-        "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+        "productUrl": "https://www.isuzuphil.com/trucks/traviz",
         "verifiedAt": "2026-09-02",
         "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-L-UV.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/qlr77e.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-l.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -315,23 +384,33 @@
       "legacyCompatibility": {
         "passed": true,
         "imagesExposed": 1,
-        "specifications": 5,
+        "specifications": 14,
         "quoteSnapshotCompatible": true
       }
     },
     {
-      "model": "NLR85ES",
-      "slug": "isuzu-nlr85es",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
+      "model": "NQR75L",
+      "slug": "isuzu-nqr75l",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Light Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 8500,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
       "warnings": [
         {
           "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-nlr85es",
+          "field": "source.productUrl",
+          "message": "Another production vehicle uses this official product URL; review likely equivalence.",
+          "reason": "Another production vehicle uses this official product URL; review likely equivalence.",
+          "code": "PRODUCTION_SOURCE_URL_COLLISION",
+          "sourceValue": "https://www.isuzuphil.com/trucks/n-series",
           "normalizedValue": "isuzu-nlr85es"
         }
       ],
@@ -364,10 +443,10 @@
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75L%201.webp",
           "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nlr85es.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/nqr75l.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -380,19 +459,29 @@
       }
     },
     {
-      "model": "NLR77H",
-      "slug": "isuzu-nlr77h",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
+      "model": "FRR90 M",
+      "slug": "isuzu-frr90m",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 10600,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
       "warnings": [
         {
           "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-nlr77h",
-          "normalizedValue": "isuzu-nlr77h"
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
       "errors": [],
@@ -411,23 +500,23 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
-        "dutyClass": "Light Duty",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
       "source": {
         "manufacturer": "ISUZU",
         "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
         "verifiedAt": "2026-09-02",
         "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FRR90-M.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nlr77h.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/frr90m.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -435,24 +524,34 @@
       "legacyCompatibility": {
         "passed": true,
         "imagesExposed": 1,
-        "specifications": 5,
+        "specifications": 6,
         "quoteSnapshotCompatible": true
       }
     },
     {
-      "model": "NLR85E",
-      "slug": "isuzu-nlr85e",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
+      "model": "FTR90 M",
+      "slug": "isuzu-ftr90m",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 14200,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
       "warnings": [
         {
           "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-nlr85e",
-          "normalizedValue": "isuzu-nlr85e"
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (14,200 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (14,200 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
       "errors": [],
@@ -471,23 +570,23 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
-        "dutyClass": "Light Duty",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
       "source": {
         "manufacturer": "ISUZU",
         "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
         "verifiedAt": "2026-09-02",
         "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/ftr90m2022.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nlr85e.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/ftr90m.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -500,19 +599,29 @@
       }
     },
     {
-      "model": "NMR85H",
-      "slug": "isuzu-nmr85h",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
+      "model": "FVR34 Q",
+      "slug": "isuzu-fvr34q",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 16000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
       "warnings": [
         {
           "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-nmr85h",
-          "normalizedValue": "isuzu-nmr85h"
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
       "errors": [],
@@ -531,23 +640,93 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
-        "dutyClass": "Light Duty",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
       "source": {
         "manufacturer": "ISUZU",
         "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
         "verifiedAt": "2026-09-02",
         "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//GR1_6354-FVR34-quarter%20right.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nmr85h.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr34q.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "FVM34 W",
+      "slug": "isuzu-fvm34w",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Wing Van",
+        "dutyClass": "Heavy Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//GR1_5282-FVM34%20W%20quarter%20right.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvm34w.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -560,19 +739,29 @@
       }
     },
     {
-      "model": "NPR85K",
-      "slug": "isuzu-npr85k",
-      "status": "ALREADY_EXISTS",
-      "promotionEligible": false,
+      "model": "FVM34 T",
+      "slug": "isuzu-fvm34t",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
       "warnings": [
         {
           "severity": "warning",
-          "field": "identity",
-          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
-          "code": "ALREADY_EXISTS",
-          "sourceValue": "isuzu-npr85k",
-          "normalizedValue": "isuzu-npr85k"
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
       "errors": [],
@@ -591,23 +780,23 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
-        "dutyClass": "Light Duty",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
       "source": {
         "manufacturer": "ISUZU",
         "website": "https://www.isuzuphil.com/",
-        "productUrl": "https://www.isuzuphil.com/trucks/n-series",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
         "verifiedAt": "2026-09-02",
         "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
       },
       "images": [
         {
-          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
-          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVM34-T.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/npr85k.webp",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvm34t.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }
@@ -616,6 +805,694 @@
         "passed": true,
         "imagesExposed": 1,
         "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "FXM60 W",
+      "slug": "isuzu-fxm60w",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 28000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (28,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (28,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Heavy Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FXM-Beauty-Shot.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fxm60w.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "FVR34QS",
+      "slug": "isuzu-fvr34qs",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 16000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVR34QS-Truck-Crane.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr34qs.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "FRR90MS",
+      "slug": "isuzu-frr90ms",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 10600,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//trucks/F-SERIES_FOR_ADV.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/frr90ms.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "FVZ34",
+      "slug": "isuzu-fvz34",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "dutyClass",
+          "message": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Heavy Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media/f%20series%20trucks/FVZ34.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvz34.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "GXZ60N",
+      "slug": "isuzu-gxz60n-tractor-head",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Tractor Head",
+        "dutyClassification": "Heavy Duty",
+        "configurations": [],
+        "applications": [
+          "Heavy road haulage",
+          "Trailer operations"
+        ],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "tractor-head"
+      },
+      "warnings": [],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f531",
+        "name": "Tractor Head",
+        "slug": "tractor-head"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Tractor Head",
+        "dutyClass": "Heavy Duty",
+        "propulsion": "Diesel",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/f-series",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/f-series/GXZ.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/gxz60n.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "TRAVIZ PUV",
+      "slug": "isuzu-traviz-puv",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "PUV",
+        "category": "Public Utility Vehicle",
+        "dutyClassification": null,
+        "configurations": [
+          "Class I",
+          "Side-facing seats",
+          "13 + 1 seating"
+        ],
+        "applications": [
+          "Public transportation"
+        ],
+        "gvwKg": 2950,
+        "propulsion": null,
+        "legacyTypeHint": "puv"
+      },
+      "warnings": [],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "PUV",
+        "bodyType": "Bus",
+        "propulsion": "Unknown",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/puv",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//traviz-puv-variant.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/puv",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-puv.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 10,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NLR77",
+      "slug": "isuzu-nlr77-puv",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "PUV",
+        "category": "Public Utility Vehicle",
+        "dutyClassification": null,
+        "configurations": [
+          "Class II side-facing seat configuration",
+          "Class III front-facing seat configuration"
+        ],
+        "applications": [
+          "Public transportation"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "puv"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer-source discrepancy retained for manual QA.",
+          "sourceValue": "The official page shows NLR77 more than once with different body/seat configurations. This import consolidates them into one product-family record.",
+          "normalizedValue": "The official page shows NLR77 more than once with different body/seat configurations. This import consolidates them into one product-family record.",
+          "reason": "Manufacturer-source discrepancy retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "PUV",
+        "bodyType": "Bus",
+        "propulsion": "Unknown",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/puv",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock.",
+        "dataWarnings": [
+          "The official page shows NLR77 more than once with different body/seat configurations. This import consolidates them into one product-family record."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NLR77%202.0%20Almazora.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/puv",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nlr77-puv.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NPR85",
+      "slug": "isuzu-npr85-puv",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "PUV",
+        "category": "Public Utility Vehicle",
+        "dutyClassification": null,
+        "configurations": [
+          "Class II side-facing seat configuration",
+          "Class III front-facing seat configuration"
+        ],
+        "applications": [
+          "Public transportation"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "puv"
+      },
+      "warnings": [],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "PUV",
+        "bodyType": "Bus",
+        "propulsion": "Unknown",
+        "applicationTags": []
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/puv",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NPR85%20PUV.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/puv",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/npr85-puv.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "NQR",
+      "slug": "isuzu-nqr-bus",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Buses",
+        "category": "Bus",
+        "dutyClassification": null,
+        "configurations": [
+          "Aircon center door, 28 seats (2x2)",
+          "Aircon center door, 35 seats (2x3)",
+          "Non-aircon center door, 28 seats (2x2)",
+          "Non-aircon center door, 35 seats (2x3)"
+        ],
+        "applications": [
+          "Public transport",
+          "Private shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "bus"
+      },
+      "warnings": [],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Bus",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport"
+        ]
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/buses",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-nqr-01.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/buses",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nqr-bus.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "FVR",
+      "slug": "isuzu-fvr-bus",
+      "status": "PASS",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Buses",
+        "category": "Bus",
+        "dutyClassification": null,
+        "configurations": [
+          "Aircon center door, 45 seats (2x2)",
+          "Aircon center door, 61 seats (2x3)",
+          "Non-aircon center door, 45 seats (2x2)",
+          "Non-aircon center door, 61 seats (2x3)",
+          "Non-aircon front and center door, 56 seats (2x3)"
+        ],
+        "applications": [
+          "Public transport",
+          "Private shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "bus"
+      },
+      "warnings": [],
+      "errors": [],
+      "brandResolution": {
+        "slug": "isuzu",
+        "name": "ISUZU",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Bus",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport"
+        ]
+      },
+      "source": {
+        "manufacturer": "ISUZU",
+        "website": "https://www.isuzuphil.com/",
+        "productUrl": "https://www.isuzuphil.com/trucks/buses",
+        "verifiedAt": "2026-09-02",
+        "notes": "Officially listed by Isuzu Philippines. Confirm Strongbuilt sourcing and current availability before publishing as available stock."
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-fvr-02.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/buses",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr-bus.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
         "quoteSnapshotCompatible": true
       }
     }

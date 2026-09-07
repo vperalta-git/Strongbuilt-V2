@@ -17,6 +17,7 @@
     "validate:manufacturer": "tsx scripts/validate-manufacturer.ts",
     "promote:manufacturer": "tsx scripts/promote-manufacturer.ts",
     "test:manufacturer-importer": "tsx scripts/test-manufacturer-importer.ts",
+    "prepare:isuzu-remaining-images": "tsx scripts/prepare-isuzu-remaining-images.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },

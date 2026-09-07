@@ -4,6 +4,7 @@ import { existsSync } from "node:fs"
 import { mkdir, writeFile } from "node:fs/promises"
 import { dirname, resolve } from "node:path"
 import type { Db } from "mongodb"
+import { vehicleBodyTypes, vehicleDutyClasses, vehicleFamilies, vehiclePropulsions } from "@/lib/domain/vehicle-taxonomy"
 import {
   getBrandsCollection,
   getInquiriesCollection,
@@ -33,6 +34,7 @@ export type ManufacturerCommandOptions = {
   mode: ManufacturerCommandMode
   manufacturer: string
   models?: string[]
+  batchId?: string
   apply?: boolean
 }
 
@@ -77,6 +79,22 @@ function imageInspection(normalized: ManufacturerNormalizationResult | undefined
   }) || []
 }
 
+function sourceSnapshot(raw: unknown) {
+  if (!raw || typeof raw !== "object") return null
+  const value = raw as Record<string, unknown>
+  const keySpecs = value.keySpecs && typeof value.keySpecs === "object" ? value.keySpecs as Record<string, unknown> : {}
+  return {
+    productLine: value.productLine || null,
+    category: value.category || null,
+    dutyClassification: value.class || null,
+    configurations: Array.isArray(value.configurations) ? value.configurations : [],
+    applications: Array.isArray(value.applications) ? value.applications : [],
+    gvwKg: keySpecs.gvwKg || null,
+    propulsion: keySpecs.fuelType || null,
+    legacyTypeHint: value.truckTypeSlug || null,
+  }
+}
+
 function reportPath(manufacturer: string, filename: string) {
   return resolve(`data/imports/reports/${manufacturer}/${filename}`)
 }
@@ -101,7 +119,14 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
   const availableModels = adapted.flatMap((record) => record.success
     ? [record.input.model || record.input.name]
     : record.model ? [record.model] : [])
-  const requestedSet = options.models?.length ? new Set(options.models.map(normalizeModel)) : undefined
+  if (options.models?.length && options.batchId) throw new Error("Use either --models or --batch, not both.")
+  const batchModels = options.batchId ? config.reviewedBatches?.[options.batchId] : undefined
+  if (options.batchId && !batchModels) {
+    throw new Error(`Unknown reviewed batch "${options.batchId}" for ${config.displayName}.`)
+  }
+  if (options.apply && !options.batchId) throw new Error("Apply requires a stable reviewed --batch selector.")
+  const selectionModels = batchModels || options.models
+  const requestedSet = selectionModels?.length ? new Set(selectionModels.map(normalizeModel)) : undefined
   if (requestedSet) {
     const missing = [...requestedSet].filter((requested) => !availableModels.some((model) => normalizeModel(model) === requested))
     if (missing.length) throw new Error(`Requested models were not found in source: ${missing.join(", ")}.`)
@@ -131,6 +156,10 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
 
   const validSelected = selected.filter((record): record is Extract<typeof record, { success: true }> => record.success)
   const typeResolutions = await resolveLegacyTypes(db, config, validSelected.map((record) => record.legacyTypeSlug))
+  const availableLegacyTypes = await getTruckTypesCollection(db)
+    .find({}, { projection: { _id: 0, name: 1, slug: 1, vehicleFamily: 1, canonicalBodyType: 1 } })
+    .sort({ displayOrder: 1 })
+    .toArray()
   const stagedValid = stageVehicleImports(validSelected.map((record) => record.input), {
     knownBrandSlugs: brand.id ? [brand.slug] : [],
   })
@@ -177,9 +206,9 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
   const timestamp = new Date()
   const plan = createInsertOnlyPromotionPlan({
     definition: {
-      batch: `${config.slug}-${timestamp.toISOString().slice(0, 10)}`,
+      batch: options.batchId || `${config.slug}-${timestamp.toISOString().slice(0, 10)}`,
       manufacturer: config.displayName,
-      allowedModels: availableModels,
+      allowedModels: selectionModels || availableModels,
       importVersion: config.importVersion,
     },
     requestedManufacturer: config.displayName,
@@ -219,6 +248,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     slug: record.slug,
     status: record.promotionStatus === "already-exists" ? "ALREADY_EXISTS" : record.promotionStatus === "eligible" ? (record.warnings.length ? "WARNING" : "PASS") : "ERROR",
     promotionEligible: record.promotionStatus === "eligible",
+    sourceInventory: sourceSnapshot(candidates[index].raw),
     warnings: record.warnings,
     errors: record.errors,
     brandResolution: { slug: brand.slug, name: brand.name || null, resolved: Boolean(brand.id), matchedBy: brand.matchedBy || null },
@@ -244,13 +274,29 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     localMigrationRequired: reportRecords.flatMap((record) => record.images).filter((image) => image.status === "LOCAL_MIGRATION_REQUIRED").length,
     missingImageRecords: reportRecords.filter((record) => record.images.length === 0).length,
   }
+  const frontendCompatibility = {
+    recordsTested: reportRecords.length,
+    recordsPassed: reportRecords.filter((record) => (
+      record.legacyCompatibility.passed &&
+      record.legacyCompatibility.imagesExposed > 0 &&
+      record.legacyCompatibility.quoteSnapshotCompatible
+    )).length,
+    surfaces: {
+      catalogList: "legacy Truck projection",
+      detailRoute: "slug and legacy Truck projection",
+      search: "brand, model, category, bodyType, and application fields",
+      filters: "brand plus resolved legacy type/body fields",
+      sorting: "name, model, and displayOrder fields",
+      requestQuote: "selectedTruck.truckId ObjectId snapshot",
+    },
+  }
   const report = {
     manufacturer: config.slug,
     displayName: config.displayName,
     generatedAt: timestamp.toISOString(),
     mode: options.apply ? "apply" : options.mode === "promote" ? "dry-run" : "validation",
     sourceFiles: source.files,
-    selection: { requestedModels: options.models || "all", sourceRecords: source.vehicleRecords.length, recordsTested: selected.length },
+    selection: { batchId: options.batchId || null, requestedModels: selectionModels || "all", sourceRecords: source.vehicleRecords.length, recordsTested: selected.length },
     summary: {
       recordsLoaded: selected.length,
       recordsNormalized: selected.filter((record) => record.success).length,
@@ -268,6 +314,13 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
       requestedSourceTypes: [...new Set(validSelected.map((record) => record.legacyTypeSlug))],
       resolvedSourceTypes: [...typeResolutions.keys()],
       allResolved: validSelected.every((record) => typeResolutions.has(record.legacyTypeSlug)),
+      availableLegacyTypes,
+    },
+    canonicalTaxonomy: {
+      vehicleFamilies,
+      bodyTypes: vehicleBodyTypes,
+      dutyClasses: vehicleDutyClasses,
+      propulsions: vehiclePropulsions,
     },
     duplicateChecks: {
       alreadyExists: plan.alreadyExists,
@@ -281,6 +334,10 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
       }, {})).filter((count) => count > 1).length,
     },
     imageStatus: imageSummary,
+    frontendCompatibility: {
+      ...frontendCompatibility,
+      allPassed: frontendCompatibility.recordsPassed === frontendCompatibility.recordsTested,
+    },
     promotion: {
       writesPerformed: insertedIds.length,
       expectedInserts: plan.applyAllowed ? plan.eligible : 0,

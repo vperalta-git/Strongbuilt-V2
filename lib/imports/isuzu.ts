@@ -135,6 +135,20 @@ function warning(
   return { severity: "warning", field, message: reason, sourceValue, normalizedValue, reason, code }
 }
 
+const PHILIPPINE_CATEGORY_IV_MAX_GVW_KG = 18_000
+
+function sourceDutyClass(record: IsuzuTruckSource) {
+  if (record.class !== "Medium / Heavy Duty") return record.class || undefined
+
+  // Philippine truck market reporting separates Category IV (6,001-18,000 kg
+  // GVW) from Category V (over 18,000 kg GVW). The source provides an exact
+  // GVW for every affected F-Series record, so the combined label can be
+  // resolved deterministically without inferring a body configuration.
+  return (record.keySpecs.gvwKg || 0) <= PHILIPPINE_CATEGORY_IV_MAX_GVW_KG
+    ? "Medium Duty"
+    : "Heavy Duty"
+}
+
 function sourceTaxonomy(record: IsuzuTruckSource) {
   const categoryMappings: Record<string, { family: string; bodyType: string }> = {
     "Light Commercial Truck": { family: "Truck", bodyType: "Mini Truck" },
@@ -145,8 +159,8 @@ function sourceTaxonomy(record: IsuzuTruckSource) {
   }
   const mapping = categoryMappings[record.category]
   const family = mapping?.family || record.category
-  const bodyType = mapping?.bodyType || record.category
-  const dutyClass = record.class || undefined
+  const bodyType = record.model === "FVM34 W" ? "Wing Van" : mapping?.bodyType || record.category
+  const dutyClass = sourceDutyClass(record)
   const propulsion = record.keySpecs.fuelType || "Unknown"
 
   return {
@@ -198,6 +212,27 @@ export function normalizeIsuzuSourceRecord(
     ))
   }
 
+  if (record.class === "Medium / Heavy Duty") {
+    issues.push(warning(
+      "dutyClass",
+      record.class,
+      taxonomy.dutyClass,
+      taxonomy.dutyClass === "Medium Duty"
+        ? `Resolved from the official model GVW (${record.keySpecs.gvwKg?.toLocaleString("en-US")} kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.`
+        : `Resolved from the official model GVW (${record.keySpecs.gvwKg?.toLocaleString("en-US")} kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.`,
+      "SOURCE_DUTY_CLASS_RESOLVED",
+    ))
+  }
+
+  if (record.model === "FVM34 W") {
+    decisions.push({
+      field: "bodyType",
+      rawValue: record.category,
+      normalizedValue: "Wing Van",
+      reason: "The official model description identifies FVM34 W as a G-Cargo Wingvan.",
+    })
+  }
+
   const keySpecs = compact({
     engine: record.keySpecs.engine,
     engineDisplacementCc: record.keySpecs.displacementCc,
@@ -235,7 +270,7 @@ export function normalizeIsuzuSourceRecord(
         sourceUrl: image.url,
         sourcePage: record.source.productUrl,
         storageProvider: "external" as const,
-        suggestedLocalPath: image.localPathSuggested,
+        suggestedLocalPath: image.localPathSuggested?.replace(/\.[a-z0-9]+$/i, ".webp"),
         status: record.imageStatus,
       })),
       keySpecs,

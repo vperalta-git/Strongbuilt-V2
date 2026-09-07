@@ -1,7 +1,7 @@
 {
   "manufacturer": "isuzu",
   "displayName": "ISUZU",
-  "generatedAt": "2026-09-07T08:49:35.786Z",
+  "generatedAt": "2026-09-07T11:00:00.897Z",
   "mode": "dry-run",
   "sourceFiles": {
     "brands": {
@@ -14,6 +14,7 @@
     }
   },
   "selection": {
+    "batchId": "isuzu-remaining-001",
     "requestedModels": [
       "TRAVIZ S",
       "TRAVIZ L",
@@ -40,17 +41,17 @@
   "summary": {
     "recordsLoaded": 18,
     "recordsNormalized": 18,
-    "eligible": 9,
-    "warnings": 2,
-    "errors": 18,
+    "eligible": 18,
+    "warnings": 11,
+    "errors": 0,
     "alreadyExists": 0,
-    "expectedInserts": 0,
+    "expectedInserts": 18,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
-    "applyAllowed": false,
-    "blocked": 9,
+    "applyAllowed": true,
+    "blocked": 0,
     "batchErrors": []
   },
   "brandResolution": {
@@ -75,7 +76,102 @@
       "puv",
       "bus"
     ],
-    "allResolved": true
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
   },
   "duplicateChecks": {
     "alreadyExists": 0,
@@ -86,13 +182,26 @@
   },
   "imageStatus": {
     "imagesTested": 18,
-    "localAssetsReady": 0,
-    "localMigrationRequired": 18,
+    "localAssetsReady": 18,
+    "localMigrationRequired": 0,
     "missingImageRecords": 0
+  },
+  "frontendCompatibility": {
+    "recordsTested": 18,
+    "recordsPassed": 18,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": true
   },
   "promotion": {
     "writesPerformed": 0,
-    "expectedInserts": 0,
+    "expectedInserts": 18,
     "expectedUpdates": 0,
     "expectedDeletes": 0,
     "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
@@ -150,6 +259,23 @@
       "slug": "isuzu-traviz-s",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "TRAVIZ",
+        "category": "Light Commercial Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Short wheelbase"
+        ],
+        "applications": [
+          "Utility Van",
+          "Aluminum Van",
+          "Dropside",
+          "Stake Body"
+        ],
+        "gvwKg": 2950,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "light-commercial"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -184,13 +310,13 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/traviz-s.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 14,
         "quoteSnapshotCompatible": true
       }
@@ -200,6 +326,23 @@
       "slug": "isuzu-traviz-l",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "TRAVIZ",
+        "category": "Light Commercial Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Long wheelbase"
+        ],
+        "applications": [
+          "Utility Van",
+          "Aluminum Van",
+          "Dropside",
+          "Stake Body"
+        ],
+        "gvwKg": 2950,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "light-commercial"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -234,13 +377,13 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/traviz-l.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 14,
         "quoteSnapshotCompatible": true
       }
@@ -250,6 +393,16 @@
       "slug": "isuzu-nqr75l",
       "status": "WARNING",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "N-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Light Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 8500,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
       "warnings": [
         {
           "severity": "warning",
@@ -294,13 +447,13 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/nqr75l.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -308,25 +461,30 @@
     {
       "model": "FRR90 M",
       "slug": "isuzu-frr90m",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 10600,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-frr90m requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-frr90m requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -342,6 +500,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -357,40 +516,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FRR90-M.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/frr90m.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/frr90m.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FTR90 M",
       "slug": "isuzu-ftr90m",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 14200,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-ftr90m requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-ftr90m requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (14,200 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (14,200 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -406,6 +570,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -421,40 +586,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/ftr90m2022.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/ftr90m.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/ftr90m.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FVR34 Q",
       "slug": "isuzu-fvr34q",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 16000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-fvr34q requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-fvr34q requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -470,6 +640,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -485,40 +656,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//GR1_6354-FVR34-quarter%20right.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/fvr34q.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr34q.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FVM34 W",
       "slug": "isuzu-fvm34w",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-fvm34w requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-fvm34w requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -533,7 +709,8 @@
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Rigid Truck",
+        "bodyType": "Wing Van",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -549,40 +726,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//GR1_5282-FVM34%20W%20quarter%20right.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/fvm34w.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/fvm34w.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FVM34 T",
       "slug": "isuzu-fvm34t",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-fvm34t requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-fvm34t requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -598,6 +780,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -613,40 +796,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVM34-T.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/fvm34t.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/fvm34t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FXM60 W",
       "slug": "isuzu-fxm60w",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 28000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-fxm60w requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-fxm60w requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (28,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (28,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -662,6 +850,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -677,40 +866,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FXM-Beauty-Shot.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/fxm60w.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/fxm60w.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FVR34QS",
       "slug": "isuzu-fvr34qs",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 16000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-fvr34qs requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-fvr34qs requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (16,000 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -726,6 +920,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -741,40 +936,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVR34QS-Truck-Crane.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/fvr34qs.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr34qs.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FRR90MS",
       "slug": "isuzu-frr90ms",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 10600,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-frr90ms requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-frr90ms requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Medium Duty",
+          "reason": "Resolved from the official model GVW (10,600 kg) using documented Philippine Category IV (6,001-18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -790,6 +990,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Medium Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -805,40 +1006,45 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//trucks/F-SERIES_FOR_ADV.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/frr90ms.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/frr90ms.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "FVZ34",
       "slug": "isuzu-fvz34",
-      "status": "ERROR",
-      "promotionEligible": false,
-      "warnings": [],
-      "errors": [
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Rigid Truck / Cab & Chassis",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "rigid-truck"
+      },
+      "warnings": [
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "dutyClass",
-          "message": "Unsupported duty class: Medium / Heavy Duty.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported duty class: Medium / Heavy Duty."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle isuzu-fvz34 requires an explicit legacy category projection.",
-          "reason": "Vehicle isuzu-fvz34 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "message": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Heavy Duty",
+          "reason": "Resolved from the official model GVW (26,000 kg) using documented Philippine Category V (over 18,000 kg GVW); body configuration is mapped independently.",
+          "code": "SOURCE_DUTY_CLASS_RESOLVED"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "isuzu",
         "name": "ISUZU",
@@ -854,6 +1060,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Diesel",
         "applicationTags": []
       },
@@ -870,15 +1077,15 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/fvz34.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -886,6 +1093,19 @@
       "slug": "isuzu-gxz60n-tractor-head",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "F-Series",
+        "category": "Tractor Head",
+        "dutyClassification": "Heavy Duty",
+        "configurations": [],
+        "applications": [
+          "Heavy road haulage",
+          "Trailer operations"
+        ],
+        "gvwKg": 26000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "tractor-head"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -920,13 +1140,13 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/gxz60n.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -936,6 +1156,22 @@
       "slug": "isuzu-traviz-puv",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "PUV",
+        "category": "Public Utility Vehicle",
+        "dutyClassification": null,
+        "configurations": [
+          "Class I",
+          "Side-facing seats",
+          "13 + 1 seating"
+        ],
+        "applications": [
+          "Public transportation"
+        ],
+        "gvwKg": 2950,
+        "propulsion": null,
+        "legacyTypeHint": "puv"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -968,14 +1204,14 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//traviz-puv-variant.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/puv",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/traviz-puv.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-puv.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 10,
         "quoteSnapshotCompatible": true
       }
@@ -985,6 +1221,21 @@
       "slug": "isuzu-nlr77-puv",
       "status": "WARNING",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "PUV",
+        "category": "Public Utility Vehicle",
+        "dutyClassification": null,
+        "configurations": [
+          "Class II side-facing seat configuration",
+          "Class III front-facing seat configuration"
+        ],
+        "applications": [
+          "Public transportation"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "puv"
+      },
       "warnings": [
         {
           "severity": "warning",
@@ -1030,14 +1281,14 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NLR77%202.0%20Almazora.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/puv",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/nlr77-puv.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/nlr77-puv.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 0,
         "quoteSnapshotCompatible": true
       }
@@ -1047,6 +1298,21 @@
       "slug": "isuzu-npr85-puv",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "PUV",
+        "category": "Public Utility Vehicle",
+        "dutyClassification": null,
+        "configurations": [
+          "Class II side-facing seat configuration",
+          "Class III front-facing seat configuration"
+        ],
+        "applications": [
+          "Public transportation"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "puv"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -1079,14 +1345,14 @@
           "sourceUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NPR85%20PUV.png",
           "sourcePage": "https://www.isuzuphil.com/trucks/puv",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/isuzu/npr85-puv.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/isuzu/npr85-puv.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 0,
         "quoteSnapshotCompatible": true
       }
@@ -1096,6 +1362,24 @@
       "slug": "isuzu-nqr-bus",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Buses",
+        "category": "Bus",
+        "dutyClassification": null,
+        "configurations": [
+          "Aircon center door, 28 seats (2x2)",
+          "Aircon center door, 35 seats (2x3)",
+          "Non-aircon center door, 28 seats (2x2)",
+          "Non-aircon center door, 35 seats (2x3)"
+        ],
+        "applications": [
+          "Public transport",
+          "Private shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "bus"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -1131,13 +1415,13 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/buses",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/nqr-bus.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 0,
         "quoteSnapshotCompatible": true
       }
@@ -1147,6 +1431,25 @@
       "slug": "isuzu-fvr-bus",
       "status": "PASS",
       "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Buses",
+        "category": "Bus",
+        "dutyClassification": null,
+        "configurations": [
+          "Aircon center door, 45 seats (2x2)",
+          "Aircon center door, 61 seats (2x3)",
+          "Non-aircon center door, 45 seats (2x2)",
+          "Non-aircon center door, 61 seats (2x3)",
+          "Non-aircon front and center door, 56 seats (2x3)"
+        ],
+        "applications": [
+          "Public transport",
+          "Private shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "bus"
+      },
       "warnings": [],
       "errors": [],
       "brandResolution": {
@@ -1182,13 +1485,13 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/buses",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/fvr-bus.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 0,
         "quoteSnapshotCompatible": true
       }

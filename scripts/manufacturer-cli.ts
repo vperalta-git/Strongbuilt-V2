@@ -4,12 +4,24 @@ function parseArguments(argv: string[]) {
   const manufacturer = argv.find((argument) => !argument.startsWith("-"))
   if (!manufacturer) throw new Error("Provide a manufacturer slug, for example: isuzu.")
   let models: string[] | undefined
+  let batchId: string | undefined
   let apply = false
   for (let index = 0; index < argv.length; index += 1) {
     const argument = argv[index]
     if (argument === manufacturer) continue
     if (argument === "--apply") {
       apply = true
+      continue
+    }
+    if (argument === "--batch") {
+      const value = argv[index + 1]
+      if (!value || value.startsWith("--")) throw new Error("--batch requires a reviewed batch identifier.")
+      batchId = value
+      index += 1
+      continue
+    }
+    if (argument.startsWith("--batch=")) {
+      batchId = argument.slice("--batch=".length)
       continue
     }
     if (argument === "--models") {
@@ -25,7 +37,7 @@ function parseArguments(argv: string[]) {
     }
     throw new Error(`Unsupported argument: ${argument}.`)
   }
-  return { manufacturer, models, apply }
+  return { manufacturer, models, batchId, apply }
 }
 
 export async function runCli(mode: ManufacturerCommandMode) {

@@ -41,5 +41,6 @@ export type ManufacturerConfiguration = {
   knownSourceWarnings: string[]
   allowedVehicleFamilies: string[]
   importVersion: number
+  reviewedBatches?: Record<string, readonly string[]>
   adapter: ManufacturerAdapter
 }

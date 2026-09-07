@@ -55,6 +55,29 @@ export const manufacturerRegistry = {
   yutong: configuration("yutong", "YUTONG", yutongAdapter, { allowedVehicleFamilies: ["Bus", "Coach"] }),
 } as const satisfies Record<string, ManufacturerConfiguration>
 
+manufacturerRegistry.isuzu.reviewedBatches = {
+  "isuzu-remaining-001": [
+    "TRAVIZ S",
+    "TRAVIZ L",
+    "NQR75L",
+    "FRR90 M",
+    "FTR90 M",
+    "FVR34 Q",
+    "FVM34 W",
+    "FVM34 T",
+    "FXM60 W",
+    "FVR34QS",
+    "FRR90MS",
+    "FVZ34",
+    "GXZ60N",
+    "TRAVIZ PUV",
+    "NLR77",
+    "NPR85",
+    "NQR",
+    "FVR",
+  ],
+}
+
 export type ManufacturerSlug = keyof typeof manufacturerRegistry
 
 export function getManufacturerConfiguration(input: string): ManufacturerConfiguration {

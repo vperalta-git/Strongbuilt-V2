@@ -13,11 +13,17 @@ npm run validate:manufacturer -- isuzu
 # Validate selected models (read-only)
 npm run validate:manufacturer -- isuzu --models NMR85HS,NPR85K
 
+# Validate a deterministic reviewed batch (read-only)
+npm run validate:manufacturer -- isuzu --batch isuzu-remaining-001
+
 # Build a promotion plan; dry run is the default
 npm run promote:manufacturer -- isuzu
 
+# Dry-run a deterministic reviewed batch
+npm run promote:manufacturer -- isuzu --batch isuzu-remaining-001
+
 # Future explicit apply (do not use without production approval)
-npm run promote:manufacturer -- isuzu --apply
+npm run promote:manufacturer -- isuzu --batch isuzu-remaining-001 --apply
 ```
 
 An apply is insert-only. Existing equivalent vehicles are classified as `ALREADY_EXISTS`; conflicting identities are errors. No existing vehicle is silently updated, no brand or truck type is created, and all eligible inserts occur in one MongoDB transaction. Documents are BSON-round-tripped with undefined values omitted before they become eligible.
@@ -29,3 +35,7 @@ An apply is insert-only. Existing equivalent vehicles are classified as `ALREADY
 - `image-plan.json` — source provenance, suggested local paths, and local migration status. It does not download assets.
 
 The original `trucks`, `truckTypes`, `/api/trucks`, `/trucks`, `/trucks/[slug]`, and quote `selectedTruck.truckId` contracts remain unchanged. Manufacturer imports are outside the original 12-slug seed ownership set.
+
+## ISUZU reviewed image preparation
+
+`npm run prepare:isuzu-remaining-images` downloads only the official image URLs already recorded for `isuzu-remaining-001`, rejects filename/source collisions, protects the first eight approved assets, and writes optimized WebP files under `public/images/trucks/isuzu/`. It does not update MongoDB.

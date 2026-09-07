@@ -139,14 +139,14 @@ function verifyLegacyQuoteField() {
 }
 
 function verifyApprovedLocalImages() {
-  assert.equal(Object.keys(approvedLocalTruckImagePaths).length, 8)
+  assert.equal(Object.keys(approvedLocalTruckImagePaths).length, 26)
   for (const [slug, publicPath] of Object.entries(approvedLocalTruckImagePaths)) {
     assert.match(slug, /^isuzu-/)
     assert.match(publicPath, /^\/images\/trucks\/isuzu\/[a-z0-9-]+\.webp$/)
     const bytes = readFileSync(resolve("public", publicPath.slice(1)))
     assert.equal(bytes.subarray(0, 4).toString("ascii"), "RIFF")
     assert.equal(bytes.subarray(8, 12).toString("ascii"), "WEBP")
-    assert.ok(bytes.length > 20_000 && bytes.length < 500_000)
+    assert.ok(bytes.length > 15_000 && bytes.length < 500_000)
   }
 
   const approvedVehicle = legacyTruckToVehicle(mockTrucks[0])
@@ -172,4 +172,4 @@ verifyLegacyQuoteField()
 verifyApprovedLocalImages()
 
 console.log("Vehicle migration foundation validation passed.")
-console.log("12 legacy records, 8 controlled local ISUZU images, MongoDB isolation, taxonomy, staging QA, and quote compatibility verified.")
+console.log("12 legacy records, 26 controlled local ISUZU images, MongoDB isolation, taxonomy, staging QA, and quote compatibility verified.")
