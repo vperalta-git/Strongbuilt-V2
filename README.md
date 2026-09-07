@@ -1,5 +1,7 @@
 # Strongbuilt V2
 
+Manufacturer catalog ingestion is documented in [docs/MANUFACTURER-IMPORTER.md](docs/MANUFACTURER-IMPORTER.md).
+
 Production-oriented public website for Strongbuilt Motors and Equipment Inc., rebuilt from scratch with a new industrial/automotive design system and a data architecture that can support a future admin dashboard.
 
 ## Stack

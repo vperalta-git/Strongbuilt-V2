@@ -1,7 +1,8 @@
 import { z } from "zod"
 import type { VehicleNormalizationDecision } from "@/lib/domain/vehicle"
 import { normalizeTaxonomyValue } from "@/lib/domain/vehicle-taxonomy"
-import type { RawVehicleImport, VehicleImportIssue } from "@/lib/validation/vehicle-import"
+import type { RawVehicleImport } from "@/lib/validation/vehicle-import"
+import type { ManufacturerImportIssue } from "@/lib/imports/core/types"
 
 const nonEmptyString = z.string().trim().min(1)
 const nullableString = nonEmptyString.nullable().optional()
@@ -105,14 +106,11 @@ export const isuzuTruckSourceSchema = z.object({
 export type IsuzuBrandSource = z.infer<typeof isuzuBrandSourceSchema>
 export type IsuzuTruckSource = z.infer<typeof isuzuTruckSourceSchema>
 
-export type ManufacturerImportIssue = VehicleImportIssue & {
-  sourceValue?: unknown
-  normalizedValue?: unknown
-  reason?: string
-}
+export type { ManufacturerImportIssue } from "@/lib/imports/core/types"
 
 export type IsuzuNormalizationResult = {
   input: RawVehicleImport
+  legacyTypeSlug: string
   decisions: VehicleNormalizationDecision[]
   issues: ManufacturerImportIssue[]
 }
@@ -138,8 +136,16 @@ function warning(
 }
 
 function sourceTaxonomy(record: IsuzuTruckSource) {
-  const family = record.category.includes("Rigid Truck") ? "Truck" : record.category
-  const bodyType = record.category.includes("Rigid Truck") ? "Rigid Truck" : record.category
+  const categoryMappings: Record<string, { family: string; bodyType: string }> = {
+    "Light Commercial Truck": { family: "Truck", bodyType: "Mini Truck" },
+    "Rigid Truck / Cab & Chassis": { family: "Truck", bodyType: "Rigid Truck" },
+    "Tractor Head": { family: "Truck", bodyType: "Tractor Head" },
+    "Public Utility Vehicle": { family: "PUV", bodyType: "Bus" },
+    Bus: { family: "Bus", bodyType: "Bus" },
+  }
+  const mapping = categoryMappings[record.category]
+  const family = mapping?.family || record.category
+  const bodyType = mapping?.bodyType || record.category
   const dutyClass = record.class || undefined
   const propulsion = record.keySpecs.fuelType || "Unknown"
 
@@ -209,6 +215,7 @@ export function normalizeIsuzuSourceRecord(
   })
 
   return {
+    legacyTypeSlug: record.truckTypeSlug,
     input: {
       slug: record.slug,
       brandSlug: record.brandSlug,

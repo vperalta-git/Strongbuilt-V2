@@ -1,0 +1,264 @@
+{
+  "manufacturer": "isuzu",
+  "generatedAt": "2026-09-07T08:49:35.786Z",
+  "summary": {
+    "imagesTested": 18,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 18,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "TRAVIZ S",
+      "slug": "isuzu-traviz-s",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-S-UV.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-s.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "TRAVIZ L",
+      "slug": "isuzu-traviz-l",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-L-UV.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-l.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NQR75L",
+      "slug": "isuzu-nqr75l",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75L%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nqr75l.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FRR90 M",
+      "slug": "isuzu-frr90m",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FRR90-M.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/frr90m.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FTR90 M",
+      "slug": "isuzu-ftr90m",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/ftr90m2022.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/ftr90m.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FVR34 Q",
+      "slug": "isuzu-fvr34q",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//GR1_6354-FVR34-quarter%20right.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr34q.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FVM34 W",
+      "slug": "isuzu-fvm34w",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//GR1_5282-FVM34%20W%20quarter%20right.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvm34w.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FVM34 T",
+      "slug": "isuzu-fvm34t",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVM34-T.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvm34t.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FXM60 W",
+      "slug": "isuzu-fxm60w",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FXM-Beauty-Shot.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fxm60w.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FVR34QS",
+      "slug": "isuzu-fvr34qs",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVR34QS-Truck-Crane.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr34qs.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FRR90MS",
+      "slug": "isuzu-frr90ms",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//trucks/F-SERIES_FOR_ADV.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/frr90ms.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FVZ34",
+      "slug": "isuzu-fvz34",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media/f%20series%20trucks/FVZ34.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvz34.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "GXZ60N",
+      "slug": "isuzu-gxz60n-tractor-head",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/f-series/GXZ.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/f-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/gxz60n.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "TRAVIZ PUV",
+      "slug": "isuzu-traviz-puv",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//traviz-puv-variant.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/puv",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/traviz-puv.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NLR77",
+      "slug": "isuzu-nlr77-puv",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NLR77%202.0%20Almazora.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/puv",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nlr77-puv.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NPR85",
+      "slug": "isuzu-npr85-puv",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NPR85%20PUV.png",
+          "sourcePage": "https://www.isuzuphil.com/trucks/puv",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/npr85-puv.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NQR",
+      "slug": "isuzu-nqr-bus",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-nqr-01.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/buses",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nqr-bus.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "FVR",
+      "slug": "isuzu-fvr-bus",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-fvr-02.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/buses",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/fvr-bus.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    }
+  ]
+}

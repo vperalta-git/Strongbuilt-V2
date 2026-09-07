@@ -2,7 +2,7 @@ import { BSON, ObjectId, type Db } from "mongodb"
 import { createLegacySelectedTruckSnapshot, vehicleToLegacyTruck } from "@/lib/data/truck-compatibility"
 import { getVehicleDocumentsCollection } from "@/lib/db/vehicles"
 import type { Vehicle, VehicleNormalizationDecision } from "@/lib/domain/vehicle"
-import type { ManufacturerImportIssue } from "@/lib/imports/isuzu"
+import type { ManufacturerImportIssue } from "@/lib/imports/core/types"
 import type { StagedVehicleImport } from "@/lib/imports/normalize-vehicle"
 import { canonicalVehicleSchema, mongoVehicleDocumentSchema, vehicleInsertDocumentSchema } from "@/lib/validation/vehicle"
 
@@ -10,7 +10,7 @@ export type PromotionBatchDefinition = {
   batch: string
   manufacturer: string
   allowedModels: readonly string[]
-  expectedCurrentTruckCount: number
+  expectedCurrentTruckCount?: number
   importVersion: number
 }
 
@@ -30,12 +30,14 @@ export type PromotionCandidate = {
   staged: StagedVehicleImport
   sourceIssues: ManufacturerImportIssue[]
   sourceDecisions: VehicleNormalizationDecision[]
+  resolvedType?: { id: ObjectId; name: string; slug: string }
 }
 
 export type ExistingVehicleIdentity = {
   slug: string
   model?: string
   brandId: ObjectId
+  sourceProductUrl?: string
 }
 
 type PromotionIssue = ManufacturerImportIssue
@@ -53,6 +55,10 @@ function promotionIssue(
 
 function sourceDate(value: Date | string) {
   return value instanceof Date ? value : new Date(value)
+}
+
+function comparableModel(value: string | undefined) {
+  return value?.trim().toLowerCase().replace(/[^a-z0-9]+/g, "") || ""
 }
 
 function promotionDecisions(candidate: PromotionCandidate): VehicleNormalizationDecision[] {
@@ -139,37 +145,25 @@ export function createInsertOnlyPromotionPlan(args: {
   timestamp: Date
 }) {
   const batchErrors: PromotionIssue[] = []
-  if (args.requestedManufacturer !== args.definition.manufacturer) {
+  if (args.requestedManufacturer.trim().toLowerCase() !== args.definition.manufacturer.trim().toLowerCase()) {
     batchErrors.push(promotionIssue("error", "manufacturer", "Manufacturer is not approved for this promotion batch.", "UNKNOWN_MANUFACTURER", args.requestedManufacturer, args.definition.manufacturer))
   }
   const allowed = new Set(args.definition.allowedModels)
   const requested = new Set(args.requestedModels)
   const unknownModels = [...requested].filter((model) => !allowed.has(model))
-  const missingModels = [...allowed].filter((model) => !requested.has(model))
   if (unknownModels.length) {
     batchErrors.push(promotionIssue("error", "models", "Promotion request contains non-whitelisted models.", "UNKNOWN_MODEL", unknownModels, args.definition.allowedModels))
   }
-  if (missingModels.length) {
-    batchErrors.push(promotionIssue("error", "models", "Promotion request omits required whitelisted models.", "INCOMPLETE_BATCH", missingModels, args.definition.allowedModels))
-  }
-  if (args.currentTruckCount !== args.definition.expectedCurrentTruckCount) {
+  if (args.definition.expectedCurrentTruckCount !== undefined && args.currentTruckCount !== args.definition.expectedCurrentTruckCount) {
     batchErrors.push(promotionIssue("error", "currentTruckCount", "Production truck count differs from the reviewed batch baseline.", "UNEXPECTED_TRUCK_COUNT", args.currentTruckCount, args.definition.expectedCurrentTruckCount))
   }
   if (!args.uniqueSlugIndex) {
     batchErrors.push(promotionIssue("error", "slug", "The production trucks collection lacks a unique slug index.", "MISSING_UNIQUE_SLUG_INDEX"))
   }
 
-  const referencesResolved = Boolean(
-    args.references.brandId && args.references.brandName && args.references.typeId && args.references.typeName,
-  )
   if (!args.references.brandId || !args.references.brandName) {
     batchErrors.push(promotionIssue("error", "brandSlug", "The approved manufacturer brand could not be resolved.", "UNRESOLVED_BRAND", args.references.brandSlug, null))
   }
-  if (!args.references.typeId || !args.references.typeName) {
-    batchErrors.push(promotionIssue("error", "typeSlug", "The legacy compatibility truck type could not be resolved.", "UNRESOLVED_TYPE", args.references.typeSlug, null))
-  }
-
-  const completeReferences = referencesResolved ? args.references as Required<PromotionReferences> : undefined
   const records = args.candidates.map((candidate, index) => {
     const issues: PromotionIssue[] = [
       ...candidate.sourceIssues,
@@ -184,18 +178,62 @@ export function createInsertOnlyPromotionPlan(args: {
     if (args.candidates.filter((entry) => entry.model.trim().toLowerCase() === candidate.model.trim().toLowerCase()).length > 1) {
       issues.push(promotionIssue("error", "model", "The promotion batch contains a duplicate manufacturer/model identity.", "BATCH_MODEL_COLLISION", candidate.model, null))
     }
-    const slugCollision = args.existingVehicles.find((vehicle) => vehicle.slug.toLowerCase() === candidate.slug.toLowerCase())
-    if (slugCollision) {
-      issues.push(promotionIssue("error", "slug", "Production already contains this slug; insert-safe promotion cannot overwrite it.", "PRODUCTION_SLUG_COLLISION", candidate.slug, slugCollision.slug))
+    if (args.candidates.filter((entry) => comparableModel(entry.model) === comparableModel(candidate.model)).length > 1
+      && !issues.some((entry) => entry.code === "BATCH_MODEL_COLLISION")) {
+      issues.push(promotionIssue("error", "model", "The promotion batch contains likely equivalent model identities.", "BATCH_LIKELY_EQUIVALENT_MODEL", candidate.model, null))
     }
+    const slugCollision = args.existingVehicles.find((vehicle) => vehicle.slug.toLowerCase() === candidate.slug.toLowerCase())
     const modelCollision = args.references.brandId
       ? args.existingVehicles.find((vehicle) => (
           vehicle.brandId.equals(args.references.brandId) && vehicle.model?.trim().toLowerCase() === candidate.model.trim().toLowerCase()
         ))
       : undefined
-    if (modelCollision) {
-      issues.push(promotionIssue("error", "model", "Production already contains an equivalent brand/model; silent updates are forbidden.", "PRODUCTION_MODEL_COLLISION", candidate.model, modelCollision.model))
+    const productUrl = candidate.staged.normalized?.source?.productUrl
+    const sourceCollision = productUrl
+      ? args.existingVehicles.find((vehicle) => vehicle.sourceProductUrl === productUrl && (
+          !args.references.brandId || vehicle.brandId.equals(args.references.brandId)
+        ))
+      : undefined
+    const likelyModelCollision = !modelCollision && args.references.brandId
+      ? args.existingVehicles.find((vehicle) => (
+          vehicle.brandId.equals(args.references.brandId) && comparableModel(vehicle.model) === comparableModel(candidate.model)
+        ))
+      : undefined
+    const exactSlugMatch = Boolean(slugCollision && args.references.brandId && slugCollision.brandId.equals(args.references.brandId)
+      && slugCollision.model?.trim().toLowerCase() === candidate.model.trim().toLowerCase())
+    const alreadyExists = exactSlugMatch || (!slugCollision && Boolean(modelCollision))
+    if (alreadyExists) {
+      issues.push(promotionIssue("warning", "identity", "An equivalent manufacturer vehicle is already promoted; no write will be attempted.", "ALREADY_EXISTS", candidate.slug, slugCollision?.slug || modelCollision?.slug || sourceCollision?.slug))
+    } else {
+      if (slugCollision) {
+        issues.push(promotionIssue("error", "slug", "Production contains this slug with a different identity; insert-safe promotion cannot overwrite it.", "PRODUCTION_SLUG_COLLISION", candidate.slug, slugCollision.slug))
+      }
+      if (modelCollision) {
+        issues.push(promotionIssue("error", "model", "Production contains this brand/model under a conflicting identity; silent updates are forbidden.", "PRODUCTION_MODEL_COLLISION", candidate.model, modelCollision.model))
+      }
+      if (likelyModelCollision) {
+        issues.push(promotionIssue("error", "model", "Production contains a likely equivalent brand/model; manual review is required and no write is allowed.", "PRODUCTION_LIKELY_EQUIVALENT_MODEL", candidate.model, likelyModelCollision.model))
+      }
+      if (sourceCollision) {
+        issues.push(promotionIssue("warning", "source.productUrl", "Another production vehicle uses this official product URL; review likely equivalence.", "PRODUCTION_SOURCE_URL_COLLISION", productUrl, sourceCollision.slug))
+      }
     }
+
+    const candidateReferences: PromotionReferences = candidate.resolvedType
+      ? {
+          ...args.references,
+          typeId: candidate.resolvedType.id,
+          typeName: candidate.resolvedType.name,
+          typeSlug: candidate.resolvedType.slug,
+        }
+      : args.references
+    const referencesResolved = Boolean(
+      candidateReferences.brandId && candidateReferences.brandName && candidateReferences.typeId && candidateReferences.typeName,
+    )
+    if (!candidateReferences.typeId || !candidateReferences.typeName) {
+      issues.push(promotionIssue("error", "typeSlug", "The legacy compatibility truck type could not be resolved.", "UNRESOLVED_TYPE", candidateReferences.typeSlug, null))
+    }
+    const completeReferences = referencesResolved ? candidateReferences as Required<PromotionReferences> : undefined
 
     let canonicalPreview: Vehicle | undefined
     let document: ReturnType<typeof vehicleInsertDocumentSchema.parse> | undefined
@@ -294,7 +332,7 @@ export function createInsertOnlyPromotionPlan(args: {
     return {
       model: candidate.model,
       slug: candidate.slug,
-      promotionStatus: errors.length ? "blocked" as const : "eligible" as const,
+      promotionStatus: errors.length ? "blocked" as const : alreadyExists ? "already-exists" as const : "eligible" as const,
       warnings,
       errors,
       canonicalPreview,
@@ -311,13 +349,15 @@ export function createInsertOnlyPromotionPlan(args: {
   })
 
   const eligible = records.filter((record) => record.promotionStatus === "eligible").length
-  const blocked = records.length - eligible
-  const applyAllowed = batchErrors.length === 0 && blocked === 0 && eligible === args.definition.allowedModels.length
+  const alreadyExists = records.filter((record) => record.promotionStatus === "already-exists").length
+  const blocked = records.filter((record) => record.promotionStatus === "blocked").length
+  const applyAllowed = batchErrors.length === 0 && blocked === 0 && eligible > 0
   return {
     batch: args.definition.batch,
     manufacturer: args.definition.manufacturer,
     mode: "dry-run" as const,
     eligible,
+    alreadyExists,
     blocked,
     currentTruckCount: args.currentTruckCount,
     expectedTruckCountAfterApply: args.currentTruckCount + eligible,
@@ -333,7 +373,7 @@ export function createInsertOnlyPromotionPlan(args: {
       canonicalBodyType: "Rigid Truck",
     },
     uniqueSlugIndex: args.uniqueSlugIndex,
-    transactionPolicy: "All eight insert in one MongoDB transaction; any conflict or validation failure aborts the batch.",
+    transactionPolicy: "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated.",
     records,
   }
 }
@@ -342,10 +382,10 @@ export async function applyPromotionPlan(
   db: Db,
   plan: ReturnType<typeof createInsertOnlyPromotionPlan>,
 ) {
-  if (!plan.applyAllowed || plan.blocked || plan.eligible !== plan.records.length) {
+  if (!plan.applyAllowed || plan.blocked || plan.eligible < 1) {
     throw new Error("Promotion plan is not eligible for atomic apply.")
   }
-  const documents = plan.records.map((record) => {
+  const documents = plan.records.filter((record) => record.promotionStatus === "eligible").map((record) => {
     if (!record.document) throw new Error(`Promotion document is unavailable for ${record.model}.`)
     return record.document
   })
