@@ -1,0 +1,1611 @@
+[
+  {
+    "slug": "faw-j7-tractor",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J7",
+    "model": "J7",
+    "productLine": "J7",
+    "category": "Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Flagship heavy-duty tractor family offered in multiple axle configurations for road freight operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD/RHD",
+      "6x2 tag axle LHD/RHD",
+      "6x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20230517/298cc3b0adcc5890fc906e251cfa9b7e.webp",
+        "alt": "FAW TRUCKS J7",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/j7-tractor.webp"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA6DM3",
+      "maximumPower": "560 PS",
+      "maximumTorque": "2,600 Nm",
+      "drive": "4x2 / 6x2 / 6x4",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DM3"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "560 PS"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "2,600 Nm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Road freight",
+      "Long-distance logistics"
+    ],
+    "brochureUrl": "https://www.fawtrucks-global.com/uploads/file/20230517/329b6fbacf1a1559bb40acf02955f6c5.pdf",
+    "seo": {
+      "title": "FAW TRUCKS J7 | Strongbuilt",
+      "description": "Flagship heavy-duty tractor family offered in multiple axle configurations for road freight operations."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/Tractor/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/J7/507.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-jh6-tractor",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "JH6 Tractor",
+    "model": "JH6 Tractor",
+    "productLine": "JH6",
+    "category": "Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty tractor platform focused on efficient freight movement, reliability and driver comfort.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD/RHD",
+      "6x4 LHD/RHD",
+      "CNG LHD/RHD",
+      "LNG LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/35f51790cae447f409e97c3a42e87f0c.png",
+        "alt": "FAW TRUCKS JH6 Tractor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/jh6-tractor.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA6DM2",
+      "displacement": "11 L",
+      "powerRange": "390–460 PS",
+      "torqueRange": "1,550–2,100 Nm",
+      "drive": "4x2 / 6x4",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DM2"
+          },
+          {
+            "label": "Displacement",
+            "value": "11 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "390–460 PS"
+          },
+          {
+            "label": "Torque Range",
+            "value": "1,550–2,100 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Available Components",
+        "items": [
+          {
+            "label": "Transmission Option",
+            "value": "CA12TA"
+          },
+          {
+            "label": "Axle Options",
+            "value": "New 457 axle / 300 axle"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Road freight",
+      "Heavy-duty transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS JH6 Tractor | Strongbuilt",
+      "description": "Heavy-duty tractor platform focused on efficient freight movement, reliability and driver comfort."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/Tractor/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/JH6/193.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-j6p-tractor",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J6P Tractor",
+    "model": "J6P Tractor",
+    "productLine": "J6P",
+    "category": "Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty tractor family with 11-litre and 13-litre engine options for demanding road transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD",
+      "6x4 LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210204/15040c9612f7cc7ed428dc71abafc966.png",
+        "alt": "FAW TRUCKS J6P Tractor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/j6p-tractor.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engineOptions": "11 L / 13 L",
+      "powerOptions": "Up to 460 PS / 550 PS",
+      "drive": "4x2 / 6x4",
+      "steering": "LHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Powertrain",
+        "items": [
+          {
+            "label": "Engine Options",
+            "value": "11 L 460 PS / 13 L 550 PS"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Heavy road transport",
+      "Long-distance freight"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS J6P Tractor | Strongbuilt",
+      "description": "Heavy-duty tractor family with 11-litre and 13-litre engine options for demanding road transport."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/Tractor/",
+      "productUrl": "https://www.fawtrucks-global.com/PH/J6P/336.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-new-j5p-tractor",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "NEW J5P Tractor",
+    "model": "NEW J5P Tractor",
+    "productLine": "V Series",
+    "category": "Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": null,
+    "shortDescription": "V Series 6x4 tractor with multiple powertrain choices and heavy-duty axle options.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/0c1ad7619202188477bddc1089eb99ee.png",
+        "alt": "FAW TRUCKS NEW J5P Tractor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/new-j5p-tractor.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "steering": "LHD/RHD",
+      "engineOptions": "WEICHAI / FAWDE",
+      "fuelOptions": "Diesel / natural gas"
+    },
+    "specificationGroups": [
+      {
+        "title": "Available Components",
+        "items": [
+          {
+            "label": "Engine Options",
+            "value": "WEICHAI / FAWDE"
+          },
+          {
+            "label": "Fuel Options",
+            "value": "Diesel / natural gas"
+          },
+          {
+            "label": "Transmission",
+            "value": "FAST"
+          },
+          {
+            "label": "Axle Options",
+            "value": "New 457 axle / 300 axle"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Freight transport",
+      "Heavy-duty road operations"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS NEW J5P Tractor | Strongbuilt",
+      "description": "V Series 6x4 tractor with multiple powertrain choices and heavy-duty axle options."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/Tractor/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/VSeries/203.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-new-j5m-tractor",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "NEW J5M Tractor",
+    "model": "NEW J5M Tractor",
+    "productLine": "V Series",
+    "category": "Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": null,
+    "shortDescription": "V Series 6x4 tractor positioned for efficient short- and medium-haul transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/b5aaf027465fa4839845b343801f9a5d.png",
+        "alt": "FAW TRUCKS NEW J5M Tractor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/new-j5m-tractor.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA6DL1",
+      "displacement": "7.7 L",
+      "powerRange": "260–320 PS",
+      "torqueRange": "1,050–1,250 Nm",
+      "drive": "6x4",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DL1"
+          },
+          {
+            "label": "Displacement",
+            "value": "7.7 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "260–320 PS"
+          },
+          {
+            "label": "Torque Range",
+            "value": "1,050–1,250 Nm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Short-haul freight",
+      "Medium-haul freight"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS NEW J5M Tractor | Strongbuilt",
+      "description": "V Series 6x4 tractor positioned for efficient short- and medium-haul transport."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/Tractor/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/VSeries/202.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-j5p-tractor",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J5P Tractor",
+    "model": "J5P Tractor",
+    "productLine": "V Series",
+    "category": "Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": null,
+    "shortDescription": "V Series 6x4 tractor intended for road transport with heavy-duty drivetrain options.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/6c36b13d471cc61a7dac3b53915c8f0e.png",
+        "alt": "FAW TRUCKS J5P Tractor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/j5p-tractor.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "steering": "LHD",
+      "engineOptions": "WEICHAI",
+      "transmission": "FAST"
+    },
+    "specificationGroups": [
+      {
+        "title": "Available Components",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "WEICHAI options"
+          },
+          {
+            "label": "Transmission",
+            "value": "FAST"
+          },
+          {
+            "label": "Axle Options",
+            "value": "New 457 axle / 300 axle"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Road freight",
+      "Long-distance transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS J5P Tractor | Strongbuilt",
+      "description": "V Series 6x4 tractor intended for road transport with heavy-duty drivetrain options."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/Tractor/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/VSeries/201.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-jk6-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "JK6 Rigid",
+    "model": "JK6 Rigid",
+    "productLine": "JK6",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium Duty",
+    "shortDescription": "Medium-duty 4x2 rigid truck for short- and medium-distance logistics.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210324/bced770b0a0298d8206b7ccd8423692d.png",
+        "alt": "FAW TRUCKS JK6 Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/jk6-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA4DH/CA4DK family",
+      "displacement": "4.7 L",
+      "powerRange": "140–220 PS",
+      "maximumTorque": "820 Nm",
+      "transmission": "CA8TAX090M 8-speed",
+      "drive": "4x2"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Drivetrain",
+        "items": [
+          {
+            "label": "Engine Family",
+            "value": "CA4DH/CA4DK"
+          },
+          {
+            "label": "Displacement",
+            "value": "4.7 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "140–220 PS"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "820 Nm"
+          },
+          {
+            "label": "Transmission",
+            "value": "CA8TAX090M 8-speed"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "378 single-stage reduction, 9-ton rating"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Short-distance logistics",
+      "Medium-distance logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS JK6 Rigid | Strongbuilt",
+      "description": "Medium-duty 4x2 rigid truck for short- and medium-distance logistics."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/JK6A/207.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-j6l-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J6L Rigid",
+    "model": "J6L Rigid",
+    "productLine": "J6L",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium Duty",
+    "shortDescription": "Medium-duty rigid platform designed for efficient road distribution and commercial transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/664fb9c1254cccede41dbd2143360575.png",
+        "alt": "FAW TRUCKS J6L Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/j6l-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "steering": "LHD"
+    },
+    "specificationGroups": [],
+    "applications": [
+      "Distribution",
+      "Commercial cargo transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS J6L Rigid | Strongbuilt",
+      "description": "Medium-duty rigid platform designed for efficient road distribution and commercial transport."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/J6L/205.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-dragon-v-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Dragon V Rigid",
+    "model": "Dragon V Rigid",
+    "productLine": "Dragon V",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium Duty",
+    "shortDescription": "Medium-duty 4x2 rigid truck developed for short- and medium-distance fast logistics.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210207/3bfc5eb8225056aed5c29016c7908367.png",
+        "alt": "FAW TRUCKS Dragon V Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/dragon-v-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA6DK",
+      "displacement": "7.1 L",
+      "powerRange": "240–320 PS",
+      "maximumTorque": "1,200 Nm",
+      "drive": "4x2"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Drivetrain",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DK"
+          },
+          {
+            "label": "Displacement",
+            "value": "7.1 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "240–320 PS"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,200 Nm"
+          },
+          {
+            "label": "Transmission Option",
+            "value": "CA6T085"
+          },
+          {
+            "label": "Axle Options",
+            "value": "New 457 / New 435"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Short-distance logistics",
+      "Medium-distance logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Dragon V Rigid | Strongbuilt",
+      "description": "Medium-duty 4x2 rigid truck developed for short- and medium-distance fast logistics."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/PH/DragonV/342.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-tiger-vh-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Tiger VH Rigid",
+    "model": "Tiger VH Rigid",
+    "productLine": "Tiger V",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-duty rigid truck for general logistics, retail distribution, agriculture and building-material transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210210/545fdbc73e3f18a08c1109ba359b51eb.png",
+        "alt": "FAW TRUCKS Tiger VH Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/tiger-vh-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRange": "120–160 PS",
+      "emissionStandard": "Euro II / V",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Powertrain Options",
+        "items": [
+          {
+            "label": "Engine Options",
+            "value": "WEICHAI / YUCHAI / Cummins"
+          },
+          {
+            "label": "Power Range",
+            "value": "120–160 PS"
+          },
+          {
+            "label": "Transmission Options",
+            "value": "5 / 6 / 8 speed"
+          },
+          {
+            "label": "Rear Axle Range",
+            "value": "5–10 ton"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "General logistics",
+      "Retail distribution",
+      "Agricultural products",
+      "Building materials"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Tiger VH Rigid | Strongbuilt",
+      "description": "Light-duty rigid truck for general logistics, retail distribution, agriculture and building-material transport."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/NG/TIGERV/362.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-tiger-vn-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Tiger VN Rigid",
+    "model": "Tiger VN Rigid",
+    "productLine": "Tiger V",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-duty rigid truck aimed at intercity and urban logistics distribution.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/f62cd735b90c9f513c28841dd661b7b8.png",
+        "alt": "FAW TRUCKS Tiger VN Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/tiger-vn-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRange": "120–160 PS",
+      "emissionStandard": "Euro II / V",
+      "transmissionOptions": "5 / 6 speed"
+    },
+    "specificationGroups": [
+      {
+        "title": "Powertrain & Chassis",
+        "items": [
+          {
+            "label": "Engine Options",
+            "value": "WEICHAI / YUNNEI"
+          },
+          {
+            "label": "Power Range",
+            "value": "120–160 PS"
+          },
+          {
+            "label": "Transmission",
+            "value": "WLY, 5 / 6 speed"
+          },
+          {
+            "label": "Rear Axle Range",
+            "value": "3–6 ton"
+          },
+          {
+            "label": "Brakes",
+            "value": "Hydraulic / air brake, ABS"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Urban distribution",
+      "Intercity logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Tiger VN Rigid | Strongbuilt",
+      "description": "Light-duty rigid truck aimed at intercity and urban logistics distribution."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/TigerV/209.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-tiger-vr-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Tiger VR Rigid",
+    "model": "Tiger VR Rigid",
+    "productLine": "Tiger V",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-duty urban distribution truck with a low-weight platform and flexible body-length options.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/02d1e870020046a812e6e0b57194d687.png",
+        "alt": "FAW TRUCKS Tiger VR Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/tiger-vr-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRange": "80–110 HP",
+      "emissionStandard": "Euro II / V",
+      "transmission": "WLY 5-speed",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Powertrain & Body",
+        "items": [
+          {
+            "label": "Engine Options",
+            "value": "WEICHAI / YUNNEI"
+          },
+          {
+            "label": "Power Range",
+            "value": "80–110 HP"
+          },
+          {
+            "label": "Transmission",
+            "value": "WLY 5-speed"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "3-ton"
+          },
+          {
+            "label": "Body Width",
+            "value": "1,735 mm"
+          },
+          {
+            "label": "Container Length Options",
+            "value": "3,100 / 3,700 / 4,150 mm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Urban distribution",
+      "Agricultural products",
+      "Express delivery",
+      "Retail goods",
+      "Furniture and appliances"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Tiger VR Rigid | Strongbuilt",
+      "description": "Light-duty urban distribution truck with a low-weight platform and flexible body-length options."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/TigerV/210.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-baling-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Baling Rigid",
+    "model": "Baling Rigid",
+    "productLine": "Baling",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-duty 4x2 rigid truck with a five-speed manual transmission and 2–3-ton-class rear axle.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20220830/aa9842a3936f5bc3172755d2b5ec33f0.png",
+        "alt": "FAW TRUCKS Baling Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/baling-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "steering": "LHD",
+      "transmission": "MENWO 5-speed manual",
+      "rearAxle": "2–3-ton class"
+    },
+    "specificationGroups": [
+      {
+        "title": "Drivetrain & Chassis",
+        "items": [
+          {
+            "label": "Transmission",
+            "value": "MENWO 5-speed manual"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "2–3-ton class"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Light commercial cargo",
+      "Urban delivery"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Baling Rigid | Strongbuilt",
+      "description": "Light-duty 4x2 rigid truck with a five-speed manual transmission and 2–3-ton-class rear axle."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/Baling/428.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-t80-rigid",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "T80 Rigid",
+    "model": "T80 Rigid",
+    "productLine": "T80",
+    "category": "Rigid Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Mini 4x2 cargo truck designed for compact commercial transport and urban delivery work.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20220830/58fcadc1c5e9758db3abb7ae4b483525.png",
+        "alt": "FAW TRUCKS T80 Rigid",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/t80-rigid.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engineDisplacement": "1.5 L",
+      "power": "102 hp",
+      "maximumTorque": "135 Nm",
+      "wheelbase": "2,960 mm",
+      "cargoLength": "2.73 m"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Dimensions",
+        "items": [
+          {
+            "label": "Engine Displacement",
+            "value": "1.5 L"
+          },
+          {
+            "label": "Power",
+            "value": "102 hp"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "135 Nm"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "2,960 mm"
+          },
+          {
+            "label": "Cargo Compartment Interior Length",
+            "value": "2.73 m"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Urban cargo",
+      "Last-mile commercial transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS T80 Rigid | Strongbuilt",
+      "description": "Mini 4x2 cargo truck designed for compact commercial transport and urban delivery work."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/RigidTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/T80/429.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-jh6-dump",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "JH6 Dump Truck",
+    "model": "JH6 Dump Truck",
+    "productLine": "JH6",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty dump platform for construction, aggregate, muck and mining transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD/RHD",
+      "8x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/9bbdd523b9fbb61392ef7a58a460acd6.png",
+        "alt": "FAW TRUCKS JH6 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/jh6-dump.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4 / 8x4",
+      "steering": "LHD/RHD",
+      "configuredTotalWeight": "6x4: 60/80 t; 8x4: 70/110 t"
+    },
+    "specificationGroups": [
+      {
+        "title": "Configuration",
+        "items": [
+          {
+            "label": "6x4 Total Weight",
+            "value": "60 / 80 t"
+          },
+          {
+            "label": "8x4 Total Weight",
+            "value": "70 / 110 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "16-ton class referenced on 6x4 model"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Muck transport",
+      "Urban construction",
+      "Sand and gravel",
+      "Mining"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS JH6 Dump Truck | Strongbuilt",
+      "description": "Heavy-duty dump platform for construction, aggregate, muck and mining transport."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/DumpTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/JH6B/214.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-j6p-dump",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J6P Dump Truck",
+    "model": "J6P Dump Truck",
+    "productLine": "J6P",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty dump platform with an 11-litre CA6DM2 engine family for demanding material transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD",
+      "8x4 LHD"
+    ],
+    "images": [],
+    "imageStatus": "needs-image-verification",
+    "keySpecs": {
+      "engine": "CA6DM2",
+      "displacement": "11 L",
+      "powerRange": "390–460 PS",
+      "torqueRange": "1,550–2,100 Nm",
+      "drive": "6x4 / 8x4"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DM2"
+          },
+          {
+            "label": "Displacement",
+            "value": "11 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "390–460 PS"
+          },
+          {
+            "label": "Torque Range",
+            "value": "1,550–2,100 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Configuration",
+        "items": [
+          {
+            "label": "6x4 Total Weight",
+            "value": "60 / 80 t"
+          },
+          {
+            "label": "8x4 Total Weight",
+            "value": "70 / 110 t"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Muck transport",
+      "Urban construction",
+      "Sand and gravel",
+      "Mining"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS J6P Dump Truck | Strongbuilt",
+      "description": "Heavy-duty dump platform with an 11-litre CA6DM2 engine family for demanding material transport."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/DumpTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/J6PA/212.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "Official product page verified; primary product-image URL should be resolved before local asset migration."
+  },
+  {
+    "slug": "faw-new-j5p-dump",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "NEW J5P Dump Truck",
+    "model": "NEW J5P Dump Truck",
+    "productLine": "NEW J5P",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty dump truck family with multiple powertrain choices for construction and material hauling.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD/RHD",
+      "8x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/77089f9aa1dee6fc53b3863c51b23a36.png",
+        "alt": "FAW TRUCKS NEW J5P Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/new-j5p-dump.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4 / 8x4",
+      "steering": "LHD/RHD",
+      "engineOptions": "WEICHAI / FAWDE",
+      "fuelOptions": "Diesel / natural gas"
+    },
+    "specificationGroups": [
+      {
+        "title": "Configuration",
+        "items": [
+          {
+            "label": "6x4 Total Weight",
+            "value": "60 / 80 t"
+          },
+          {
+            "label": "8x4 Total Weight",
+            "value": "70 / 110 t"
+          },
+          {
+            "label": "Transmission",
+            "value": "FAST"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "300 axle"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Muck transport",
+      "Urban construction",
+      "Sand and gravel",
+      "Mining"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS NEW J5P Dump Truck | Strongbuilt",
+      "description": "Heavy-duty dump truck family with multiple powertrain choices for construction and material hauling."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/DumpTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/NEWJ5P/216.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-dragon-v-dump",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Dragon V Dump Truck",
+    "model": "Dragon V Dump Truck",
+    "productLine": "Dragon V",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Medium Duty",
+    "shortDescription": "Medium-duty 4x2 dump configuration for local construction and material-transport applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD"
+    ],
+    "images": [],
+    "imageStatus": "needs-image-verification",
+    "keySpecs": {
+      "drive": "4x2",
+      "steering": "LHD"
+    },
+    "specificationGroups": [],
+    "applications": [
+      "Construction materials",
+      "Local material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Dragon V Dump Truck | Strongbuilt",
+      "description": "Medium-duty 4x2 dump configuration for local construction and material-transport applications."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/DumpTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/DRAGONVA/224.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "Category and product page verified. A dedicated primary image URL was not confidently resolved, so no image was inserted."
+  },
+  {
+    "slug": "faw-tiger-v-dump",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "Tiger V 4x4 Dump Truck",
+    "model": "Tiger V 4x4 Dump Truck",
+    "productLine": "Tiger V",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-duty all-wheel-drive dump truck intended for rugged, muddy and mountainous working conditions.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210305/2d582e063d07147cb0f0e77cfd30013e.png",
+        "alt": "FAW TRUCKS Tiger V 4x4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/tiger-v-4x4-dump.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x4",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [],
+    "applications": [
+      "Muck transport",
+      "Urban construction",
+      "Sand and gravel",
+      "Mining",
+      "Rugged-road operations"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS Tiger V 4x4 Dump Truck | Strongbuilt",
+      "description": "Light-duty all-wheel-drive dump truck intended for rugged, muddy and mountainous working conditions."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/DumpTruck/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/TigerVB/218.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-jh6-special-purpose",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "JH6 Special Purpose",
+    "model": "JH6 Special Purpose",
+    "productLine": "JH6",
+    "category": "Special Purpose",
+    "truckTypeSlug": "special-purpose",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty 8x4 chassis for special-purpose bodies, including sanitation and short-distance vocational applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "8x4 LHD/RHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210310/38f4d0bc1a2197094608cd404643c6e2.png",
+        "alt": "FAW TRUCKS JH6 Special Purpose",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/jh6-special-purpose.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA6DM2",
+      "displacement": "11 L",
+      "powerRange": "390–460 PS",
+      "torqueRange": "1,550–2,100 Nm",
+      "drive": "8x4",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DM2"
+          },
+          {
+            "label": "Displacement",
+            "value": "11 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "390–460 PS"
+          },
+          {
+            "label": "Torque Range",
+            "value": "1,550–2,100 Nm"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "City sanitation chassis",
+      "Short-distance vocational transport",
+      "Special-purpose body conversion"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS JH6 Special Purpose | Strongbuilt",
+      "description": "Heavy-duty 8x4 chassis for special-purpose bodies, including sanitation and short-distance vocational applications."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/SpecialPurpose/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/JH6C/211.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-j6p-special-purpose",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J6P Special Purpose",
+    "model": "J6P Special Purpose",
+    "productLine": "J6P",
+    "category": "Special Purpose",
+    "truckTypeSlug": "special-purpose",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy-duty vocational platform suitable for mixer and other special-purpose body conversions.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "6x4 LHD",
+      "8x4 LHD",
+      "6x4 Euro V LHD"
+    ],
+    "images": [
+      {
+        "url": "https://www.fawtrucks-global.com/uploads/image/20210310/471cece8962466eb29b0e220a9afad9b.png",
+        "alt": "FAW TRUCKS J6P Special Purpose",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/faw/j6p-special-purpose.png"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "CA6DL2",
+      "displacement": "8.6 L",
+      "powerRange": "280–375 PS",
+      "torqueRange": "1,350–1,550 Nm",
+      "steering": "LHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Engine & Performance",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "CA6DL2"
+          },
+          {
+            "label": "Displacement",
+            "value": "8.6 L"
+          },
+          {
+            "label": "Power Range",
+            "value": "280–375 PS"
+          },
+          {
+            "label": "Torque Range",
+            "value": "1,350–1,550 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Vocational Configuration",
+        "items": [
+          {
+            "label": "Transmission Option",
+            "value": "CA10TA"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "300 axle"
+          },
+          {
+            "label": "Modification",
+            "value": "Suitable for mixer trucks and other SPVs"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Concrete transport",
+      "Mixer truck conversion",
+      "Special-purpose vehicle conversion"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS J6P Special Purpose | Strongbuilt",
+      "description": "Heavy-duty vocational platform suitable for mixer and other special-purpose body conversions."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/SpecialPurpose/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/J6PB/221.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "faw-j6l-special-purpose",
+    "brand": "FAW TRUCKS",
+    "brandSlug": "faw-trucks",
+    "name": "J6L Special Purpose",
+    "model": "J6L Special Purpose",
+    "productLine": "J6L",
+    "category": "Special Purpose",
+    "truckTypeSlug": "special-purpose",
+    "class": "Medium Duty",
+    "shortDescription": "Medium-duty Euro V special-purpose chassis for municipal and sanitation body applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "regionalAvailabilityNote": "FAW Trucks states that product availability and configurations vary by region. Confirm Philippine availability/configuration before publishing as locally available.",
+    "configurations": [
+      "4x2 LHD"
+    ],
+    "images": [],
+    "imageStatus": "needs-image-verification",
+    "keySpecs": {
+      "drive": "4x2",
+      "steering": "LHD",
+      "emissionStandard": "Euro V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Configuration",
+        "items": [
+          {
+            "label": "Drive",
+            "value": "4x2"
+          },
+          {
+            "label": "Steering",
+            "value": "LHD"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Road sweeping",
+      "Garbage removal",
+      "Snow removal",
+      "Water sprinkling / cleaning"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FAW TRUCKS J6L Special Purpose | Strongbuilt",
+      "description": "Medium-duty Euro V special-purpose chassis for municipal and sanitation body applications."
+    },
+    "source": {
+      "brandWebsite": "https://www.fawtrucks-global.com/EN/",
+      "categoryUrl": "https://www.fawtrucks-global.com/EN/SpecialPurpose/",
+      "productUrl": "https://www.fawtrucks-global.com/EN/J6LA/220.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "Official product page verified; dedicated primary product-image URL should be resolved before local asset migration."
+  }
+]

@@ -131,6 +131,39 @@ async function main() {
   assert.equal(malformed.success, false)
   assert.equal(config.adapter.normalizeVehicle(rawVehicles[2], brandResult.data).success, true)
 
+  const fawConfig = getManufacturerConfiguration("faw")
+  const fawBrands = JSON.parse(await readFile(fawConfig.sourceFiles.brands, "utf8")) as unknown[]
+  const fawVehicles = JSON.parse(await readFile(fawConfig.sourceFiles.vehicles, "utf8")) as unknown[]
+  const fawBrand = fawConfig.adapter.parseBrand(fawBrands[0])
+  assert.equal(fawBrand.success, true)
+  if (!fawBrand.success) throw new Error("Unexpected FAW brand adapter failure.")
+  const fawNormalized = fawVehicles.map((raw) => fawConfig.adapter.normalizeVehicle(raw, fawBrand.data))
+  assert.equal(fawNormalized.filter((record) => record.success).length, 22)
+  const successfulFaw = fawNormalized.flatMap((record) => record.success ? [record] : [])
+  assert.deepEqual(
+    successfulFaw.reduce<Record<string, number>>((counts, record) => {
+      counts[record.input.bodyType] = (counts[record.input.bodyType] || 0) + 1
+      return counts
+    }, {}),
+    { "Tractor Head": 6, "Rigid Truck": 8, "Dump Truck": 5, "Special Purpose Vehicle": 3 },
+  )
+  assert.deepEqual([...new Set(successfulFaw.map((record) => record.legacyTypeSlug))], [
+    "tractor-head", "rigid-truck", "dump-truck", "special-purpose",
+  ])
+  const fawStaged = stageVehicleImports(successfulFaw.map((record) => record.input), { knownBrandSlugs: ["faw-trucks"] })
+  assert.equal(fawStaged.rejected, 3)
+  assert.equal(fawStaged.records.filter((record) => record.issues.some((issue) => issue.field === "images")).length, 3)
+  assert.equal(fawStaged.records.some((record) => record.issues.some((issue) => issue.code === "UNKNOWN_BRAND")), false)
+  const fawJ7 = successfulFaw.find((record) => record.input.model === "J7")
+  const fawJh6 = successfulFaw.find((record) => record.input.model === "JH6 Tractor")
+  assert.equal(fawJ7?.input.keySpecs?.powerPs, 560)
+  assert.equal(fawJ7?.input.keySpecs?.torqueNm, 2600)
+  assert.equal(fawJh6?.input.keySpecs?.powerPs, undefined)
+  assert.equal(fawJh6?.input.keySpecs?.torqueNm, undefined)
+  assert.equal(fawJh6?.input.propulsion, "Multiple / Configurable")
+  assert.equal(fawConfig.adapter.normalizeVehicle({ model: "BROKEN" }, fawBrand.data).success, false)
+  assert.equal(fawConfig.adapter.normalizeVehicle(fawVehicles[1], fawBrand.data).success, true)
+
   const conflicting = createInsertOnlyPromotionPlan({
     definition: { batch: "collision-test", manufacturer: "ISUZU", allowedModels: [candidates[0].model], importVersion: 1 },
     requestedManufacturer: "ISUZU",
@@ -149,6 +182,7 @@ async function main() {
   console.log("ISUZU regression fixture: 8 ALREADY_EXISTS, 0 inserts, NQR75LS warning preserved")
   console.log("ISUZU reviewed batch fixture: 18 eligible, 0 blocked, 9 documented duty-class resolutions")
   console.log("Invalid record isolation, collision classification, canonical validation, legacy compatibility, and BSON sanitization: PASS")
+  console.log("FAW adapter fixture: 22 normalized, 4 canonical categories, 3 unresolved-image records isolated")
 }
 
 void main().catch((error: unknown) => {

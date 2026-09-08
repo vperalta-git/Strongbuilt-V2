@@ -1,0 +1,67 @@
+{
+  "manufacturer": "faw",
+  "status": "candidate-only",
+  "registeredForApply": false,
+  "blockers": [
+    "FAW has no production brand document.",
+    "J6P Dump Truck has no verified primary image URL.",
+    "Dragon V Dump Truck has no verified primary image URL.",
+    "J6L Special Purpose has no verified primary image URL."
+  ],
+  "batches": [
+    {
+      "id": "faw-tractor-001",
+      "category": "Tractor",
+      "models": [
+        "J7",
+        "JH6 Tractor",
+        "J6P Tractor",
+        "NEW J5P Tractor",
+        "NEW J5M Tractor",
+        "J5P Tractor"
+      ],
+      "reviewNotes": [
+        "Review the three V Series J5P/J5M identities together without merging their distinct product pages.",
+        "NEW J5P Tractor, NEW J5M Tractor, and J5P Tractor require an approved duty-class decision or explicit acceptance of an unset duty class."
+      ]
+    },
+    {
+      "id": "faw-rigid-001",
+      "category": "Rigid Truck",
+      "models": [
+        "JK6 Rigid",
+        "J6L Rigid",
+        "Dragon V Rigid",
+        "Tiger VH Rigid",
+        "Tiger VN Rigid",
+        "Tiger VR Rigid",
+        "Baling Rigid",
+        "T80 Rigid"
+      ],
+      "reviewNotes": []
+    },
+    {
+      "id": "faw-dump-ready-001",
+      "category": "Dump Truck",
+      "models": [
+        "JH6 Dump Truck",
+        "NEW J5P Dump Truck",
+        "Tiger V 4x4 Dump Truck"
+      ],
+      "reviewNotes": [
+        "J6P Dump Truck and Dragon V Dump Truck remain outside this candidate batch until their primary images are resolved."
+      ]
+    },
+    {
+      "id": "faw-special-ready-001",
+      "category": "Special Purpose",
+      "models": [
+        "JH6 Special Purpose",
+        "J6P Special Purpose"
+      ],
+      "reviewNotes": [
+        "J6L Special Purpose remains outside this candidate batch until its primary image is resolved."
+      ]
+    }
+  ]
+}

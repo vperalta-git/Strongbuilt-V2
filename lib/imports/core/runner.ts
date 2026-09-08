@@ -46,8 +46,12 @@ function rejectedStage(index: number, raw: unknown, issues: ManufacturerImportIs
   return { index, raw, normalizationDecisions: [], issues, status: "rejected" }
 }
 
-async function importedFingerprints(db: Db, slugs: string[]) {
-  const records = await getTrucksCollection(db).find({ slug: { $in: slugs } }).sort({ slug: 1 }).toArray()
+async function isuzuImportedFingerprints(db: Db) {
+  const imported = await getTrucksCollection(db)
+    .find({ "importMetadata.source": "manufacturer-import" })
+    .sort({ slug: 1 })
+    .toArray()
+  const records = imported.filter((record) => record.importMetadata?.manufacturer.trim().toLowerCase() === "isuzu")
   return Object.fromEntries(records.map((record) => [
     record.slug,
     createHash("sha256").update(JSON.stringify(record)).digest("hex"),
@@ -145,13 +149,9 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
 
   const db = await resolveCatalogDatabase(await getMongoDatabase())
   process.env.MONGODB_DB = db.databaseName
-  const promotedReferenceSlugs = [
-    "isuzu-nmr85hs", "isuzu-nqr75ls", "isuzu-qlr77e", "isuzu-nlr85es",
-    "isuzu-nlr77h", "isuzu-nlr85e", "isuzu-nmr85h", "isuzu-npr85k",
-  ]
   const before = await catalogCounts(db)
   const fingerprintsBefore = await safetyFingerprints(db)
-  const importedBefore = await importedFingerprints(db, promotedReferenceSlugs)
+  const importedBefore = await isuzuImportedFingerprints(db)
   const brand = await resolveManufacturerBrand(db, config)
 
   const validSelected = selected.filter((record): record is Extract<typeof record, { success: true }> => record.success)
@@ -232,7 +232,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
 
   const after = await catalogCounts(db)
   const fingerprintsAfter = await safetyFingerprints(db)
-  const importedAfter = await importedFingerprints(db, promotedReferenceSlugs)
+  const importedAfter = await isuzuImportedFingerprints(db)
   if (!options.apply) {
     assert.deepEqual(after, before, "Dry run changed database counts.")
     assert.deepEqual(fingerprintsAfter, fingerprintsBefore, "Dry run changed database documents.")
@@ -255,13 +255,16 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     typeResolution: candidates[index].resolvedType
       ? { resolved: true, ...candidates[index].resolvedType, id: candidates[index].resolvedType?.id.toHexString() }
       : { resolved: false },
-    taxonomy: record.canonicalPreview ? {
-      vehicleFamily: record.canonicalPreview.vehicleFamily,
-      bodyType: record.canonicalPreview.bodyType,
-      dutyClass: record.canonicalPreview.dutyClass,
-      propulsion: record.canonicalPreview.propulsion,
-      applicationTags: record.canonicalPreview.applicationTags,
-    } : null,
+    taxonomy: (() => {
+      const normalized = record.canonicalPreview || normalizedByIndex.get(index)?.input
+      return normalized ? {
+        vehicleFamily: normalized.vehicleFamily,
+        bodyType: normalized.bodyType,
+        dutyClass: normalized.dutyClass,
+        propulsion: normalized.propulsion,
+        applicationTags: normalized.applicationTags,
+      } : null
+    })(),
     source: record.canonicalPreview?.source || normalizedByIndex.get(index)?.input.source || null,
     images: imageInspection(normalizedByIndex.get(index)),
     legacyCompatibility: record.legacyCompatibility,

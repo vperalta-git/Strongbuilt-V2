@@ -1,0 +1,293 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-08T08:01:34.548Z",
+  "summary": {
+    "imagesTested": 19,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 19,
+    "missingImageRecords": 3
+  },
+  "records": [
+    {
+      "model": "J7",
+      "slug": "faw-j7-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20230517/298cc3b0adcc5890fc906e251cfa9b7e.webp",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/J7/507.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j7-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "JH6 Tractor",
+      "slug": "faw-jh6-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/35f51790cae447f409e97c3a42e87f0c.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/JH6/193.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jh6-tractor.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6P Tractor",
+      "slug": "faw-j6p-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210204/15040c9612f7cc7ed428dc71abafc966.png",
+          "sourcePage": "https://www.fawtrucks-global.com/PH/J6P/336.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j6p-tractor.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NEW J5P Tractor",
+      "slug": "faw-new-j5p-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/0c1ad7619202188477bddc1089eb99ee.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/VSeries/203.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/new-j5p-tractor.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NEW J5M Tractor",
+      "slug": "faw-new-j5m-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/b5aaf027465fa4839845b343801f9a5d.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/VSeries/202.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/new-j5m-tractor.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J5P Tractor",
+      "slug": "faw-j5p-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/6c36b13d471cc61a7dac3b53915c8f0e.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/VSeries/201.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j5p-tractor.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "JK6 Rigid",
+      "slug": "faw-jk6-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210324/bced770b0a0298d8206b7ccd8423692d.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/JK6A/207.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jk6-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6L Rigid",
+      "slug": "faw-j6l-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/664fb9c1254cccede41dbd2143360575.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/J6L/205.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j6l-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Dragon V Rigid",
+      "slug": "faw-dragon-v-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210207/3bfc5eb8225056aed5c29016c7908367.png",
+          "sourcePage": "https://www.fawtrucks-global.com/PH/DragonV/342.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/dragon-v-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Tiger VH Rigid",
+      "slug": "faw-tiger-vh-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210210/545fdbc73e3f18a08c1109ba359b51eb.png",
+          "sourcePage": "https://www.fawtrucks-global.com/NG/TIGERV/362.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-vh-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Tiger VN Rigid",
+      "slug": "faw-tiger-vn-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/f62cd735b90c9f513c28841dd661b7b8.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/TigerV/209.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-vn-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Tiger VR Rigid",
+      "slug": "faw-tiger-vr-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/02d1e870020046a812e6e0b57194d687.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/TigerV/210.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-vr-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Baling Rigid",
+      "slug": "faw-baling-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20220830/aa9842a3936f5bc3172755d2b5ec33f0.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/Baling/428.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/baling-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "T80 Rigid",
+      "slug": "faw-t80-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20220830/58fcadc1c5e9758db3abb7ae4b483525.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/T80/429.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/t80-rigid.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "JH6 Dump Truck",
+      "slug": "faw-jh6-dump",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/9bbdd523b9fbb61392ef7a58a460acd6.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/JH6B/214.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jh6-dump.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6P Dump Truck",
+      "slug": "faw-j6p-dump",
+      "images": []
+    },
+    {
+      "model": "NEW J5P Dump Truck",
+      "slug": "faw-new-j5p-dump",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/77089f9aa1dee6fc53b3863c51b23a36.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/NEWJ5P/216.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/new-j5p-dump.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Dragon V Dump Truck",
+      "slug": "faw-dragon-v-dump",
+      "images": []
+    },
+    {
+      "model": "Tiger V 4x4 Dump Truck",
+      "slug": "faw-tiger-v-dump",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/2d582e063d07147cb0f0e77cfd30013e.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/TigerVB/218.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-v-4x4-dump.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "JH6 Special Purpose",
+      "slug": "faw-jh6-special-purpose",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210310/38f4d0bc1a2197094608cd404643c6e2.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/JH6C/211.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jh6-special-purpose.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6P Special Purpose",
+      "slug": "faw-j6p-special-purpose",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210310/471cece8962466eb29b0e220a9afad9b.png",
+          "sourcePage": "https://www.fawtrucks-global.com/EN/J6PB/221.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j6p-special-purpose.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6L Special Purpose",
+      "slug": "faw-j6l-special-purpose",
+      "images": []
+    }
+  ]
+}

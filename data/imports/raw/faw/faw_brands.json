@@ -1,0 +1,19 @@
+[
+  {
+    "name": "FAW TRUCKS",
+    "slug": "faw-trucks",
+    "officialWebsite": "https://www.fawtrucks-global.com/EN/",
+    "logo": {
+      "url": "https://www.fawtrucks-global.com/uploads/image/20230711/1689046088292760.webp",
+      "alt": "FAW TRUCKS logo",
+      "localPathSuggested": "/images/brands/faw-trucks.webp"
+    },
+    "description": "Commercial truck brand with tractor, rigid truck, dump truck and special-purpose vehicle ranges.",
+    "active": true,
+    "displayOrder": 1,
+    "source": {
+      "logoAnnouncementUrl": "https://www.fawtrucks-global.com/EN/COMPANY%20NEWS/531.html",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

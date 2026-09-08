@@ -47,7 +47,17 @@ export const manufacturerRegistry = {
     allowedVehicleFamilies: ["Truck", "Bus", "PUV"],
     knownSourceWarnings: ["Preserve manufacturer discrepancies verbatim, including the NQR75LS power warning."],
   }),
-  faw: configuration("faw", "FAW", fawAdapter),
+  faw: configuration("faw", "FAW", fawAdapter, {
+    brandAliases: ["FAW", "FAW TRUCKS", "faw", "faw-trucks"],
+    legacyTypeAliases: {
+      "rigid-truck": "cargo",
+      "tractor-head": "tractor-head",
+      "dump-truck": "dump-truck",
+      "special-purpose": "specialized-custom",
+    },
+    allowedVehicleFamilies: ["Truck", "Special Purpose Vehicle"],
+    knownSourceWarnings: ["Preserve regional configuration caveats and unresolved image status."],
+  }),
   forland: configuration("forland", "Forland", forlandAdapter),
   shacman: configuration("shacman", "SHACMAN", shacmanAdapter),
   asiastar: configuration("asiastar", "ASIASTAR", asiastarAdapter, { allowedVehicleFamilies: ["Bus", "Coach"] }),
