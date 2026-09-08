@@ -1,0 +1,54 @@
+{
+  "consolidatedDuplicates": [
+    {
+      "record": "HOWO TX 4×2 Cargo Truck",
+      "urls": [
+        "https://sinotruk.international/products/howo-tx-4x2-cargo-truck-2/",
+        "https://sinotruk.international/products/howo-tx-4x2-cargo-truck/"
+      ]
+    },
+    {
+      "record": "HOWO Water Tanker",
+      "urls": [
+        "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
+        "https://sinotruk.international/products/sinotruck-howo-water-tanker/"
+      ]
+    },
+    {
+      "record": "HOWO 6×4 Oil Tanker",
+      "urls": [
+        "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
+        "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker/"
+      ]
+    },
+    {
+      "record": "HOWO Garbage Truck",
+      "urls": [
+        "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
+        "https://sinotruk.international/products/sinotruck-howo-garbage-truck/"
+      ]
+    }
+  ],
+  "sourceDataWarnings": [
+    {
+      "record": "HOWO Pure Electric Light Truck",
+      "issue": "ICE-style header values conflict with the page's detailed electric table; detailed electric table used."
+    },
+    {
+      "record": "HOWO Pure Electric Dump Truck",
+      "issue": "ICE-style header values conflict with detailed EV specs; detailed EV table used."
+    },
+    {
+      "record": "HOWO Pure Electric Tractor Truck",
+      "issue": "Detailed table appears copied from light-truck page; detailed specs intentionally withheld."
+    },
+    {
+      "record": "Pure Electric Single Side Dock Tractor Truck",
+      "issue": "Detailed table appears copied from light-truck page; detailed specs intentionally withheld."
+    },
+    {
+      "record": "Low Bed Semi Trailer",
+      "issue": "Page description says 80 t standard with 25% overload; model field says Max.70 t. Both preserved."
+    }
+  ]
+}

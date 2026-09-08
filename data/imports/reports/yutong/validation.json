@@ -1,0 +1,4146 @@
+{
+  "manufacturer": "yutong",
+  "displayName": "YUTONG",
+  "generatedAt": "2026-09-08T08:58:23.719Z",
+  "mode": "validation",
+  "sourceFiles": {
+    "brands": {
+      "path": "data/imports/raw/yutong/yutong_brands.json",
+      "records": 1
+    },
+    "vehicles": {
+      "path": "data/imports/raw/yutong/yutong_trucks.json",
+      "records": 41
+    }
+  },
+  "selection": {
+    "batchId": null,
+    "requestedModels": "all",
+    "sourceRecords": 41,
+    "recordsTested": 41
+  },
+  "summary": {
+    "recordsLoaded": 41,
+    "recordsNormalized": 41,
+    "eligible": 0,
+    "warnings": 48,
+    "errors": 51,
+    "alreadyExists": 0,
+    "expectedInserts": 0,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0
+  },
+  "batchEligibility": {
+    "applyAllowed": false,
+    "blocked": 41,
+    "batchErrors": [
+      {
+        "severity": "error",
+        "field": "brandSlug",
+        "message": "The approved manufacturer brand could not be resolved.",
+        "reason": "The approved manufacturer brand could not be resolved.",
+        "code": "UNRESOLVED_BRAND",
+        "sourceValue": "yutong",
+        "normalizedValue": null
+      }
+    ]
+  },
+  "brandResolution": {
+    "slug": "yutong",
+    "name": null,
+    "resolved": false,
+    "matchedBy": null,
+    "hardCodedObjectId": false
+  },
+  "typeCompatibility": {
+    "requestedSourceTypes": [
+      "bus",
+      "special-purpose",
+      "trailer"
+    ],
+    "resolvedSourceTypes": [
+      "bus",
+      "special-purpose",
+      "trailer"
+    ],
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
+  },
+  "duplicateChecks": {
+    "alreadyExists": 0,
+    "batchSlugErrors": 0,
+    "batchModelErrors": 0,
+    "batchVariantWarnings": 2,
+    "productionIdentityConflicts": 0,
+    "sharedOfficialProductUrls": 0,
+    "sharedProductFamilies": [
+      {
+        "productLine": "E-Bus",
+        "models": [
+          "H10",
+          "E7S (ZK6706BEVG)",
+          "U12",
+          "E12 (ZK6128BEVG)",
+          "U18",
+          "E12PRO",
+          "U12DD",
+          "U15",
+          "E9 (ZK6890BEVG)"
+        ]
+      },
+      {
+        "productLine": "E-Coach",
+        "models": [
+          "T12E",
+          "IC12E (2026)",
+          "T15E",
+          "IC12E",
+          "C13E (ZK6137BEV)",
+          "T14E",
+          "C11E (ZK6117BEV)",
+          "C9E (ZK6907BEV)",
+          "D8E (ZK6772BEV)"
+        ]
+      },
+      {
+        "productLine": "City Bus",
+        "models": [
+          "ZK6890HG",
+          "ZK6126HG",
+          "ZK6186HG"
+        ]
+      },
+      {
+        "productLine": "Coach",
+        "models": [
+          "T12",
+          "C12PRO",
+          "D14",
+          "T14",
+          "C11 (ZK6117H)",
+          "C13PRO",
+          "C9 (ZK6907H)",
+          "T7",
+          "ZK6126D"
+        ]
+      },
+      {
+        "productLine": "Apron Bus",
+        "models": [
+          "AB14",
+          "AB14E"
+        ]
+      },
+      {
+        "productLine": "Specialty Vehicle",
+        "models": [
+          "BC12",
+          "PT9",
+          "PC9",
+          "ASCLE",
+          "AKESO",
+          "MC6",
+          "PV9",
+          "RV9",
+          "AKESO5"
+        ]
+      }
+    ]
+  },
+  "imageStatus": {
+    "imagesTested": 41,
+    "sourceImagesAvailable": 40,
+    "sourceImagesUnresolved": 1,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 40,
+    "missingImageRecords": 1
+  },
+  "frontendCompatibility": {
+    "recordsTested": 41,
+    "recordsPassed": 0,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": false
+  },
+  "promotion": {
+    "writesPerformed": 0,
+    "expectedInserts": 0,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0,
+    "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
+  },
+  "seedSafety": {
+    "seedOwnedSlugs": 12,
+    "selectedSeedSlugOverlap": [],
+    "deletesUnknownSlugs": false,
+    "importerUpdatesExistingRecords": false
+  },
+  "dataSafety": {
+    "countsBefore": {
+      "brands": 6,
+      "trucks": 38,
+      "uniqueTruckSlugs": 38,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "countsAfter": {
+      "brands": 6,
+      "trucks": 38,
+      "uniqueTruckSlugs": 38,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "unchanged": true,
+    "existingImportedFingerprintsUnchanged": true,
+    "existingImportedRecordsFingerprinted": 26,
+    "existingImportedFingerprintsBefore": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    },
+    "existingImportedFingerprintsAfter": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    }
+  },
+  "records": [
+    {
+      "model": "H10",
+      "slug": "yutong-h10",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Hybrid City Bus",
+        "dutyClassification": "Hybrid Bus",
+        "configurations": [
+          "Hybrid DMT system",
+          "Super capacitor"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": "Hybrid",
+        "legacyTypeHint": "hybrid-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Prepared source QA warning retained through normalization.",
+          "reason": "Prepared source QA warning retained through normalization.",
+          "code": "SOURCE_DATA_WARNING",
+          "sourceValue": "Although H10 is listed on YUTONG's E-Bus category page, the current product page explicitly identifies it as a hybrid city bus rather than a battery-electric bus.",
+          "normalizedValue": "Although H10 is listed on YUTONG's E-Bus category page, the current product page explicitly identifies it as a hybrid city bus rather than a battery-electric bus."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Hybrid",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/H10.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "Although H10 is listed on YUTONG's E-Bus category page, the current product page explicitly identifies it as a hybrid city bus rather than a battery-electric bus."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/9/24/product/productCatPic/41b689645ca2439fbe32501513740785.webp",
+          "sourcePage": "https://en.yutong.com/products/H10.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/h10.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 8,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "E7S (ZK6706BEVG)",
+      "slug": "yutong-e7s",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric City Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Urban feeder service",
+          "Microcirculation routes"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/E7S.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/17/product/productCatPic/2ec1faf804c64667878b181b4d37eeca.webp",
+          "sourcePage": "https://en.yutong.com/products/E7S.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/e7s.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "U12",
+      "slug": "yutong-u12",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric City Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric",
+          "Low-floor urban bus"
+        ],
+        "applications": [
+          "Urban public transport",
+          "High-frequency city routes"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/U12.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/10/24/product/productCatPic/bfe7efa3bc8f4610a67d63560fdcb88f.webp",
+          "sourcePage": "https://en.yutong.com/products/U12.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/u12.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "E12 (ZK6128BEVG)",
+      "slug": "yutong-e12",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric City Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric",
+          "Right-hand drive"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/xE12.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/14/product/productCatPic/4722c7f9c4c44cadb922279e40918c09.webp",
+          "sourcePage": "https://en.yutong.com/products/xE12.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/e12.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "U18",
+      "slug": "yutong-u18",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric Articulated Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric",
+          "Articulated"
+        ],
+        "applications": [
+          "High-capacity urban transit",
+          "Bus rapid transit"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-articulated-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/U18.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/23/product/productCatPic/b42a2c04a2a74d62824a96c872a10401.webp",
+          "sourcePage": "https://en.yutong.com/products/U18.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/u18.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "E12PRO",
+      "slug": "yutong-e12pro",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric City Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric",
+          "Low floor"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/E12PRO.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/3/27/product/productCatPic/e671deafbc1849d5bc1fa2987ff5b042.webp",
+          "sourcePage": "https://en.yutong.com/products/E12PRO.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/e12pro.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "U12DD",
+      "slug": "yutong-u12dd",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric Double-Decker Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric",
+          "Double deck"
+        ],
+        "applications": [
+          "High-capacity urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-double-decker-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/U12DD.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/2134d6a9016047aba491d5ea5615ac2b.webp",
+          "sourcePage": "https://en.yutong.com/products/U12DD.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/u12dd.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "U15",
+      "slug": "yutong-u15",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric City Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "High-capacity urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer source note retained for manual QA.",
+          "reason": "Manufacturer source note retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING",
+          "sourceValue": "YUTONG states a range of up to 850 km under SORT2 for the referenced 662 kWh configuration; operating range depends on test cycle and configuration.",
+          "normalizedValue": "YUTONG states a range of up to 850 km under SORT2 for the referenced 662 kWh configuration; operating range depends on test cycle and configuration."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/U15.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "YUTONG states a range of up to 850 km under SORT2 for the referenced 662 kWh configuration; operating range depends on test cycle and configuration."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/7/product/productCatPic/9ed26742e67045589e3d0aa6151e6d3a.webp",
+          "sourcePage": "https://en.yutong.com/products/U15.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/u15.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "E9 (ZK6890BEVG)",
+      "slug": "yutong-e9",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Bus",
+        "category": "Electric City Bus",
+        "dutyClassification": "New Energy Bus",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Urban branch routes",
+          "Urban and rural transit"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/E9.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/64f738c2f89f4b60abfdda6fde4247f4.webp",
+          "sourcePage": "https://en.yutong.com/products/E9.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/e9.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "T12E",
+      "slug": "yutong-t12e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/T12E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/c4530f92da19432eb3c3b49bc8cb32e5.jpg",
+          "sourcePage": "https://en.yutong.com/products/T12E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/t12e.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "IC12E (2026)",
+      "slug": "yutong-ic12e-2026",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "model",
+          "message": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "reason": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "code": "BATCH_POSSIBLE_VARIANT_RELATIONSHIP",
+          "sourceValue": "IC12E (2026)",
+          "normalizedValue": [
+            "IC12E"
+          ]
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/IC12E_2026.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/23/product/productCatPic/17156954e3c64461953bbb99e675ac42.webp",
+          "sourcePage": "https://en.yutong.com/products/IC12E_2026.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/ic12e-2026.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "T15E",
+      "slug": "yutong-t15e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/T15E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/43dd135b21bc4487b1526aa5f71ed5e1.webp",
+          "sourcePage": "https://en.yutong.com/products/T15E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/t15e.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "IC12E",
+      "slug": "yutong-ic12e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "model",
+          "message": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "reason": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "code": "BATCH_POSSIBLE_VARIANT_RELATIONSHIP",
+          "sourceValue": "IC12E",
+          "normalizedValue": [
+            "IC12E (2026)"
+          ]
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/IC12E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/a7b2c62a1b6047d6b90abba007aec2c3.webp",
+          "sourcePage": "https://en.yutong.com/products/IC12E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/ic12e.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C13E (ZK6137BEV)",
+      "slug": "yutong-c13e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C13E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/9/product/productCatPic/dc4d63884756415e80a40b32af6ebe50.webp",
+          "sourcePage": "https://en.yutong.com/products/C13E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c13e.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "T14E",
+      "slug": "yutong-t14e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/T14E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/4b75299306374bcf9a0fc649d7ccd15d.webp",
+          "sourcePage": "https://en.yutong.com/products/T14E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/t14e.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C11E (ZK6117BEV)",
+      "slug": "yutong-c11e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C11E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/12/25/product/productCatPic/1f99c72eca0a4c1393f8542b4f21d3eb.webp",
+          "sourcePage": "https://en.yutong.com/products/C11E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c11e.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C9E (ZK6907BEV)",
+      "slug": "yutong-c9e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-product-page-verified-image-url-needs-extraction",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C9E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://en.yutong.com/products/C9E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c9e.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "D8E (ZK6772BEV)",
+      "slug": "yutong-d8e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "E-Coach",
+        "category": "Electric Coach",
+        "dutyClassification": "New Energy Coach",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Tourism",
+          "Intercity passenger transport",
+          "Company shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "electric-coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/D8E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e428350082.jpg",
+          "sourcePage": "https://en.yutong.com/products/D8E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/d8e.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "ZK6890HG",
+      "slug": "yutong-zk6890hg",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "City Bus",
+        "configurations": [],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6890HG.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/e5791f06a0f84d75b74c9eafe3921de5.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK6890HG.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6890hg.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "ZK6126HG",
+      "slug": "yutong-zk6126hg",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "City Bus",
+        "configurations": [],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6126HG.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/315d2488a9e7499689562050e6392969.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK6126HG.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6126hg.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "ZK6186HG",
+      "slug": "yutong-zk6186hg",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "City Bus",
+        "configurations": [],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6186HG.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/645da21152a24020b8fc49463c29db41.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6186HG.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6186hg.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "T12",
+      "slug": "yutong-t12",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/T12.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/2011711982792740864.webp",
+          "sourcePage": "https://en.yutong.com/products/T12.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/t12.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 9,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C12PRO",
+      "slug": "yutong-c12pro",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C12PRO.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/9/12/product/productCatPic/1ec899b35a0d4a12bc4c7bf1dcd7b07c.webp",
+          "sourcePage": "https://en.yutong.com/products/C12PRO.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c12pro.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "D14",
+      "slug": "yutong-d14",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/D14.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/3/14/product/productCatPic/99e42b2bda4949ee96f8424c8b9356c8.webp",
+          "sourcePage": "https://en.yutong.com/products/D14.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/d14.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "T14",
+      "slug": "yutong-t14",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [
+          "Right-hand-drive listing shown in YUTONG coach catalog"
+        ],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/T14.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/20/product/productCatPic/5424823260b34e5e87225c12cf2e60b5.webp",
+          "sourcePage": "https://en.yutong.com/products/T14.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/t14.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 8,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C11 (ZK6117H)",
+      "slug": "yutong-c11",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C11.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/e96236114066403091ee69de01adefa4.webp",
+          "sourcePage": "https://en.yutong.com/products/C11.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c11.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 10,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C13PRO",
+      "slug": "yutong-c13pro",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C13PRO.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/9/6/product/productCatPic/ff8080818a686a84018a6936acb2007b.jpg",
+          "sourcePage": "https://en.yutong.com/products/C13PRO.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c13pro.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "C9 (ZK6907H)",
+      "slug": "yutong-c9",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/C9.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/9/13/product/productCatPic/508f5d8ec7164f10920d9cafee372606.webp",
+          "sourcePage": "https://en.yutong.com/products/C9.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c9.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "T7",
+      "slug": "yutong-t7",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/T7.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/5/10/product/productCatPic/c25fb3af329c49939edec18eb81a09be.webp",
+          "sourcePage": "https://en.yutong.com/products/T7.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/t7.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "ZK6126D",
+      "slug": "yutong-zk6126d",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Coach",
+        "configurations": [],
+        "applications": [
+          "Tourism",
+          "Long-distance passenger transport",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6126D.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/11/16/product/productCatPic/8ac292568b888b81018bd61f03bd0208.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6126D.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6126d.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "AB14",
+      "slug": "yutong-ab14",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Apron Bus",
+        "category": "Airport Apron Bus",
+        "dutyClassification": "Airport Bus",
+        "configurations": [],
+        "applications": [
+          "Airport apron passenger transfer",
+          "Airside shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "apron-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Apron Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Airport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/AB14.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e5d7c10083.jpg",
+          "sourcePage": "https://en.yutong.com/products/AB14.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/ab14.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "AB14E",
+      "slug": "yutong-ab14e",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Apron Bus",
+        "category": "Electric Airport Apron Bus",
+        "dutyClassification": "New Energy Airport Bus",
+        "configurations": [
+          "Battery electric"
+        ],
+        "applications": [
+          "Airport apron passenger transfer",
+          "Airside shuttle"
+        ],
+        "gvwKg": null,
+        "propulsion": "Electric",
+        "legacyTypeHint": "electric-apron-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Apron Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Public Transport",
+          "Airport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/AB14E.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/5/28/product/productCatPic/b9706b7abf7b4fa1847d1b6ef8ef1fe2.webp",
+          "sourcePage": "https://en.yutong.com/products/AB14E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/ab14e.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "BC12",
+      "slug": "yutong-bc12",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Blood Collection Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Mobile blood collection",
+          "Medical outreach"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "blood-collection-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-bc12 requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-bc12 requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Medical Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6128H.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925690168c0f019025b3a8020029.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6128H.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/bc12.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "PT9",
+      "slug": "yutong-pt9",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Health Check AWD Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Mobile health screening",
+          "Medical outreach"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "medical-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-pt9 requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-pt9 requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Medical Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK5180XYL.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/3/26/product/productCatPic/666ecabfd2d84a00a90a79e99d2f8777.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK5180XYL.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/pt9.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "PC9",
+      "slug": "yutong-pc9",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Health Check Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Mobile health screening",
+          "Medical outreach"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "medical-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-pc9 requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-pc9 requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Medical Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6907H.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925790168d46019025ac3e330023.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/pc9.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "ASCLE",
+      "slug": "yutong-ascle",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Off-Road Ambulance",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Emergency medical response",
+          "Off-road rescue"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "ambulance"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-ascle requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-ascle requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Emergency Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical",
+          "Emergency"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ASCLE.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930593340458405888.jpg",
+          "sourcePage": "https://en.yutong.com/products/ASCLE.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/ascle.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "AKESO",
+      "slug": "yutong-akeso",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Urban Ambulance",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Emergency medical response",
+          "Urban ambulance service"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "ambulance"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-akeso requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-akeso requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Emergency Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Medical",
+          "Emergency"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/AKESO.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930591515659341824.jpg",
+          "sourcePage": "https://en.yutong.com/products/AKESO.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "MC6",
+      "slug": "yutong-mc6",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Police Trailer",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Police operations",
+          "Mobile command/support"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "police-special-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Prepared source QA warning retained through normalization.",
+          "reason": "Prepared source QA warning retained through normalization.",
+          "code": "SOURCE_DATA_WARNING",
+          "sourceValue": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page.",
+          "normalizedValue": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f533",
+        "name": "Trailer",
+        "slug": "trailer"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Trailer",
+        "bodyType": "Trailer",
+        "dutyClass": "Trailer",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK9020XJY.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/10/10/product/productCatPic/8ac292568adb3ee8018b18bdba8e0052.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK9020XJY.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/mc6.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 2,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "PV9",
+      "slug": "yutong-pv9",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Prisoner Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Prisoner transport",
+          "Secure personnel movement"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "prisoner-transport"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-pv9 requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-pv9 requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Special Purpose Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6907H-2.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292568e600485018ec7592da30102.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H-2.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/pv9.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "RV9",
+      "slug": "yutong-rv9",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Riot Resistance Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Public-safety operations",
+          "Specialist personnel/equipment transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "riot-control-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-rv9 requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-rv9 requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Special Purpose Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6907H-1.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292578e600484018ec756a30f014e.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H-1.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/rv9.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "AKESO5",
+      "slug": "yutong-akeso5",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Emergency Medical Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Emergency medical response",
+          "Hospital and emergency-center support"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "ambulance"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer source note retained for manual QA.",
+          "reason": "Manufacturer source note retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING",
+          "sourceValue": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'.",
+          "normalizedValue": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle yutong-akeso5 requires an explicit legacy category projection.",
+          "reason": "Vehicle yutong-akeso5 requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
+        }
+      ],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": null,
+        "resolved": false,
+        "matchedBy": null
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Emergency Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical",
+          "Emergency",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/AKESO5.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/12/22/product/productCatPic/e12b610808dc4b298607a90332844a16.webp",
+          "sourcePage": "https://en.yutong.com/products/AKESO5.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso5.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    }
+  ]
+}

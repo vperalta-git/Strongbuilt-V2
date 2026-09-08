@@ -41,6 +41,7 @@ export type ExistingVehicleIdentity = {
 }
 
 type PromotionIssue = ManufacturerImportIssue
+type PreviewPromotionReferences = PromotionReferences & { brandName: string; typeName: string }
 
 function promotionIssue(
   severity: "warning" | "error",
@@ -61,6 +62,13 @@ function comparableModel(value: string | undefined) {
   return value?.trim().toLowerCase().replace(/[^a-z0-9]+/g, "") || ""
 }
 
+function possibleModelVariant(first: string | undefined, second: string | undefined) {
+  const left = first?.trim().toLowerCase().replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ") || ""
+  const right = second?.trim().toLowerCase().replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ") || ""
+  if (!left || !right || left === right || Math.min(left.length, right.length) < 4) return false
+  return left.startsWith(`${right} `) || right.startsWith(`${left} `)
+}
+
 function promotionDecisions(candidate: PromotionCandidate): VehicleNormalizationDecision[] {
   return [
     ...candidate.sourceDecisions,
@@ -76,7 +84,7 @@ function promotionDecisions(candidate: PromotionCandidate): VehicleNormalization
 
 function buildCanonicalPreview(
   candidate: PromotionCandidate,
-  references: Required<PromotionReferences>,
+  references: PreviewPromotionReferences,
   definition: PromotionBatchDefinition,
   timestamp: Date,
   issues: PromotionIssue[],
@@ -90,8 +98,8 @@ function buildCanonicalPreview(
 
   return {
     slug: normalized.slug,
-    brand: { id: references.brandId.toHexString(), slug: references.brandSlug, name: references.brandName },
-    type: { id: references.typeId.toHexString(), slug: references.typeSlug, name: references.typeName },
+    brand: { id: references.brandId?.toHexString(), slug: references.brandSlug, name: references.brandName },
+    type: { id: references.typeId?.toHexString(), slug: references.typeSlug, name: references.typeName },
     name: normalized.name,
     model: normalized.model,
     vehicleFamily: normalized.vehicleFamily,
@@ -182,6 +190,17 @@ export function createInsertOnlyPromotionPlan(args: {
       && !issues.some((entry) => entry.code === "BATCH_MODEL_COLLISION")) {
       issues.push(promotionIssue("error", "model", "The promotion batch contains likely equivalent model identities.", "BATCH_LIKELY_EQUIVALENT_MODEL", candidate.model, null))
     }
+    const possibleVariants = args.candidates.filter((entry) => entry !== candidate && possibleModelVariant(entry.model, candidate.model))
+    if (possibleVariants.length) {
+      issues.push(promotionIssue(
+        "warning",
+        "model",
+        "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+        "BATCH_POSSIBLE_VARIANT_RELATIONSHIP",
+        candidate.model,
+        possibleVariants.map((entry) => entry.model),
+      ))
+    }
     const slugCollision = args.existingVehicles.find((vehicle) => vehicle.slug.toLowerCase() === candidate.slug.toLowerCase())
     const modelCollision = args.references.brandId
       ? args.existingVehicles.find((vehicle) => (
@@ -196,7 +215,10 @@ export function createInsertOnlyPromotionPlan(args: {
       : undefined
     const likelyModelCollision = !modelCollision && args.references.brandId
       ? args.existingVehicles.find((vehicle) => (
-          vehicle.brandId.equals(args.references.brandId) && comparableModel(vehicle.model) === comparableModel(candidate.model)
+          vehicle.brandId.equals(args.references.brandId) && (
+            comparableModel(vehicle.model) === comparableModel(candidate.model)
+            || possibleModelVariant(vehicle.model, candidate.model)
+          )
         ))
       : undefined
     const exactSlugMatch = Boolean(slugCollision && args.references.brandId && slugCollision.brandId.equals(args.references.brandId)
@@ -233,13 +255,16 @@ export function createInsertOnlyPromotionPlan(args: {
     if (!candidateReferences.typeId || !candidateReferences.typeName) {
       issues.push(promotionIssue("error", "typeSlug", "The legacy compatibility truck type could not be resolved.", "UNRESOLVED_TYPE", candidateReferences.typeSlug, null))
     }
+    const previewReferences = candidateReferences.brandName && candidateReferences.typeName
+      ? candidateReferences as PreviewPromotionReferences
+      : undefined
     const completeReferences = referencesResolved ? candidateReferences as Required<PromotionReferences> : undefined
 
     let canonicalPreview: Vehicle | undefined
     let document: ReturnType<typeof vehicleInsertDocumentSchema.parse> | undefined
     let legacyCompatibility = { passed: false, imagesExposed: 0, specifications: 0, quoteSnapshotCompatible: false }
-    if (completeReferences && candidate.staged.normalized) {
-      canonicalPreview = buildCanonicalPreview(candidate, completeReferences, args.definition, args.timestamp, issues)
+    if (previewReferences && candidate.staged.normalized) {
+      canonicalPreview = buildCanonicalPreview(candidate, previewReferences, args.definition, args.timestamp, issues)
       if (canonicalPreview) {
         canonicalPreview.displayOrder = args.startingDisplayOrder + index + 1
         const canonicalResult = canonicalVehicleSchema.safeParse(canonicalPreview)
@@ -262,6 +287,7 @@ export function createInsertOnlyPromotionPlan(args: {
             issues.push(promotionIssue("error", "legacyAdapter", error instanceof Error ? error.message : "Legacy adapter failed.", "LEGACY_ADAPTER_FAILURE"))
           }
 
+          if (completeReferences) {
           const normalized = candidate.staged.normalized
           const verifiedAt = normalized.source?.verifiedAt
             ? sourceDate(normalized.source.verifiedAt)
@@ -322,6 +348,7 @@ export function createInsertOnlyPromotionPlan(args: {
             } else {
               document = bsonRoundTrip.data
             }
+          }
           }
         }
       }

@@ -1,0 +1,22 @@
+{
+  "brandCount": 1,
+  "productCount": 50,
+  "categories": {
+    "Heavy Truck": 17,
+    "Light Truck": 8,
+    "Special Vehicle": 15,
+    "Semi Trailer": 6,
+    "New Energy Vehicle": 4
+  },
+  "officialImageUrls": 50,
+  "publicPricesIncluded": false,
+  "duplicateListingsConsolidated": 4,
+  "verifiedAt": "2026-09-02",
+  "notes": [
+    "All supplied SINOTRUK product categories were processed.",
+    "Obvious duplicate product listings were consolidated into one Strongbuilt record with alternateSourceUrls.",
+    "Several SINOTRUK pages contain internally inconsistent or copied specification fields. These are explicitly flagged instead of silently treated as authoritative.",
+    "No public pricing is included.",
+    "All records remain inquiry-only until Strongbuilt confirms local sourcing and exact configuration."
+  ]
+}

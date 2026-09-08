@@ -1,0 +1,52 @@
+{
+  "status": "candidate-only",
+  "registeredForApply": false,
+  "notes": [
+    "Every batch requires a later explicit record-level review and registration before apply.",
+    "No batch in this file authorizes promotion or database writes."
+  ],
+  "manufacturers": {
+    "faw": [
+      { "id": "faw-tractor-001", "sourceCategory": "Tractor", "records": 6, "blockedUntil": ["brand setup", "three duty-class decisions", "local image migration"] },
+      { "id": "faw-rigid-001", "sourceCategory": "Rigid Truck", "records": 8, "blockedUntil": ["brand setup", "local image migration"] },
+      { "id": "faw-dump-ready-001", "models": ["JH6 Dump Truck", "NEW J5P Dump Truck", "Tiger V 4x4 Dump Truck"], "blockedUntil": ["brand setup", "local image migration"] },
+      { "id": "faw-special-ready-001", "models": ["JH6 Special Purpose", "J6P Special Purpose"], "blockedUntil": ["brand setup", "local image migration"] }
+    ],
+    "forland": [
+      { "id": "forland-mini-001", "sourceCategory": "Mini Truck", "records": 5, "blockedUntil": ["duty-class correction", "direct image resolution"] },
+      { "id": "forland-rigid-001", "sourceCategories": ["Light Truck", "Heavy-duty Truck"], "records": 5, "blockedUntil": ["H7 duty-class correction", "direct image resolution"] },
+      { "id": "forland-dump-001", "sourceCategory": "Dump Truck", "records": 4, "blockedUntil": ["mixed duty-class correction", "direct image resolution"] },
+      { "id": "forland-special-001", "models": ["H7 Compactor"], "blockedUntil": ["legacy category decision", "direct image resolution"] }
+    ],
+    "shacman": [
+      { "id": "shacman-port-tractor-001", "models": ["T5000 Port Tractor"], "blockedUntil": ["local image migration"] },
+      { "id": "shacman-platforms-001", "models": ["X6000", "X5000", "X3000", "H3000", "F3000"], "blockedUntil": ["body-variant separation", "legacy type mapping", "X3000/H3000 production reconciliation"] },
+      { "id": "shacman-rigid-001", "models": ["L3000"], "blockedUntil": ["duty-class decision"] },
+      { "id": "shacman-electric-001", "models": ["L6000e"], "blockedUntil": ["body-type and legacy-type decision"] },
+      { "id": "shacman-special-001", "models": ["Specialized Trucks"], "blockedUntil": ["legacy category decision"] }
+    ],
+    "asiastar": [
+      { "id": "asiastar-coach-001", "sourceCategory": "Coach", "records": 6, "blockedUntil": ["YBL6128H variant review", "local image migration"] },
+      { "id": "asiastar-intercity-001", "sourceCategory": "Intercity Bus", "records": 13, "excludes": ["YBL6119H"], "blockedUntil": ["local image migration"] },
+      { "id": "asiastar-citybus-001", "sourceCategory": "City Bus", "records": 11, "blockedUntil": ["local image migration"] }
+    ],
+    "sinotruk": [
+      { "id": "sinotruk-dump-001", "sourceCategories": ["Dump Truck", "Tipper Truck"], "records": 8, "blockedUntil": ["local image migration"] },
+      { "id": "sinotruk-tractor-001", "sourceCategory": "Tractor Truck", "records": 6, "blockedUntil": ["local image migration"] },
+      { "id": "sinotruk-cargo-001", "sourceCategories": ["Cargo Truck", "Box Van", "Stake Truck", "Refrigerated Truck", "Wing Van"], "records": 11, "blockedUntil": ["local image migration"] },
+      { "id": "sinotruk-trailer-001", "sourceProductLine": "Semi Trailer", "records": 6, "blockedUntil": ["local image migration"] },
+      { "id": "sinotruk-electric-light-001", "models": ["HOWO Pure Electric Light Truck"], "blockedUntil": ["local image migration"] },
+      { "id": "sinotruk-special-001", "sourceProductLine": "Special Vehicle", "records": 15, "blockedUntil": ["legacy category decisions", "shared image review"] },
+      { "id": "sinotruk-electric-heavy-001", "records": 3, "excludes": ["HOWO Pure Electric Light Truck"], "blockedUntil": ["duty and legacy category decisions"] }
+    ],
+    "yutong": [
+      { "id": "yutong-ebus-001", "sourceProductLine": "E-Bus", "records": 9, "blockedUntil": ["brand setup", "local image migration"] },
+      { "id": "yutong-ecoach-ready-001", "sourceProductLine": "E-Coach", "records": 8, "excludes": ["C9E (ZK6907BEV)"], "blockedUntil": ["brand setup", "IC12E version review", "local image migration"] },
+      { "id": "yutong-citybus-001", "sourceProductLine": "City Bus", "records": 3, "blockedUntil": ["brand setup", "local image migration"] },
+      { "id": "yutong-coach-001", "sourceProductLine": "Coach", "records": 9, "blockedUntil": ["brand setup", "local image migration"] },
+      { "id": "yutong-apron-001", "sourceProductLine": "Apron Bus", "records": 2, "blockedUntil": ["brand setup", "local image migration"] },
+      { "id": "yutong-police-trailer-001", "models": ["MC6"], "blockedUntil": ["brand setup", "source warning review", "local image migration"] },
+      { "id": "yutong-special-001", "sourceProductLine": "Specialty Vehicle", "records": 8, "excludes": ["MC6"], "blockedUntil": ["brand setup", "legacy category decisions", "local image migration"] }
+    ]
+  }
+}

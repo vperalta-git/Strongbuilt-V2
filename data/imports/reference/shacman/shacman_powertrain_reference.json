@@ -1,0 +1,31 @@
+{
+  "brand": "SHACMAN",
+  "brandSlug": "shacman",
+  "type": "supporting-reference",
+  "name": "SHACMAN Powertrain Reference",
+  "sourceUrl": "https://www.shacman.com/product/powe-system",
+  "verifiedAt": "2026-09-02",
+  "components": {
+    "engines": {
+      "suppliers": [
+        "Weichai",
+        "Cummins"
+      ],
+      "details": "SHACMAN identifies Weichai and Cummins as major engine suppliers and links to the Cummins M-series reference."
+    },
+    "transmissions": {
+      "suppliers": [
+        "FAST",
+        "Eaton"
+      ],
+      "details": "SHACMAN's powertrain page references FAST and Eaton transmission systems."
+    },
+    "axles": {
+      "suppliers": [
+        "Hande"
+      ],
+      "details": "SHACMAN references Hande axle systems."
+    }
+  },
+  "note": "Supporting technical reference only. Do not import this document into the `trucks` collection."
+}

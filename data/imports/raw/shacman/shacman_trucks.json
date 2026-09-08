@@ -1,0 +1,1201 @@
+[
+  {
+    "slug": "shacman-x6000",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "X6000",
+    "model": "X6000",
+    "productLine": "6000 Series",
+    "category": "Heavy Truck Platform",
+    "truckTypeSlug": "heavy-duty-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Flagship SHACMAN heavy-truck platform for tractor, dump and cargo applications with high-output Weichai/Cummins powertrains and advanced driver-assistance systems.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/08/20/l/996ad657259f45ca9c5f604a23150520.png",
+        "alt": "SHACMAN X6000",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/x6000.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRangePs": "480–600",
+      "torqueRangeNm": "2,400–2,750",
+      "driveOptions": "4x2 / 6x2 / 6x4 / 8x4",
+      "engineBrands": "Weichai / Cummins",
+      "emissionStandard": "Euro III–VI"
+    },
+    "specificationGroups": [
+      {
+        "title": "Platform & Cab",
+        "items": [
+          {
+            "label": "Vehicle Types",
+            "value": "Tractor / Dump / Cargo"
+          },
+          {
+            "label": "Drive Options",
+            "value": "4×2 / 6×2 / 6×4 / 8×4"
+          },
+          {
+            "label": "Cab Options",
+            "value": "Extended high roof / Extended flat roof"
+          },
+          {
+            "label": "Cab Suspension",
+            "value": "Four-point air suspension"
+          },
+          {
+            "label": "Air Conditioning",
+            "value": "Electric automatic constant-temperature AC"
+          }
+        ]
+      },
+      {
+        "title": "Engine & Transmission",
+        "items": [
+          {
+            "label": "Engine Brands",
+            "value": "Weichai / Cummins"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III–VI"
+          },
+          {
+            "label": "Power Range",
+            "value": "480–600 PS"
+          },
+          {
+            "label": "Engine Torque",
+            "value": "2,400–2,750 Nm"
+          },
+          {
+            "label": "Transmission Brands",
+            "value": "FAST / Eaton / ZF"
+          },
+          {
+            "label": "Transmission Types",
+            "value": "AMT 12/16-speed; MT 16-speed"
+          },
+          {
+            "label": "Transmission Torque Range",
+            "value": "2,200–2,800 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis",
+        "items": [
+          {
+            "label": "Front Axle",
+            "value": "7.3 t / 9.5 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "13 t / 16 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "600–1,380 L aluminum alloy"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring / Air suspension"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Tractor",
+      "Dump",
+      "Cargo",
+      "4x2",
+      "6x2",
+      "6x4",
+      "8x4"
+    ],
+    "applications": [
+      "Long-haul logistics",
+      "Heavy cargo transport",
+      "Construction",
+      "Fleet operations"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/02/21/cef6c536b8c34cba85526b2e4f22d381.pdf",
+    "seo": {
+      "title": "SHACMAN X6000 | Strongbuilt",
+      "description": "Flagship SHACMAN heavy-truck platform for tractor, dump and cargo applications with high-output Weichai/Cummins powertrains and advanced driver-assistance systems."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/6000-series/x6000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-x5000",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "X5000",
+    "model": "X5000",
+    "productLine": "5000 Series",
+    "category": "Heavy Truck Platform",
+    "truckTypeSlug": "heavy-duty-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Efficiency-focused heavy-truck platform for logistics and distribution, available as tractor, dump and cargo configurations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/10/31/l/706db4e42ccd406d8fe6141a6078339b.png",
+        "alt": "SHACMAN X5000",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/x5000.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRangePs": "340–560",
+      "torqueRangeNm": "1,800–2,800",
+      "driveOptions": "4x2 / 6x4 / 8x4",
+      "engineBrands": "Weichai / Cummins",
+      "emissionStandard": "Up to Euro VI"
+    },
+    "specificationGroups": [
+      {
+        "title": "Platform & Cab",
+        "items": [
+          {
+            "label": "Vehicle Types",
+            "value": "Tractor / Dump / Cargo"
+          },
+          {
+            "label": "Drive Options",
+            "value": "4×2 / 6×4 / 8×4"
+          },
+          {
+            "label": "Cab Options",
+            "value": "Extended high roof / Extended flat roof / Medium-length flat roof"
+          },
+          {
+            "label": "Cab Suspension",
+            "value": "Air / Hydraulic suspension"
+          }
+        ]
+      },
+      {
+        "title": "Engine & Transmission",
+        "items": [
+          {
+            "label": "Engine Brands",
+            "value": "Weichai / Cummins"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Up to Euro VI"
+          },
+          {
+            "label": "Power Range",
+            "value": "340–560 PS"
+          },
+          {
+            "label": "Engine Torque",
+            "value": "1,800–2,800 Nm"
+          },
+          {
+            "label": "Transmission Brands",
+            "value": "FAST / Eaton / ZF"
+          },
+          {
+            "label": "Transmission Types",
+            "value": "AMT 12/13/16-speed; MT 12/16-speed"
+          },
+          {
+            "label": "Transmission Torque Range",
+            "value": "2,200–2,800 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis",
+        "items": [
+          {
+            "label": "Front Axle",
+            "value": "7.5 t / 9.5 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "13 t / 16 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "300–1,000 L aluminum alloy"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring / Air suspension"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Tractor",
+      "Dump",
+      "Cargo",
+      "4x2",
+      "6x4",
+      "8x4"
+    ],
+    "applications": [
+      "Logistics",
+      "Distribution",
+      "Long-haul transport",
+      "Construction"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/02/21/06e2678aab3246a2a133b031b679d096.pdf",
+    "seo": {
+      "title": "SHACMAN X5000 | Strongbuilt",
+      "description": "Efficiency-focused heavy-truck platform for logistics and distribution, available as tractor, dump and cargo configurations."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/5000-series/x5000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-x3000",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "X3000",
+    "model": "X3000",
+    "productLine": "3000 Series",
+    "category": "Heavy Truck Platform",
+    "truckTypeSlug": "heavy-duty-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Proven heavy-duty SHACMAN platform combining durability, driver comfort and flexible tractor, dump and cargo configurations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/08/19/l/a0425a64606f4e29bd476e2f55bc347e.png",
+        "alt": "SHACMAN X3000",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/x3000.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRangePs": "340–560",
+      "torqueRangeNm": "1,250–2,600",
+      "driveOptions": "4x2 / 6x4 / 8x4",
+      "engineBrands": "Weichai / Cummins",
+      "emissionStandard": "Euro II–V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Platform & Cab",
+        "items": [
+          {
+            "label": "Vehicle Types",
+            "value": "Tractor / Dump / Cargo"
+          },
+          {
+            "label": "Drive Options",
+            "value": "4×2 / 6×4 / 8×4"
+          },
+          {
+            "label": "Cab Options",
+            "value": "Extended high roof / Extended flat roof / Medium-length flat roof"
+          },
+          {
+            "label": "Cab Suspension",
+            "value": "Air / Hydraulic suspension"
+          }
+        ]
+      },
+      {
+        "title": "Engine & Transmission",
+        "items": [
+          {
+            "label": "Engine Brands",
+            "value": "Weichai / Cummins"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "Power Range",
+            "value": "340–560 PS"
+          },
+          {
+            "label": "Engine Torque",
+            "value": "1,250–2,600 Nm"
+          },
+          {
+            "label": "Transmission Brands",
+            "value": "FAST / ZF"
+          },
+          {
+            "label": "Transmission Types",
+            "value": "AMT 13/16-speed; MT 10/12/16-speed"
+          },
+          {
+            "label": "Transmission Torque Range",
+            "value": "1,800–2,600 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis",
+        "items": [
+          {
+            "label": "Front Axle",
+            "value": "7.5 t / 9.5 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "13 t / 16 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "300–700 L aluminum alloy"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring / Air suspension"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Tractor",
+      "Dump",
+      "Cargo",
+      "4x2",
+      "6x4",
+      "8x4"
+    ],
+    "applications": [
+      "Long-haul transport",
+      "Construction",
+      "Cargo logistics"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/03/28/62664cf7a6a3429d9ea7c4bceeee4551.pdf",
+    "seo": {
+      "title": "SHACMAN X3000 | Strongbuilt",
+      "description": "Proven heavy-duty SHACMAN platform combining durability, driver comfort and flexible tractor, dump and cargo configurations."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/3000-series/x3000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-h3000",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "H3000",
+    "model": "H3000",
+    "productLine": "3000 Series",
+    "category": "Heavy Truck Platform",
+    "truckTypeSlug": "heavy-duty-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Narrow-body heavy commercial platform engineered for intercity transportation and construction work.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/08/22/l/95c8a697cf074b16b16dae04dc1c5a36.png",
+        "alt": "SHACMAN H3000",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/h3000.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRangePs": "270–460",
+      "torqueRangeNm": "1,160–2,200",
+      "driveOptions": "4x2 / 6x4 / 8x4",
+      "engineBrands": "Weichai / Cummins",
+      "emissionStandard": "Euro II–V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Platform & Cab",
+        "items": [
+          {
+            "label": "Vehicle Types",
+            "value": "Tractor / Dump / Cargo"
+          },
+          {
+            "label": "Drive Options",
+            "value": "4×2 / 6×4 / 8×4"
+          },
+          {
+            "label": "Cab Options",
+            "value": "Extended high roof / Extended flat roof / Medium-length flat roof"
+          }
+        ]
+      },
+      {
+        "title": "Engine & Transmission",
+        "items": [
+          {
+            "label": "Engine Brands",
+            "value": "Weichai / Cummins"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "Power Range",
+            "value": "270–460 PS"
+          },
+          {
+            "label": "Engine Torque",
+            "value": "1,160–2,200 Nm"
+          },
+          {
+            "label": "Transmission Brands",
+            "value": "FAST / ZF"
+          },
+          {
+            "label": "Transmission Types",
+            "value": "AMT 13/16-speed; MT 9/10/12-speed"
+          },
+          {
+            "label": "Transmission Torque Range",
+            "value": "1,190–2,400 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis",
+        "items": [
+          {
+            "label": "Front Axle",
+            "value": "7.5 t / 9.5 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "13 t / 16 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "300–1,000 L aluminum alloy"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Tractor",
+      "Dump",
+      "Cargo",
+      "4x2",
+      "6x4",
+      "8x4",
+      "H3000-G",
+      "H3000-H",
+      "H3000-M"
+    ],
+    "applications": [
+      "Intercity transport",
+      "Construction",
+      "Cargo logistics"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/03/28/62664cf7a6a3429d9ea7c4bceeee4551.pdf",
+    "seo": {
+      "title": "SHACMAN H3000 | Strongbuilt",
+      "description": "Narrow-body heavy commercial platform engineered for intercity transportation and construction work."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/3000-series/h3000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-f3000",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "F3000",
+    "model": "F3000",
+    "productLine": "3000 Series",
+    "category": "Heavy Truck Platform",
+    "truckTypeSlug": "heavy-duty-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Robust heavy-duty platform designed for demanding construction, engineering and transport environments.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/11/01/l/16bc3ec59f7949b582fcfcd5979208f7.png",
+        "alt": "SHACMAN F3000",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/f3000.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRangePs": "300–550",
+      "torqueRangeNm": "1,250–2,250",
+      "driveOptions": "4x2 / 6x4 / 8x4",
+      "engineBrands": "Weichai / Cummins",
+      "emissionStandard": "Euro II–V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Platform & Cab",
+        "items": [
+          {
+            "label": "Vehicle Types",
+            "value": "Tractor / Dump / Cargo"
+          },
+          {
+            "label": "Drive Options",
+            "value": "4×2 / 6×4 / 8×4"
+          },
+          {
+            "label": "Cab Options",
+            "value": "Extended flat roof / Medium-length flat roof"
+          },
+          {
+            "label": "Cab Suspension",
+            "value": "Hydraulic suspension"
+          }
+        ]
+      },
+      {
+        "title": "Engine & Transmission",
+        "items": [
+          {
+            "label": "Engine Brands",
+            "value": "Weichai / Cummins"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "Power Range",
+            "value": "300–550 PS"
+          },
+          {
+            "label": "Engine Torque",
+            "value": "1,250–2,250 Nm"
+          },
+          {
+            "label": "Transmission",
+            "value": "FAST MT 10/12-speed"
+          },
+          {
+            "label": "Transmission Torque Range",
+            "value": "1,400–2,400 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis",
+        "items": [
+          {
+            "label": "Front Axle",
+            "value": "9.5 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "13 t / 16 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "400 L aluminum alloy"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Tractor",
+      "Dump",
+      "Cargo",
+      "4x2",
+      "6x4",
+      "8x4"
+    ],
+    "applications": [
+      "Construction",
+      "Engineering projects",
+      "Heavy transport",
+      "Mining support"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/03/28/62664cf7a6a3429d9ea7c4bceeee4551.pdf",
+    "seo": {
+      "title": "SHACMAN F3000 | Strongbuilt",
+      "description": "Robust heavy-duty platform designed for demanding construction, engineering and transport environments."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/3000-series/F3000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-l3000",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "L3000",
+    "model": "L3000",
+    "productLine": "3000 Series",
+    "category": "Medium / Heavy Truck Platform",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Intercity-oriented commercial truck platform with high body-conversion compatibility for logistics and vocational applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/10/14/l/2bddfd07ccd64470afc6fc2ccd666593.png",
+        "alt": "SHACMAN L3000",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/l3000.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "powerRangePs": "180–300",
+      "torqueRangeNm": "650–1,160",
+      "driveOptions": "4x2 / 6x4",
+      "engineBrands": "Weichai / Cummins",
+      "emissionStandard": "Euro III–V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Platform & Cab",
+        "items": [
+          {
+            "label": "Vehicle Types",
+            "value": "Tractor / Dump / Cargo"
+          },
+          {
+            "label": "Drive Options",
+            "value": "4×2 / 6×4"
+          },
+          {
+            "label": "Cab",
+            "value": "Standard cab"
+          },
+          {
+            "label": "Cab Suspension",
+            "value": "Hydraulic suspension"
+          }
+        ]
+      },
+      {
+        "title": "Engine & Transmission",
+        "items": [
+          {
+            "label": "Engine Brands",
+            "value": "Weichai / Cummins"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III–V"
+          },
+          {
+            "label": "Power Range",
+            "value": "180–300 PS"
+          },
+          {
+            "label": "Engine Torque",
+            "value": "650–1,160 Nm"
+          },
+          {
+            "label": "Transmission Brands",
+            "value": "FAST / ZF"
+          },
+          {
+            "label": "Transmission Types",
+            "value": "AMT 8-speed; MT 8/9-speed"
+          },
+          {
+            "label": "Transmission Torque Range",
+            "value": "850–1,190 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis",
+        "items": [
+          {
+            "label": "Front Axle",
+            "value": "4.8 t"
+          },
+          {
+            "label": "Rear Axle",
+            "value": "10 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "200–400 L aluminum alloy"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Cargo",
+      "Dump",
+      "Tractor",
+      "Water Sprinkler Conversion",
+      "Fuel Tanker Conversion",
+      "Truck-Mounted Crane Conversion"
+    ],
+    "applications": [
+      "Intercity logistics",
+      "Urban logistics",
+      "Municipal applications",
+      "Vocational conversion"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/03/28/62664cf7a6a3429d9ea7c4bceeee4551.pdf",
+    "seo": {
+      "title": "SHACMAN L3000 | Strongbuilt",
+      "description": "Intercity-oriented commercial truck platform with high body-conversion compatibility for logistics and vocational applications."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/3000-series/L3000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-l6000e",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "L6000e",
+    "model": "L6000e",
+    "productLine": "E-fuel",
+    "category": "Electric Truck",
+    "truckTypeSlug": "electric-truck",
+    "class": "New Energy",
+    "shortDescription": "Battery-electric SHACMAN commercial truck platform with a 430 kW motor, LFP energy storage and intelligent battery/energy management.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/10/15/l/6c700ef50f484875ade0f21e7dc9c9ef.png",
+        "alt": "SHACMAN L6000e",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/l6000e.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "fuelType": "Electric",
+      "motorPowerKw": 430,
+      "batteryChemistry": "LFP",
+      "batteryProtection": "IP68",
+      "batterySpecificEnergy": "150 Wh/kg",
+      "operatingTemperature": "-35°C to 65°C"
+    },
+    "specificationGroups": [
+      {
+        "title": "Electric Power System",
+        "items": [
+          {
+            "label": "Motor Power",
+            "value": "430 kW"
+          },
+          {
+            "label": "Battery Chemistry",
+            "value": "Lithium Iron Phosphate (LFP)"
+          },
+          {
+            "label": "Battery Specific Energy",
+            "value": "150 Wh/kg"
+          },
+          {
+            "label": "Battery Protection",
+            "value": "IP68"
+          },
+          {
+            "label": "Operating Temperature",
+            "value": "-35°C to 65°C"
+          }
+        ]
+      },
+      {
+        "title": "Intelligent Energy Management",
+        "items": [
+          {
+            "label": "Smart Battery Management",
+            "value": "Manufacturer states battery-life improvement of up to 8%"
+          },
+          {
+            "label": "Energy Recovery",
+            "value": "Regenerative braking / power recovery"
+          },
+          {
+            "label": "Smart Monitoring",
+            "value": "Voltage and fault monitoring"
+          },
+          {
+            "label": "Automation Support",
+            "value": "Up to L4 autonomous-driving capability referenced by manufacturer"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery-electric commercial platform"
+    ],
+    "applications": [
+      "Low-emission logistics",
+      "Commercial fleet operations"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2026/07/07/238ce5707d2447c8ade2648b688c3138.pdf",
+    "seo": {
+      "title": "SHACMAN L6000e | Strongbuilt",
+      "description": "Battery-electric SHACMAN commercial truck platform with a 430 kW motor, LFP energy storage and intelligent battery/energy management."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/e-fuel/l6000-e/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-t5000-port-tractor",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "T5000 Port Tractor",
+    "model": "T5000 Port Tractor",
+    "productLine": "Port Operation",
+    "category": "Port Tractor",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty / Port Operation",
+    "shortDescription": "Purpose-built terminal tractor for port and harbor operations with diesel/natural-gas engine options, automatic transmission and high-capacity port axles.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2024/10/12/l/00d98079e02a4c2b9f8782f11bcc1e31.png",
+        "alt": "SHACMAN T5000 Port Tractor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/t5000-port-tractor.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engineOptions": "Cummins QSB diesel / Weichai WP7 natural gas",
+      "transmission": "Allison 6-speed automatic",
+      "steeringAxle": "HANDE HDM 7.5 t",
+      "driveAxle": "HANDE HDS 300",
+      "fifthWheelVerticalLoad": "35 t"
+    },
+    "specificationGroups": [
+      {
+        "title": "Port Powertrain",
+        "items": [
+          {
+            "label": "Diesel Engine Family",
+            "value": "Cummins QSB Series"
+          },
+          {
+            "label": "Natural-Gas Engine Family",
+            "value": "Weichai WP7 Series"
+          },
+          {
+            "label": "Transmission",
+            "value": "Allison 6-speed automatic"
+          }
+        ]
+      },
+      {
+        "title": "Port Axles & Load System",
+        "items": [
+          {
+            "label": "Steering Axle",
+            "value": "HANDE HDM 7.5 t; manufacturer states up to 12.5 t at 20 km/h"
+          },
+          {
+            "label": "Drive Axle",
+            "value": "HANDE HDS 300; manufacturer states up to 34 t at 20 km/h"
+          },
+          {
+            "label": "Drive Axle Ratio",
+            "value": "11.98"
+          },
+          {
+            "label": "Fifth Wheel / Saddle",
+            "value": "35 t vertical load-bearing capacity"
+          }
+        ]
+      },
+      {
+        "title": "Port-Oriented Features",
+        "items": [
+          {
+            "label": "Steering",
+            "value": "Eaton full-hydraulic power steering"
+          },
+          {
+            "label": "Rear Suspension",
+            "value": "Air spring rear suspension"
+          },
+          {
+            "label": "Corrosion Protection",
+            "value": "Multi-stage cab and chassis coating for harbor environments"
+          },
+          {
+            "label": "Optional Safety",
+            "value": "Engine automatic fire-extinguishing system"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Diesel",
+      "Natural Gas",
+      "Port / Terminal Tractor"
+    ],
+    "applications": [
+      "Container terminal operations",
+      "Harbor trailer movement",
+      "Port logistics"
+    ],
+    "brochureUrl": "https://www.shacman.com/upload/file/2025/01/22/157bf7d9a6074137b970ff89b6fc404a.pdf",
+    "seo": {
+      "title": "SHACMAN T5000 Port Tractor | Strongbuilt",
+      "description": "Purpose-built terminal tractor for port and harbor operations with diesel/natural-gas engine options, automatic transmission and high-capacity port axles."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/port-operation/T5000/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "shacman-specialized-trucks",
+    "brand": "SHACMAN",
+    "brandSlug": "shacman",
+    "name": "Specialized Trucks",
+    "model": "Specialized Trucks",
+    "productLine": "Specialized Trucks",
+    "category": "Special Purpose",
+    "truckTypeSlug": "special-purpose",
+    "class": "Special Purpose",
+    "shortDescription": "Purpose-built SHACMAN vocational vehicle family based on 3000, 5000 and 6000 platforms for construction, sanitation, lifting, recovery, hazardous-material and other specialized applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.shacman.com/upload/images/2026/04/30/5626168561b6477595e610749072b98c.jpg",
+        "alt": "SHACMAN Specialized Trucks",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/shacman/specialized-concrete.jpg",
+        "status": "verified-official-url"
+      },
+      {
+        "url": "https://www.shacman.com/upload/images/2026/04/30/379ad6f22ac346d38351dfde5f9fdfbe.jpg",
+        "alt": "SHACMAN sanitation truck",
+        "isPrimary": false,
+        "order": 2,
+        "localPathSuggested": "/images/trucks/shacman/specialized-sanitation.jpg",
+        "status": "verified-official-url"
+      },
+      {
+        "url": "https://www.shacman.com/upload/images/2026/04/30/a47a6c02c5bf4ec391ff82dbb3714679.jpg",
+        "alt": "SHACMAN crane-operation truck",
+        "isPrimary": false,
+        "order": 3,
+        "localPathSuggested": "/images/trucks/shacman/specialized-crane.jpg",
+        "status": "verified-official-url"
+      },
+      {
+        "url": "https://www.shacman.com/upload/images/2026/04/30/86c732410d594d9bbe6e007c6a8fcc35.jpg",
+        "alt": "SHACMAN hazardous-material transport truck",
+        "isPrimary": false,
+        "order": 4,
+        "localPathSuggested": "/images/trucks/shacman/specialized-hazardous.jpg",
+        "status": "verified-official-url"
+      },
+      {
+        "url": "https://www.shacman.com/upload/images/2026/04/30/fee98b7229844a778800eaada19dd123.jpg",
+        "alt": "SHACMAN roadside assistance truck",
+        "isPrimary": false,
+        "order": 5,
+        "localPathSuggested": "/images/trucks/shacman/specialized-roadside-assistance.jpg",
+        "status": "verified-official-url"
+      },
+      {
+        "url": "https://www.shacman.com/upload/images/2026/04/30/a17dfbe8d9984d599c8911d7a1801be5.jpg",
+        "alt": "SHACMAN special-purpose truck",
+        "isPrimary": false,
+        "order": 6,
+        "localPathSuggested": "/images/trucks/shacman/specialized-special-purpose.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {},
+    "specificationGroups": [
+      {
+        "title": "Concrete Transport",
+        "items": [
+          {
+            "label": "Configurations",
+            "value": "Mixer Truck / Concrete Pump Truck / Powder Tanker Truck"
+          },
+          {
+            "label": "Applications",
+            "value": "Construction sites, roads, bridges, water-conservancy projects"
+          }
+        ]
+      },
+      {
+        "title": "Sanitation",
+        "items": [
+          {
+            "label": "Configurations",
+            "value": "Sprinkler Truck / Refuse Collector / Suction-Type Sewer Scavenger / Sweeper Truck"
+          },
+          {
+            "label": "Applications",
+            "value": "Municipal cleaning, waste compression/transport, pollution removal"
+          }
+        ]
+      },
+      {
+        "title": "Crane Operation",
+        "items": [
+          {
+            "label": "Configurations",
+            "value": "Straight Crane Truck / Folding Crane Truck / Truck-Mounted Crane"
+          },
+          {
+            "label": "Applications",
+            "value": "Material handling, equipment lifting, utility and work-at-height operations"
+          }
+        ]
+      },
+      {
+        "title": "Other Specialized Applications",
+        "items": [
+          {
+            "label": "Hazardous Material",
+            "value": "Refueller"
+          },
+          {
+            "label": "Roadside Assistance",
+            "value": "Repair Truck / Recovery Truck"
+          },
+          {
+            "label": "Special Purpose",
+            "value": "Logging Transporter / Snow Sweeper / Foam Fire Truck / Desert Off-Road Vehicle / Specialized Oilfield Vehicle / Mining Dump Truck"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Mixer Truck",
+      "Concrete Pump Truck",
+      "Powder Tanker Truck",
+      "Sprinkler Truck",
+      "Refuse Collector Truck",
+      "Suction-Type Sewer Scavenger",
+      "Sweeper Truck",
+      "Straight Crane Truck",
+      "Folding Crane Truck",
+      "Truck-Mounted Crane",
+      "Refueller",
+      "Repair Truck",
+      "Recovery Truck",
+      "Logging Transporter",
+      "Snow Sweeper Truck",
+      "Foam Fire Truck",
+      "Desert Off-Road Vehicle",
+      "Specialized Oilfield Vehicle",
+      "Mining Dump Truck"
+    ],
+    "applications": [
+      "Construction",
+      "Sanitation",
+      "Material handling",
+      "Fuel transport",
+      "Roadside recovery",
+      "Oilfield",
+      "Mining",
+      "Emergency response"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SHACMAN Specialized Trucks | Strongbuilt",
+      "description": "Purpose-built SHACMAN vocational vehicle family based on 3000, 5000 and 6000 platforms for construction, sanitation, lifting, recovery, hazardous-material and other specialized applications."
+    },
+    "source": {
+      "website": "SHACMAN Official Website",
+      "productUrl": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "This official SHACMAN page is a vocational family overview, not a single chassis/model specification page. The record is intentionally stored as one family with body/application configurations."
+  }
+]

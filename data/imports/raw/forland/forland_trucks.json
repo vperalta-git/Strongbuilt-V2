@@ -1,0 +1,1256 @@
+[
+  {
+    "slug": "forland-t5-mini-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "T5 Mini Truck",
+    "model": "T5 Mini Truck",
+    "productLine": "T5",
+    "category": "Mini Truck",
+    "truckTypeSlug": "mini-truck",
+    "class": "Mini / Light Duty",
+    "shortDescription": "Compact commercial mini-truck platform available with multiple gasoline and diesel powertrains, single- or double-cab layouts and hydraulic braking.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/xianglingV5/785.html",
+        "alt": "FORLAND T5 Mini Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/t5-mini-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwRangeKg": "2,795–4,495",
+      "fuelOptions": "Gasoline / Diesel",
+      "drive": "4x2"
+    },
+    "specificationGroups": [
+      {
+        "title": "Representative Configurations",
+        "items": [
+          {
+            "label": "GVW Range",
+            "value": "2,795–4,495 kg"
+          },
+          {
+            "label": "Engine Options",
+            "value": "1.498 L / 1.597 L gasoline; 1.91 L / 2.087 L / 2.156 L diesel"
+          },
+          {
+            "label": "Emission Options",
+            "value": "Euro I / II / IV / V depending on configuration"
+          },
+          {
+            "label": "Transmission Options",
+            "value": "DAT18R / 5G18 / 5G28 / 5G32"
+          },
+          {
+            "label": "Brakes",
+            "value": "Hydraulic, front disc / rear drum"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Single Cab",
+      "Double Cab",
+      "Gasoline",
+      "Diesel"
+    ],
+    "applications": [
+      "Urban delivery",
+      "Small-business logistics",
+      "General cargo"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND T5 Mini Truck | Strongbuilt",
+      "description": "Compact commercial mini-truck platform available with multiple gasoline and diesel powertrains, single- or double-cab layouts and hydraulic braking."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/xianglingV5/785.html",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=T+5&pz=785",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-t5e-mini-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "T5e Mini Truck",
+    "model": "T5e Mini Truck",
+    "productLine": "T5e",
+    "category": "Mini Truck",
+    "truckTypeSlug": "mini-truck",
+    "class": "Mini / Light Duty",
+    "shortDescription": "Mini-truck family focused on load-bearing strength and compact commercial use, with multiple gasoline engine displacement options.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/xianglingQ/1022",
+        "alt": "FORLAND T5e Mini Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/t5e-mini-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "engineOptions": "1.6 L / 1.5T / 2.0 L"
+    },
+    "specificationGroups": [
+      {
+        "title": "Product Highlights",
+        "items": [
+          {
+            "label": "Engine Choices",
+            "value": "1.6 L / 1.5T / 2.0 L"
+          },
+          {
+            "label": "Chassis",
+            "value": "Fully riveted frame with high-strength cargo box"
+          },
+          {
+            "label": "Cab",
+            "value": "Short-head cabin design"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Multiple engine configurations"
+    ],
+    "applications": [
+      "Urban delivery",
+      "General cargo",
+      "Small-business transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND T5e Mini Truck | Strongbuilt",
+      "description": "Mini-truck family focused on load-bearing strength and compact commercial use, with multiple gasoline engine displacement options."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/xianglingQ/1022",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-t5-ev-mini-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "T5 EV Mini Truck",
+    "model": "T5 EV Mini Truck",
+    "productLine": "T5 EV",
+    "category": "Mini Truck",
+    "truckTypeSlug": "mini-truck",
+    "class": "Mini / Light Duty",
+    "shortDescription": "Battery-electric mini truck designed for urban commercial hauling with fast charging and up to 280 km listed driving range.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/xianglingm2p/787",
+        "alt": "FORLAND T5 EV Mini Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/t5-ev-mini-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "fuelType": "Electric",
+      "rangeKm": 280,
+      "fastCharge": "0.6–0.75 h (20–80% SOC)"
+    },
+    "specificationGroups": [
+      {
+        "title": "Electric System",
+        "items": [
+          {
+            "label": "Battery Supplier",
+            "value": "FinDreams Battery / IECO options referenced"
+          },
+          {
+            "label": "Fast Charging",
+            "value": "0.6–0.75 h (20–80% SOC)"
+          },
+          {
+            "label": "Listed Driving Range",
+            "value": "280 km"
+          },
+          {
+            "label": "Battery Warranty",
+            "value": "8 years or 400,000 km for referenced battery options"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery-electric"
+    ],
+    "applications": [
+      "Urban delivery",
+      "Low-emission city logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND T5 EV Mini Truck | Strongbuilt",
+      "description": "Battery-electric mini truck designed for urban commercial hauling with fast charging and up to 280 km listed driving range."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/xianglingm2p/787",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-t6-mini-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "T6 Mini Truck",
+    "model": "T6 Mini Truck",
+    "productLine": "T6",
+    "category": "Mini Truck",
+    "truckTypeSlug": "mini-truck",
+    "class": "Mini / Light Duty",
+    "shortDescription": "Five-seat double-cab mini truck combining passenger capacity with a compact cargo bed for mixed crew-and-load operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/T6/1095",
+        "alt": "FORLAND T6 Mini Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/t6-mini-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwKg": 2550,
+      "engine": "DAM16NS",
+      "displacementL": 1.599,
+      "fuelType": "Gasoline",
+      "emissionStandard": "Euro VI",
+      "wheelbaseMm": 3080
+    },
+    "specificationGroups": [
+      {
+        "title": "Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "2,550 kg"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "3,080 mm"
+          },
+          {
+            "label": "Overall Dimensions",
+            "value": "4,880 × 1,680 × 1,945 mm"
+          },
+          {
+            "label": "Cargo Body",
+            "value": "2,800 × 1,560/1,650 × 360/1,700 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "DAM16NS, 1.599 L gasoline"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro VI"
+          },
+          {
+            "label": "Transmission",
+            "value": "DAT18"
+          },
+          {
+            "label": "Brakes",
+            "value": "Vacuum-servo hydraulic; front disc / rear drum; ABS"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Double Cab"
+    ],
+    "applications": [
+      "Crew transport with cargo",
+      "Service operations",
+      "Urban commercial use"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND T6 Mini Truck | Strongbuilt",
+      "description": "Five-seat double-cab mini truck combining passenger capacity with a compact cargo bed for mixed crew-and-load operations."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/T6/1095",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=T6&pz=1095",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-t7-mini-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "T7 Mini Truck",
+    "model": "T7 Mini Truck",
+    "productLine": "T7",
+    "category": "Mini Truck",
+    "truckTypeSlug": "mini-truck",
+    "class": "Mini / Light Duty",
+    "shortDescription": "Wide-body mini truck positioned for higher cargo utility and commercial profitability.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/T7/1096.html",
+        "alt": "FORLAND T7 Mini Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/t7-mini-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {},
+    "specificationGroups": [],
+    "configurations": [
+      "Wide-body commercial configuration"
+    ],
+    "applications": [
+      "Urban logistics",
+      "General cargo",
+      "Commercial hauling"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND T7 Mini Truck | Strongbuilt",
+      "description": "Wide-body mini truck positioned for higher cargo utility and commercial profitability."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/T7/1096.html",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added."
+  },
+  {
+    "slug": "forland-l5-light-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "L5 Light Truck",
+    "model": "L5 Light Truck",
+    "productLine": "L5",
+    "category": "Light Truck",
+    "truckTypeSlug": "light-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-truck platform focused on operating economy, durability and load capacity, with diesel engine options reaching up to 160 hp.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/linghangG5EV/1008",
+        "alt": "FORLAND L5 Light Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/l5-light-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "maximumPower": "Up to 160 hp",
+      "maximumTorque": "Up to 400 Nm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Product Highlights",
+        "items": [
+          {
+            "label": "Engine Suppliers",
+            "value": "YUNNEI DEV / Quanchai options referenced"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "Up to 160 hp"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "Up to 400 Nm"
+          },
+          {
+            "label": "Transmission Options",
+            "value": "WLY / FAST aluminum transmissions referenced"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Multiple diesel powertrain configurations"
+    ],
+    "applications": [
+      "Urban and regional logistics",
+      "General cargo",
+      "Commercial distribution"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND L5 Light Truck | Strongbuilt",
+      "description": "Light-truck platform focused on operating economy, durability and load capacity, with diesel engine options reaching up to 160 hp."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/linghangG5EV/1008",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-l5e-light-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "L5e Light Truck",
+    "model": "L5e Light Truck",
+    "productLine": "L5e",
+    "category": "Light Truck",
+    "truckTypeSlug": "light-truck",
+    "class": "Light Duty",
+    "shortDescription": "Versatile light truck offered with diesel, gasoline and gasoline/CNG powertrains plus single, extended and double-cab layouts.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/linghangS1EV/1009.html",
+        "alt": "FORLAND L5e Light Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/l5e-light-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwRangeKg": "3,500–5,500",
+      "drive": "4x2",
+      "fuelOptions": "Diesel / Gasoline / Gasoline+CNG"
+    },
+    "specificationGroups": [
+      {
+        "title": "Representative Configuration Range",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "3,500–5,500 kg"
+          },
+          {
+            "label": "Rated Payload",
+            "value": "Up to 3,320 kg in listed flatbed configurations"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "2,700 / 3,000 / 3,360 mm depending on cab/configuration"
+          },
+          {
+            "label": "Engine Options",
+            "value": "H25-150E30 / JE493 / H20-120E60 / DAN20L / DAN20CL"
+          },
+          {
+            "label": "Fuel",
+            "value": "Diesel / Gasoline / Gasoline+CNG"
+          },
+          {
+            "label": "Drive",
+            "value": "4×2"
+          },
+          {
+            "label": "Brakes",
+            "value": "Hydraulic, front disc / rear drum; ABS listed on configurations"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Single Cab",
+      "Extended Cab",
+      "Double Cab",
+      "Diesel",
+      "Gasoline",
+      "Gasoline+CNG"
+    ],
+    "applications": [
+      "Urban distribution",
+      "Regional cargo",
+      "Small fleet operations"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND L5e Light Truck | Strongbuilt",
+      "description": "Versatile light truck offered with diesel, gasoline and gasoline/CNG powertrains plus single, extended and double-cab layouts."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/linghangS1EV/1009.html",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=L5+e&pz=1009",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-l5e-ev-light-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "L5e EV Light Truck",
+    "model": "L5e EV Light Truck",
+    "productLine": "L5e EV",
+    "category": "Light Truck",
+    "truckTypeSlug": "light-truck",
+    "class": "Light Duty",
+    "shortDescription": "Electric light truck with a 63.75 kWh CATL lithium-iron-phosphate battery and up to 250 km listed no-load range.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/lhs1/1006.html",
+        "alt": "FORLAND L5e EV Light Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/l5e-ev-light-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwKg": 4500,
+      "payloadKg": 2500,
+      "batteryKwh": 63.75,
+      "maximumPowerKw": 100,
+      "maximumTorqueNm": 270,
+      "drive": "4x2",
+      "fuelType": "Electric"
+    },
+    "specificationGroups": [
+      {
+        "title": "Battery & Motor",
+        "items": [
+          {
+            "label": "Battery",
+            "value": "CATL LiFePO4, 63.75 kWh"
+          },
+          {
+            "label": "Cooling",
+            "value": "Liquid cooling"
+          },
+          {
+            "label": "AC Charge Time",
+            "value": "5 h"
+          },
+          {
+            "label": "DC Fast Charge 0–80%",
+            "value": "0.5 h"
+          },
+          {
+            "label": "Range",
+            "value": "200 km full load / 250 km no load"
+          },
+          {
+            "label": "Motor",
+            "value": "FOTON FTBP100B"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "100 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "270 Nm"
+          }
+        ]
+      },
+      {
+        "title": "Chassis & Capacity",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "4.5 t"
+          },
+          {
+            "label": "Payload",
+            "value": "2,500 kg"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "2,750 mm"
+          },
+          {
+            "label": "Drive",
+            "value": "4×2"
+          },
+          {
+            "label": "Brakes",
+            "value": "Hydraulic; front disc / rear drum; ABS"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Single Cab",
+      "Right-hand drive configuration documented"
+    ],
+    "applications": [
+      "Urban distribution",
+      "Low-emission logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND L5e EV Light Truck | Strongbuilt",
+      "description": "Electric light truck with a 63.75 kWh CATL lithium-iron-phosphate battery and up to 250 km listed no-load range."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/lhs1/1006.html",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=L5e+EV&pz=1006",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-l7-light-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "L7 Light Truck",
+    "model": "L7 Light Truck",
+    "productLine": "L7",
+    "category": "Light Truck",
+    "truckTypeSlug": "light-truck",
+    "class": "Light Duty",
+    "shortDescription": "Global-market light truck offered with an automatic powertrain and modern driver-assistance systems for regional and trunk logistics.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/linghangM5EV/1010",
+        "alt": "FORLAND L7 Light Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/l7-light-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "engine": "Cummins 3.8 L",
+      "maximumPower": "168 hp",
+      "transmission": "ZF 6-speed AMT",
+      "maximumPayload": "7 t"
+    },
+    "specificationGroups": [
+      {
+        "title": "Automatic Global Configuration",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "Cummins 3.8 L, 168 hp"
+          },
+          {
+            "label": "Transmission",
+            "value": "ZF 6-speed AMT"
+          },
+          {
+            "label": "Maximum Payload",
+            "value": "7 t (manufacturer launch claim)"
+          },
+          {
+            "label": "Driver Assistance",
+            "value": "AEBS, LDWS, ESC, EBS; optional 360° panoramic view"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Automatic global-market configuration"
+    ],
+    "applications": [
+      "Long-distance trunk logistics",
+      "Regional delivery",
+      "Bulk cargo transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND L7 Light Truck | Strongbuilt",
+      "description": "Global-market light truck offered with an automatic powertrain and modern driver-assistance systems for regional and trunk logistics."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/linghangM5EV/1010",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page."
+  },
+  {
+    "slug": "forland-h7-heavy-duty-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "H7 Heavy-duty Truck",
+    "model": "H7 Heavy-duty Truck",
+    "productLine": "H7",
+    "category": "Heavy-duty Truck",
+    "truckTypeSlug": "heavy-duty-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "Flagship medium/heavy cargo truck for medium- and long-distance logistics, agricultural products, grain and building-material transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/H7/1023.html",
+        "alt": "FORLAND H7 Heavy-duty Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/h7-heavy-duty-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {},
+    "specificationGroups": [
+      {
+        "title": "Platform Highlights",
+        "items": [
+          {
+            "label": "Construction",
+            "value": "High-strength frame with weight-reduction components"
+          },
+          {
+            "label": "Use Focus",
+            "value": "Medium- and long-distance urban/rural logistics"
+          },
+          {
+            "label": "Typical Cargo",
+            "value": "Agricultural products, grain, potatoes and building materials"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Regional logistics",
+      "Agricultural products",
+      "Grain transport",
+      "Building materials"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND H7 Heavy-duty Truck | Strongbuilt",
+      "description": "Flagship medium/heavy cargo truck for medium- and long-distance logistics, agricultural products, grain and building-material transport."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/H7/1023.html",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction."
+  },
+  {
+    "slug": "forland-t5-dump-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "T5 Dump Truck",
+    "model": "T5 Dump Truck",
+    "productLine": "T5",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Mini / Light Duty",
+    "shortDescription": "Compact city dump truck designed for short-distance self-unloading work such as renovation materials and urban construction or domestic waste.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/T5/1025",
+        "alt": "FORLAND T5 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/t5-dump-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {},
+    "specificationGroups": [
+      {
+        "title": "Product Highlights",
+        "items": [
+          {
+            "label": "Application",
+            "value": "Short-distance self-unloading logistics"
+          },
+          {
+            "label": "Braking",
+            "value": "Double-circuit braking system with self-adjusting brake clearance and ABS"
+          },
+          {
+            "label": "Cab Features",
+            "value": "Optional power windows, air conditioning and USB features referenced"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Compact rear-tipping dump body"
+    ],
+    "applications": [
+      "Decoration materials",
+      "Urban construction",
+      "Domestic waste handling"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND T5 Dump Truck | Strongbuilt",
+      "description": "Compact city dump truck designed for short-distance self-unloading work such as renovation materials and urban construction or domestic waste."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/T5/1025",
+      "parameterUrl": null,
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-h7-dump-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "H7 Dump Truck",
+    "model": "H7 Dump Truck",
+    "productLine": "H7",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy dump truck for mining and construction sites with a Yuchai diesel engine, FAST transmission and 30,000 kg listed GVW.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/ruiwoTS6/1024",
+        "alt": "FORLAND H7 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/h7-dump-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwKg": 30000,
+      "engine": "YC6J210-33",
+      "displacementL": 6.494,
+      "fuelType": "Diesel",
+      "emissionStandard": "Euro III",
+      "transmission": "8JS85F"
+    },
+    "specificationGroups": [
+      {
+        "title": "Specifications",
+        "items": [
+          {
+            "label": "GVW",
+            "value": "30,000 kg"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "3,900 mm"
+          },
+          {
+            "label": "Overall Dimensions",
+            "value": "6,860 × 2,540 × 2,990 mm"
+          },
+          {
+            "label": "Cargo Body",
+            "value": "4,500 × 2,300 × 1,000+200 mm"
+          },
+          {
+            "label": "Tipping Angle",
+            "value": "48°"
+          },
+          {
+            "label": "Engine",
+            "value": "YC6J210-33, 6.494 L diesel"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III"
+          },
+          {
+            "label": "Transmission",
+            "value": "8JS85F"
+          },
+          {
+            "label": "Brakes",
+            "value": "Air drum brakes"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Mining",
+      "Construction sites",
+      "Heavy material hauling"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND H7 Dump Truck | Strongbuilt",
+      "description": "Heavy dump truck for mining and construction sites with a Yuchai diesel engine, FAST transmission and 30,000 kg listed GVW."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/ruiwoTS6/1024",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=H7&pz=1024",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-l7-dump-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "L7 Dump Truck",
+    "model": "L7 Dump Truck",
+    "productLine": "L7",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Medium / Heavy Duty",
+    "shortDescription": "L7 dump-truck family offered across multiple GVW, wheelbase, engine and emission configurations for construction and material hauling.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/jingangES3Pro/1017",
+        "alt": "FORLAND L7 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/l7-dump-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwOptionsKg": "9,800–26,005+ depending on configuration",
+      "fuelType": "Diesel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Documented Configuration Range",
+        "items": [
+          {
+            "label": "GVW Examples",
+            "value": "9,800 / 12,910 / 17,435 / 17,904 / 21,000 / 21,225 / 26,005 kg"
+          },
+          {
+            "label": "Engine Examples",
+            "value": "D25TCIE3 / ISF4.5S5210 / YC4D140-33 / YC4S160-50 / YC4D120 / D30TCIE4"
+          },
+          {
+            "label": "Transmission Examples",
+            "value": "6G40 / 8JS85TE / 8JS85F / 8GS60 / 6TS55 / 8GS46"
+          },
+          {
+            "label": "Tipping Angle",
+            "value": "Typically about 45–48.7° depending on configuration"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Multiple GVW and wheelbase configurations"
+    ],
+    "applications": [
+      "Construction",
+      "Aggregate hauling",
+      "Material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND L7 Dump Truck | Strongbuilt",
+      "description": "L7 dump-truck family offered across multiple GVW, wheelbase, engine and emission configurations for construction and material hauling."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/jingangES3Pro/1017",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=L7&pz=1017",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-l5e-dump-truck",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "L5e Dump Truck",
+    "model": "L5e Dump Truck",
+    "productLine": "L5e",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Light / Medium Duty",
+    "shortDescription": "Compact dump-truck family optimized for building materials, renovation supplies and waste handling in confined sites.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/jingangS1/1013",
+        "alt": "FORLAND L5e Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/l5e-dump-truck.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "gvwOptionsKg": "9,465–12,000",
+      "fuelOptions": "Diesel / Electric"
+    },
+    "specificationGroups": [
+      {
+        "title": "Documented Configurations",
+        "items": [
+          {
+            "label": "Diesel GVW Examples",
+            "value": "9,465 / 10,500 / 10,710 kg"
+          },
+          {
+            "label": "Diesel Engines",
+            "value": "D19TCIE11 1.91 L / D25TCIE3 2.499 L"
+          },
+          {
+            "label": "Electric Configuration",
+            "value": "12,000 kg GVW, 103.04 kWh CATL battery, 210 km CLTC range"
+          },
+          {
+            "label": "Wheelbase Examples",
+            "value": "2,500 / 2,650 / 2,800 / 3,360 mm"
+          },
+          {
+            "label": "Tipping Angle",
+            "value": "45±2° on documented diesel configurations"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Diesel dump",
+      "Electric dump"
+    ],
+    "applications": [
+      "Building materials",
+      "Renovation supplies",
+      "Waste handling",
+      "Confined-site transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND L5e Dump Truck | Strongbuilt",
+      "description": "Compact dump-truck family optimized for building materials, renovation supplies and waste handling in confined sites."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/jingangS1/1013",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=L5e&pz=1013",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "forland-h7-compactor",
+    "brand": "FORLAND",
+    "brandSlug": "forland",
+    "name": "H7 Compactor",
+    "model": "H7 Compactor",
+    "productLine": "H7",
+    "category": "Special Vehicle",
+    "truckTypeSlug": "special-purpose",
+    "class": "Special Purpose",
+    "shortDescription": "H7-based refuse compactor with a 10 m³ garbage tank and 4x2 driveline for municipal waste collection.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://www.forland.com/ftcar/SpecialVehicle/",
+        "alt": "FORLAND H7 Compactor",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/forland/h7-compactor.webp",
+        "status": "official-image-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-image-source-verified",
+    "keySpecs": {
+      "engine": "Cummins ISF4.5S5210",
+      "displacementL": 4.46,
+      "maximumPowerKw": 154,
+      "maximumTorqueNm": 760,
+      "drive": "4x2",
+      "garbageTankM3": 10
+    },
+    "specificationGroups": [
+      {
+        "title": "Powertrain & Chassis",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "Cummins ISF4.5S5210, 4.46 L"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III"
+          },
+          {
+            "label": "Maximum Power",
+            "value": "154 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "760 Nm"
+          },
+          {
+            "label": "Transmission",
+            "value": "FAST 8JS85TE"
+          },
+          {
+            "label": "Drive",
+            "value": "4×2"
+          },
+          {
+            "label": "Front / Rear Axle Rating",
+            "value": "6.5 t / 12 t"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "160 L"
+          },
+          {
+            "label": "Brakes",
+            "value": "Air brake, front/rear drum, ABS"
+          }
+        ]
+      },
+      {
+        "title": "Compactor System",
+        "items": [
+          {
+            "label": "Garbage Tank Effective Volume",
+            "value": "10 m³"
+          },
+          {
+            "label": "Precompressor Hopper Volume",
+            "value": "1.5 m³"
+          },
+          {
+            "label": "Compression Ratio",
+            "value": "3:1"
+          },
+          {
+            "label": "Dirty Water Tank",
+            "value": "540 L"
+          },
+          {
+            "label": "Back Flip Form",
+            "value": "Tipping bucket (120 / 240 / 660 L)"
+          },
+          {
+            "label": "Control",
+            "value": "CAN bus + dedicated controller"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Municipal refuse compactor"
+    ],
+    "applications": [
+      "Municipal solid waste collection",
+      "Garbage compaction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "FORLAND H7 Compactor | Strongbuilt",
+      "description": "H7-based refuse compactor with a 10 m³ garbage tank and 4x2 driveline for municipal waste collection."
+    },
+    "source": {
+      "website": "FORLAND Motors Official Website",
+      "productUrl": "https://www.forland.com/ftcar/SpecialVehicle/",
+      "parameterUrl": "https://www.forland.com/ftcar/peizhi?p=%5BM4%5D+H7+Compactor&pz=1058",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  }
+]

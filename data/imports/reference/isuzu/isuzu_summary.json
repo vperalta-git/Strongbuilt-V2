@@ -1,0 +1,21 @@
+{
+  "brandCount": 1,
+  "productCount": 26,
+  "categories": {
+    "TRAVIZ": 2,
+    "N-Series": 9,
+    "F-Series": 10,
+    "PUV": 3,
+    "Buses": 2
+  },
+  "officialProductImageUrls": 26,
+  "publicPricesIncluded": false,
+  "verifiedAt": "2026-09-02",
+  "notes": [
+    "Public pricing was intentionally omitted.",
+    "All products are marked availabilityStatus=inquire.",
+    "NQR75LS uses 155 PS from the official specification table; the current model card on the same page shows 115 PS.",
+    "NLR77 PUV duplicate page entries were consolidated into one product-family record.",
+    "The official ISUZU logo is confirmed on the official site, but a stable direct logo asset URL was not exposed cleanly during extraction, so the brand record leaves logo.url null rather than guessing."
+  ]
+}

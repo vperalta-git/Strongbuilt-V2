@@ -1,0 +1,17 @@
+{
+  "brandCount": 1,
+  "productCount": 41,
+  "categories": {
+    "E-Bus": 9,
+    "E-Coach": 9,
+    "City Bus": 3,
+    "Coach": 9,
+    "Apron Bus": 2,
+    "Specialty Vehicle": 9
+  },
+  "officialDirectImageUrls": 40,
+  "imagesNeedingDirectUrlExtraction": 1,
+  "publicPricesIncluded": false,
+  "availabilityStatus": "inquire",
+  "verifiedAt": "2026-09-02"
+}

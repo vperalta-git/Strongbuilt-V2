@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ASIASTAR",
+    "slug": "asiastar",
+    "manufacturer": "Yangzhou Yaxing Motor Coach Co., Ltd.",
+    "officialWebsite": "https://www.asiastarbuses.com/",
+    "logo": {
+      "url": "https://www.asiastarbuses.com/uploads/202324954/logo202307191523103039457.png",
+      "alt": "ASIASTAR logo",
+      "localPathSuggested": "/images/brands/asiastar.png",
+      "status": "verified-official-url"
+    },
+    "description": "Passenger-transport vehicle brand offering coaches, intercity buses, city buses and new-energy bus platforms.",
+    "active": true,
+    "displayOrder": 5,
+    "source": {
+      "website": "https://www.asiastarbuses.com/",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

@@ -68,19 +68,40 @@ async function safetyFingerprints(db: Db) {
   }
 }
 
-function imageInspection(normalized: ManufacturerNormalizationResult | undefined) {
-  return normalized?.input.images.map((image) => {
+function imageInspection(normalized: ManufacturerNormalizationResult | undefined, raw: unknown) {
+  const normalizedImages = normalized?.input.images.map((image) => ({
+    sourceUrl: image.sourceUrl || image.url,
+    sourcePage: image.sourcePage || normalized.input.source.productUrl,
+    storageProvider: image.storageProvider || "external",
+    suggestedLocalPath: image.suggestedLocalPath || null,
+  })) || []
+  const rawImages = raw && typeof raw === "object" && Array.isArray((raw as { images?: unknown }).images)
+    ? ((raw as { images: unknown[] }).images).flatMap((image) => {
+        if (!image || typeof image !== "object") return []
+        const value = image as Record<string, unknown>
+        return [{
+          sourceUrl: typeof value.url === "string" ? value.url : null,
+          sourcePage: typeof value.sourcePage === "string" ? value.sourcePage : null,
+          storageProvider: "external",
+          suggestedLocalPath: typeof value.localPathSuggested === "string" ? value.localPathSuggested : null,
+        }]
+      })
+    : []
+  return (normalizedImages.length ? normalizedImages : rawImages).map((image) => {
     const suggested = image.suggestedLocalPath
     const localExists = Boolean(suggested?.startsWith("/") && existsSync(resolve("public", suggested.slice(1))))
     return {
-      sourceUrl: image.sourceUrl || image.url,
-      sourcePage: image.sourcePage || normalized.input.source.productUrl,
-      storageProvider: image.storageProvider || "external",
-      suggestedLocalPath: suggested || null,
+      ...image,
       localAssetExists: localExists,
-      status: localExists ? "LOCAL_ASSET_READY" : suggested ? "LOCAL_MIGRATION_REQUIRED" : "NO_LOCAL_PATH_PLANNED",
+      status: localExists
+        ? "LOCAL_ASSET_READY"
+        : image.sourceUrl && suggested
+          ? "LOCAL_MIGRATION_REQUIRED"
+          : !image.sourceUrl
+            ? "SOURCE_URL_UNRESOLVED"
+            : "NO_LOCAL_PATH_PLANNED",
     }
-  }) || []
+  })
 }
 
 function sourceSnapshot(raw: unknown) {
@@ -141,6 +162,32 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
   })
   const selected = selectedIndexes.map((index) => adapted[index])
 
+  const selectedImageCounts = selected.reduce<Map<string, number>>((counts, record) => {
+    if (!record.success) return counts
+    for (const image of record.input.images) {
+      const sourceUrl = image.sourceUrl || image.url
+      counts.set(sourceUrl, (counts.get(sourceUrl) || 0) + 1)
+    }
+    return counts
+  }, new Map())
+  for (const record of selected) {
+    if (!record.success) continue
+    const sharedUrls = [...new Set(record.input.images
+      .map((image) => image.sourceUrl || image.url)
+      .filter((url) => (selectedImageCounts.get(url) || 0) > 1))]
+    for (const url of sharedUrls) {
+      record.issues.push({
+        severity: "warning",
+        field: "images",
+        message: "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+        reason: "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+        code: "SHARED_SOURCE_IMAGE",
+        sourceValue: url,
+        normalizedValue: url,
+      })
+    }
+  }
+
   loadLocalEnvironment()
   if (process.env.MONGODB_DB === "[SENSITIVE]") delete process.env.MONGODB_DB
   if (!process.env.MONGODB_URI || process.env.MONGODB_URI === "[SENSITIVE]") {
@@ -161,7 +208,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     .sort({ displayOrder: 1 })
     .toArray()
   const stagedValid = stageVehicleImports(validSelected.map((record) => record.input), {
-    knownBrandSlugs: brand.id ? [brand.slug] : [],
+    knownBrandSlugs: brand.id ? [brand.slug, config.slug, sourceBrand.data.slug] : [],
   })
   let validIndex = 0
   const candidates: PromotionCandidate[] = selected.map((record, index) => {
@@ -216,7 +263,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     candidates,
     references: {
       brandId: brand.id,
-      brandName: brand.name,
+      brandName: brand.name || sourceBrand.data.name,
       brandSlug: brand.slug,
       typeSlug: "per-record",
     },
@@ -266,16 +313,23 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
       } : null
     })(),
     source: record.canonicalPreview?.source || normalizedByIndex.get(index)?.input.source || null,
-    images: imageInspection(normalizedByIndex.get(index)),
+    images: imageInspection(normalizedByIndex.get(index), candidates[index].raw),
     legacyCompatibility: record.legacyCompatibility,
   }))
   const warningCount = reportRecords.reduce((total, record) => total + record.warnings.length, 0)
   const errorCount = reportRecords.reduce((total, record) => total + record.errors.length, 0) + plan.batchErrors.length
+  const inspectedImages = reportRecords.flatMap((record) => record.images)
   const imageSummary = {
-    imagesTested: reportRecords.reduce((total, record) => total + record.images.length, 0),
-    localAssetsReady: reportRecords.flatMap((record) => record.images).filter((image) => image.localAssetExists).length,
-    localMigrationRequired: reportRecords.flatMap((record) => record.images).filter((image) => image.status === "LOCAL_MIGRATION_REQUIRED").length,
-    missingImageRecords: reportRecords.filter((record) => record.images.length === 0).length,
+    imagesTested: inspectedImages.length,
+    sourceImagesAvailable: inspectedImages.filter((image) => Boolean(image.sourceUrl)).length,
+    sourceImagesUnresolved: inspectedImages.filter((image) => !image.sourceUrl).length,
+    sharedSourceImageUrls: Object.values(inspectedImages.reduce<Record<string, number>>((counts, image) => {
+      if (image.sourceUrl) counts[image.sourceUrl] = (counts[image.sourceUrl] || 0) + 1
+      return counts
+    }, {})).filter((count) => count > 1).length,
+    localAssetsReady: inspectedImages.filter((image) => image.localAssetExists).length,
+    localMigrationRequired: inspectedImages.filter((image) => image.status === "LOCAL_MIGRATION_REQUIRED").length,
+    missingImageRecords: reportRecords.filter((record) => !record.images.some((image) => Boolean(image.sourceUrl))).length,
   }
   const frontendCompatibility = {
     recordsTested: reportRecords.length,
@@ -329,12 +383,18 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
       alreadyExists: plan.alreadyExists,
       batchSlugErrors: reportRecords.filter((record) => record.errors.some((issue) => issue.code === "BATCH_SLUG_COLLISION")).length,
       batchModelErrors: reportRecords.filter((record) => record.errors.some((issue) => issue.code === "BATCH_MODEL_COLLISION")).length,
+      batchVariantWarnings: reportRecords.filter((record) => record.warnings.some((issue) => issue.code === "BATCH_POSSIBLE_VARIANT_RELATIONSHIP")).length,
       productionIdentityConflicts: reportRecords.filter((record) => record.errors.some((issue) => issue.code?.startsWith("PRODUCTION_"))).length,
       sharedOfficialProductUrls: Object.values(reportRecords.reduce<Record<string, number>>((counts, record) => {
         const url = record.source?.productUrl
         if (url) counts[url] = (counts[url] || 0) + 1
         return counts
       }, {})).filter((count) => count > 1).length,
+      sharedProductFamilies: Object.entries(reportRecords.reduce<Record<string, string[]>>((groups, record) => {
+        const family = record.sourceInventory?.productLine
+        if (typeof family === "string") groups[family] = [...(groups[family] || []), record.model]
+        return groups
+      }, {})).filter(([, models]) => models.length > 1).map(([productLine, models]) => ({ productLine, models })),
     },
     imageStatus: imageSummary,
     frontendCompatibility: {

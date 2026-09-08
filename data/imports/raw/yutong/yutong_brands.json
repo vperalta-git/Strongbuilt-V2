@@ -1,0 +1,20 @@
+[
+  {
+    "name": "YUTONG",
+    "slug": "yutong",
+    "officialWebsite": "https://en.yutong.com/",
+    "logo": {
+      "url": null,
+      "alt": "YUTONG logo",
+      "localPathSuggested": "/images/brands/yutong.png",
+      "status": "official-branding-verified-direct-logo-asset-not-confidently-resolved"
+    },
+    "description": "Global bus and coach manufacturer offering electric buses, electric coaches, city buses, coaches, apron buses and specialty vehicles.",
+    "active": true,
+    "displayOrder": 7,
+    "source": {
+      "website": "https://en.yutong.com/",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "SINOTRUK",
+    "slug": "sinotruk",
+    "officialWebsite": "https://sinotruk.international/",
+    "logo": {
+      "url": null,
+      "alt": "SINOTRUK logo",
+      "localPathSuggested": "/images/brands/sinotruk.png",
+      "status": "official-branding-verified-direct-logo-asset-not-confidently-resolved"
+    },
+    "description": "Commercial vehicle manufacturer offering heavy trucks, light trucks, special-purpose vehicles, semi-trailers and new-energy commercial vehicles.",
+    "active": true,
+    "displayOrder": 6,
+    "source": {
+      "website": "https://sinotruk.international/",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

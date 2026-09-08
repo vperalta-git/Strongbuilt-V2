@@ -1,0 +1,181 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-08T08:54:15.020Z",
+  "summary": {
+    "imagesTested": 14,
+    "sourceImagesAvailable": 14,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 14,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "X6000",
+      "slug": "shacman-x6000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/08/20/l/996ad657259f45ca9c5f604a23150520.png",
+          "sourcePage": "https://www.shacman.com/product/6000-series/x6000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/x6000.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "X5000",
+      "slug": "shacman-x5000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/31/l/706db4e42ccd406d8fe6141a6078339b.png",
+          "sourcePage": "https://www.shacman.com/product/5000-series/x5000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/x5000.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "X3000",
+      "slug": "shacman-x3000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/08/19/l/a0425a64606f4e29bd476e2f55bc347e.png",
+          "sourcePage": "https://www.shacman.com/product/3000-series/x3000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/x3000.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "H3000",
+      "slug": "shacman-h3000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/08/22/l/95c8a697cf074b16b16dae04dc1c5a36.png",
+          "sourcePage": "https://www.shacman.com/product/3000-series/h3000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/h3000.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "F3000",
+      "slug": "shacman-f3000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/11/01/l/16bc3ec59f7949b582fcfcd5979208f7.png",
+          "sourcePage": "https://www.shacman.com/product/3000-series/F3000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/f3000.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "L3000",
+      "slug": "shacman-l3000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/14/l/2bddfd07ccd64470afc6fc2ccd666593.png",
+          "sourcePage": "https://www.shacman.com/product/3000-series/L3000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/l3000.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "L6000e",
+      "slug": "shacman-l6000e",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/15/l/6c700ef50f484875ade0f21e7dc9c9ef.png",
+          "sourcePage": "https://www.shacman.com/product/e-fuel/l6000-e/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/l6000e.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "T5000 Port Tractor",
+      "slug": "shacman-t5000-port-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/12/l/00d98079e02a4c2b9f8782f11bcc1e31.png",
+          "sourcePage": "https://www.shacman.com/product/port-operation/T5000/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/t5000-port-tractor.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/5626168561b6477595e610749072b98c.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-concrete.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/379ad6f22ac346d38351dfde5f9fdfbe.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-sanitation.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a47a6c02c5bf4ec391ff82dbb3714679.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-crane.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/86c732410d594d9bbe6e007c6a8fcc35.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-hazardous.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/fee98b7229844a778800eaada19dd123.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-roadside-assistance.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a17dfbe8d9984d599c8911d7a1801be5.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-special-purpose.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    }
+  ]
+}

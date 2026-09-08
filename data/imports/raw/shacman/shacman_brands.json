@@ -1,0 +1,20 @@
+[
+  {
+    "name": "SHACMAN",
+    "slug": "shacman",
+    "officialWebsite": "https://www.shacman.com/",
+    "logo": {
+      "url": "https://www.shacman.com/upload/images/2024/08/12/8663024ef62a4ef9acfd264f1a924297.png",
+      "alt": "SHACMAN logo",
+      "localPathSuggested": "/images/brands/shacman.png",
+      "status": "verified-official-url"
+    },
+    "description": "Heavy commercial vehicle brand offering road, construction, new-energy, port-operation and specialized truck platforms.",
+    "active": true,
+    "displayOrder": 4,
+    "source": {
+      "website": "https://www.shacman.com/",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

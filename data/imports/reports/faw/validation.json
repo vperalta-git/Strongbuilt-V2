@@ -1,7 +1,7 @@
 {
   "manufacturer": "faw",
   "displayName": "FAW",
-  "generatedAt": "2026-09-08T08:01:19.892Z",
+  "generatedAt": "2026-09-08T08:58:24.022Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -24,7 +24,7 @@
     "recordsNormalized": 22,
     "eligible": 0,
     "warnings": 34,
-    "errors": 26,
+    "errors": 29,
     "alreadyExists": 0,
     "expectedInserts": 0,
     "expectedUpdates": 0,
@@ -166,11 +166,64 @@
     "alreadyExists": 0,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
+    "batchVariantWarnings": 0,
     "productionIdentityConflicts": 0,
-    "sharedOfficialProductUrls": 0
+    "sharedOfficialProductUrls": 0,
+    "sharedProductFamilies": [
+      {
+        "productLine": "JH6",
+        "models": [
+          "JH6 Tractor",
+          "JH6 Dump Truck",
+          "JH6 Special Purpose"
+        ]
+      },
+      {
+        "productLine": "J6P",
+        "models": [
+          "J6P Tractor",
+          "J6P Dump Truck",
+          "J6P Special Purpose"
+        ]
+      },
+      {
+        "productLine": "V Series",
+        "models": [
+          "NEW J5P Tractor",
+          "NEW J5M Tractor",
+          "J5P Tractor"
+        ]
+      },
+      {
+        "productLine": "J6L",
+        "models": [
+          "J6L Rigid",
+          "J6L Special Purpose"
+        ]
+      },
+      {
+        "productLine": "Dragon V",
+        "models": [
+          "Dragon V Rigid",
+          "Dragon V Dump Truck"
+        ]
+      },
+      {
+        "productLine": "Tiger V",
+        "models": [
+          "Tiger VH Rigid",
+          "Tiger VN Rigid",
+          "Tiger VR Rigid",
+          "Tiger V 4x4 Dump Truck"
+        ]
+      }
+    ]
   },
   "imageStatus": {
     "imagesTested": 19,
+    "sourceImagesAvailable": 19,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
     "localAssetsReady": 0,
     "localMigrationRequired": 19,
     "missingImageRecords": 3
@@ -364,10 +417,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -455,10 +508,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -544,10 +597,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -606,6 +659,13 @@
           "message": "Unknown brand slug: faw-trucks.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: faw-trucks."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle faw-new-j5p-tractor requires an explicit legacy category projection.",
+          "reason": "Vehicle faw-new-j5p-tractor requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -709,6 +769,13 @@
           "message": "Unknown brand slug: faw-trucks.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: faw-trucks."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle faw-new-j5m-tractor requires an explicit legacy category projection.",
+          "reason": "Vehicle faw-new-j5m-tractor requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -812,6 +879,13 @@
           "message": "Unknown brand slug: faw-trucks.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: faw-trucks."
+        },
+        {
+          "severity": "error",
+          "field": "legacyAdapter",
+          "message": "Vehicle faw-j5p-tractor requires an explicit legacy category projection.",
+          "reason": "Vehicle faw-j5p-tractor requires an explicit legacy category projection.",
+          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -943,10 +1017,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1031,10 +1105,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1119,10 +1193,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1209,10 +1283,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1297,10 +1371,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1388,10 +1462,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 8,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1476,10 +1550,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1564,10 +1638,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1657,10 +1731,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1860,10 +1934,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -2058,10 +2132,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -2147,10 +2221,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -2238,10 +2312,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {

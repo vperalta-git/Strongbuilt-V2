@@ -1,0 +1,31 @@
+{
+  "importantCorrections": [
+    {
+      "record": "H10",
+      "issue": "H10 appears in YUTONG's E-Bus category but the product page explicitly calls it a hybrid city bus and describes a DMT hybrid/super-capacitor system.",
+      "action": "Stored as Hybrid City Bus, not Battery Electric."
+    },
+    {
+      "record": "MC6",
+      "issue": "Current official product page identifies MC6 as a 7M Police Trailer; older search metadata may refer to a different MC6 use.",
+      "action": "Current official page takes precedence; flagged in sourceDataWarning."
+    },
+    {
+      "record": "AKESO5",
+      "issue": "Current page does not display a product-type heading.",
+      "action": "Categorized as Emergency Medical Vehicle based on official patient-care, emergency workflow and medical-storage content; note included."
+    },
+    {
+      "record": "C9E",
+      "issue": "Product/specification page is verified, but a stable direct hero image URL was not resolved during this extraction.",
+      "action": "Image URL left null rather than guessed. Official product page retained as image source."
+    }
+  ],
+  "generalNotes": [
+    "YUTONG states that product availability varies by country.",
+    "No public prices are included.",
+    "Manufacturer product-image URLs are treated as source assets; copy authorized images into Strongbuilt-controlled storage for production.",
+    "Product pages include the manufacturer's 'AI-Assisted. Authentic Vehicle Image.' disclosure. The JSON records the official hosted assets without altering that source status.",
+    "Ranges, capacities and performance claims that depend on specific test cycles/configurations should be presented with context rather than as universal real-world performance."
+  ]
+}

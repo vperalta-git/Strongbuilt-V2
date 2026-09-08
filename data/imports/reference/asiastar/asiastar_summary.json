@@ -1,0 +1,20 @@
+{
+  "brandCount": 1,
+  "productCount": 31,
+  "categories": {
+    "Coach": 6,
+    "Intercity Bus": 14,
+    "City Bus": 11
+  },
+  "officialImageUrls": 31,
+  "publicPricesIncluded": false,
+  "verifiedAt": "2026-09-02",
+  "notes": [
+    "The supplied Coach, Intercity Bus and City Bus category pages were used as the scope.",
+    "Recommended products from unrelated categories shown at the top of pages were not imported unless they also appeared in the requested category's actual product list.",
+    "The Intercity page repeats YBL6121H in the listing; it is stored only once.",
+    "ASIASTAR/YAXING pages sometimes show a marketing page name and a slightly different detailed model suffix (for example JS6128GH -> JS6128GHP). Both are retained in the product name where useful.",
+    "All catalog products are inquiry-only until Strongbuilt confirms sourcing, homologation and availability in the Philippines.",
+    "No public prices are included."
+  ]
+}

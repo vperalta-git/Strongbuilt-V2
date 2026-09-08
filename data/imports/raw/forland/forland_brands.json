@@ -1,0 +1,20 @@
+[
+  {
+    "name": "FORLAND",
+    "slug": "forland",
+    "officialWebsite": "https://www.forland.com/ftcar",
+    "logo": {
+      "url": null,
+      "alt": "FORLAND logo",
+      "localPathSuggested": "/images/brands/forland.png",
+      "status": "official-wordmark-verified-direct-asset-url-not-stable"
+    },
+    "description": "Commercial vehicle brand offering mini trucks, light trucks, heavy-duty trucks, dump trucks, electric commercial vehicles and special-purpose vehicles.",
+    "active": true,
+    "displayOrder": 3,
+    "source": {
+      "aboutUrl": "https://www.forland.com/ftcar/AboutUs.html",
+      "verifiedAt": "2026-09-02"
+    }
+  }
+]

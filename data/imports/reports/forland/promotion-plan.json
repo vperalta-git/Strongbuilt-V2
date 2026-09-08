@@ -1,0 +1,2029 @@
+{
+  "manufacturer": "forland",
+  "displayName": "Forland",
+  "generatedAt": "2026-09-08T08:54:10.840Z",
+  "mode": "dry-run",
+  "sourceFiles": {
+    "brands": {
+      "path": "data/imports/raw/forland/forland_brands.json",
+      "records": 1
+    },
+    "vehicles": {
+      "path": "data/imports/raw/forland/forland_trucks.json",
+      "records": 15
+    }
+  },
+  "selection": {
+    "batchId": null,
+    "requestedModels": "all",
+    "sourceRecords": 15,
+    "recordsTested": 15
+  },
+  "summary": {
+    "recordsLoaded": 15,
+    "recordsNormalized": 15,
+    "eligible": 0,
+    "warnings": 33,
+    "errors": 39,
+    "alreadyExists": 0,
+    "expectedInserts": 0,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0
+  },
+  "batchEligibility": {
+    "applyAllowed": false,
+    "blocked": 15,
+    "batchErrors": []
+  },
+  "brandResolution": {
+    "slug": "forland",
+    "name": "Forland",
+    "resolved": true,
+    "matchedBy": "slug",
+    "hardCodedObjectId": false
+  },
+  "typeCompatibility": {
+    "requestedSourceTypes": [
+      "mini-truck",
+      "light-truck",
+      "heavy-duty-truck",
+      "dump-truck",
+      "special-purpose"
+    ],
+    "resolvedSourceTypes": [
+      "mini-truck",
+      "light-truck",
+      "heavy-duty-truck",
+      "dump-truck",
+      "special-purpose"
+    ],
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
+  },
+  "duplicateChecks": {
+    "alreadyExists": 0,
+    "batchSlugErrors": 0,
+    "batchModelErrors": 0,
+    "batchVariantWarnings": 0,
+    "productionIdentityConflicts": 0,
+    "sharedOfficialProductUrls": 0,
+    "sharedProductFamilies": [
+      {
+        "productLine": "T5",
+        "models": [
+          "T5 Mini Truck",
+          "T5 Dump Truck"
+        ]
+      },
+      {
+        "productLine": "L5e",
+        "models": [
+          "L5e Light Truck",
+          "L5e Dump Truck"
+        ]
+      },
+      {
+        "productLine": "L7",
+        "models": [
+          "L7 Light Truck",
+          "L7 Dump Truck"
+        ]
+      },
+      {
+        "productLine": "H7",
+        "models": [
+          "H7 Heavy-duty Truck",
+          "H7 Dump Truck",
+          "H7 Compactor"
+        ]
+      }
+    ]
+  },
+  "imageStatus": {
+    "imagesTested": 15,
+    "sourceImagesAvailable": 0,
+    "sourceImagesUnresolved": 15,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 15
+  },
+  "frontendCompatibility": {
+    "recordsTested": 15,
+    "recordsPassed": 0,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": false
+  },
+  "promotion": {
+    "writesPerformed": 0,
+    "expectedInserts": 0,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0,
+    "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
+  },
+  "seedSafety": {
+    "seedOwnedSlugs": 12,
+    "selectedSeedSlugOverlap": [],
+    "deletesUnknownSlugs": false,
+    "importerUpdatesExistingRecords": false
+  },
+  "dataSafety": {
+    "countsBefore": {
+      "brands": 6,
+      "trucks": 38,
+      "uniqueTruckSlugs": 38,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "countsAfter": {
+      "brands": 6,
+      "trucks": 38,
+      "uniqueTruckSlugs": 38,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "unchanged": true,
+    "existingImportedFingerprintsUnchanged": true,
+    "existingImportedRecordsFingerprinted": 26,
+    "existingImportedFingerprintsBefore": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    },
+    "existingImportedFingerprintsAfter": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    }
+  },
+  "records": [
+    {
+      "model": "T5 Mini Truck",
+      "slug": "forland-t5-mini-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "T5",
+        "category": "Mini Truck",
+        "dutyClassification": "Mini / Light Duty",
+        "configurations": [
+          "Single Cab",
+          "Double Cab",
+          "Gasoline",
+          "Diesel"
+        ],
+        "applications": [
+          "Urban delivery",
+          "Small-business logistics",
+          "General cargo"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mini-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Mini Truck",
+        "propulsion": "Multiple / Configurable",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/xianglingV5/785.html",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=T+5&pz=785"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/xianglingV5/785.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "T5e Mini Truck",
+      "slug": "forland-t5e-mini-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "T5e",
+        "category": "Mini Truck",
+        "dutyClassification": "Mini / Light Duty",
+        "configurations": [
+          "Multiple engine configurations"
+        ],
+        "applications": [
+          "Urban delivery",
+          "General cargo",
+          "Small-business transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mini-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Mini Truck",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/xianglingQ/1022",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/xianglingQ/1022",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5e-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "T5 EV Mini Truck",
+      "slug": "forland-t5-ev-mini-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "T5 EV",
+        "category": "Mini Truck",
+        "dutyClassification": "Mini / Light Duty",
+        "configurations": [
+          "Battery-electric"
+        ],
+        "applications": [
+          "Urban delivery",
+          "Low-emission city logistics"
+        ],
+        "gvwKg": null,
+        "propulsion": "Electric",
+        "legacyTypeHint": "mini-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Mini Truck",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/xianglingm2p/787",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/xianglingm2p/787",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5-ev-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "T6 Mini Truck",
+      "slug": "forland-t6-mini-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "T6",
+        "category": "Mini Truck",
+        "dutyClassification": "Mini / Light Duty",
+        "configurations": [
+          "Double Cab"
+        ],
+        "applications": [
+          "Crew transport with cargo",
+          "Service operations",
+          "Urban commercial use"
+        ],
+        "gvwKg": 2550,
+        "propulsion": "Gasoline",
+        "legacyTypeHint": "mini-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Mini Truck",
+        "propulsion": "Gasoline",
+        "applicationTags": [
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/T6/1095",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=T6&pz=1095"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/T6/1095",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t6-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "T7 Mini Truck",
+      "slug": "forland-t7-mini-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "T7",
+        "category": "Mini Truck",
+        "dutyClassification": "Mini / Light Duty",
+        "configurations": [
+          "Wide-body commercial configuration"
+        ],
+        "applications": [
+          "Urban logistics",
+          "General cargo",
+          "Commercial hauling"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mini-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer source note retained for manual QA.",
+          "reason": "Manufacturer source note retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING",
+          "sourceValue": "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added.",
+          "normalizedValue": "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Mini Truck",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/T7/1096.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/T7/1096.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t7-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "L5 Light Truck",
+      "slug": "forland-l5-light-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "L5",
+        "category": "Light Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Multiple diesel powertrain configurations"
+        ],
+        "applications": [
+          "Urban and regional logistics",
+          "General cargo",
+          "Commercial distribution"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "light-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/linghangG5EV/1008",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/linghangG5EV/1008",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "L5e Light Truck",
+      "slug": "forland-l5e-light-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "L5e",
+        "category": "Light Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Single Cab",
+          "Extended Cab",
+          "Double Cab",
+          "Diesel",
+          "Gasoline",
+          "Gasoline+CNG"
+        ],
+        "applications": [
+          "Urban distribution",
+          "Regional cargo",
+          "Small fleet operations"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "light-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Multiple / Configurable",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/linghangS1EV/1009.html",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=L5+e&pz=1009"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/linghangS1EV/1009.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5e-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "L5e EV Light Truck",
+      "slug": "forland-l5e-ev-light-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "L5e EV",
+        "category": "Light Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Single Cab",
+          "Right-hand drive configuration documented"
+        ],
+        "applications": [
+          "Urban distribution",
+          "Low-emission logistics"
+        ],
+        "gvwKg": 4500,
+        "propulsion": "Electric",
+        "legacyTypeHint": "light-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/lhs1/1006.html",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=L5e+EV&pz=1006"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/lhs1/1006.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5e-ev-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "L7 Light Truck",
+      "slug": "forland-l7-light-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "L7",
+        "category": "Light Truck",
+        "dutyClassification": "Light Duty",
+        "configurations": [
+          "Automatic global-market configuration"
+        ],
+        "applications": [
+          "Long-distance trunk logistics",
+          "Regional delivery",
+          "Bulk cargo transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "light-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer source note retained for manual QA.",
+          "reason": "Manufacturer source note retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING",
+          "sourceValue": "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page.",
+          "normalizedValue": "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "dutyClass": "Light Duty",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/linghangM5EV/1010",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/linghangM5EV/1010",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l7-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "H7 Heavy-duty Truck",
+      "slug": "forland-h7-heavy-duty-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "H7",
+        "category": "Heavy-duty Truck",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [],
+        "applications": [
+          "Regional logistics",
+          "Agricultural products",
+          "Grain transport",
+          "Building materials"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "heavy-duty-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer source note retained for manual QA.",
+          "reason": "Manufacturer source note retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING",
+          "sourceValue": "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction.",
+          "normalizedValue": "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f52f",
+        "name": "Cargo",
+        "slug": "cargo"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Rigid Truck",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/H7/1023.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/H7/1023.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/h7-heavy-duty-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "T5 Dump Truck",
+      "slug": "forland-t5-dump-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "T5",
+        "category": "Dump Truck",
+        "dutyClassification": "Mini / Light Duty",
+        "configurations": [
+          "Compact rear-tipping dump body"
+        ],
+        "applications": [
+          "Decoration materials",
+          "Urban construction",
+          "Domestic waste handling"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "dump-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f530",
+        "name": "Dump Truck",
+        "slug": "dump-truck"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Dump Truck",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Urban Logistics",
+          "Waste Collection"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/T5/1025",
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/T5/1025",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "H7 Dump Truck",
+      "slug": "forland-h7-dump-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "H7",
+        "category": "Dump Truck",
+        "dutyClassification": "Heavy Duty",
+        "configurations": [],
+        "applications": [
+          "Mining",
+          "Construction sites",
+          "Heavy material hauling"
+        ],
+        "gvwKg": 30000,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "dump-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f530",
+        "name": "Dump Truck",
+        "slug": "dump-truck"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Dump Truck",
+        "dutyClass": "Heavy Duty",
+        "propulsion": "Diesel",
+        "applicationTags": [
+          "Construction",
+          "Mining"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/ruiwoTS6/1024",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=H7&pz=1024"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/ruiwoTS6/1024",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/h7-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "L7 Dump Truck",
+      "slug": "forland-l7-dump-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "L7",
+        "category": "Dump Truck",
+        "dutyClassification": "Medium / Heavy Duty",
+        "configurations": [
+          "Multiple GVW and wheelbase configurations"
+        ],
+        "applications": [
+          "Construction",
+          "Aggregate hauling",
+          "Material transport"
+        ],
+        "gvwKg": null,
+        "propulsion": "Diesel",
+        "legacyTypeHint": "dump-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f530",
+        "name": "Dump Truck",
+        "slug": "dump-truck"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Dump Truck",
+        "propulsion": "Diesel",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/jingangES3Pro/1017",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=L7&pz=1017"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/jingangES3Pro/1017",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l7-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "L5e Dump Truck",
+      "slug": "forland-l5e-dump-truck",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "L5e",
+        "category": "Dump Truck",
+        "dutyClassification": "Light / Medium Duty",
+        "configurations": [
+          "Diesel dump",
+          "Electric dump"
+        ],
+        "applications": [
+          "Building materials",
+          "Renovation supplies",
+          "Waste handling",
+          "Confined-site transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "dump-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "dutyClass",
+          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
+          "code": "AMBIGUOUS_DUTY_CLASS",
+          "sourceValue": "Light / Medium Duty",
+          "normalizedValue": null
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f530",
+        "name": "Dump Truck",
+        "slug": "dump-truck"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Truck",
+        "bodyType": "Dump Truck",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Construction",
+          "Waste Collection",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/jingangS1/1013",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=L5e&pz=1013"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/jingangS1/1013",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5e-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    },
+    {
+      "model": "H7 Compactor",
+      "slug": "forland-h7-compactor",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "H7",
+        "category": "Special Vehicle",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "Municipal refuse compactor"
+        ],
+        "applications": [
+          "Municipal solid waste collection",
+          "Garbage compaction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "special-purpose"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+          "normalizedValue": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The official source page is known, but no verified direct primary image URL is available.",
+          "reason": "The official source page is known, but no verified direct primary image URL is available.",
+          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "sourceValue": "official-image-source-verified",
+          "normalizedValue": null
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Too small: expected array to have >=1 items",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Too small: expected array to have >=1 items"
+        },
+        {
+          "severity": "error",
+          "field": "images",
+          "message": "Exactly one primary image is required.",
+          "code": "INVALID_SOURCE_SHAPE",
+          "reason": "Exactly one primary image is required."
+        }
+      ],
+      "brandResolution": {
+        "slug": "forland",
+        "name": "Forland",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Garbage Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Waste Collection",
+          "Municipal"
+        ]
+      },
+      "source": {
+        "manufacturer": "FORLAND",
+        "website": "https://www.forland.com/ftcar",
+        "productUrl": "https://www.forland.com/ftcar/SpecialVehicle/",
+        "alternateSourceUrls": [
+          "https://www.forland.com/ftcar/peizhi?p=%5BM4%5D+H7+Compactor&pz=1058"
+        ],
+        "verifiedAt": "2026-09-02",
+        "notes": "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock.",
+        "dataWarnings": [
+          "Global FORLAND product listing. Confirm Philippine/Strongbuilt configuration and sourcing availability before publishing as available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/SpecialVehicle/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/h7-compactor.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": false,
+        "imagesExposed": 0,
+        "specifications": 0,
+        "quoteSnapshotCompatible": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "brandCount": 1,
+  "truckCount": 22,
+  "categories": {
+    "Tractor": 6,
+    "Rigid Truck": 8,
+    "Dump Truck": 5,
+    "Special Purpose": 3
+  },
+  "imageVerifiedCount": 19,
+  "imageNeedsVerificationCount": 3,
+  "verifiedAt": "2026-09-02"
+}

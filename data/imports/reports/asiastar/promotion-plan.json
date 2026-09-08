@@ -1,0 +1,2881 @@
+{
+  "manufacturer": "asiastar",
+  "displayName": "ASIASTAR",
+  "generatedAt": "2026-09-08T08:54:10.501Z",
+  "mode": "dry-run",
+  "sourceFiles": {
+    "brands": {
+      "path": "data/imports/raw/asiastar/asiastar_brands.json",
+      "records": 1
+    },
+    "vehicles": {
+      "path": "data/imports/raw/asiastar/asiastar_trucks.json",
+      "records": 31
+    }
+  },
+  "selection": {
+    "batchId": null,
+    "requestedModels": "all",
+    "sourceRecords": 31,
+    "recordsTested": 31
+  },
+  "summary": {
+    "recordsLoaded": 31,
+    "recordsNormalized": 31,
+    "eligible": 30,
+    "warnings": 33,
+    "errors": 1,
+    "alreadyExists": 0,
+    "expectedInserts": 0,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0
+  },
+  "batchEligibility": {
+    "applyAllowed": false,
+    "blocked": 1,
+    "batchErrors": []
+  },
+  "brandResolution": {
+    "slug": "asiastar",
+    "name": "Asiastar",
+    "resolved": true,
+    "matchedBy": "slug",
+    "hardCodedObjectId": false
+  },
+  "typeCompatibility": {
+    "requestedSourceTypes": [
+      "bus"
+    ],
+    "resolvedSourceTypes": [
+      "bus"
+    ],
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
+  },
+  "duplicateChecks": {
+    "alreadyExists": 0,
+    "batchSlugErrors": 0,
+    "batchModelErrors": 0,
+    "batchVariantWarnings": 2,
+    "productionIdentityConflicts": 1,
+    "sharedOfficialProductUrls": 0,
+    "sharedProductFamilies": [
+      {
+        "productLine": "Coach",
+        "models": [
+          "YBL6128H (X9-3)",
+          "YBL6128HQ1",
+          "YBL6130H",
+          "YBL6148H",
+          "YBL6128H",
+          "YBL6125H"
+        ]
+      },
+      {
+        "productLine": "Intercity Bus",
+        "models": [
+          "YBL6859H",
+          "YBL6140T",
+          "YBL6130T",
+          "YBL6129T",
+          "YBL6121H",
+          "JS6890G",
+          "JS6840G",
+          "JS6762G",
+          "YBL6129H",
+          "YBL6119H",
+          "YBL6829H",
+          "YBL6909H",
+          "JS6840GJ Front Engine Bus",
+          "YBL6909HQ"
+        ]
+      },
+      {
+        "productLine": "City Bus",
+        "models": [
+          "JS6860GHN NG City Bus",
+          "JS6960GHCP Natural Gas City Bus",
+          "JS6128",
+          "JS6108",
+          "JS6181GHBEV",
+          "JS6120GHBEV",
+          "JS6128GH / JS6128GHP",
+          "JS6108GHA / JS6108GHP",
+          "JS6851GH / JS6851GHP",
+          "JS6926GHCP",
+          "JS6600G / JS6600GP"
+        ]
+      }
+    ]
+  },
+  "imageStatus": {
+    "imagesTested": 31,
+    "sourceImagesAvailable": 31,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 31,
+    "missingImageRecords": 0
+  },
+  "frontendCompatibility": {
+    "recordsTested": 31,
+    "recordsPassed": 0,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": false
+  },
+  "promotion": {
+    "writesPerformed": 0,
+    "expectedInserts": 0,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0,
+    "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
+  },
+  "seedSafety": {
+    "seedOwnedSlugs": 12,
+    "selectedSeedSlugOverlap": [],
+    "deletesUnknownSlugs": false,
+    "importerUpdatesExistingRecords": false
+  },
+  "dataSafety": {
+    "countsBefore": {
+      "brands": 6,
+      "trucks": 38,
+      "uniqueTruckSlugs": 38,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "countsAfter": {
+      "brands": 6,
+      "trucks": 38,
+      "uniqueTruckSlugs": 38,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "unchanged": true,
+    "existingImportedFingerprintsUnchanged": true,
+    "existingImportedRecordsFingerprinted": 26,
+    "existingImportedFingerprintsBefore": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    },
+    "existingImportedFingerprintsAfter": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    }
+  },
+  "records": [
+    {
+      "model": "YBL6128H (X9-3)",
+      "slug": "asiastar-ybl6128h-x9-3",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Long-distance passenger transport",
+          "Tourism"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "model",
+          "message": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "reason": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "code": "BATCH_POSSIBLE_VARIANT_RELATIONSHIP",
+          "sourceValue": "YBL6128H (X9-3)",
+          "normalizedValue": [
+            "YBL6128H"
+          ]
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128h-x9-3.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6128h-x9-3d0bff2b5-91ca-474c-afd9-1cacaf62c4eb.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128h-x9-3.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128h-x9-3.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6128HQ1",
+      "slug": "asiastar-ybl6128hq1",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Long-distance passenger transport",
+          "Tourism"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128hq1.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6128hq1d81de370-c57b-4f5b-9c20-0e448aa6893d.png",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128hq1.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128hq1.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 12,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6130H",
+      "slug": "asiastar-ybl6130h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Long-distance passenger transport",
+          "Tourism"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6130h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6130ha8a6b5e8-dbed-4055-87b6-366df1c6e897.png",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6130h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130h.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6148H",
+      "slug": "asiastar-ybl6148h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Long-distance passenger transport",
+          "Tourism"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6148h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6148h53524512405.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6148h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6148h.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6128H",
+      "slug": "asiastar-ybl6128h-coach",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Long-distance passenger transport",
+          "Tourism"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "model",
+          "message": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "reason": "The source contains a possible model-family/version relationship; retain separate identities pending review.",
+          "code": "BATCH_POSSIBLE_VARIANT_RELATIONSHIP",
+          "sourceValue": "YBL6128H",
+          "normalizedValue": [
+            "YBL6128H (X9-3)"
+          ]
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6128h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6128h56231939859.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6128h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128h-coach.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6125H",
+      "slug": "asiastar-ybl6125h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Coach",
+        "category": "Coach",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Long-distance passenger transport",
+          "Tourism"
+        ],
+        "gvwKg": 18000,
+        "propulsion": null,
+        "legacyTypeHint": "coach"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Coach",
+        "bodyType": "Coach",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Long Haul",
+          "Public Transport",
+          "Tourism",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6125h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6125h01462522259.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6125h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6125h.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 13,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6859H",
+      "slug": "asiastar-ybl6859h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6859h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6859hdb5534de-f51a-4636-933b-2b2840975969.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6859h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6859h.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6140T",
+      "slug": "asiastar-ybl6140t",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/13-m-intercity-bus/ybl6140t.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6140t7f4c4be0-e90f-403f-80bd-03299a0d4bd7.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/13-m-intercity-bus/ybl6140t.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6140t.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6130T",
+      "slug": "asiastar-ybl6130t",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/12-5-m-intercity-bus/ybl6130t.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6130t510caca6-76c9-491e-becf-242e3b9fe1dc.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12-5-m-intercity-bus/ybl6130t.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130t.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6129T",
+      "slug": "asiastar-ybl6129t",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129t.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6129tf07653cc-7b97-425c-9a7a-3d511b2e697c.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129t.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129t.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6121H",
+      "slug": "asiastar-ybl6121h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6121h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6121h88d97566-32ce-4eee-b6d1-1fe01a684932.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6121h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6121h.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6890G",
+      "slug": "asiastar-js6890g",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6890g.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6890g027823fa-e52e-419b-9703-ff659e1c7e8f.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6890g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6890g.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6840G",
+      "slug": "asiastar-js6840g",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840g.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6840g8b591281-9186-45fd-bb31-9857159a8e84.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6840g.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6762G",
+      "slug": "asiastar-js6762g",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/7m-intercity-bus/js6762g.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6762g577552cd-f668-4f1d-9986-e9368b87a252.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/7m-intercity-bus/js6762g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6762g.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6129H",
+      "slug": "asiastar-ybl6129h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6129h30517624834.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129h.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6119H",
+      "slug": "asiastar-ybl6119h",
+      "status": "ERROR",
+      "promotionEligible": false,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [
+        {
+          "severity": "error",
+          "field": "model",
+          "message": "Production contains a likely equivalent brand/model; manual review is required and no write is allowed.",
+          "reason": "Production contains a likely equivalent brand/model; manual review is required and no write is allowed.",
+          "code": "PRODUCTION_LIKELY_EQUIVALENT_MODEL",
+          "sourceValue": "YBL6119H",
+          "normalizedValue": "YBL6119H Passenger Bus"
+        }
+      ],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/11m-intercity-bus/ybl6119h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6119h22290941996.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/11m-intercity-bus/ybl6119h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6119h.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6829H",
+      "slug": "asiastar-ybl6829h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6829h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6829h43221677189.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6829h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6829h.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6909H",
+      "slug": "asiastar-ybl6909h",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD",
+          "RHD"
+        ],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6909h.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6909h39511290766.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6909h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909h.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6840GJ Front Engine Bus",
+      "slug": "asiastar-js6840gj-front-engine",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840gjfront-engine-bus.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6840gjfront-engine-bus36588790369.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840gjfront-engine-bus.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6840gj-front-engine.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "YBL6909HQ",
+      "slug": "asiastar-ybl6909hq",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "Intercity Bus",
+        "category": "Intercity Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Intercity passenger transport",
+          "Staff shuttle",
+          "Group transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "intercity-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "Intercity Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/intercity-bus/9m-intercity-bus/ybl6909hq.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6909hq30191923890.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/9m-intercity-bus/ybl6909hq.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909hq.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6860GHN NG City Bus",
+      "slug": "asiastar-js6860ghn",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "CNG"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": "CNG",
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "CNG",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6860ghn-cng-city-bus.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202524954/js6860ghn-cng-city-bus4fcb8cfb-e460-4374-8e72-d659a96dd866.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6860ghn-cng-city-bus.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6860ghn.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6960GHCP Natural Gas City Bus",
+      "slug": "asiastar-js6960ghcp",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "CNG"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": "CNG",
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "CNG",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6960ghcp-nature-gas-city-bus.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202524954/js6960ghcp-nature-gas-city-bus86bd4e69-cf92-4ef3-beca-4c83a371333c.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6960ghcp-nature-gas-city-bus.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6960ghcp.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 12,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6128",
+      "slug": "asiastar-js6128-city-bus",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6128e3d21b69-f83d-4cd6-9388-bf74048a968a.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6128-city-bus.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 9,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6108",
+      "slug": "asiastar-js6108-city-bus",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "LHD"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6108089e1367-4c82-4609-93fe-1a2f656f007a.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6108-city-bus.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 8,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6181GHBEV",
+      "slug": "asiastar-js6181ghbev",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "Pure Electric",
+          "BRT"
+        ],
+        "applications": [
+          "Urban public transport",
+          "Bus rapid transit"
+        ],
+        "gvwKg": null,
+        "propulsion": "Electric",
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/18m-brt-bus/js6181ghbev.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6181ghbevbf5dfed7-7f42-4cf9-b113-3d5e104b4b0f.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/18m-brt-bus/js6181ghbev.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6181ghbev.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 13,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6120GHBEV",
+      "slug": "asiastar-js6120ghbev",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "Pure Electric",
+          "Low Floor",
+          "3-door"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": "Electric",
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Battery Electric",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/13m-city-bus/js6120ghbev.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6120ghbev05452777925.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/13m-city-bus/js6120ghbev.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6120ghbev.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6128GH / JS6128GHP",
+      "slug": "asiastar-js6128gh",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": 17500,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128gh.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6128gh01331249095.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128gh.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6128gh.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6108GHA / JS6108GHP",
+      "slug": "asiastar-js6108gha",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108gha.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6108gha09076589172.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108gha.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6108gha.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 12,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6851GH / JS6851GHP",
+      "slug": "asiastar-js6851gh",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6851gh.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6851gh11200896968.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6851gh.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6851gh.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 8,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6926GHCP",
+      "slug": "asiastar-js6926ghcp",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [
+          "CNG"
+        ],
+        "applications": [
+          "Urban public transport"
+        ],
+        "gvwKg": 13200,
+        "propulsion": "CNG",
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "CNG",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6926ghcp.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6926ghcp00498646705.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6926ghcp.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6926ghcp.png",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 12,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "JS6600G / JS6600GP",
+      "slug": "asiastar-js6600g",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "sourceInventory": {
+        "productLine": "City Bus",
+        "category": "City Bus",
+        "dutyClassification": "Bus",
+        "configurations": [],
+        "applications": [
+          "Rural public transport",
+          "Urban feeder service"
+        ],
+        "gvwKg": 6200,
+        "propulsion": null,
+        "legacyTypeHint": "city-bus"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "asiastar",
+        "name": "Asiastar",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f532",
+        "name": "Bus",
+        "slug": "bus"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Bus",
+        "bodyType": "City Bus",
+        "dutyClass": "Passenger",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Public Transport",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "ASIASTAR",
+        "website": "https://www.asiastarbuses.com/",
+        "productUrl": "https://www.asiastarbuses.com/city-buses/6m-city-bus/js6600g.html",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6600g12554343632.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/6m-city-bus/js6600g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6600g.jpg",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 0,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
+      }
+    }
+  ]
+}

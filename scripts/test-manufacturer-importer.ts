@@ -164,6 +164,32 @@ async function main() {
   assert.equal(fawConfig.adapter.normalizeVehicle({ model: "BROKEN" }, fawBrand.data).success, false)
   assert.equal(fawConfig.adapter.normalizeVehicle(fawVehicles[1], fawBrand.data).success, true)
 
+  const preparedExpectations = {
+    forland: { records: 15, missingImages: 15, stagedRejected: 15, sourceErrors: 9 },
+    shacman: { records: 9, missingImages: 0, stagedRejected: 6, sourceErrors: 7 },
+    asiastar: { records: 31, missingImages: 0, stagedRejected: 0, sourceErrors: 0 },
+    sinotruk: { records: 50, missingImages: 0, stagedRejected: 0, sourceErrors: 0 },
+    yutong: { records: 41, missingImages: 1, stagedRejected: 1, sourceErrors: 0 },
+  } as const
+  for (const [manufacturer, expected] of Object.entries(preparedExpectations)) {
+    const preparedConfig = getManufacturerConfiguration(manufacturer)
+    const preparedBrands = JSON.parse(await readFile(preparedConfig.sourceFiles.brands, "utf8")) as unknown[]
+    const preparedVehicles = JSON.parse(await readFile(preparedConfig.sourceFiles.vehicles, "utf8")) as unknown[]
+    const preparedBrand = preparedConfig.adapter.parseBrand(preparedBrands[0])
+    assert.equal(preparedBrand.success, true, `${manufacturer} brand source`)
+    if (!preparedBrand.success) throw new Error(`Unexpected ${manufacturer} brand adapter failure.`)
+    const preparedNormalized = preparedVehicles.map((raw) => preparedConfig.adapter.normalizeVehicle(raw, preparedBrand.data))
+    const adapterFailures = preparedNormalized.flatMap((record, index) => record.success ? [] : [{ index, issues: record.issues }])
+    assert.equal(adapterFailures.length, 0, `${manufacturer} adapter failures: ${JSON.stringify(adapterFailures)}`)
+    assert.equal(preparedNormalized.filter((record) => record.success).length, expected.records, `${manufacturer} normalized records`)
+    const successful = preparedNormalized.flatMap((record) => record.success ? [record] : [])
+    assert.equal(successful.filter((record) => record.input.images.length === 0).length, expected.missingImages, `${manufacturer} unresolved images`)
+    assert.equal(successful.reduce((total, record) => total + record.issues.filter((issue) => issue.severity === "error").length, 0), expected.sourceErrors, `${manufacturer} source errors`)
+    const preparedStaged = stageVehicleImports(successful.map((record) => record.input), { knownBrandSlugs: [preparedBrand.data.slug] })
+    assert.equal(preparedStaged.rejected, expected.stagedRejected, `${manufacturer} staged rejections`)
+    assert.equal(preparedConfig.adapter.normalizeVehicle({ model: "BROKEN" }, preparedBrand.data).success, false, `${manufacturer} invalid isolation`)
+  }
+
   const conflicting = createInsertOnlyPromotionPlan({
     definition: { batch: "collision-test", manufacturer: "ISUZU", allowedModels: [candidates[0].model], importVersion: 1 },
     requestedManufacturer: "ISUZU",
@@ -183,6 +209,7 @@ async function main() {
   console.log("ISUZU reviewed batch fixture: 18 eligible, 0 blocked, 9 documented duty-class resolutions")
   console.log("Invalid record isolation, collision classification, canonical validation, legacy compatibility, and BSON sanitization: PASS")
   console.log("FAW adapter fixture: 22 normalized, 4 canonical categories, 3 unresolved-image records isolated")
+  console.log("Remaining manufacturer fixtures: 146 records normalized with unresolved images and ambiguous taxonomy isolated")
 }
 
 void main().catch((error: unknown) => {

@@ -1,0 +1,2882 @@
+[
+  {
+    "slug": "yutong-h10",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "H10",
+    "model": "H10",
+    "productLine": "E-Bus",
+    "category": "Hybrid City Bus",
+    "truckTypeSlug": "hybrid-city-bus",
+    "class": "Hybrid Bus",
+    "shortDescription": "10-meter hybrid city bus listed by YUTONG in its E-Bus portfolio, using a DMT hybrid system with super-capacitor energy storage.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/9/24/product/productCatPic/41b689645ca2439fbe32501513740785.webp",
+        "sourcePage": "https://en.yutong.com/products/H10.shtml",
+        "alt": "YUTONG H10",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/h10.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 10,
+      "passengers": 80,
+      "fuelType": "Hybrid",
+      "emissionStandard": "Euro V / Euro VI",
+      "dimensionsMm": "10,500 × 2,550 × 3,220 mm",
+      "maxSpeedKph": 70,
+      "fuelTankL": "150 / 170"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "10 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "80"
+          },
+          {
+            "label": "Energy / Fuel",
+            "value": "Hybrid"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V / Euro VI"
+          },
+          {
+            "label": "Dimensions",
+            "value": "10,500 × 2,550 × 3,220 mm"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "70 km/h"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "150 / 170 L"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Hybrid DMT system",
+      "Super capacitor"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG H10 | Strongbuilt",
+      "description": "10-meter hybrid city bus listed by YUTONG in its E-Bus portfolio, using a DMT hybrid system with super-capacitor energy storage."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/H10.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "Although H10 is listed on YUTONG's E-Bus category page, the current product page explicitly identifies it as a hybrid city bus rather than a battery-electric bus."
+  },
+  {
+    "slug": "yutong-e7s",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "E7S (ZK6706BEVG)",
+    "model": "E7S (ZK6706BEVG)",
+    "productLine": "E-Bus",
+    "category": "Electric City Bus",
+    "truckTypeSlug": "electric-city-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "Compact 7-meter battery-electric microcirculation bus for urban feeder and neighborhood routes.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/7/17/product/productCatPic/2ec1faf804c64667878b181b4d37eeca.webp",
+        "sourcePage": "https://en.yutong.com/products/E7S.shtml",
+        "alt": "YUTONG E7S (ZK6706BEVG)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/e7s.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 7,
+      "passengers": 30,
+      "seats": "10+1",
+      "batteryKwh": 140,
+      "dimensionsMm": "6,960 × 2,280 × 2,970 mm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "7 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "30"
+          },
+          {
+            "label": "Seats",
+            "value": "10+1"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "140 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "6,960 × 2,280 × 2,970 mm"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Urban feeder service",
+      "Microcirculation routes"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG E7S (ZK6706BEVG) | Strongbuilt",
+      "description": "Compact 7-meter battery-electric microcirculation bus for urban feeder and neighborhood routes."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/E7S.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-u12",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "U12",
+    "model": "U12",
+    "productLine": "E-Bus",
+    "category": "Electric City Bus",
+    "truckTypeSlug": "electric-city-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "12-meter battery-electric city bus for high-frequency main-road transit services.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/10/24/product/productCatPic/bfe7efa3bc8f4610a67d63560fdcb88f.webp",
+        "sourcePage": "https://en.yutong.com/products/U12.shtml",
+        "alt": "YUTONG U12",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/u12.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "passengers": "Up to 95",
+      "batteryOptionsKwh": "465 / 528"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "Up to 95"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "465 / 528"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric",
+      "Low-floor urban bus"
+    ],
+    "applications": [
+      "Urban public transport",
+      "High-frequency city routes"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG U12 | Strongbuilt",
+      "description": "12-meter battery-electric city bus for high-frequency main-road transit services."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/U12.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-e12",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "E12 (ZK6128BEVG)",
+    "model": "E12 (ZK6128BEVG)",
+    "productLine": "E-Bus",
+    "category": "Electric City Bus",
+    "truckTypeSlug": "electric-city-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "12-meter battery-electric city bus with a 422 kWh battery and right-hand-drive configuration listed by YUTONG.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/8/14/product/productCatPic/4722c7f9c4c44cadb922279e40918c09.webp",
+        "sourcePage": "https://en.yutong.com/products/xE12.shtml",
+        "alt": "YUTONG E12 (ZK6128BEVG)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/e12.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "passengers": 70,
+      "seats": 32,
+      "batteryKwh": 422,
+      "dimensionsMm": "12,170 × 2,550 × 3,350 mm",
+      "steering": "Right-hand drive listed"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "70"
+          },
+          {
+            "label": "Seats",
+            "value": "32"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "422 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "12,170 × 2,550 × 3,350 mm"
+          },
+          {
+            "label": "Steering / Drive Position",
+            "value": "Right-hand drive listed"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric",
+      "Right-hand drive"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG E12 (ZK6128BEVG) | Strongbuilt",
+      "description": "12-meter battery-electric city bus with a 422 kWh battery and right-hand-drive configuration listed by YUTONG."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/xE12.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-u18",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "U18",
+    "model": "U18",
+    "productLine": "E-Bus",
+    "category": "Electric Articulated Bus",
+    "truckTypeSlug": "electric-articulated-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "18-meter articulated battery-electric bus developed for high-capacity core-city and BRT-style operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/1/23/product/productCatPic/b42a2c04a2a74d62824a96c872a10401.webp",
+        "sourcePage": "https://en.yutong.com/products/U18.shtml",
+        "alt": "YUTONG U18",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/u18.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 18,
+      "passengers": "Up to 125",
+      "batteryOptionsKwh": "621 / 704"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "18 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "Up to 125"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "621 / 704"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric",
+      "Articulated"
+    ],
+    "applications": [
+      "High-capacity urban transit",
+      "Bus rapid transit"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG U18 | Strongbuilt",
+      "description": "18-meter articulated battery-electric bus developed for high-capacity core-city and BRT-style operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/U18.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-e12pro",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "E12PRO",
+    "model": "E12PRO",
+    "productLine": "E-Bus",
+    "category": "Electric City Bus",
+    "truckTypeSlug": "electric-city-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "12-meter low-floor battery-electric city bus with air suspension and approximately 352 kWh listed battery capacity.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/3/27/product/productCatPic/e671deafbc1849d5bc1fa2987ff5b042.webp",
+        "sourcePage": "https://en.yutong.com/products/E12PRO.shtml",
+        "alt": "YUTONG E12PRO",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/e12pro.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "batteryKwh": 352,
+      "dimensionsMm": "11,970 × 2,550 × 3,290 mm",
+      "suspension": "Air suspension"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "352 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "11,970 × 2,550 × 3,290 mm"
+          },
+          {
+            "label": "Suspension",
+            "value": "Air suspension"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric",
+      "Low floor"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG E12PRO | Strongbuilt",
+      "description": "12-meter low-floor battery-electric city bus with air suspension and approximately 352 kWh listed battery capacity."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/E12PRO.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-u12dd",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "U12DD",
+    "model": "U12DD",
+    "productLine": "E-Bus",
+    "category": "Electric Double-Decker Bus",
+    "truckTypeSlug": "electric-double-decker-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "12-meter battery-electric double-decker bus for high-capacity urban passenger operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/2134d6a9016047aba491d5ea5615ac2b.webp",
+        "sourcePage": "https://en.yutong.com/products/U12DD.shtml",
+        "alt": "YUTONG U12DD",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/u12dd.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "passengers": 117,
+      "batteryKwh": 528,
+      "dimensionsMm": "11,980 × 2,550 × 4,350 mm",
+      "maxSpeedKph": 70
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "117"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "528 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "11,980 × 2,550 × 4,350 mm"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "70 km/h"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric",
+      "Double deck"
+    ],
+    "applications": [
+      "High-capacity urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG U12DD | Strongbuilt",
+      "description": "12-meter battery-electric double-decker bus for high-capacity urban passenger operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/U12DD.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-u15",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "U15",
+    "model": "U15",
+    "productLine": "E-Bus",
+    "category": "Electric City Bus",
+    "truckTypeSlug": "electric-city-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "15-meter high-capacity battery-electric city bus with up to 662 kWh battery capacity.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/1/7/product/productCatPic/9ed26742e67045589e3d0aa6151e6d3a.webp",
+        "sourcePage": "https://en.yutong.com/products/U15.shtml",
+        "alt": "YUTONG U15",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/u15.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 15,
+      "passengers": "Up to 100",
+      "batteryOptionsKwh": "Up to 662",
+      "dimensionsMm": "14,950 × 2,550 × 3,390 mm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "15 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "Up to 100"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "Up to 662"
+          },
+          {
+            "label": "Dimensions",
+            "value": "14,950 × 2,550 × 3,390 mm"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "High-capacity urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG U15 | Strongbuilt",
+      "description": "15-meter high-capacity battery-electric city bus with up to 662 kWh battery capacity."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/U15.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "YUTONG states a range of up to 850 km under SORT2 for the referenced 662 kWh configuration; operating range depends on test cycle and configuration."
+  },
+  {
+    "slug": "yutong-e9",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "E9 (ZK6890BEVG)",
+    "model": "E9 (ZK6890BEVG)",
+    "productLine": "E-Bus",
+    "category": "Electric City Bus",
+    "truckTypeSlug": "electric-city-bus",
+    "class": "New Energy Bus",
+    "shortDescription": "9-meter battery-electric midi bus for urban branch lines and lower-demand transit routes.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/64f738c2f89f4b60abfdda6fde4247f4.webp",
+        "sourcePage": "https://en.yutong.com/products/E9.shtml",
+        "alt": "YUTONG E9 (ZK6890BEVG)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/e9.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "passengers": 62,
+      "batteryKwh": 255
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "62"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "255 kWh"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Urban branch routes",
+      "Urban and rural transit"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG E9 (ZK6890BEVG) | Strongbuilt",
+      "description": "9-meter battery-electric midi bus for urban branch lines and lower-demand transit routes."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/E9.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-t12e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "T12E",
+    "model": "T12E",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "12-meter premium battery-electric tourist coach for long-distance and tourism applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/c4530f92da19432eb3c3b49bc8cb32e5.jpg",
+        "sourcePage": "https://en.yutong.com/products/T12E.shtml",
+        "alt": "YUTONG T12E",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/t12e.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": "51 / 53 / 55",
+      "batteryOptionsKwh": "399 / 465",
+      "dimensionsMm": "12,245 × 2,550 × 3,710 mm",
+      "suspension": "Air suspension"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "51 / 53 / 55"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "399 / 465"
+          },
+          {
+            "label": "Dimensions",
+            "value": "12,245 × 2,550 × 3,710 mm"
+          },
+          {
+            "label": "Suspension",
+            "value": "Air suspension"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG T12E | Strongbuilt",
+      "description": "12-meter premium battery-electric tourist coach for long-distance and tourism applications."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/T12E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-ic12e-2026",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "IC12E (2026)",
+    "model": "IC12E (2026)",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "New-generation 12-meter battery-electric intercity bus with up to 61 seats.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/7/23/product/productCatPic/17156954e3c64461953bbb99e675ac42.webp",
+        "sourcePage": "https://en.yutong.com/products/IC12E_2026.shtml",
+        "alt": "YUTONG IC12E (2026)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/ic12e-2026.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": "Up to 61",
+      "batteryOptionsKwh": "399 / 465"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "Up to 61"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "399 / 465"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG IC12E (2026) | Strongbuilt",
+      "description": "New-generation 12-meter battery-electric intercity bus with up to 61 seats."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/IC12E_2026.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-t15e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "T15E",
+    "model": "T15E",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "15-meter premium battery-electric coach for high-capacity long-distance passenger transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/43dd135b21bc4487b1526aa5f71ed5e1.webp",
+        "sourcePage": "https://en.yutong.com/products/T15E.shtml",
+        "alt": "YUTONG T15E",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/t15e.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 15,
+      "seats": 63,
+      "batteryOptionsKwh": "621 / 704"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "15 m"
+          },
+          {
+            "label": "Seats",
+            "value": "63"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "621 / 704"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG T15E | Strongbuilt",
+      "description": "15-meter premium battery-electric coach for high-capacity long-distance passenger transport."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/T15E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-ic12e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "IC12E",
+    "model": "IC12E",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "12-meter battery-electric intercity bus for regional and commuter passenger operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/a7b2c62a1b6047d6b90abba007aec2c3.webp",
+        "sourcePage": "https://en.yutong.com/products/IC12E.shtml",
+        "alt": "YUTONG IC12E",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/ic12e.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": 61,
+      "batteryOptionsKwh": "399 / 465"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "61"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "399 / 465"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG IC12E | Strongbuilt",
+      "description": "12-meter battery-electric intercity bus for regional and commuter passenger operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/IC12E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c13e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C13E (ZK6137BEV)",
+    "model": "C13E (ZK6137BEV)",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "13-meter battery-electric intercity coach for regional and tourism applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/7/9/product/productCatPic/dc4d63884756415e80a40b32af6ebe50.webp",
+        "sourcePage": "https://en.yutong.com/products/C13E.shtml",
+        "alt": "YUTONG C13E (ZK6137BEV)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c13e.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 13,
+      "seats": "52 / 54 / 58",
+      "batteryKwh": 350,
+      "dimensionsMm": "12,370 × 2,500 × 3,610 mm",
+      "suspension": "Air suspension"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "13 m"
+          },
+          {
+            "label": "Seats",
+            "value": "52 / 54 / 58"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "350 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "12,370 × 2,500 × 3,610 mm"
+          },
+          {
+            "label": "Suspension",
+            "value": "Air suspension"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG C13E (ZK6137BEV) | Strongbuilt",
+      "description": "13-meter battery-electric intercity coach for regional and tourism applications."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C13E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-t14e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "T14E",
+    "model": "T14E",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "14-meter high-end battery-electric tourist coach for high-capacity intercity and tour operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/4b75299306374bcf9a0fc649d7ccd15d.webp",
+        "sourcePage": "https://en.yutong.com/products/T14E.shtml",
+        "alt": "YUTONG T14E",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/t14e.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 14,
+      "seats": 59,
+      "batteryOptionsKwh": "621 / 704"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "14 m"
+          },
+          {
+            "label": "Seats",
+            "value": "59"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "621 / 704"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG T14E | Strongbuilt",
+      "description": "14-meter high-end battery-electric tourist coach for high-capacity intercity and tour operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/T14E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c11e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C11E (ZK6117BEV)",
+    "model": "C11E (ZK6117BEV)",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "11-meter battery-electric tourism coach suitable for company shuttle, intercity and tour applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/12/25/product/productCatPic/1f99c72eca0a4c1393f8542b4f21d3eb.webp",
+        "sourcePage": "https://en.yutong.com/products/C11E.shtml",
+        "alt": "YUTONG C11E (ZK6117BEV)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c11e.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 11,
+      "seats": 50,
+      "batteryKwh": 255,
+      "dimensionsMm": "10,990 × 2,550 × 3,620 mm",
+      "suspension": "Airbag"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "11 m"
+          },
+          {
+            "label": "Seats",
+            "value": "50"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "255 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "10,990 × 2,550 × 3,620 mm"
+          },
+          {
+            "label": "Suspension",
+            "value": "Airbag"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG C11E (ZK6117BEV) | Strongbuilt",
+      "description": "11-meter battery-electric tourism coach suitable for company shuttle, intercity and tour applications."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C11E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c9e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C9E (ZK6907BEV)",
+    "model": "C9E (ZK6907BEV)",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "9-meter battery-electric midi coach with 40 seats and 255 kWh listed battery capacity.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": null,
+        "sourcePage": "https://en.yutong.com/products/C9E.shtml",
+        "alt": "YUTONG C9E (ZK6907BEV)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c9e.webp",
+        "status": "official-product-page-verified-direct-file-url-needs-extraction"
+      }
+    ],
+    "imageStatus": "official-product-page-verified-image-url-needs-extraction",
+    "keySpecs": {
+      "lengthM": 9,
+      "seats": 40,
+      "batteryKwh": 255,
+      "dimensionsMm": "8,970 × 2,530 × 3,475 mm",
+      "suspension": "Airbag"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Seats",
+            "value": "40"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "255 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "8,970 × 2,530 × 3,475 mm"
+          },
+          {
+            "label": "Suspension",
+            "value": "Airbag"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": "https://en.yutong.com/res/res/2026/1/28/product/cpzl/2016324301334122496.pdf?download=Yutong+C9E%28ZK6907BEV%29+Brochure+2025+%28en%29",
+    "seo": {
+      "title": "YUTONG C9E (ZK6907BEV) | Strongbuilt",
+      "description": "9-meter battery-electric midi coach with 40 seats and 255 kWh listed battery capacity."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C9E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-d8e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "D8E (ZK6772BEV)",
+    "model": "D8E (ZK6772BEV)",
+    "productLine": "E-Coach",
+    "category": "Electric Coach",
+    "truckTypeSlug": "electric-coach",
+    "class": "New Energy Coach",
+    "shortDescription": "8-meter battery-electric long-distance and tourism bus for compact passenger operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e428350082.jpg",
+        "sourcePage": "https://en.yutong.com/products/D8E.shtml",
+        "alt": "YUTONG D8E (ZK6772BEV)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/d8e.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 8,
+      "seats": 29,
+      "batteryKwh": 115,
+      "dimensionsMm": "7,730 × 2,410 × 3,160 mm",
+      "suspension": "Leaf spring",
+      "maxSpeedKph": 100
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "8 m"
+          },
+          {
+            "label": "Seats",
+            "value": "29"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "115 kWh"
+          },
+          {
+            "label": "Dimensions",
+            "value": "7,730 × 2,410 × 3,160 mm"
+          },
+          {
+            "label": "Suspension",
+            "value": "Leaf spring"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "100 km/h"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Tourism",
+      "Intercity passenger transport",
+      "Company shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG D8E (ZK6772BEV) | Strongbuilt",
+      "description": "8-meter battery-electric long-distance and tourism bus for compact passenger operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/D8E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-zk6890hg",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "ZK6890HG",
+    "model": "ZK6890HG",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "City Bus",
+    "shortDescription": "Approx. 9-meter conventional city bus for urban public transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/e5791f06a0f84d75b74c9eafe3921de5.webp",
+        "sourcePage": "https://en.yutong.com/products/ZK6890HG.shtml",
+        "alt": "YUTONG ZK6890HG",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/zk6890hg.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "passengers": 60
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "60"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG ZK6890HG | Strongbuilt",
+      "description": "Approx. 9-meter conventional city bus for urban public transport."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6890HG.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-zk6126hg",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "ZK6126HG",
+    "model": "ZK6126HG",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "City Bus",
+    "shortDescription": "12-meter conventional city bus for medium- and high-capacity urban routes.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/315d2488a9e7499689562050e6392969.webp",
+        "sourcePage": "https://en.yutong.com/products/ZK6126HG.shtml",
+        "alt": "YUTONG ZK6126HG",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/zk6126hg.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "passengers": "90 / 95"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "90 / 95"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG ZK6126HG | Strongbuilt",
+      "description": "12-meter conventional city bus for medium- and high-capacity urban routes."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6126HG.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-zk6186hg",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "ZK6186HG",
+    "model": "ZK6186HG",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "City Bus",
+    "shortDescription": "18-meter articulated conventional city bus for very high-capacity urban passenger service.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/645da21152a24020b8fc49463c29db41.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK6186HG.shtml",
+        "alt": "YUTONG ZK6186HG",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/zk6186hg.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 18,
+      "passengers": 121
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "18 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "121"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG ZK6186HG | Strongbuilt",
+      "description": "18-meter articulated conventional city bus for very high-capacity urban passenger service."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6186HG.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-t12",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "T12",
+    "model": "T12",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "12-meter premium diesel coach for tourism and long-distance passenger travel.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/2011711982792740864.webp",
+        "sourcePage": "https://en.yutong.com/products/T12.shtml",
+        "alt": "YUTONG T12",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/t12.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": 53,
+      "emissionStandard": "Euro VI",
+      "engine": "DAF",
+      "ratedPowerKw": 330,
+      "maximumTorqueNm": 2300
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "53"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro VI"
+          },
+          {
+            "label": "Engine",
+            "value": "DAF"
+          },
+          {
+            "label": "Rated Power",
+            "value": "330 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "2300 Nm"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG T12 | Strongbuilt",
+      "description": "12-meter premium diesel coach for tourism and long-distance passenger travel."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/T12.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c12pro",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C12PRO",
+    "model": "C12PRO",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "12-meter coach family for long-distance and tourism passenger transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/9/12/product/productCatPic/1ec899b35a0d4a12bc4c7bf1dcd7b07c.webp",
+        "sourcePage": "https://en.yutong.com/products/C12PRO.shtml",
+        "alt": "YUTONG C12PRO",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c12pro.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": "53 / 65"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "53 / 65"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG C12PRO | Strongbuilt",
+      "description": "12-meter coach family for long-distance and tourism passenger transport."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C12PRO.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-d14",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "D14",
+    "model": "D14",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "Large-capacity coach for long-distance passenger and tourism operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/3/14/product/productCatPic/99e42b2bda4949ee96f8424c8b9356c8.webp",
+        "sourcePage": "https://en.yutong.com/products/D14.shtml",
+        "alt": "YUTONG D14",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/d14.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 14,
+      "seats": "61+1+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "14 m"
+          },
+          {
+            "label": "Seats",
+            "value": "61+1+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG D14 | Strongbuilt",
+      "description": "Large-capacity coach for long-distance passenger and tourism operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/D14.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-t14",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "T14",
+    "model": "T14",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "14-meter premium tourism coach with Euro VI powertrain and high passenger/luggage capacity.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2026/7/20/product/productCatPic/5424823260b34e5e87225c12cf2e60b5.webp",
+        "sourcePage": "https://en.yutong.com/products/T14.shtml",
+        "alt": "YUTONG T14",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/t14.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 14,
+      "seats": "59 / 63",
+      "emissionStandard": "Euro VI",
+      "engine": "DF MX13",
+      "fuelTankL": 520,
+      "dimensionsMm": "13,970 × 2,550 × 3,865 mm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "14 m"
+          },
+          {
+            "label": "Seats",
+            "value": "59 / 63"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro VI"
+          },
+          {
+            "label": "Engine",
+            "value": "DF MX13"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "520 L"
+          },
+          {
+            "label": "Dimensions",
+            "value": "13,970 × 2,550 × 3,865 mm"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Right-hand-drive listing shown in YUTONG coach catalog"
+    ],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG T14 | Strongbuilt",
+      "description": "14-meter premium tourism coach with Euro VI powertrain and high passenger/luggage capacity."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/T14.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c11",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C11 (ZK6117H)",
+    "model": "C11 (ZK6117H)",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "11-meter luxury long-distance and tourism coach with 51 seats.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/e96236114066403091ee69de01adefa4.webp",
+        "sourcePage": "https://en.yutong.com/products/C11.shtml",
+        "alt": "YUTONG C11 (ZK6117H)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c11.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 11,
+      "seats": 51,
+      "emissionStandard": "Euro V",
+      "engine": "Yuchai YC6L310-50",
+      "ratedPowerKw": 228,
+      "maximumTorqueNm": 1150,
+      "dimensionsMm": "10,990 × 2,550 × 3,640 mm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "11 m"
+          },
+          {
+            "label": "Seats",
+            "value": "51"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          },
+          {
+            "label": "Engine",
+            "value": "Yuchai YC6L310-50"
+          },
+          {
+            "label": "Rated Power",
+            "value": "228 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1150 Nm"
+          },
+          {
+            "label": "Dimensions",
+            "value": "10,990 × 2,550 × 3,640 mm"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG C11 (ZK6117H) | Strongbuilt",
+      "description": "11-meter luxury long-distance and tourism coach with 51 seats."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C11.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c13pro",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C13PRO",
+    "model": "C13PRO",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "Large conventional coach family for intercity and tourism passenger transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2023/9/6/product/productCatPic/ff8080818a686a84018a6936acb2007b.jpg",
+        "sourcePage": "https://en.yutong.com/products/C13PRO.shtml",
+        "alt": "YUTONG C13PRO",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c13pro.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 13,
+      "seats": "51 / 55 / 44"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "13 m"
+          },
+          {
+            "label": "Seats",
+            "value": "51 / 55 / 44"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG C13PRO | Strongbuilt",
+      "description": "Large conventional coach family for intercity and tourism passenger transport."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C13PRO.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-c9",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "C9 (ZK6907H)",
+    "model": "C9 (ZK6907H)",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "9-meter luxury long-distance tourist coach for compact intercity and shuttle applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/9/13/product/productCatPic/508f5d8ec7164f10920d9cafee372606.webp",
+        "sourcePage": "https://en.yutong.com/products/C9.shtml",
+        "alt": "YUTONG C9 (ZK6907H)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/c9.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "seats": 41,
+      "emissionStandard": "Euro II",
+      "dimensionsMm": "8,970 × 2,550 × 3,450 mm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Seats",
+            "value": "41"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II"
+          },
+          {
+            "label": "Dimensions",
+            "value": "8,970 × 2,550 × 3,450 mm"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG C9 (ZK6907H) | Strongbuilt",
+      "description": "9-meter luxury long-distance tourist coach for compact intercity and shuttle applications."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/C9.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-t7",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "T7",
+    "model": "T7",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "Compact coach/minibus for smaller tourism, shuttle and passenger-transfer operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/5/10/product/productCatPic/c25fb3af329c49939edec18eb81a09be.webp",
+        "sourcePage": "https://en.yutong.com/products/T7.shtml",
+        "alt": "YUTONG T7",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/t7.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 7,
+      "seats": 17
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "7 m"
+          },
+          {
+            "label": "Seats",
+            "value": "17"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG T7 | Strongbuilt",
+      "description": "Compact coach/minibus for smaller tourism, shuttle and passenger-transfer operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/T7.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-zk6126d",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "ZK6126D",
+    "model": "ZK6126D",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Coach",
+    "shortDescription": "12-meter conventional coach for long-distance and group passenger transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2023/11/16/product/productCatPic/8ac292568b888b81018bd61f03bd0208.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK6126D.shtml",
+        "alt": "YUTONG ZK6126D",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/zk6126d.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": 53
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "53"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Tourism",
+      "Long-distance passenger transport",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG ZK6126D | Strongbuilt",
+      "description": "12-meter conventional coach for long-distance and group passenger transport."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6126D.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-ab14",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "AB14",
+    "model": "AB14",
+    "productLine": "Apron Bus",
+    "category": "Airport Apron Bus",
+    "truckTypeSlug": "apron-bus",
+    "class": "Airport Bus",
+    "shortDescription": "14-meter apron bus for high-capacity airport passenger transfer between terminals and aircraft.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e5d7c10083.jpg",
+        "sourcePage": "https://en.yutong.com/products/AB14.shtml",
+        "alt": "YUTONG AB14",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/ab14.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 14,
+      "passengers": 110,
+      "emissionStandard": "Euro III / Euro V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "14 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "110"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III / Euro V"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Airport apron passenger transfer",
+      "Airside shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG AB14 | Strongbuilt",
+      "description": "14-meter apron bus for high-capacity airport passenger transfer between terminals and aircraft."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/AB14.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-ab14e",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "AB14E",
+    "model": "AB14E",
+    "productLine": "Apron Bus",
+    "category": "Electric Airport Apron Bus",
+    "truckTypeSlug": "electric-apron-bus",
+    "class": "New Energy Airport Bus",
+    "shortDescription": "14-meter premium battery-electric apron bus for zero-emission airport passenger transfer.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/5/28/product/productCatPic/b9706b7abf7b4fa1847d1b6ef8ef1fe2.webp",
+        "sourcePage": "https://en.yutong.com/products/AB14E.shtml",
+        "alt": "YUTONG AB14E",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/ab14e.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 14,
+      "passengers": 114,
+      "fuelType": "Electric"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "14 m"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "114"
+          },
+          {
+            "label": "Energy / Fuel",
+            "value": "Electric"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Battery electric"
+    ],
+    "applications": [
+      "Airport apron passenger transfer",
+      "Airside shuttle"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG AB14E | Strongbuilt",
+      "description": "14-meter premium battery-electric apron bus for zero-emission airport passenger transfer."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/AB14E.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-bc12",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "BC12",
+    "model": "BC12",
+    "productLine": "Specialty Vehicle",
+    "category": "Blood Collection Vehicle",
+    "truckTypeSlug": "blood-collection-vehicle",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "12-meter specialty vehicle configured for mobile blood collection and medical-service operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925690168c0f019025b3a8020029.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK6128H.shtml",
+        "alt": "YUTONG BC12",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/bc12.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 12,
+      "seats": "2–9"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "12 m"
+          },
+          {
+            "label": "Seats",
+            "value": "2–9"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Mobile blood collection",
+      "Medical outreach"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG BC12 | Strongbuilt",
+      "description": "12-meter specialty vehicle configured for mobile blood collection and medical-service operations."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6128H.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-pt9",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "PT9",
+    "model": "PT9",
+    "productLine": "Specialty Vehicle",
+    "category": "Health Check AWD Vehicle",
+    "truckTypeSlug": "medical-vehicle",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "9-meter all-wheel-drive health-check specialty vehicle for mobile medical examination services.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/3/26/product/productCatPic/666ecabfd2d84a00a90a79e99d2f8777.webp",
+        "sourcePage": "https://en.yutong.com/products/ZK5180XYL.shtml",
+        "alt": "YUTONG PT9",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/pt9.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "seats": "2–3"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Seats",
+            "value": "2–3"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Mobile health screening",
+      "Medical outreach"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG PT9 | Strongbuilt",
+      "description": "9-meter all-wheel-drive health-check specialty vehicle for mobile medical examination services."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK5180XYL.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-pc9",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "PC9",
+    "model": "PC9",
+    "productLine": "Specialty Vehicle",
+    "category": "Health Check Vehicle",
+    "truckTypeSlug": "medical-vehicle",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "9-meter specialty health-check vehicle with configurable interior medical equipment and work areas.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925790168d46019025ac3e330023.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK6907H.shtml",
+        "alt": "YUTONG PC9",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/pc9.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "seats": "2–9"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Seats",
+            "value": "2–9"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Mobile health screening",
+      "Medical outreach"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG PC9 | Strongbuilt",
+      "description": "9-meter specialty health-check vehicle with configurable interior medical equipment and work areas."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6907H.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-ascle",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "ASCLE",
+    "model": "ASCLE",
+    "productLine": "Specialty Vehicle",
+    "category": "Off-Road Ambulance",
+    "truckTypeSlug": "ambulance",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "Off-road ambulance with a purpose-built medical cabin for emergency operation in more challenging environments.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930593340458405888.jpg",
+        "sourcePage": "https://en.yutong.com/products/ASCLE.shtml",
+        "alt": "YUTONG ASCLE",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/ascle.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {},
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Emergency medical response",
+      "Off-road rescue"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG ASCLE | Strongbuilt",
+      "description": "Off-road ambulance with a purpose-built medical cabin for emergency operation in more challenging environments."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ASCLE.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-akeso",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "AKESO",
+    "model": "AKESO",
+    "productLine": "Specialty Vehicle",
+    "category": "Urban Ambulance",
+    "truckTypeSlug": "ambulance",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "Urban ambulance based on a panel-van platform with medical conversion designed to retain chassis/body reliability.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930591515659341824.jpg",
+        "sourcePage": "https://en.yutong.com/products/AKESO.shtml",
+        "alt": "YUTONG AKESO",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/akeso.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {},
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Emergency medical response",
+      "Urban ambulance service"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG AKESO | Strongbuilt",
+      "description": "Urban ambulance based on a panel-van platform with medical conversion designed to retain chassis/body reliability."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/AKESO.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-mc6",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "MC6",
+    "model": "MC6",
+    "productLine": "Specialty Vehicle",
+    "category": "Police Trailer",
+    "truckTypeSlug": "police-special-vehicle",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "7-meter police trailer built around YUTONG's self-developed trailer cabin chassis.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2023/10/10/product/productCatPic/8ac292568adb3ee8018b18bdba8e0052.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK9020XJY.shtml",
+        "alt": "YUTONG MC6",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/mc6.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 7
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "7 m"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Police operations",
+      "Mobile command/support"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG MC6 | Strongbuilt",
+      "description": "7-meter police trailer built around YUTONG's self-developed trailer cabin chassis."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK9020XJY.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page."
+  },
+  {
+    "slug": "yutong-pv9",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "PV9",
+    "model": "PV9",
+    "productLine": "Specialty Vehicle",
+    "category": "Prisoner Vehicle",
+    "truckTypeSlug": "prisoner-transport",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "9-meter prisoner transport vehicle with reinforced internal custody/safety structures.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292568e600485018ec7592da30102.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK6907H-2.shtml",
+        "alt": "YUTONG PV9",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/pv9.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "seats": "24–39"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Seats",
+            "value": "24–39"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Prisoner transport",
+      "Secure personnel movement"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG PV9 | Strongbuilt",
+      "description": "9-meter prisoner transport vehicle with reinforced internal custody/safety structures."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6907H-2.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-rv9",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "RV9",
+    "model": "RV9",
+    "productLine": "Specialty Vehicle",
+    "category": "Riot Resistance Vehicle",
+    "truckTypeSlug": "riot-control-vehicle",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "9-meter riot-resistance vehicle configured for personnel and specialist equipment transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292578e600484018ec756a30f014e.jpg",
+        "sourcePage": "https://en.yutong.com/products/ZK6907H-1.shtml",
+        "alt": "YUTONG RV9",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/rv9.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthM": 9,
+      "seats": "24–39"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Length",
+            "value": "9 m"
+          },
+          {
+            "label": "Seats",
+            "value": "24–39"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Public-safety operations",
+      "Specialist personnel/equipment transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG RV9 | Strongbuilt",
+      "description": "9-meter riot-resistance vehicle configured for personnel and specialist equipment transport."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/ZK6907H-1.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "yutong-akeso5",
+    "brand": "YUTONG",
+    "brandSlug": "yutong",
+    "name": "AKESO5",
+    "model": "AKESO5",
+    "productLine": "Specialty Vehicle",
+    "category": "Emergency Medical Vehicle",
+    "truckTypeSlug": "ambulance",
+    "class": "Special Purpose Vehicle",
+    "shortDescription": "Medical emergency vehicle with zoned treatment layout, patient-care access and high-capacity equipment storage.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+    "images": [
+      {
+        "url": "https://en.yutong.com/res/res/2025/12/22/product/productCatPic/e12b610808dc4b298607a90332844a16.webp",
+        "sourcePage": "https://en.yutong.com/products/AKESO5.shtml",
+        "alt": "YUTONG AKESO5",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/yutong/akeso5.webp",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {},
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Emergency medical response",
+      "Hospital and emergency-center support"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "YUTONG AKESO5 | Strongbuilt",
+      "description": "Medical emergency vehicle with zoned treatment layout, patient-care access and high-capacity equipment storage."
+    },
+    "source": {
+      "website": "YUTONG Official Website",
+      "productUrl": "https://en.yutong.com/products/AKESO5.shtml",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'."
+  }
+]

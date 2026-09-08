@@ -1,0 +1,452 @@
+[
+  {
+    "slug": "sinotruk-howo-tx-6x4-dump",
+    "name": "HOWO TX 6×4 Dump Truck",
+    "category": "Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/howo-TX7.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-tx-8x4-dump",
+    "name": "HOWO TX 8×4 Dump Truck",
+    "category": "Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/howo-TX7-2.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-dump",
+    "name": "HOWO N 6×4 Dump Truck",
+    "category": "Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/HOWO-N-6X4-dump-truck.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-dump.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-n-6x4-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-n-8x4-dump",
+    "name": "HOWO N 8×4 Dump Truck",
+    "category": "Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Dump-Truck-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-dump.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-n-8x4-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-6x4-dump",
+    "name": "HOWO 6×4 Dump Truck",
+    "category": "Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Sinotruk-Howo-7-6X4-b.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-dump.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-6x4-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-8x4-dump",
+    "name": "HOWO 8×4 Dump Truck",
+    "category": "Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/HOWO-7-8X4-0.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-dump.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-8x4-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-t7-6x4-tractor",
+    "name": "HOWO T7 6×4 Tractor Truck",
+    "category": "Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-T7-6X24Tractor-Truck-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-t7-6x4-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-tx-6x4-tractor",
+    "name": "HOWO TX 6×4 Tractor Truck",
+    "category": "Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-TX-6X4-Tractor-Truck-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-n-4x2-tractor",
+    "name": "HOWO N 4×2 Tractor Truck",
+    "category": "Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-n-4x2-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-tractor",
+    "name": "HOWO N 6×4 Tractor Truck",
+    "category": "Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-n-6x4-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-6x4-tractor",
+    "name": "HOWO 6×4 Tractor Truck",
+    "category": "Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-6X4-Tractor-Truck-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-6x4-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-4x2-tractor",
+    "name": "HOWO 4×2 Tractor Truck",
+    "category": "Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-4X2-Tractor-Truck-1-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-4x2-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-4x2-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-6x4-cargo",
+    "name": "HOWO 6×4 Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-6X4-Cargo-Truck-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-cargo.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-6x4-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-tx-4x2-cargo",
+    "name": "HOWO TX 4×2 Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-TX-4X2-Cargo-Truck.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-tx-4x2-cargo-truck-2/"
+  },
+  {
+    "slug": "sinotruk-howo-tx-8x4-cargo",
+    "name": "HOWO TX 8×4 Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-TX-8X4-Cargo-Truck.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-cargo",
+    "name": "HOWO N 6×4 Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Cargo-Truck.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-n-6x4-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-n-8x4-cargo",
+    "name": "HOWO N 8×4 Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Cargo-Truck-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-n-8x4-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-cargo-truck",
+    "name": "HOWO Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-0.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-cargo-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-light-cargo-truck",
+    "name": "HOWO Light Cargo Truck",
+    "category": "Cargo Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Howo-Light-Cargo-Truck-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-cargo-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-light-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-box-van-cargo-truck",
+    "name": "HOWO Box Van Cargo Truck",
+    "category": "Box Van",
+    "officialImageUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-4.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-box-van-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-light-stake-truck",
+    "name": "HOWO Light Stake Truck",
+    "category": "Stake Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/4-Howo-Light-Stake-Truck-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-stake-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-light-stake-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-refrigerator-cargo-truck",
+    "name": "HOWO Refrigerator Cargo Truck",
+    "category": "Refrigerated Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-Refrigerator-66.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-refrigerator-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-wing-van-cargo-truck",
+    "name": "HOWO Wing Van Cargo Truck",
+    "category": "Wing Van",
+    "officialImageUrl": "https://sinotruk.international/image-library/2-Wing-Van-Truck-4.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-wing-van-cargo-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-mini-tipper-truck",
+    "name": "HOWO Mini Tipper Truck",
+    "category": "Tipper Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Tipper-Truck-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-mini-tipper-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-light-duty-tipper-truck",
+    "name": "HOWO Light Duty Tipper Truck",
+    "category": "Tipper Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Tipper-Truck-1-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-light-duty-tipper-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-water-tanker",
+    "name": "HOWO Water Tanker",
+    "category": "Water Tanker",
+    "officialImageUrl": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/"
+  },
+  {
+    "slug": "sinotruk-howo-oil-tanker",
+    "name": "HOWO Oil Tanker",
+    "category": "Oil Tanker",
+    "officialImageUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+    "imageStatus": "official-sinotruk-oil-tanker-family-image",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/"
+  },
+  {
+    "slug": "sinotruk-howo-8x4-oil-tanker",
+    "name": "HOWO 8×4 Oil Tanker",
+    "category": "Oil Tanker",
+    "officialImageUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+    "imageStatus": "official-sinotruk-oil-tanker-family-image",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/"
+  },
+  {
+    "slug": "sinotruk-howo-6x4-oil-tanker",
+    "name": "HOWO 6×4 Oil Tanker",
+    "category": "Oil Tanker",
+    "officialImageUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+    "imageStatus": "official-sinotruk-oil-tanker-family-image",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/"
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-mixer",
+    "name": "HOWO N 6×4 Mixer Truck",
+    "category": "Mixer Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/"
+  },
+  {
+    "slug": "sinotruk-howo-n-8x4-mixer",
+    "name": "HOWO N 8×4 Mixer Truck",
+    "category": "Mixer Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/"
+  },
+  {
+    "slug": "sinotruk-howo-tx-8x4-mixer",
+    "name": "HOWO TX 8×4 Mixer Truck",
+    "category": "Mixer Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/"
+  },
+  {
+    "slug": "sinotruk-howo-t7h-6x4-mixer",
+    "name": "HOWO T7H 6×4 Mixer Truck",
+    "category": "Mixer Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/"
+  },
+  {
+    "slug": "sinotruk-howo-t7h-8x4-mixer",
+    "name": "HOWO T7H 8×4 Mixer Truck",
+    "category": "Mixer Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/"
+  },
+  {
+    "slug": "sinotruk-howo-7-6x4-mixer",
+    "name": "HOWO 7 6×4 Mixer Truck",
+    "category": "Mixer Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/"
+  },
+  {
+    "slug": "sinotruk-howo-synchronous-chip-seal",
+    "name": "HOWO Synchronous Chip Seal / Bitumen Tank",
+    "category": "Bitumen / Road Maintenance",
+    "officialImageUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/"
+  },
+  {
+    "slug": "sinotruk-howo-bitumen-sprayer",
+    "name": "HOWO Bitumen Sprayer Tank",
+    "category": "Bitumen / Road Maintenance",
+    "officialImageUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/"
+  },
+  {
+    "slug": "sinotruk-howo-garbage-truck",
+    "name": "HOWO Garbage Truck",
+    "category": "Garbage / Refuse Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/"
+  },
+  {
+    "slug": "sinotruk-howo-mounted-crane",
+    "name": "HOWO Mounted Crane Truck",
+    "category": "Truck-Mounted Crane",
+    "officialImageUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-small-truck-crane",
+    "name": "HOWO Small Truck Crane",
+    "category": "Truck Crane",
+    "officialImageUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/"
+  },
+  {
+    "slug": "sinotruk-dump-semi-trailer",
+    "name": "Dump Semi Trailer",
+    "category": "Dump Semi Trailer",
+    "officialImageUrl": "https://sinotruk.international/image-library/1-Dump-Semi-Trailer-Truck-3.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/dump-semi-trailer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-dump-semi-trailer-truck/"
+  },
+  {
+    "slug": "sinotruk-fuel-tanker-semi-trailer",
+    "name": "Fuel Tanker Semi Trailer",
+    "category": "Fuel Tanker Trailer",
+    "officialImageUrl": "https://sinotruk.international/image-library/6-Fuel-Tanker-Trailer-6.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-fuel-tanker-trailer-truck/"
+  },
+  {
+    "slug": "sinotruk-fence-semi-trailer",
+    "name": "Fence Semi Trailer",
+    "category": "Fence Semi Trailer",
+    "officialImageUrl": "https://sinotruk.international/image-library/5-Fence-Semi-Trailer-6-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/fence-semi-trailer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-fence-semi-trailer-truck/"
+  },
+  {
+    "slug": "sinotruk-sidewall-semi-trailer",
+    "name": "Sidewall Semi Trailer",
+    "category": "Sidewall Semi Trailer",
+    "officialImageUrl": "https://sinotruk.international/image-library/4-Sidewall-Semi-Trailer-6.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/sidewall-semi-trailer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-sidewall-semi-trailer-truck/"
+  },
+  {
+    "slug": "sinotruk-flatbed-semi-trailer",
+    "name": "Flatbed Semi Trailer",
+    "category": "Flatbed Semi Trailer",
+    "officialImageUrl": "https://sinotruk.international/image-library/2-Flatbed-Semi-Trailer-4.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/flatbed-semi-trailer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-flatbed-semi-trailer-truck/"
+  },
+  {
+    "slug": "sinotruk-low-bed-semi-trailer",
+    "name": "Low Bed Semi Trailer",
+    "category": "Low Bed Semi Trailer",
+    "officialImageUrl": "https://sinotruk.international/image-library/3-Low-Bed-Semi-Trailer-3.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/low-bed-semi-trailer.jpg",
+    "sourcePage": "https://sinotruk.international/products/sinotruck-low-bed-semi-trailer-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-pure-electric-light-truck",
+    "name": "HOWO Pure Electric Light Truck",
+    "category": "Electric Light Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-light-truck-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-pure-electric-light-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-pure-electric-dump-truck",
+    "name": "HOWO Pure Electric Dump Truck",
+    "category": "Electric Dump Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-Dump-Truck-2.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-pure-electric-dump-truck/"
+  },
+  {
+    "slug": "sinotruk-howo-pure-electric-tractor",
+    "name": "HOWO Pure Electric Tractor Truck",
+    "category": "Electric Tractor Truck",
+    "officialImageUrl": "https://sinotruk.international/image-library/2-Howo-Pure-electric-Tractor-truck-1.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-pure-electric-tractor-truck/"
+  },
+  {
+    "slug": "sinotruk-pure-electric-single-side-dock-tractor",
+    "name": "Pure Electric Single Side Dock Tractor Truck",
+    "category": "Electric Terminal / Dock Tractor",
+    "officialImageUrl": "https://sinotruk.international/image-library/Single-Side-Dock-Series.jpg",
+    "imageStatus": "verified-official-url",
+    "suggestedLocalPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.jpg",
+    "sourcePage": "https://sinotruk.international/products/howo-pure-electric-single-side-dock-tractor-truck/"
+  }
+]

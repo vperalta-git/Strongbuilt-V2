@@ -1,9 +1,12 @@
 {
   "manufacturer": "isuzu",
-  "generatedAt": "2026-09-07T11:00:15.959Z",
+  "generatedAt": "2026-09-08T08:54:09.345Z",
   "summary": {
-    "imagesTested": 18,
-    "localAssetsReady": 18,
+    "imagesTested": 26,
+    "sourceImagesAvailable": 26,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 26,
     "localMigrationRequired": 0,
     "missingImageRecords": 0
   },
@@ -31,6 +34,118 @@
           "sourcePage": "https://www.isuzuphil.com/trucks/traviz",
           "storageProvider": "external",
           "suggestedLocalPath": "/images/trucks/isuzu/traviz-l.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NMR85HS",
+      "slug": "isuzu-nmr85hs",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nmr85hs.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NQR75LS",
+      "slug": "isuzu-nqr75ls",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nqr75ls.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "QLR77E",
+      "slug": "isuzu-qlr77e",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/qlr77e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NLR85ES",
+      "slug": "isuzu-nlr85es",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nlr85es.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NLR77H",
+      "slug": "isuzu-nlr77h",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nlr77h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NLR85E",
+      "slug": "isuzu-nlr85e",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nlr85e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NMR85H",
+      "slug": "isuzu-nmr85h",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/nmr85h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "NPR85K",
+      "slug": "isuzu-npr85k",
+      "images": [
+        {
+          "sourceUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+          "sourcePage": "https://www.isuzuphil.com/trucks/n-series",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/isuzu/npr85k.webp",
           "localAssetExists": true,
           "status": "LOCAL_ASSET_READY"
         }

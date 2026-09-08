@@ -1,0 +1,2696 @@
+[
+  {
+    "slug": "asiastar-ybl6128h-x9-3",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6128H (X9-3)",
+    "model": "YBL6128H (X9-3)",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Bus",
+    "shortDescription": "12-meter long-distance coach with 49+1+1 standard seating and LHD/RHD configurations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6128h-x9-3d0bff2b5-91ca-474c-afd9-1cacaf62c4eb.jpg",
+        "alt": "ASIASTAR YBL6128H (X9-3)",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6128h-x9-3.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12000,
+      "widthMm": 2550,
+      "heightMm": 3860,
+      "engine": "WP10.336E43",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "49+1+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,000 × 2,550 × 3,860 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP10.336E43"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "49+1+1"
+          },
+          {
+            "label": "Tires",
+            "value": "Michelin 295/80R22.5"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Long-distance passenger transport",
+      "Tourism"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6128H (X9-3) | Strongbuilt",
+      "description": "12-meter long-distance coach with 49+1+1 standard seating and LHD/RHD configurations."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128h-x9-3.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6128hq1",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6128HQ1",
+    "model": "YBL6128HQ1",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Bus",
+    "shortDescription": "12.5-meter coach with a 276 kW WP10.375 engine and 49+1+1 standard seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6128hq1d81de370-c57b-4f5b-9c20-0e448aa6893d.png",
+        "alt": "ASIASTAR YBL6128HQ1",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6128hq1.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12500,
+      "widthMm": 2550,
+      "heightMm": 3850,
+      "engine": "WP10.375",
+      "powerKw": 276,
+      "torqueNm": 1460,
+      "emissionStandard": "Euro III",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "49+1+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,500 × 2,550 × 3,850 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP10.375"
+          },
+          {
+            "label": "Rated Power",
+            "value": "276 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,460 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "49+1+1"
+          },
+          {
+            "label": "Tires",
+            "value": "Pirelli 295/80R22.5"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Long-distance passenger transport",
+      "Tourism"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6128HQ1 | Strongbuilt",
+      "description": "12.5-meter coach with a 276 kW WP10.375 engine and 49+1+1 standard seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128hq1.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6130h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6130H",
+    "model": "YBL6130H",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Bus",
+    "shortDescription": "12.65-meter coach with WP615.46 power and 49+1 standard seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6130ha8a6b5e8-dbed-4055-87b6-366df1c6e897.png",
+        "alt": "ASIASTAR YBL6130H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6130h.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12650,
+      "widthMm": 2550,
+      "heightMm": 3860,
+      "engine": "WP615.46",
+      "powerKw": 266,
+      "torqueNm": 1460,
+      "emissionStandard": "Euro II",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "49+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,650 × 2,550 × 3,860 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP615.46"
+          },
+          {
+            "label": "Rated Power",
+            "value": "266 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,460 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "49+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Long-distance passenger transport",
+      "Tourism"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6130H | Strongbuilt",
+      "description": "12.65-meter coach with WP615.46 power and 49+1 standard seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6130h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6148h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6148H",
+    "model": "YBL6148H",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Bus",
+    "shortDescription": "Large long-distance coach in ASIASTAR's Wertstar family with 55+1 seating and dual-windshield styling.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/ybl6148h53524512405.jpg",
+        "alt": "ASIASTAR YBL6148H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6148h.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 13680,
+      "widthMm": 2550,
+      "heightMm": 3860,
+      "engine": "WP12.375N",
+      "powerKw": 276,
+      "torqueNm": 1800,
+      "emissionStandard": "Euro III",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "55+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "13,680 × 2,550 × 3,860 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP12.375N"
+          },
+          {
+            "label": "Rated Power",
+            "value": "276 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,800 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "55+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Long-distance passenger transport",
+      "Tourism"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6148H | Strongbuilt",
+      "description": "Large long-distance coach in ASIASTAR's Wertstar family with 55+1 seating and dual-windshield styling."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6148h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6128h-coach",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6128H",
+    "model": "YBL6128H",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Bus",
+    "shortDescription": "One-and-a-half-floor long-distance and tourism coach using a monocoque structure and high-strength steel construction.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/ybl6128h56231939859.jpg",
+        "alt": "ASIASTAR YBL6128H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6128h-coach.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12000,
+      "widthMm": 2550,
+      "heightMm": 3860,
+      "engine": "WP10.336E43",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "49+1+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,000 × 2,550 × 3,860 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP10.336E43"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "49+1+1"
+          },
+          {
+            "label": "Body Structure",
+            "value": "U-style monocoque"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Long-distance passenger transport",
+      "Tourism"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6128H | Strongbuilt",
+      "description": "One-and-a-half-floor long-distance and tourism coach using a monocoque structure and high-strength steel construction."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6128h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6125h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6125H",
+    "model": "YBL6125H",
+    "productLine": "Coach",
+    "category": "Coach",
+    "truckTypeSlug": "coach",
+    "class": "Bus",
+    "shortDescription": "12-meter long-distance coach with monocoque body, air suspension and 49+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/ybl6125h01462522259.jpg",
+        "alt": "ASIASTAR YBL6125H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6125h.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12000,
+      "widthMm": 2550,
+      "heightMm": 3850,
+      "gvwKg": 18000,
+      "engine": "WP10.336E53",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "49+1",
+      "fuelTankL": "260 or larger"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,000 × 2,550 × 3,850 mm"
+          },
+          {
+            "label": "GVW",
+            "value": "18,000 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "WP10.336E53"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Body Structure",
+            "value": "Monocoque body structure with U beam"
+          },
+          {
+            "label": "Transmission",
+            "value": "6-speed manual gearbox"
+          },
+          {
+            "label": "Suspension",
+            "value": "Air suspension"
+          },
+          {
+            "label": "Tires",
+            "value": "295/80R22.5"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "260 L or larger"
+          },
+          {
+            "label": "Seats",
+            "value": "49+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Long-distance passenger transport",
+      "Tourism"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6125H | Strongbuilt",
+      "description": "12-meter long-distance coach with monocoque body, air suspension and 49+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6125h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6859h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6859H",
+    "model": "YBL6859H",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "8.67-meter intercity bus with a Weichai WP5.200E51 engine and 35+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6859hdb5534de-f51a-4636-933b-2b2840975969.png",
+        "alt": "ASIASTAR YBL6859H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6859h.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8670,
+      "widthMm": 2550,
+      "heightMm": 3420,
+      "engine": "WEICHAI WP5.200E51",
+      "powerKw": 147,
+      "torqueNm": 800,
+      "emissionStandard": "Euro V",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "35+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,670 × 2,550 × 3,420 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WEICHAI WP5.200E51"
+          },
+          {
+            "label": "Rated Power",
+            "value": "147 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "800 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "35+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6859H | Strongbuilt",
+      "description": "8.67-meter intercity bus with a Weichai WP5.200E51 engine and 35+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6859h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6140t",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6140T",
+    "model": "YBL6140T",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "13.5-meter intercity bus with 59+1+1 seating and a 276 kW WP10.375 engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6140t7f4c4be0-e90f-403f-80bd-03299a0d4bd7.png",
+        "alt": "ASIASTAR YBL6140T",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6140t.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 13500,
+      "widthMm": 2550,
+      "heightMm": 3800,
+      "engine": "WP10.375",
+      "powerKw": 276,
+      "torqueNm": 1460,
+      "emissionStandard": "Euro III",
+      "seatingCapacity": "59+1+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "13,500 × 2,550 × 3,800 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP10.375"
+          },
+          {
+            "label": "Rated Power",
+            "value": "276 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,460 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro III"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "59+1+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6140T | Strongbuilt",
+      "description": "13.5-meter intercity bus with 59+1+1 seating and a 276 kW WP10.375 engine."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/13-m-intercity-bus/ybl6140t.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6130t",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6130T",
+    "model": "YBL6130T",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "12.63-meter intercity bus with 53+1+1 seating and a 266 kW WD615.46 engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6130t510caca6-76c9-491e-becf-242e3b9fe1dc.png",
+        "alt": "ASIASTAR YBL6130T",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6130t.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12630,
+      "widthMm": 2550,
+      "heightMm": 3800,
+      "engine": "WD615.46",
+      "powerKw": 266,
+      "torqueNm": 1460,
+      "emissionStandard": "Euro II",
+      "seatingCapacity": "53+1+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,630 × 2,550 × 3,800 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WD615.46"
+          },
+          {
+            "label": "Rated Power",
+            "value": "266 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,460 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "53+1+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6130T | Strongbuilt",
+      "description": "12.63-meter intercity bus with 53+1+1 seating and a 266 kW WD615.46 engine."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/12-5-m-intercity-bus/ybl6130t.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6129t",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6129T",
+    "model": "YBL6129T",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "12.01-meter intercity bus with 53+1+1 seating and a 266 kW WP615.46 engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6129tf07653cc-7b97-425c-9a7a-3d511b2e697c.png",
+        "alt": "ASIASTAR YBL6129T",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6129t.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12010,
+      "widthMm": 2550,
+      "heightMm": 3900,
+      "engine": "WP615.46",
+      "powerKw": 266,
+      "torqueNm": 1460,
+      "emissionStandard": "Euro II",
+      "seatingCapacity": "53+1+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,010 × 2,550 × 3,900 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP615.46"
+          },
+          {
+            "label": "Rated Power",
+            "value": "266 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,460 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro II"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "53+1+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6129T | Strongbuilt",
+      "description": "12.01-meter intercity bus with 53+1+1 seating and a 266 kW WP615.46 engine."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129t.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6121h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6121H",
+    "model": "YBL6121H",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "12-meter intercity bus with 49+1 seating and LHD/RHD configuration.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/ybl6121h88d97566-32ce-4eee-b6d1-1fe01a684932.png",
+        "alt": "ASIASTAR YBL6121H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6121h.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12000,
+      "widthMm": 2550,
+      "heightMm": 3620,
+      "engine": "WP10.336E53",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "49+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,000 × 2,550 × 3,620 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP10.336E53"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "49+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6121H | Strongbuilt",
+      "description": "12-meter intercity bus with 49+1 seating and LHD/RHD configuration."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6121h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6890g",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6890G",
+    "model": "JS6890G",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "8.88-meter intercity bus with WP4.1NQ170E50 power and 33+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/js6890g027823fa-e52e-419b-9703-ff659e1c7e8f.png",
+        "alt": "ASIASTAR JS6890G",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6890g.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8880,
+      "widthMm": 2380,
+      "heightMm": 3200,
+      "engine": "WP4.1NQ170E50",
+      "maxSpeedKph": 80,
+      "seatingCapacity": "33+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,880 × 2,380 × 3,200 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP4.1NQ170E50"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "80 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "33+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6890G | Strongbuilt",
+      "description": "8.88-meter intercity bus with WP4.1NQ170E50 power and 33+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6890g.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6840g",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6840G",
+    "model": "JS6840G",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "8.38-meter intercity bus with Cummins/Beikang ISF3.8S5168 power and 29+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/js6840g8b591281-9186-45fd-bb31-9857159a8e84.png",
+        "alt": "ASIASTAR JS6840G",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6840g.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8380,
+      "widthMm": 2380,
+      "heightMm": 3200,
+      "engine": "Beikang ISF3.8S5168",
+      "maxSpeedKph": 80,
+      "seatingCapacity": "29+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,380 × 2,380 × 3,200 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "Beikang ISF3.8S5168"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "80 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "29+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6840G | Strongbuilt",
+      "description": "8.38-meter intercity bus with Cummins/Beikang ISF3.8S5168 power and 29+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840g.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6762g",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6762G",
+    "model": "JS6762G",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "7.66-meter intercity bus with ISF3.8S5154 power and 25+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/js6762g577552cd-f668-4f1d-9986-e9368b87a252.png",
+        "alt": "ASIASTAR JS6762G",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6762g.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 7660,
+      "widthMm": 2380,
+      "heightMm": 3200,
+      "engine": "Beikang ISF3.8S5154",
+      "maxSpeedKph": 80,
+      "seatingCapacity": "25+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "7,660 × 2,380 × 3,200 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "Beikang ISF3.8S5154"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "80 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "25+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6762G | Strongbuilt",
+      "description": "7.66-meter intercity bus with ISF3.8S5154 power and 25+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/7m-intercity-bus/js6762g.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6129h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6129H",
+    "model": "YBL6129H",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "12-meter multi-purpose staff and intercity bus designed for 2+2 or 2+3 seating layouts.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/ybl6129h30517624834.jpg",
+        "alt": "ASIASTAR YBL6129H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6129h.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "bodyLengthClass": "12 m"
+    },
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6129H | Strongbuilt",
+      "description": "12-meter multi-purpose staff and intercity bus designed for 2+2 or 2+3 seating layouts."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6119h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6119H",
+    "model": "YBL6119H",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "11-meter multi-purpose staff transportation bus suitable for shuttle, group and school-type operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/ybl6119h22290941996.jpg",
+        "alt": "ASIASTAR YBL6119H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6119h.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "bodyLengthClass": "11 m"
+    },
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6119H | Strongbuilt",
+      "description": "11-meter multi-purpose staff transportation bus suitable for shuttle, group and school-type operations."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/11m-intercity-bus/ybl6119h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6829h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6829H",
+    "model": "YBL6829H",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "8.245-meter intercity bus with 33+1 seating and Weichai WP4.6NQ220E50 power.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/ybl6829h43221677189.jpg",
+        "alt": "ASIASTAR YBL6829H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6829h.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8245,
+      "widthMm": 2550,
+      "heightMm": 3420,
+      "engine": "WEICHAI WP4.6NQ220E50",
+      "powerKw": 162,
+      "torqueNm": 800,
+      "emissionStandard": "Euro V",
+      "maxSpeedKph": 110,
+      "seatingCapacity": "33+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,245 × 2,550 × 3,420 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WEICHAI WP4.6NQ220E50"
+          },
+          {
+            "label": "Rated Power",
+            "value": "162 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "800 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "110 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "33+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6829H | Strongbuilt",
+      "description": "8.245-meter intercity bus with 33+1 seating and Weichai WP4.6NQ220E50 power."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6829h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6909h",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6909H",
+    "model": "YBL6909H",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "8.99-meter multi-purpose intercity/staff bus with 39+1 seating and Weichai WP7.240E51 power.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/ybl6909h39511290766.jpg",
+        "alt": "ASIASTAR YBL6909H",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6909h.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8990,
+      "widthMm": 2550,
+      "heightMm": 3435,
+      "engine": "WEICHAI WP7.240E51",
+      "powerKw": 176,
+      "torqueNm": 1050,
+      "emissionStandard": "Euro V",
+      "maxSpeedKph": 120,
+      "seatingCapacity": "39+1",
+      "steering": "LHD/RHD"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,990 × 2,550 × 3,435 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WEICHAI WP7.240E51"
+          },
+          {
+            "label": "Rated Power",
+            "value": "176 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,050 Nm"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "120 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "LHD/RHD"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "39+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD",
+      "RHD"
+    ],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6909H | Strongbuilt",
+      "description": "8.99-meter multi-purpose intercity/staff bus with 39+1 seating and Weichai WP7.240E51 power."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6909h.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6840gj-front-engine",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6840GJ Front Engine Bus",
+    "model": "JS6840GJ Front Engine Bus",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "Front-engine suburban bus family for intercity/staff use, offered in approximately 7.6 m, 8.3 m and 8.9 m lengths with 25, 29 or 33 seats.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/js6840gjfront-engine-bus36588790369.jpg",
+        "alt": "ASIASTAR JS6840GJ Front Engine Bus",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6840gj-front-engine.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthOptions": "7.6 m / 8.3 m / 8.9 m",
+      "engine": "Cummins ISF series",
+      "powerHp": 168,
+      "seatingOptions": "25 / 29 / 33"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Engine",
+            "value": "Cummins ISF series"
+          },
+          {
+            "label": "Length Options",
+            "value": "7.6 m / 8.3 m / 8.9 m"
+          },
+          {
+            "label": "Seating Options",
+            "value": "25 / 29 / 33"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6840GJ Front Engine Bus | Strongbuilt",
+      "description": "Front-engine suburban bus family for intercity/staff use, offered in approximately 7.6 m, 8.3 m and 8.9 m lengths with 25, 29 or 33 seats."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840gjfront-engine-bus.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-ybl6909hq",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "YBL6909HQ",
+    "model": "YBL6909HQ",
+    "productLine": "Intercity Bus",
+    "category": "Intercity Bus",
+    "truckTypeSlug": "intercity-bus",
+    "class": "Bus",
+    "shortDescription": "Mid-sized multi-purpose staff and intercity bus supporting 2+2 and 2+3 seating layouts.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/ybl6909hq30191923890.jpg",
+        "alt": "ASIASTAR YBL6909HQ",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/ybl6909hq.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "bodyLengthClass": "9 m"
+    },
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Intercity passenger transport",
+      "Staff shuttle",
+      "Group transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR YBL6909HQ | Strongbuilt",
+      "description": "Mid-sized multi-purpose staff and intercity bus supporting 2+2 and 2+3 seating layouts."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/intercity-bus/9m-intercity-bus/ybl6909hq.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6860ghn",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6860GHN NG City Bus",
+    "model": "JS6860GHN NG City Bus",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "8.595-meter CNG city bus with up to 28+1 seating capacity and Euro V Weichai natural-gas power.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202524954/js6860ghn-cng-city-bus4fcb8cfb-e460-4374-8e72-d659a96dd866.jpg",
+        "alt": "ASIASTAR JS6860GHN NG City Bus",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6860ghn.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8595,
+      "widthMm": 2500,
+      "heightMm": 3495,
+      "wheelbaseMm": 4100,
+      "engine": "Weichai WP5NG200E51",
+      "fuelType": "CNG",
+      "emissionStandard": "Euro V",
+      "seatingCapacity": "up to 28+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,595 × 2,500 × 3,495 mm"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "4,100 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "Weichai WP5NG200E51"
+          },
+          {
+            "label": "Fuel",
+            "value": "CNG"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          },
+          {
+            "label": "CNG Cylinders",
+            "value": "5×120 L (5×80 L), roof mounted"
+          },
+          {
+            "label": "Gearbox",
+            "value": "5-speed manual"
+          },
+          {
+            "label": "Axles",
+            "value": "4.2 t front / 9 t rear"
+          },
+          {
+            "label": "Capacity",
+            "value": "Up to 28+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "CNG"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6860GHN NG City Bus | Strongbuilt",
+      "description": "8.595-meter CNG city bus with up to 28+1 seating capacity and Euro V Weichai natural-gas power."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6860ghn-cng-city-bus.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6960ghcp",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6960GHCP Natural Gas City Bus",
+    "model": "JS6960GHCP Natural Gas City Bus",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "9.545-meter CNG city bus with Euro V Weichai power and 20% maximum gradeability.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202524954/js6960ghcp-nature-gas-city-bus86bd4e69-cf92-4ef3-beca-4c83a371333c.jpg",
+        "alt": "ASIASTAR JS6960GHCP Natural Gas City Bus",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6960ghcp.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 9545,
+      "widthMm": 2500,
+      "heightMm": 3430,
+      "engine": "Weichai WP7NG210E51",
+      "powerKw": 155,
+      "torqueNm": 850,
+      "fuelType": "CNG",
+      "emissionStandard": "Euro V",
+      "maxSpeedKph": 80,
+      "maximumGradeability": "20%",
+      "seatingCapacity": "28+2+1 / 29"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "9,545 × 2,500 × 3,430 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "Weichai WP7NG210E51"
+          },
+          {
+            "label": "Rated Power",
+            "value": "155 kW"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "850 Nm"
+          },
+          {
+            "label": "Fuel",
+            "value": "CNG"
+          },
+          {
+            "label": "Emission Standard",
+            "value": "Euro V"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "80 km/h"
+          },
+          {
+            "label": "Maximum Gradeability",
+            "value": "20%"
+          },
+          {
+            "label": "Capacity",
+            "value": "28+2+1 / 29"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "CNG"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6960GHCP Natural Gas City Bus | Strongbuilt",
+      "description": "9.545-meter CNG city bus with Euro V Weichai power and 20% maximum gradeability."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6960ghcp-nature-gas-city-bus.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6128-city-bus",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6128",
+    "model": "JS6128",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "12-meter left-hand-drive city bus with Weichai WP7.270E51 power and 36+1 standard seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/js6128e3d21b69-f83d-4cd6-9388-bf74048a968a.png",
+        "alt": "ASIASTAR JS6128",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6128-city-bus.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12000,
+      "widthMm": 2550,
+      "heightMm": 3050,
+      "engine": "Weichai WP7.270E51",
+      "maxSpeedKph": 69,
+      "steering": "LHD",
+      "seatingCapacity": "36+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,000 × 2,550 × 3,050 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "Weichai WP7.270E51"
+          },
+          {
+            "label": "Tires",
+            "value": "12R22.5 tubeless"
+          },
+          {
+            "label": "Seat Layout",
+            "value": "Front 1+1, rear 2+2"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "69 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "Left-hand drive"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "36+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6128 | Strongbuilt",
+      "description": "12-meter left-hand-drive city bus with Weichai WP7.270E51 power and 36+1 standard seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6108-city-bus",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6108",
+    "model": "JS6108",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "10.49-meter left-hand-drive city bus with Weichai WP7.240E51 power and 24+1 standard seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/js6108089e1367-4c82-4609-93fe-1a2f656f007a.png",
+        "alt": "ASIASTAR JS6108",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6108-city-bus.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 10490,
+      "widthMm": 2550,
+      "heightMm": 3506,
+      "engine": "Weichai WP7.240E51",
+      "maxSpeedKph": 69,
+      "steering": "LHD",
+      "seatingCapacity": "24+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "10,490 × 2,550 × 3,506 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "Weichai WP7.240E51"
+          },
+          {
+            "label": "Tires",
+            "value": "11R22.5 tubeless"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "69 km/h"
+          },
+          {
+            "label": "Driving Mode",
+            "value": "Left-hand drive"
+          },
+          {
+            "label": "Standard Seating",
+            "value": "24+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "LHD"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6108 | Strongbuilt",
+      "description": "10.49-meter left-hand-drive city bus with Weichai WP7.240E51 power and 24+1 standard seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6181ghbev",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6181GHBEV",
+    "model": "JS6181GHBEV",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "18-meter articulated pure-electric low-floor city/BRT bus with LFP batteries and up to 75 rated passenger capacity.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202324954/js6181ghbevbf5dfed7-7f42-4cf9-b113-3d5e104b4b0f.png",
+        "alt": "ASIASTAR JS6181GHBEV",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6181ghbev.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 18000,
+      "widthMm": 2550,
+      "heightMm": 3420,
+      "fuelType": "Electric",
+      "batteryChemistry": "Lithium iron phosphate",
+      "maxSpeedKph": 70,
+      "passengerCapacity": "58+4+1 / 75",
+      "bodyStructure": "Monocoque",
+      "floor": "Low floor"
+    },
+    "specificationGroups": [
+      {
+        "title": "Electric & Chassis Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "18,000 × 2,550 × 3,420 mm"
+          },
+          {
+            "label": "Passenger Capacity",
+            "value": "58+4+1 / 75"
+          },
+          {
+            "label": "Body Structure",
+            "value": "Monocoque"
+          },
+          {
+            "label": "Floor",
+            "value": "Low floor"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "70 km/h"
+          },
+          {
+            "label": "Drive Motor",
+            "value": "Central drive motor on rear axle"
+          },
+          {
+            "label": "Power Battery",
+            "value": "Lithium iron phosphate"
+          },
+          {
+            "label": "Axle",
+            "value": "ZF low-floor axle"
+          },
+          {
+            "label": "Charging Port",
+            "value": "EU CCS Type 2"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Pure Electric",
+      "BRT"
+    ],
+    "applications": [
+      "Urban public transport",
+      "Bus rapid transit"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6181GHBEV | Strongbuilt",
+      "description": "18-meter articulated pure-electric low-floor city/BRT bus with LFP batteries and up to 75 rated passenger capacity."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/18m-brt-bus/js6181ghbev.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6120ghbev",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6120GHBEV",
+    "model": "JS6120GHBEV",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "12.18-meter EU-certified pure-electric low-floor city bus with CATL LFP battery options and 200–350 km listed range.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/js6120ghbev05452777925.jpg",
+        "alt": "ASIASTAR JS6120GHBEV",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6120ghbev.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12180,
+      "widthMm": 2550,
+      "heightMm": 3420,
+      "fuelType": "Electric",
+      "motorPeakPowerKw": 245,
+      "motorPeakTorqueNm": 3329,
+      "batteryOptionsKwh": "242.3 / 281.9 / 363.4 / 422.9",
+      "rangeKm": "200–350",
+      "batteryProtection": "IP67"
+    },
+    "specificationGroups": [
+      {
+        "title": "Electric Powertrain",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,180 × 2,550 × 3,420 mm"
+          },
+          {
+            "label": "Motor",
+            "value": "Permanent-magnet synchronous"
+          },
+          {
+            "label": "Peak Power",
+            "value": "245 kW"
+          },
+          {
+            "label": "Peak Torque",
+            "value": "3,329 Nm"
+          },
+          {
+            "label": "Battery",
+            "value": "CATL lithium iron phosphate"
+          },
+          {
+            "label": "Battery Capacity Options",
+            "value": "242.3 / 281.9 / 363.4 / 422.9 kWh"
+          },
+          {
+            "label": "Battery Protection",
+            "value": "IP67"
+          },
+          {
+            "label": "Listed Range",
+            "value": "200–350 km depending on battery option"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "Pure Electric",
+      "Low Floor",
+      "3-door"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6120GHBEV | Strongbuilt",
+      "description": "12.18-meter EU-certified pure-electric low-floor city bus with CATL LFP battery options and 200–350 km listed range."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/13m-city-bus/js6120ghbev.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6128gh",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6128GH / JS6128GHP",
+    "model": "JS6128GH / JS6128GHP",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "12-meter city bus with 17,500 kg GVW, WP7.270E51 engine and 28+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/js6128gh01331249095.jpg",
+        "alt": "ASIASTAR JS6128GH / JS6128GHP",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6128gh.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 12000,
+      "widthMm": 2550,
+      "heightMm": 3120,
+      "gvwKg": 17500,
+      "engine": "WP7.270E51",
+      "maxSpeedKph": 69,
+      "fuelTankL": 200,
+      "seatingCapacity": "28+1",
+      "ratedPowerKw": 199,
+      "maximumTorqueNm": 1160
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "12,000 × 2,550 × 3,120 mm"
+          },
+          {
+            "label": "GVW",
+            "value": "17,500 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "WP7.270E51"
+          },
+          {
+            "label": "Rated Power",
+            "value": "199 kW / 2,100 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "1,160 Nm / 1,200–1,700 rpm"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "69 km/h"
+          },
+          {
+            "label": "Gearbox",
+            "value": "5-speed manual"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "200 L"
+          },
+          {
+            "label": "Seats",
+            "value": "28+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6128GH / JS6128GHP | Strongbuilt",
+      "description": "12-meter city bus with 17,500 kg GVW, WP7.270E51 engine and 28+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128gh.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6108gha",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6108GHA / JS6108GHP",
+    "model": "JS6108GHA / JS6108GHP",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "10.49-meter city bus with WP6.245E50 engine, 24+1 seating and 5-speed manual gearbox.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/js6108gha09076589172.jpg",
+        "alt": "ASIASTAR JS6108GHA / JS6108GHP",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6108gha.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 10490,
+      "widthMm": 2500,
+      "heightMm": 3120,
+      "engine": "WP6.245E50",
+      "maxSpeedKph": 69,
+      "fuelTankL": 200,
+      "seatingCapacity": "24+1",
+      "ratedPowerKw": 180,
+      "maximumTorqueNm": 900
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "10,490 × 2,500 × 3,120 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP6.245E50"
+          },
+          {
+            "label": "Rated Power",
+            "value": "180 kW / 2,300 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "900 Nm / 1,200–1,600 rpm"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "69 km/h"
+          },
+          {
+            "label": "Gearbox",
+            "value": "5-speed manual"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "200 L"
+          },
+          {
+            "label": "Seats",
+            "value": "24+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6108GHA / JS6108GHP | Strongbuilt",
+      "description": "10.49-meter city bus with WP6.245E50 engine, 24+1 seating and 5-speed manual gearbox."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108gha.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6851gh",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6851GH / JS6851GHP",
+    "model": "JS6851GH / JS6851GHP",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "8.54-meter city bus with WP5.180E51 engine and 21+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/js6851gh11200896968.jpg",
+        "alt": "ASIASTAR JS6851GH / JS6851GHP",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6851gh.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 8540,
+      "widthMm": 2400,
+      "heightMm": 3030,
+      "engine": "WP5.180E51",
+      "maxSpeedKph": 69,
+      "fuelTankL": 140,
+      "seatingCapacity": "21+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "8,540 × 2,400 × 3,030 mm"
+          },
+          {
+            "label": "Engine",
+            "value": "WP5.180E51"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "69 km/h"
+          },
+          {
+            "label": "Gearbox",
+            "value": "5-speed manual"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "140 L"
+          },
+          {
+            "label": "Seats",
+            "value": "21+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6851GH / JS6851GHP | Strongbuilt",
+      "description": "8.54-meter city bus with WP5.180E51 engine and 21+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6851gh.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6926ghcp",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6926GHCP",
+    "model": "JS6926GHCP",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "9.2-meter CNG city bus with 65-person rated capacity and WP7NG210E51 engine.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202124954/js6926ghcp00498646705.png",
+        "alt": "ASIASTAR JS6926GHCP",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6926ghcp.png",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 9200,
+      "widthMm": 2500,
+      "heightMm": 3450,
+      "gvwKg": 13200,
+      "curbWeightKg": 9600,
+      "engine": "WP7NG210E51",
+      "fuelType": "CNG",
+      "maxSpeedKph": 80,
+      "ratedPassengerCapacity": 65,
+      "seatingCapacity": "30+2+1"
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "9,200 × 2,500 × 3,450 mm"
+          },
+          {
+            "label": "Rated Passenger Capacity",
+            "value": "65"
+          },
+          {
+            "label": "GVW",
+            "value": "13,200 kg"
+          },
+          {
+            "label": "Curb Weight",
+            "value": "9,600 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "WP7NG210E51"
+          },
+          {
+            "label": "Fuel",
+            "value": "CNG"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "80 km/h"
+          },
+          {
+            "label": "Gas Storage",
+            "value": "5×113 L steel cylinders"
+          },
+          {
+            "label": "Seats",
+            "value": "30+2+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "CNG"
+    ],
+    "applications": [
+      "Urban public transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6926GHCP | Strongbuilt",
+      "description": "9.2-meter CNG city bus with 65-person rated capacity and WP7NG210E51 engine."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6926ghcp.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "asiastar-js6600g",
+    "brand": "ASIASTAR",
+    "brandSlug": "asiastar",
+    "name": "JS6600G / JS6600GP",
+    "model": "JS6600G / JS6600GP",
+    "productLine": "City Bus",
+    "category": "City Bus",
+    "truckTypeSlug": "city-bus",
+    "class": "Bus",
+    "shortDescription": "5.995-meter compact city/rural bus with 6,200 kg GVW and 13+1 seating.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://www.asiastarbuses.com/uploads/202024954/js6600g12554343632.jpg",
+        "alt": "ASIASTAR JS6600G / JS6600GP",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/asiastar/js6600g.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "lengthMm": 5995,
+      "widthMm": 2190,
+      "heightMm": 2890,
+      "gvwKg": 6200,
+      "engine": "WP3.7Q113E50",
+      "maxSpeedKph": 69,
+      "fuelTankL": 70,
+      "seatingCapacity": "13+1",
+      "ratedPowerKw": 83,
+      "maximumTorqueNm": 320
+    },
+    "specificationGroups": [
+      {
+        "title": "Key Specifications",
+        "items": [
+          {
+            "label": "Dimensions",
+            "value": "5,995 × 2,190 × 2,890 mm"
+          },
+          {
+            "label": "GVW",
+            "value": "6,200 kg"
+          },
+          {
+            "label": "Engine",
+            "value": "WP3.7Q113E50"
+          },
+          {
+            "label": "Rated Power",
+            "value": "83 kW / 2,900 rpm"
+          },
+          {
+            "label": "Maximum Torque",
+            "value": "320 Nm / 1,400–1,800 rpm"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "69 km/h"
+          },
+          {
+            "label": "Gearbox",
+            "value": "5-speed manual"
+          },
+          {
+            "label": "Fuel Tank",
+            "value": "70 L"
+          },
+          {
+            "label": "Seats",
+            "value": "13+1"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Rural public transport",
+      "Urban feeder service"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "ASIASTAR JS6600G / JS6600GP | Strongbuilt",
+      "description": "5.995-meter compact city/rural bus with 6,200 kg GVW and 13+1 seating."
+    },
+    "source": {
+      "website": "ASIASTAR / Yangzhou Yaxing official website",
+      "productUrl": "https://www.asiastarbuses.com/city-buses/6m-city-bus/js6600g.html",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  }
+]

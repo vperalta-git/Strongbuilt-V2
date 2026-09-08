@@ -1,0 +1,4082 @@
+[
+  {
+    "slug": "sinotruk-howo-tx-6x4-dump",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO TX 6×4 Dump Truck",
+    "model": "HOWO TX 6×4 Dump Truck",
+    "productLine": "Heavy Truck",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO TX engineering dump truck with MAN/Weichai powertrain options and body capacities in the 18–28 CBM range.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/howo-TX7.jpg",
+        "alt": "SINOTRUK HOWO TX 6×4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-tx-6x4-dump.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "powerRangePs": "266–440",
+      "emissionStandard": "Euro II–V",
+      "transmissionOptions": "9F / 10F / 12F",
+      "bodyCapacity": "18–28 CBM"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–440"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "9F / 10F / 12F"
+          },
+          {
+            "label": "bodyCapacity",
+            "value": "18–28 CBM"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Construction",
+      "Mining",
+      "Bulk material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO TX 6×4 Dump Truck | Strongbuilt",
+      "description": "HOWO TX engineering dump truck with MAN/Weichai powertrain options and body capacities in the 18–28 CBM range."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-tx-6x4-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-tx-8x4-dump",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO TX 8×4 Dump Truck",
+    "model": "HOWO TX 8×4 Dump Truck",
+    "productLine": "Heavy Truck",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "8×4 HOWO TX dump truck for heavy construction and material-hauling applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/howo-TX7-2.jpg",
+        "alt": "SINOTRUK HOWO TX 8×4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-tx-8x4-dump.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "8x4",
+      "modelCode": "ZZ3317V286GF1B",
+      "engine": "WP8.350E62",
+      "netPower": "257 kW @ 2,100 rpm",
+      "maximumTorque": "1,400 Nm @ 1,200–1,600 rpm",
+      "transmission": "HW19712L",
+      "rearAxle": "MCX16ZG",
+      "rearAxleRatio": 4.8,
+      "fuelTankL": 400,
+      "tires": "11.00R20"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "modelCode",
+            "value": "ZZ3317V286GF1B"
+          },
+          {
+            "label": "engine",
+            "value": "WP8.350E62"
+          },
+          {
+            "label": "netPower",
+            "value": "257 kW @ 2,100 rpm"
+          },
+          {
+            "label": "maximumTorque",
+            "value": "1,400 Nm @ 1,200–1,600 rpm"
+          },
+          {
+            "label": "transmission",
+            "value": "HW19712L"
+          },
+          {
+            "label": "rearAxle",
+            "value": "MCX16ZG"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "4.8"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "tires",
+            "value": "11.00R20"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Construction",
+      "Mining",
+      "Bulk material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO TX 8×4 Dump Truck | Strongbuilt",
+      "description": "8×4 HOWO TX dump truck for heavy construction and material-hauling applications."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-tx-8x4-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-dump",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 6×4 Dump Truck",
+    "model": "HOWO N 6×4 Dump Truck",
+    "productLine": "Heavy Truck",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Cost-focused HOWO N 6×4 dump platform for construction and bulk material transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/HOWO-N-6X4-dump-truck.jpg",
+        "alt": "SINOTRUK HOWO N 6×4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-6x4-dump.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "dimensionsMm": "8450 × 2496 × 3170",
+      "fuelTankL": 300,
+      "horsepower": 371
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "8450 × 2496 × 3170"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "300"
+          },
+          {
+            "label": "horsepower",
+            "value": "371"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Construction",
+      "Mining",
+      "Bulk material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 6×4 Dump Truck | Strongbuilt",
+      "description": "Cost-focused HOWO N 6×4 dump platform for construction and bulk material transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-n-6x4-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-8x4-dump",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 8×4 Dump Truck",
+    "model": "HOWO N 8×4 Dump Truck",
+    "productLine": "Heavy Truck",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO N 8×4 dump platform for larger construction and hauling requirements.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-N-8X4-Dump-Truck-1.jpg",
+        "alt": "SINOTRUK HOWO N 8×4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-8x4-dump.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "8x4",
+      "dimensionsMm": "10745 × 2496 × 3668",
+      "rearAxle": "MCX16",
+      "rearAxleRatio": 5.72,
+      "fuelTankL": 300,
+      "sourceListedPowerOptions": "380 / 400"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "10745 × 2496 × 3668"
+          },
+          {
+            "label": "rearAxle",
+            "value": "MCX16"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "5.72"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "300"
+          },
+          {
+            "label": "sourceListedPowerOptions",
+            "value": "380 / 400"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Construction",
+      "Mining",
+      "Bulk material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 8×4 Dump Truck | Strongbuilt",
+      "description": "HOWO N 8×4 dump platform for larger construction and hauling requirements."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-n-8x4-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-6x4-dump",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 6×4 Dump Truck",
+    "model": "HOWO 6×4 Dump Truck",
+    "productLine": "Heavy Truck",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Classic HOWO 6×4 dump truck for construction and mining applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Sinotruk-Howo-7-6X4-b.jpg",
+        "alt": "SINOTRUK HOWO 6×4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-6x4-dump.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "dimensionsMm": "8400 × 2496 × 3400",
+      "maximumLoadKg": 25000,
+      "powerRangeHp": "336–420",
+      "emissionStandard": "Euro II–V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "8400 × 2496 × 3400"
+          },
+          {
+            "label": "maximumLoadKg",
+            "value": "25000"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "336–420"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Construction",
+      "Mining",
+      "Bulk material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 6×4 Dump Truck | Strongbuilt",
+      "description": "Classic HOWO 6×4 dump truck for construction and mining applications."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-6x4-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-8x4-dump",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 8×4 Dump Truck",
+    "model": "HOWO 8×4 Dump Truck",
+    "productLine": "Heavy Truck",
+    "category": "Dump Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy HOWO 8×4 dump truck with up to 30-ton listed loading capability for mining and construction.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/HOWO-7-8X4-0.jpg",
+        "alt": "SINOTRUK HOWO 8×4 Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-8x4-dump.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "8x4",
+      "dimensionsMm": "10245 × 2496 × 3400",
+      "maximumLoadKg": 30000,
+      "bodyCapacity": "20–30 CBM",
+      "powerRangeHp": "336–420",
+      "emissionStandard": "Euro II–V"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "10245 × 2496 × 3400"
+          },
+          {
+            "label": "maximumLoadKg",
+            "value": "30000"
+          },
+          {
+            "label": "bodyCapacity",
+            "value": "20–30 CBM"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "336–420"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Construction",
+      "Mining",
+      "Bulk material transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 8×4 Dump Truck | Strongbuilt",
+      "description": "Heavy HOWO 8×4 dump truck with up to 30-ton listed loading capability for mining and construction."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-8x4-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-t7-6x4-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO T7 6×4 Tractor Truck",
+    "model": "HOWO T7 6×4 Tractor Truck",
+    "productLine": "Heavy Truck",
+    "category": "Tractor Truck",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO T7 6×4 tractor for highway and long-distance freight operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-T7-6X24Tractor-Truck-.jpg",
+        "alt": "SINOTRUK HOWO T7 6×4 Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-t7-6x4-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "dimensionsMm": "6950 × 2530 × 3455",
+      "sourceListedMaximumLoadKg": 30000,
+      "engine": "MC13.54-50",
+      "maximumTorque": "2,300 Nm @ 1,000–1,400 rpm"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "6950 × 2530 × 3455"
+          },
+          {
+            "label": "sourceListedMaximumLoadKg",
+            "value": "30000"
+          },
+          {
+            "label": "engine",
+            "value": "MC13.54-50"
+          },
+          {
+            "label": "maximumTorque",
+            "value": "2,300 Nm @ 1,000–1,400 rpm"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Long-haul freight",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO T7 6×4 Tractor Truck | Strongbuilt",
+      "description": "HOWO T7 6×4 tractor for highway and long-distance freight operations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-t7-6x4-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-tx-6x4-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO TX 6×4 Tractor Truck",
+    "model": "HOWO TX 6×4 Tractor Truck",
+    "productLine": "Heavy Truck",
+    "category": "Tractor Truck",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Versatile HOWO TX 6×4 tractor with multiple powertrain options for freight transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-TX-6X4-Tractor-Truck-.jpg",
+        "alt": "SINOTRUK HOWO TX 6×4 Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-tx-6x4-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "dimensionsMm": "6950 × 2530 × 3455",
+      "sourceListedLoadKg": 8800,
+      "engine": "WP12T480E62",
+      "sourceListedPower": "WP12T 480"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "6950 × 2530 × 3455"
+          },
+          {
+            "label": "sourceListedLoadKg",
+            "value": "8800"
+          },
+          {
+            "label": "engine",
+            "value": "WP12T480E62"
+          },
+          {
+            "label": "sourceListedPower",
+            "value": "WP12T 480"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Long-haul freight",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO TX 6×4 Tractor Truck | Strongbuilt",
+      "description": "Versatile HOWO TX 6×4 tractor with multiple powertrain options for freight transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-tx-6x4-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-4x2-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 4×2 Tractor Truck",
+    "model": "HOWO N 4×2 Tractor Truck",
+    "productLine": "Heavy Truck",
+    "category": "Tractor Truck",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO N 4×2 tractor platform positioned for cost-efficient road freight.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+        "alt": "SINOTRUK HOWO N 4×2 Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-4x2-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "9F / 10F / 12F",
+      "frontAxleRange": "7–9.5 t",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "300–440"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "9F / 10F / 12F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "300–440"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Long-haul freight",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 4×2 Tractor Truck | Strongbuilt",
+      "description": "HOWO N 4×2 tractor platform positioned for cost-efficient road freight."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-n-4x2-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": "The official page's primary image asset appears inconsistent with the 4×2 title. Keep image under QA before production."
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 6×4 Tractor Truck",
+    "model": "HOWO N 6×4 Tractor Truck",
+    "productLine": "Heavy Truck",
+    "category": "Tractor Truck",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO N 6×4 tractor platform for heavier road-haul requirements.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+        "alt": "SINOTRUK HOWO N 6×4 Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-6x4-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "transmissionOptions": "9F / 10F / 12F / 16F",
+      "frontAxleRange": "7–9.5 t",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "266–440"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "9F / 10F / 12F / 16F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–440"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Long-haul freight",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 6×4 Tractor Truck | Strongbuilt",
+      "description": "HOWO N 6×4 tractor platform for heavier road-haul requirements."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-n-6x4-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-6x4-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 6×4 Tractor Truck",
+    "model": "HOWO 6×4 Tractor Truck",
+    "productLine": "Heavy Truck",
+    "category": "Tractor Truck",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Classic HOWO 6×4 tractor for general heavy freight and long-haul work.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-6X4-Tractor-Truck-.jpg",
+        "alt": "SINOTRUK HOWO 6×4 Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-6x4-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "transmissionOptions": "10F / 12F / 16F",
+      "frontAxleRange": "7–9.5 t",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "266–430"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "10F / 12F / 16F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–430"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Long-haul freight",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 6×4 Tractor Truck | Strongbuilt",
+      "description": "Classic HOWO 6×4 tractor for general heavy freight and long-haul work."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-6x4-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-4x2-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 4×2 Tractor Truck",
+    "model": "HOWO 4×2 Tractor Truck",
+    "productLine": "Heavy Truck",
+    "category": "Tractor Truck",
+    "truckTypeSlug": "tractor-head",
+    "class": "Heavy Duty",
+    "shortDescription": "Classic HOWO 4×2 tractor for road-freight operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-4X2-Tractor-Truck-1-1.jpg",
+        "alt": "SINOTRUK HOWO 4×2 Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-4x2-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "10F / 12F / 16F",
+      "frontAxleRange": "7–9.5 t",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "266–430"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "10F / 12F / 16F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–430"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Long-haul freight",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 4×2 Tractor Truck | Strongbuilt",
+      "description": "Classic HOWO 4×2 tractor for road-freight operations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-4x2-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-6x4-cargo",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 6×4 Cargo Truck",
+    "model": "HOWO 6×4 Cargo Truck",
+    "productLine": "Heavy Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "Heavy HOWO 6×4 rigid cargo platform for road distribution and commercial haulage.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-6X4-Cargo-Truck-1.jpg",
+        "alt": "SINOTRUK HOWO 6×4 Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-6x4-cargo.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "transmissionOptions": "10F / 12F / 16F",
+      "frontAxleRange": "7–9.5 t",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "266–430"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "10F / 12F / 16F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–430"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Cargo transport",
+      "Distribution",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 6×4 Cargo Truck | Strongbuilt",
+      "description": "Heavy HOWO 6×4 rigid cargo platform for road distribution and commercial haulage."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-6x4-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-tx-4x2-cargo",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO TX 4×2 Cargo Truck",
+    "model": "HOWO TX 4×2 Cargo Truck",
+    "productLine": "Heavy Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO TX 4×2 cargo truck with broad powertrain options for general logistics.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-TX-4X2-Cargo-Truck.jpg",
+        "alt": "SINOTRUK HOWO TX 4×2 Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-tx-4x2-cargo.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "300–440",
+      "transmissionOptions": "9F / 10F / 12F",
+      "frontAxleRange": "7–9.5 t"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "300–440"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "9F / 10F / 12F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Cargo transport",
+      "Distribution",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO TX 4×2 Cargo Truck | Strongbuilt",
+      "description": "HOWO TX 4×2 cargo truck with broad powertrain options for general logistics."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-tx-4x2-cargo-truck-2/",
+      "verifiedAt": "2026-09-02",
+      "alternateSourceUrls": [
+        "https://sinotruk.international/products/howo-tx-4x2-cargo-truck/"
+      ]
+    },
+    "notes": "SINOTRUK currently lists two HOWO TX 4×2 Cargo pages with the same core specifications; consolidated into one Strongbuilt record."
+  },
+  {
+    "slug": "sinotruk-howo-tx-8x4-cargo",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO TX 8×4 Cargo Truck",
+    "model": "HOWO TX 8×4 Cargo Truck",
+    "productLine": "Heavy Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "High-capacity HOWO TX 8×4 rigid cargo platform.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-TX-8X4-Cargo-Truck.jpg",
+        "alt": "SINOTRUK HOWO TX 8×4 Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-tx-8x4-cargo.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "8x4",
+      "emissionStandard": "Euro II–V",
+      "powerRangePs": "300–440",
+      "transmissionOptions": "9F / 10F / 12F / 16F",
+      "frontAxleRange": "7–9.5 t"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "300–440"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "9F / 10F / 12F / 16F"
+          },
+          {
+            "label": "frontAxleRange",
+            "value": "7–9.5 t"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Cargo transport",
+      "Distribution",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO TX 8×4 Cargo Truck | Strongbuilt",
+      "description": "High-capacity HOWO TX 8×4 rigid cargo platform."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-tx-8x4-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-cargo",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 6×4 Cargo Truck",
+    "model": "HOWO N 6×4 Cargo Truck",
+    "productLine": "Heavy Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO N 6×4 cargo truck for heavy rigid-body logistics applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-N-6X4-Cargo-Truck.jpg",
+        "alt": "SINOTRUK HOWO N 6×4 Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-6x4-cargo.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "6x4",
+      "dimensionsMm": "10745 × 2496 × 3668",
+      "rearAxle": "MCX16",
+      "rearAxleRatio": 5.72,
+      "fuelTankL": 300,
+      "sourceListedPowerOptions": "380 / 400"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "10745 × 2496 × 3668"
+          },
+          {
+            "label": "rearAxle",
+            "value": "MCX16"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "5.72"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "300"
+          },
+          {
+            "label": "sourceListedPowerOptions",
+            "value": "380 / 400"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Cargo transport",
+      "Distribution",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 6×4 Cargo Truck | Strongbuilt",
+      "description": "HOWO N 6×4 cargo truck for heavy rigid-body logistics applications."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-n-6x4-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-8x4-cargo",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 8×4 Cargo Truck",
+    "model": "HOWO N 8×4 Cargo Truck",
+    "productLine": "Heavy Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Heavy Duty",
+    "shortDescription": "HOWO N 8×4 rigid cargo platform for high-capacity commercial transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-N-8X4-Cargo-Truck-1.jpg",
+        "alt": "SINOTRUK HOWO N 8×4 Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-8x4-cargo.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "8x4",
+      "dimensionsMm": "10745 × 2496 × 3668",
+      "rearAxle": "MCX16",
+      "rearAxleRatio": 5.72,
+      "fuelTankL": 300,
+      "sourceListedPowerOptions": "380 / 400"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "10745 × 2496 × 3668"
+          },
+          {
+            "label": "rearAxle",
+            "value": "MCX16"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "5.72"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "300"
+          },
+          {
+            "label": "sourceListedPowerOptions",
+            "value": "380 / 400"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Cargo transport",
+      "Distribution",
+      "Logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 8×4 Cargo Truck | Strongbuilt",
+      "description": "HOWO N 8×4 rigid cargo platform for high-capacity commercial transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-n-8x4-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-cargo-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Cargo Truck",
+    "model": "HOWO Cargo Truck",
+    "productLine": "Light Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "General-purpose HOWO light cargo truck for urban commercial transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-0.jpg",
+        "alt": "SINOTRUK HOWO Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-cargo-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "5F / 6F",
+      "frontAxleOptions": "2.4 t / 2.7 t",
+      "emissionStandard": "Euro II–III",
+      "powerRangeHp": "102–116",
+      "rearAxleOptions": "4.2 t / 7.2 t",
+      "sourceListedLoading": "5 t",
+      "cargoBodyLength": "4.2–5.15 m"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "5F / 6F"
+          },
+          {
+            "label": "frontAxleOptions",
+            "value": "2.4 t / 2.7 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–III"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "102–116"
+          },
+          {
+            "label": "rearAxleOptions",
+            "value": "4.2 t / 7.2 t"
+          },
+          {
+            "label": "sourceListedLoading",
+            "value": "5 t"
+          },
+          {
+            "label": "cargoBodyLength",
+            "value": "4.2–5.15 m"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Urban logistics",
+      "General cargo"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Cargo Truck | Strongbuilt",
+      "description": "General-purpose HOWO light cargo truck for urban commercial transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-light-cargo-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Light Cargo Truck",
+    "model": "HOWO Light Cargo Truck",
+    "productLine": "Light Truck",
+    "category": "Cargo Truck",
+    "truckTypeSlug": "rigid-truck",
+    "class": "Light Duty",
+    "shortDescription": "Compact HOWO light cargo truck designed for maneuverable city distribution.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Howo-Light-Cargo-Truck-.jpg",
+        "alt": "SINOTRUK HOWO Light Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-light-cargo-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "5F / 6F",
+      "frontAxleOptions": "2.4 t / 2.7 t",
+      "emissionStandard": "Euro II–III",
+      "powerRangeHp": "102–116"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "5F / 6F"
+          },
+          {
+            "label": "frontAxleOptions",
+            "value": "2.4 t / 2.7 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–III"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "102–116"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Urban logistics",
+      "Last-mile delivery"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Light Cargo Truck | Strongbuilt",
+      "description": "Compact HOWO light cargo truck designed for maneuverable city distribution."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-light-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-box-van-cargo-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Box Van Cargo Truck",
+    "model": "HOWO Box Van Cargo Truck",
+    "productLine": "Light Truck",
+    "category": "Box Van",
+    "truckTypeSlug": "box-van",
+    "class": "Light Duty",
+    "shortDescription": "HOWO enclosed box-van truck for protected urban and regional cargo transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-4.jpg",
+        "alt": "SINOTRUK HOWO Box Van Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-box-van-cargo-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "5F / 6F",
+      "frontAxleOptions": "2.4 t / 2.7 t",
+      "emissionStandard": "Euro II–III",
+      "powerRangeHp": "102–116"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "5F / 6F"
+          },
+          {
+            "label": "frontAxleOptions",
+            "value": "2.4 t / 2.7 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–III"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "102–116"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Boxed cargo",
+      "Urban distribution"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Box Van Cargo Truck | Strongbuilt",
+      "description": "HOWO enclosed box-van truck for protected urban and regional cargo transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-box-van-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-light-stake-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Light Stake Truck",
+    "model": "HOWO Light Stake Truck",
+    "productLine": "Light Truck",
+    "category": "Stake Truck",
+    "truckTypeSlug": "stake-truck",
+    "class": "Light Duty",
+    "shortDescription": "HOWO light stake/cage truck with configurable cargo-cage lengths and heights.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/4-Howo-Light-Stake-Truck-1.jpg",
+        "alt": "SINOTRUK HOWO Light Stake Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-light-stake-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "5F / 6F",
+      "frontAxleOptions": "2.4 t / 2.7 t",
+      "emissionStandard": "Euro II–III",
+      "powerRangeHp": "102–116"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "5F / 6F"
+          },
+          {
+            "label": "frontAxleOptions",
+            "value": "2.4 t / 2.7 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–III"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "102–116"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "General cargo",
+      "Agricultural cargo"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Light Stake Truck | Strongbuilt",
+      "description": "HOWO light stake/cage truck with configurable cargo-cage lengths and heights."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-light-stake-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-refrigerator-cargo-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Refrigerator Cargo Truck",
+    "model": "HOWO Refrigerator Cargo Truck",
+    "productLine": "Light Truck",
+    "category": "Refrigerated Truck",
+    "truckTypeSlug": "refrigerated-truck",
+    "class": "Light Duty",
+    "shortDescription": "HOWO refrigerated cargo platform for cold-chain and temperature-controlled delivery.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-Refrigerator-66.jpg",
+        "alt": "SINOTRUK HOWO Refrigerator Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "5F / 6F",
+      "frontAxleOptions": "2.4 t / 2.7 t",
+      "emissionStandard": "Euro II–III",
+      "powerRangeHp": "102–116"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "5F / 6F"
+          },
+          {
+            "label": "frontAxleOptions",
+            "value": "2.4 t / 2.7 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–III"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "102–116"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Cold chain",
+      "Food distribution",
+      "Temperature-sensitive cargo"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Refrigerator Cargo Truck | Strongbuilt",
+      "description": "HOWO refrigerated cargo platform for cold-chain and temperature-controlled delivery."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-refrigerator-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-wing-van-cargo-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Wing Van Cargo Truck",
+    "model": "HOWO Wing Van Cargo Truck",
+    "productLine": "Light Truck",
+    "category": "Wing Van",
+    "truckTypeSlug": "wing-van",
+    "class": "Light Duty",
+    "shortDescription": "HOWO wing-van platform designed for efficient side access and commercial loading.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/2-Wing-Van-Truck-4.jpg",
+        "alt": "SINOTRUK HOWO Wing Van Cargo Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "transmissionOptions": "5F / 6F",
+      "frontAxleOptions": "2.4 t / 2.7 t",
+      "emissionStandard": "Euro II–III",
+      "powerRangeHp": "102–116"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "transmissionOptions",
+            "value": "5F / 6F"
+          },
+          {
+            "label": "frontAxleOptions",
+            "value": "2.4 t / 2.7 t"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–III"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "102–116"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Distribution",
+      "Palletized cargo",
+      "Urban logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Wing Van Cargo Truck | Strongbuilt",
+      "description": "HOWO wing-van platform designed for efficient side access and commercial loading."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-wing-van-cargo-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-mini-tipper-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Mini Tipper Truck",
+    "model": "HOWO Mini Tipper Truck",
+    "productLine": "Light Truck",
+    "category": "Tipper Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Light Duty",
+    "shortDescription": "Compact HOWO tipper for construction sites, farms and waste-handling applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Tipper-Truck-.jpg",
+        "alt": "SINOTRUK HOWO Mini Tipper Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-mini-tipper-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "dimensionsMm": "7000 × 2496 × 2700",
+      "powerRangeHp": "140–180",
+      "sourceListedEmission": "Euro III–IV"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "7000 × 2496 × 2700"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "140–180"
+          },
+          {
+            "label": "sourceListedEmission",
+            "value": "Euro III–IV"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Construction",
+      "Agriculture",
+      "Waste handling"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Mini Tipper Truck | Strongbuilt",
+      "description": "Compact HOWO tipper for construction sites, farms and waste-handling applications."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-mini-tipper-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "The page's summary metadata and detailed emission wording are not fully consistent. The record preserves the product page's listed Euro III–IV range and should be confirmed against the exact supplied chassis."
+  },
+  {
+    "slug": "sinotruk-howo-light-duty-tipper-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Light Duty Tipper Truck",
+    "model": "HOWO Light Duty Tipper Truck",
+    "productLine": "Light Truck",
+    "category": "Tipper Truck",
+    "truckTypeSlug": "dump-truck",
+    "class": "Light Duty",
+    "shortDescription": "Light-duty HOWO tipper using a compact dump chassis for local material hauling.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Tipper-Truck-1-1.jpg",
+        "alt": "SINOTRUK HOWO Light Duty Tipper Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "drive": "4x2",
+      "dimensionsMm": "7000 × 2496 × 2700",
+      "powerRangeHp": "140–180",
+      "sourceListedEmission": "Euro III–IV"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "4x2"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "7000 × 2496 × 2700"
+          },
+          {
+            "label": "powerRangeHp",
+            "value": "140–180"
+          },
+          {
+            "label": "sourceListedEmission",
+            "value": "Euro III–IV"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2"
+    ],
+    "applications": [
+      "Construction",
+      "Material hauling",
+      "Municipal work"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Light Duty Tipper Truck | Strongbuilt",
+      "description": "Light-duty HOWO tipper using a compact dump chassis for local material hauling."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-light-duty-tipper-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "The page's summary metadata and detailed emission wording are not fully consistent. The record preserves the product page's listed Euro III–IV range and should be confirmed against the exact supplied chassis."
+  },
+  {
+    "slug": "sinotruk-howo-water-tanker",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Water Tanker",
+    "model": "HOWO Water Tanker",
+    "productLine": "Special Vehicle",
+    "category": "Water Tanker",
+    "truckTypeSlug": "water-tanker",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO water tanker for de-watering, dust suppression, irrigation and municipal/jobsite water delivery.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
+        "alt": "SINOTRUK HOWO Water Tanker",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-water-tanker.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engine": "WD615.69",
+      "gearbox": "10 forward + 2 reverse",
+      "horsepower": 336,
+      "payloadKg": 13750,
+      "cab": "HW76",
+      "dimensionsMm": "11690 × 2496 × 3300",
+      "wheelbaseMm": "1800 + 4600 + 1350",
+      "tankCapacityOptions": "15,000–25,000 L",
+      "emissionStandard": "Euro II; Euro III/IV optional"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "engine",
+            "value": "WD615.69"
+          },
+          {
+            "label": "gearbox",
+            "value": "10 forward + 2 reverse"
+          },
+          {
+            "label": "horsepower",
+            "value": "336"
+          },
+          {
+            "label": "payloadKg",
+            "value": "13750"
+          },
+          {
+            "label": "cab",
+            "value": "HW76"
+          },
+          {
+            "label": "dimensionsMm",
+            "value": "11690 × 2496 × 3300"
+          },
+          {
+            "label": "wheelbaseMm",
+            "value": "1800 + 4600 + 1350"
+          },
+          {
+            "label": "tankCapacityOptions",
+            "value": "15,000–25,000 L"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II; Euro III/IV optional"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Dust suppression",
+      "Road washing",
+      "Irrigation",
+      "Emergency water / fire support"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Water Tanker | Strongbuilt",
+      "description": "HOWO water tanker for de-watering, dust suppression, irrigation and municipal/jobsite water delivery."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
+      "verifiedAt": "2026-09-02",
+      "alternateSourceUrls": [
+        "https://sinotruk.international/products/sinotruck-howo-water-tanker/"
+      ]
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-oil-tanker",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Oil Tanker",
+    "model": "HOWO Oil Tanker",
+    "productLine": "Special Vehicle",
+    "category": "Oil Tanker",
+    "truckTypeSlug": "tanker",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO tanker platform for flammable-liquid and petroleum-product transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+        "alt": "SINOTRUK HOWO Oil Tanker",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-oil-tanker.jpg",
+        "status": "official-sinotruk-oil-tanker-family-image"
+      }
+    ],
+    "imageStatus": "official-sinotruk-oil-tanker-family-image",
+    "keySpecs": {
+      "engine": "MC07H.35-60",
+      "rearAxleRatio": 5.32,
+      "gearbox": "HW25712XSTL",
+      "horsepower": 336,
+      "fuelTankL": 400
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "engine",
+            "value": "MC07H.35-60"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "5.32"
+          },
+          {
+            "label": "gearbox",
+            "value": "HW25712XSTL"
+          },
+          {
+            "label": "horsepower",
+            "value": "336"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Fuel transport",
+      "Petroleum logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Oil Tanker | Strongbuilt",
+      "description": "HOWO tanker platform for flammable-liquid and petroleum-product transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-8x4-oil-tanker",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 8×4 Oil Tanker",
+    "model": "HOWO 8×4 Oil Tanker",
+    "productLine": "Special Vehicle",
+    "category": "Oil Tanker",
+    "truckTypeSlug": "tanker",
+    "class": "Special Purpose",
+    "shortDescription": "8×4 HOWO tanker configuration for petroleum and flammable-liquid transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+        "alt": "SINOTRUK HOWO 8×4 Oil Tanker",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-8x4-oil-tanker.jpg",
+        "status": "official-sinotruk-oil-tanker-family-image"
+      }
+    ],
+    "imageStatus": "official-sinotruk-oil-tanker-family-image",
+    "keySpecs": {
+      "drive": "8x4",
+      "engine": "MC07H.35-60",
+      "rearAxleRatio": 5.32,
+      "gearbox": "HW25712XSTL",
+      "horsepower": 336,
+      "fuelTankL": 400
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "engine",
+            "value": "MC07H.35-60"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "5.32"
+          },
+          {
+            "label": "gearbox",
+            "value": "HW25712XSTL"
+          },
+          {
+            "label": "horsepower",
+            "value": "336"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Fuel transport",
+      "Petroleum logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 8×4 Oil Tanker | Strongbuilt",
+      "description": "8×4 HOWO tanker configuration for petroleum and flammable-liquid transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-6x4-oil-tanker",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 6×4 Oil Tanker",
+    "model": "HOWO 6×4 Oil Tanker",
+    "productLine": "Special Vehicle",
+    "category": "Oil Tanker",
+    "truckTypeSlug": "tanker",
+    "class": "Special Purpose",
+    "shortDescription": "6×4 HOWO tanker configuration for petroleum and flammable-liquid transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+        "alt": "SINOTRUK HOWO 6×4 Oil Tanker",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-6x4-oil-tanker.jpg",
+        "status": "official-sinotruk-oil-tanker-family-image"
+      }
+    ],
+    "imageStatus": "official-sinotruk-oil-tanker-family-image",
+    "keySpecs": {
+      "drive": "6x4",
+      "engine": "MC07H.35-60",
+      "rearAxleRatio": 5.32,
+      "gearbox": "HW25712XSTL",
+      "horsepower": 336,
+      "fuelTankL": 400
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "engine",
+            "value": "MC07H.35-60"
+          },
+          {
+            "label": "rearAxleRatio",
+            "value": "5.32"
+          },
+          {
+            "label": "gearbox",
+            "value": "HW25712XSTL"
+          },
+          {
+            "label": "horsepower",
+            "value": "336"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Fuel transport",
+      "Petroleum logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 6×4 Oil Tanker | Strongbuilt",
+      "description": "6×4 HOWO tanker configuration for petroleum and flammable-liquid transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
+      "verifiedAt": "2026-09-02",
+      "alternateSourceUrls": [
+        "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker/"
+      ]
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-6x4-mixer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 6×4 Mixer Truck",
+    "model": "HOWO N 6×4 Mixer Truck",
+    "productLine": "Special Vehicle",
+    "category": "Mixer Truck",
+    "truckTypeSlug": "mixer-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO N 6×4 concrete mixer chassis for transporting and mixing concrete to site.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+        "alt": "SINOTRUK HOWO N 6×4 Mixer Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-6x4-mixer.jpg",
+        "status": "official-sinotruk-mixer-family-image-not-exact-variant"
+      }
+    ],
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "keySpecs": {
+      "drive": "6x4",
+      "emissionStandard": "Euro II–V",
+      "mixerCapacity": "12–16 CBM",
+      "fuelTankL": 400,
+      "powerRangePs": "266–440"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "mixerCapacity",
+            "value": "12–16 CBM"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–440"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Concrete transport",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 6×4 Mixer Truck | Strongbuilt",
+      "description": "HOWO N 6×4 concrete mixer chassis for transporting and mixing concrete to site."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-n-8x4-mixer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO N 8×4 Mixer Truck",
+    "model": "HOWO N 8×4 Mixer Truck",
+    "productLine": "Special Vehicle",
+    "category": "Mixer Truck",
+    "truckTypeSlug": "mixer-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO N 8×4 concrete mixer chassis for high-capacity construction work.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+        "alt": "SINOTRUK HOWO N 8×4 Mixer Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-n-8x4-mixer.jpg",
+        "status": "official-sinotruk-mixer-family-image-not-exact-variant"
+      }
+    ],
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "keySpecs": {
+      "drive": "8x4",
+      "emissionStandard": "Euro II–V",
+      "mixerCapacity": "12–16 CBM",
+      "fuelTankL": 400,
+      "powerRangePs": "266–440"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "mixerCapacity",
+            "value": "12–16 CBM"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–440"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Concrete transport",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO N 8×4 Mixer Truck | Strongbuilt",
+      "description": "HOWO N 8×4 concrete mixer chassis for high-capacity construction work."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-tx-8x4-mixer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO TX 8×4 Mixer Truck",
+    "model": "HOWO TX 8×4 Mixer Truck",
+    "productLine": "Special Vehicle",
+    "category": "Mixer Truck",
+    "truckTypeSlug": "mixer-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO TX 8×4 mixer platform for concrete transport and construction operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+        "alt": "SINOTRUK HOWO TX 8×4 Mixer Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-tx-8x4-mixer.jpg",
+        "status": "official-sinotruk-mixer-family-image-not-exact-variant"
+      }
+    ],
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "keySpecs": {
+      "drive": "8x4",
+      "emissionStandard": "Euro II–V",
+      "mixerCapacity": "12–16 CBM",
+      "fuelTankL": 400,
+      "powerRangePs": "266–440"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro II–V"
+          },
+          {
+            "label": "mixerCapacity",
+            "value": "12–16 CBM"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "powerRangePs",
+            "value": "266–440"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Concrete transport",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO TX 8×4 Mixer Truck | Strongbuilt",
+      "description": "HOWO TX 8×4 mixer platform for concrete transport and construction operations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-t7h-6x4-mixer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO T7H 6×4 Mixer Truck",
+    "model": "HOWO T7H 6×4 Mixer Truck",
+    "productLine": "Special Vehicle",
+    "category": "Mixer Truck",
+    "truckTypeSlug": "mixer-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO T7H 6×4 mixer truck for concrete transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+        "alt": "SINOTRUK HOWO T7H 6×4 Mixer Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.jpg",
+        "status": "official-sinotruk-mixer-family-image-not-exact-variant"
+      }
+    ],
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "keySpecs": {
+      "drive": "6x4",
+      "emissionStandard": "Euro III",
+      "mixerCapacity": "12 CBM",
+      "fuelTankL": 400,
+      "horsepower": 390
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro III"
+          },
+          {
+            "label": "mixerCapacity",
+            "value": "12 CBM"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "horsepower",
+            "value": "390"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Concrete transport",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO T7H 6×4 Mixer Truck | Strongbuilt",
+      "description": "HOWO T7H 6×4 mixer truck for concrete transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-t7h-8x4-mixer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO T7H 8×4 Mixer Truck",
+    "model": "HOWO T7H 8×4 Mixer Truck",
+    "productLine": "Special Vehicle",
+    "category": "Mixer Truck",
+    "truckTypeSlug": "mixer-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO T7H 8×4 mixer truck for concrete transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+        "alt": "SINOTRUK HOWO T7H 8×4 Mixer Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.jpg",
+        "status": "official-sinotruk-mixer-family-image-not-exact-variant"
+      }
+    ],
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "keySpecs": {
+      "drive": "8x4",
+      "emissionStandard": "Euro III",
+      "mixerCapacity": "12 CBM",
+      "fuelTankL": 400,
+      "horsepower": 390
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "8x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro III"
+          },
+          {
+            "label": "mixerCapacity",
+            "value": "12 CBM"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "horsepower",
+            "value": "390"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4"
+    ],
+    "applications": [
+      "Concrete transport",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO T7H 8×4 Mixer Truck | Strongbuilt",
+      "description": "HOWO T7H 8×4 mixer truck for concrete transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-7-6x4-mixer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO 7 6×4 Mixer Truck",
+    "model": "HOWO 7 6×4 Mixer Truck",
+    "productLine": "Special Vehicle",
+    "category": "Mixer Truck",
+    "truckTypeSlug": "mixer-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO 7 6×4 concrete mixer configuration.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+        "alt": "SINOTRUK HOWO 7 6×4 Mixer Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-7-6x4-mixer.jpg",
+        "status": "official-sinotruk-mixer-family-image-not-exact-variant"
+      }
+    ],
+    "imageStatus": "official-sinotruk-mixer-family-image-not-exact-variant",
+    "keySpecs": {
+      "drive": "6x4",
+      "emissionStandard": "Euro III",
+      "mixerCapacity": "12 CBM",
+      "fuelTankL": 400,
+      "horsepower": 390
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "drive",
+            "value": "6x4"
+          },
+          {
+            "label": "emissionStandard",
+            "value": "Euro III"
+          },
+          {
+            "label": "mixerCapacity",
+            "value": "12 CBM"
+          },
+          {
+            "label": "fuelTankL",
+            "value": "400"
+          },
+          {
+            "label": "horsepower",
+            "value": "390"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "6x4"
+    ],
+    "applications": [
+      "Concrete transport",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO 7 6×4 Mixer Truck | Strongbuilt",
+      "description": "HOWO 7 6×4 concrete mixer configuration."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-synchronous-chip-seal",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Synchronous Chip Seal / Bitumen Tank",
+    "model": "HOWO Synchronous Chip Seal / Bitumen Tank",
+    "productLine": "Special Vehicle",
+    "category": "Bitumen / Road Maintenance",
+    "truckTypeSlug": "special-purpose",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO road-maintenance vehicle for synchronous asphalt-binder and aggregate/chip application.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+        "alt": "SINOTRUK HOWO Synchronous Chip Seal / Bitumen Tank",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-synchronous-chip-seal.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "transmission": "Automatic",
+      "sourceListedWeightKg": 25000,
+      "chassis": "HOWO",
+      "horsepower": 336,
+      "sourceListedCapacity": "<40 t/h"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "transmission",
+            "value": "Automatic"
+          },
+          {
+            "label": "sourceListedWeightKg",
+            "value": "25000"
+          },
+          {
+            "label": "chassis",
+            "value": "HOWO"
+          },
+          {
+            "label": "horsepower",
+            "value": "336"
+          },
+          {
+            "label": "sourceListedCapacity",
+            "value": "<40 t/h"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Road construction",
+      "Asphalt/chip sealing"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Synchronous Chip Seal / Bitumen Tank | Strongbuilt",
+      "description": "HOWO road-maintenance vehicle for synchronous asphalt-binder and aggregate/chip application."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-bitumen-sprayer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Bitumen Sprayer Tank",
+    "model": "HOWO Bitumen Sprayer Tank",
+    "productLine": "Special Vehicle",
+    "category": "Bitumen / Road Maintenance",
+    "truckTypeSlug": "special-purpose",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO specialized asphalt/bitumen spraying vehicle for road construction and maintenance.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+        "alt": "SINOTRUK HOWO Bitumen Sprayer Tank",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-bitumen-sprayer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "transmission": "Automatic",
+      "sourceListedWeightKg": 25000,
+      "chassis": "HOWO",
+      "horsepower": 336
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "transmission",
+            "value": "Automatic"
+          },
+          {
+            "label": "sourceListedWeightKg",
+            "value": "25000"
+          },
+          {
+            "label": "chassis",
+            "value": "HOWO"
+          },
+          {
+            "label": "horsepower",
+            "value": "336"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Road construction",
+      "Asphalt spraying"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Bitumen Sprayer Tank | Strongbuilt",
+      "description": "HOWO specialized asphalt/bitumen spraying vehicle for road construction and maintenance."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-garbage-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Garbage Truck",
+    "model": "HOWO Garbage Truck",
+    "productLine": "Special Vehicle",
+    "category": "Garbage / Refuse Truck",
+    "truckTypeSlug": "garbage-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO refuse truck family offered in compactor and hook-type waste configurations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
+        "alt": "SINOTRUK HOWO Garbage Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-garbage-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "transmission": "Automatic",
+      "sourceListedWeightKg": 25000,
+      "chassis": "HOWO",
+      "sourceListedPower": "371 / 2200",
+      "fuelConsumption": "29 L/100 km",
+      "bodyCapacity": "10–18 CBM compactor; 12–18 CBM hook type"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "transmission",
+            "value": "Automatic"
+          },
+          {
+            "label": "sourceListedWeightKg",
+            "value": "25000"
+          },
+          {
+            "label": "chassis",
+            "value": "HOWO"
+          },
+          {
+            "label": "sourceListedPower",
+            "value": "371 / 2200"
+          },
+          {
+            "label": "fuelConsumption",
+            "value": "29 L/100 km"
+          },
+          {
+            "label": "bodyCapacity",
+            "value": "10–18 CBM compactor; 12–18 CBM hook type"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Municipal waste",
+      "Refuse collection"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Garbage Truck | Strongbuilt",
+      "description": "HOWO refuse truck family offered in compactor and hook-type waste configurations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
+      "verifiedAt": "2026-09-02",
+      "alternateSourceUrls": [
+        "https://sinotruk.international/products/sinotruck-howo-garbage-truck/"
+      ]
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-mounted-crane",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Mounted Crane Truck",
+    "model": "HOWO Mounted Crane Truck",
+    "productLine": "Special Vehicle",
+    "category": "Truck-Mounted Crane",
+    "truckTypeSlug": "crane-truck",
+    "class": "Special Purpose",
+    "shortDescription": "HOWO truck-mounted crane platform for lifting and material-handling work.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+        "alt": "SINOTRUK HOWO Mounted Crane Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-mounted-crane.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engineBrand": "Weichai",
+      "sourceListedWeightKg": 25000,
+      "chassis": "HOWO",
+      "horsepowerOptions": "371 / 400",
+      "maximumLift": "18 t",
+      "craneBrand": "XCMG"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "engineBrand",
+            "value": "Weichai"
+          },
+          {
+            "label": "sourceListedWeightKg",
+            "value": "25000"
+          },
+          {
+            "label": "chassis",
+            "value": "HOWO"
+          },
+          {
+            "label": "horsepowerOptions",
+            "value": "371 / 400"
+          },
+          {
+            "label": "maximumLift",
+            "value": "18 t"
+          },
+          {
+            "label": "craneBrand",
+            "value": "XCMG"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Material handling",
+      "Construction",
+      "Utility work"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Mounted Crane Truck | Strongbuilt",
+      "description": "HOWO truck-mounted crane platform for lifting and material-handling work."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-howo-small-truck-crane",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Small Truck Crane",
+    "model": "HOWO Small Truck Crane",
+    "productLine": "Special Vehicle",
+    "category": "Truck Crane",
+    "truckTypeSlug": "crane-truck",
+    "class": "Special Purpose",
+    "shortDescription": "Smaller HOWO crane-truck configuration for lifting and service operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+        "alt": "SINOTRUK HOWO Small Truck Crane",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-small-truck-crane.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "engineBrand": "Weichai",
+      "sourceListedWeightKg": 25000,
+      "chassis": "HOWO",
+      "horsepowerOptions": "371 / 400",
+      "maximumLift": "18 t",
+      "craneBrand": "XCMG"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "engineBrand",
+            "value": "Weichai"
+          },
+          {
+            "label": "sourceListedWeightKg",
+            "value": "25000"
+          },
+          {
+            "label": "chassis",
+            "value": "HOWO"
+          },
+          {
+            "label": "horsepowerOptions",
+            "value": "371 / 400"
+          },
+          {
+            "label": "maximumLift",
+            "value": "18 t"
+          },
+          {
+            "label": "craneBrand",
+            "value": "XCMG"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Material handling",
+      "Service work",
+      "Construction"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Small Truck Crane | Strongbuilt",
+      "description": "Smaller HOWO crane-truck configuration for lifting and service operations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-dump-semi-trailer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Dump Semi Trailer",
+    "model": "Dump Semi Trailer",
+    "productLine": "Semi Trailer",
+    "category": "Dump Semi Trailer",
+    "truckTypeSlug": "dump-trailer",
+    "class": "Trailer",
+    "shortDescription": "Heavy-goods dump semi-trailer designed for stone, mining materials and rough-road transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/1-Dump-Semi-Trailer-Truck-3.jpg",
+        "alt": "SINOTRUK Dump Semi Trailer",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/dump-semi-trailer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "dimensionsMm": "11700 × 2500 × 3800 (source labels unit as m; treated as mm by context)",
+      "maximumListedLoad": "80 t",
+      "axleOptions": "2 / 3 / 4 / 5 / 6",
+      "kingPin": "2.0 or 3.5 inch",
+      "landingGear": "JOST",
+      "exampleCylinder": "HYVA 202",
+      "exampleFrame": "Q345B H-beam"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "dimensionsMm",
+            "value": "11700 × 2500 × 3800 (source labels unit as m; treated as mm by context)"
+          },
+          {
+            "label": "maximumListedLoad",
+            "value": "80 t"
+          },
+          {
+            "label": "axleOptions",
+            "value": "2 / 3 / 4 / 5 / 6"
+          },
+          {
+            "label": "kingPin",
+            "value": "2.0 or 3.5 inch"
+          },
+          {
+            "label": "landingGear",
+            "value": "JOST"
+          },
+          {
+            "label": "exampleCylinder",
+            "value": "HYVA 202"
+          },
+          {
+            "label": "exampleFrame",
+            "value": "Q345B H-beam"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Mining materials",
+      "Stone",
+      "Heavy goods"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Dump Semi Trailer | Strongbuilt",
+      "description": "Heavy-goods dump semi-trailer designed for stone, mining materials and rough-road transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-dump-semi-trailer-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-fuel-tanker-semi-trailer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Fuel Tanker Semi Trailer",
+    "model": "Fuel Tanker Semi Trailer",
+    "productLine": "Semi Trailer",
+    "category": "Fuel Tanker Trailer",
+    "truckTypeSlug": "tanker-trailer",
+    "class": "Trailer",
+    "shortDescription": "Customizable fuel-tanker semi-trailer available in aluminum, carbon steel or stainless steel, with a 40,000 L example capacity.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/6-Fuel-Tanker-Trailer-6.jpg",
+        "alt": "SINOTRUK Fuel Tanker Semi Trailer",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "dimensionsMm": "11700 × 2500 × 3800 (source labels unit as m; treated as mm by context)",
+      "maximumListedLoad": "80 t",
+      "axleOptions": "2 / 3 / 4 / 5 / 6",
+      "kingPin": "2.0 or 3.5 inch",
+      "landingGear": "JOST",
+      "exampleCapacityL": 40000,
+      "materials": "Aluminum / Carbon steel / Stainless steel"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "dimensionsMm",
+            "value": "11700 × 2500 × 3800 (source labels unit as m; treated as mm by context)"
+          },
+          {
+            "label": "maximumListedLoad",
+            "value": "80 t"
+          },
+          {
+            "label": "axleOptions",
+            "value": "2 / 3 / 4 / 5 / 6"
+          },
+          {
+            "label": "kingPin",
+            "value": "2.0 or 3.5 inch"
+          },
+          {
+            "label": "landingGear",
+            "value": "JOST"
+          },
+          {
+            "label": "exampleCapacityL",
+            "value": "40000"
+          },
+          {
+            "label": "materials",
+            "value": "Aluminum / Carbon steel / Stainless steel"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Gasoline",
+      "Diesel",
+      "Kerosene",
+      "Petroleum products"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Fuel Tanker Semi Trailer | Strongbuilt",
+      "description": "Customizable fuel-tanker semi-trailer available in aluminum, carbon steel or stainless steel, with a 40,000 L example capacity."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-fuel-tanker-trailer-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-fence-semi-trailer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Fence Semi Trailer",
+    "model": "Fence Semi Trailer",
+    "productLine": "Semi Trailer",
+    "category": "Fence Semi Trailer",
+    "truckTypeSlug": "semi-trailer",
+    "class": "Trailer",
+    "shortDescription": "Fence-style semi-trailer for bulk cargo, machinery and livestock transport.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/5-Fence-Semi-Trailer-6-1.jpg",
+        "alt": "SINOTRUK Fence Semi Trailer",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/fence-semi-trailer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "dimensionsMm": "13000 × 2500 × 3350",
+      "maximumListedLoad": "70 t",
+      "axleOptions": "2 / 3 / 4 / 5 / 6",
+      "kingPin": "90#",
+      "landingGear": "JOST"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "dimensionsMm",
+            "value": "13000 × 2500 × 3350"
+          },
+          {
+            "label": "maximumListedLoad",
+            "value": "70 t"
+          },
+          {
+            "label": "axleOptions",
+            "value": "2 / 3 / 4 / 5 / 6"
+          },
+          {
+            "label": "kingPin",
+            "value": "90#"
+          },
+          {
+            "label": "landingGear",
+            "value": "JOST"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Bulk cargo",
+      "Machinery",
+      "Livestock"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Fence Semi Trailer | Strongbuilt",
+      "description": "Fence-style semi-trailer for bulk cargo, machinery and livestock transport."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-fence-semi-trailer-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-sidewall-semi-trailer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Sidewall Semi Trailer",
+    "model": "Sidewall Semi Trailer",
+    "productLine": "Semi Trailer",
+    "category": "Sidewall Semi Trailer",
+    "truckTypeSlug": "semi-trailer",
+    "class": "Trailer",
+    "shortDescription": "Drop-side semi-trailer for heavy hauling, with a 60-ton 3-axle example configuration on the official page.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/4-Sidewall-Semi-Trailer-6.jpg",
+        "alt": "SINOTRUK Sidewall Semi Trailer",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/sidewall-semi-trailer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "dimensionsMm": "12500 × 2500 × 3260",
+      "maximumListedLoad": "70 t",
+      "exampleConfiguration": "60 t, 3 axle",
+      "axleOptions": "2 / 3 / 4 / 5 / 6",
+      "kingPin": "90#",
+      "landingGear": "JOST"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "dimensionsMm",
+            "value": "12500 × 2500 × 3260"
+          },
+          {
+            "label": "maximumListedLoad",
+            "value": "70 t"
+          },
+          {
+            "label": "exampleConfiguration",
+            "value": "60 t, 3 axle"
+          },
+          {
+            "label": "axleOptions",
+            "value": "2 / 3 / 4 / 5 / 6"
+          },
+          {
+            "label": "kingPin",
+            "value": "90#"
+          },
+          {
+            "label": "landingGear",
+            "value": "JOST"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Heavy cargo",
+      "General hauling"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Sidewall Semi Trailer | Strongbuilt",
+      "description": "Drop-side semi-trailer for heavy hauling, with a 60-ton 3-axle example configuration on the official page."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-sidewall-semi-trailer-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-flatbed-semi-trailer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Flatbed Semi Trailer",
+    "model": "Flatbed Semi Trailer",
+    "productLine": "Semi Trailer",
+    "category": "Flatbed Semi Trailer",
+    "truckTypeSlug": "flatbed-trailer",
+    "class": "Trailer",
+    "shortDescription": "Flatbed semi-trailer for two 20-foot containers, one 40-foot container or bulk cargo, with 20/40/45-foot styles referenced.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/2-Flatbed-Semi-Trailer-4.jpg",
+        "alt": "SINOTRUK Flatbed Semi Trailer",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/flatbed-semi-trailer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "dimensionsMm": "11700 × 2500 × 3800 (source labels unit as m; treated as mm by context)",
+      "maximumListedLoad": "80 t",
+      "axleOptions": "2 / 3 / 4 / 5 / 6",
+      "kingPin": "2.0 or 3.5 inch",
+      "landingGear": "JOST",
+      "containerOptions": "2×20 ft / 1×40 ft; 20/40/45 ft trailer styles"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "dimensionsMm",
+            "value": "11700 × 2500 × 3800 (source labels unit as m; treated as mm by context)"
+          },
+          {
+            "label": "maximumListedLoad",
+            "value": "80 t"
+          },
+          {
+            "label": "axleOptions",
+            "value": "2 / 3 / 4 / 5 / 6"
+          },
+          {
+            "label": "kingPin",
+            "value": "2.0 or 3.5 inch"
+          },
+          {
+            "label": "landingGear",
+            "value": "JOST"
+          },
+          {
+            "label": "containerOptions",
+            "value": "2×20 ft / 1×40 ft; 20/40/45 ft trailer styles"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Container transport",
+      "Bulk cargo"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Flatbed Semi Trailer | Strongbuilt",
+      "description": "Flatbed semi-trailer for two 20-foot containers, one 40-foot container or bulk cargo, with 20/40/45-foot styles referenced."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-flatbed-semi-trailer-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null
+  },
+  {
+    "slug": "sinotruk-low-bed-semi-trailer",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Low Bed Semi Trailer",
+    "model": "Low Bed Semi Trailer",
+    "productLine": "Semi Trailer",
+    "category": "Low Bed Semi Trailer",
+    "truckTypeSlug": "lowbed-trailer",
+    "class": "Trailer",
+    "shortDescription": "Low-bed trailer for oversized machinery, ores, steel coils and prefabricated structures.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/3-Low-Bed-Semi-Trailer-3.jpg",
+        "alt": "SINOTRUK Low Bed Semi Trailer",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/low-bed-semi-trailer.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "dimensionsMm": "16000 × 3000 × 1700",
+      "sourceDescriptionLoad": "80 t standard with 25% overload allowance",
+      "sourceModelFieldMaximum": "70 t",
+      "axleOptions": "2 / 3 / 4 / 5 / 6",
+      "kingPin": "90#",
+      "landingGear": "JOST"
+    },
+    "specificationGroups": [
+      {
+        "title": "Official Listed Specifications",
+        "items": [
+          {
+            "label": "dimensionsMm",
+            "value": "16000 × 3000 × 1700"
+          },
+          {
+            "label": "sourceDescriptionLoad",
+            "value": "80 t standard with 25% overload allowance"
+          },
+          {
+            "label": "sourceModelFieldMaximum",
+            "value": "70 t"
+          },
+          {
+            "label": "axleOptions",
+            "value": "2 / 3 / 4 / 5 / 6"
+          },
+          {
+            "label": "kingPin",
+            "value": "90#"
+          },
+          {
+            "label": "landingGear",
+            "value": "JOST"
+          }
+        ]
+      }
+    ],
+    "configurations": [],
+    "applications": [
+      "Construction machinery",
+      "Large ores",
+      "Steel coils",
+      "Oversized loads"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Low Bed Semi Trailer | Strongbuilt",
+      "description": "Low-bed trailer for oversized machinery, ores, steel coils and prefabricated structures."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/sinotruck-low-bed-semi-trailer-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "The official page conflicts internally: its description states an 80-ton standard load with 25% overload allowance, while the model summary says Max.70 tons. Both values are preserved and should be confirmed before public display."
+  },
+  {
+    "slug": "sinotruk-howo-pure-electric-light-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Pure Electric Light Truck",
+    "model": "HOWO Pure Electric Light Truck",
+    "productLine": "New Energy Vehicle",
+    "category": "Electric Light Truck",
+    "truckTypeSlug": "electric-truck",
+    "class": "New Energy",
+    "shortDescription": "Battery-electric 4×2 light commercial truck family for city distribution, commerce and cold-chain applications.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-Pure-electric-light-truck-1.jpg",
+        "alt": "SINOTRUK HOWO Pure Electric Light Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-pure-electric-light-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "fuelType": "Electric",
+      "drive": "4x2",
+      "grossLoadedMassKg": "4,494–4,495",
+      "motorPowerKw": "120 / 140",
+      "batteryChemistry": "CATL LFP / Fudi LFP blade",
+      "batteryCapacityKwh": "86.55 / 96.26 / 100.27 / 100.46 / 131.98",
+      "maximumSpeedKph": 90,
+      "maximumGradeability": "20%"
+    },
+    "specificationGroups": [
+      {
+        "title": "Verified Electric Specifications",
+        "items": [
+          {
+            "label": "Model Codes",
+            "value": "ZZ5047XXYG3314Z145BEV86 / ZZ5047XXYH3414Z147BEV96 / ZZ5047XXYG3314Z147BEV / ZZ5047XXYH3414Z147BEVA0 / ZZ5047CCYH3414Z145BEVD1"
+          },
+          {
+            "label": "Cargo Box",
+            "value": "4,150 × 2,100 × 2,100 mm"
+          },
+          {
+            "label": "Overall Dimensions",
+            "value": "5,990 × 2,170 × 3,100 mm"
+          },
+          {
+            "label": "Wheelbase",
+            "value": "3,280 / 3,360 mm"
+          },
+          {
+            "label": "Fully Loaded Mass",
+            "value": "4,494–4,495 kg"
+          },
+          {
+            "label": "Electric Drive Axle",
+            "value": "Hande / SINOTRUK electric drive axle"
+          },
+          {
+            "label": "Motor Power",
+            "value": "120 / 140 kW"
+          },
+          {
+            "label": "Battery",
+            "value": "CATL LFP / Fudi LFP blade"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "86.55 / 96.26 / 100.27 / 100.46 / 131.98 kWh"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "90 km/h"
+          },
+          {
+            "label": "Maximum Gradeability",
+            "value": "20%"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "4x2",
+      "Multiple battery/motor configurations"
+    ],
+    "applications": [
+      "City distribution",
+      "Commerce",
+      "Cold chain",
+      "Intercity delivery"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Pure Electric Light Truck | Strongbuilt",
+      "description": "Battery-electric 4×2 light commercial truck family for city distribution, commerce and cold-chain applications."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-pure-electric-light-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "The page header contains ICE-style fields such as 5F/6F transmission, Euro II–III engine and 102–116 hp. Those conflict with the detailed electric specification table and are intentionally excluded from this record."
+  },
+  {
+    "slug": "sinotruk-howo-pure-electric-dump-truck",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Pure Electric Dump Truck",
+    "model": "HOWO Pure Electric Dump Truck",
+    "productLine": "New Energy Vehicle",
+    "category": "Electric Dump Truck",
+    "truckTypeSlug": "electric-dump-truck",
+    "class": "New Energy",
+    "shortDescription": "8×4 battery-electric dump truck family for urban construction waste and short-haul field operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Howo-Pure-electric-Dump-Truck-2.jpg",
+        "alt": "SINOTRUK HOWO Pure Electric Dump Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "fuelType": "Electric",
+      "drive": "8x4",
+      "loadedMassKg": 31000,
+      "motorPowerKw": "270 / 410",
+      "batteryChemistry": "CATL LFP",
+      "batteryCapacityKwh": "422 / 350",
+      "maximumSpeedKph": 89,
+      "maximumGradeability": "30%"
+    },
+    "specificationGroups": [
+      {
+        "title": "Verified Electric Specifications",
+        "items": [
+          {
+            "label": "Model Codes",
+            "value": "ZZ3317V326GZ1BEV / ZZ3317V426GZ1BEV"
+          },
+          {
+            "label": "Cab Options",
+            "value": "TX-K / TX-F"
+          },
+          {
+            "label": "Cargo Compartment Length Options",
+            "value": "5,600 / 5,800 / 7,600–7,800 / 8,000–8,200 mm"
+          },
+          {
+            "label": "Fully Loaded Mass",
+            "value": "31,000 kg"
+          },
+          {
+            "label": "Motor",
+            "value": "SINOTRUK"
+          },
+          {
+            "label": "Motor Power",
+            "value": "270 / 410 kW"
+          },
+          {
+            "label": "Battery",
+            "value": "CATL Lithium Iron Phosphate"
+          },
+          {
+            "label": "Battery Capacity",
+            "value": "422 / 350 kWh"
+          },
+          {
+            "label": "Maximum Speed",
+            "value": "89 km/h"
+          },
+          {
+            "label": "Maximum Gradeability",
+            "value": "30%"
+          }
+        ]
+      }
+    ],
+    "configurations": [
+      "8x4",
+      "TX-K",
+      "TX-F"
+    ],
+    "applications": [
+      "Urban construction waste",
+      "Short-haul field transport"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Pure Electric Dump Truck | Strongbuilt",
+      "description": "8×4 battery-electric dump truck family for urban construction waste and short-haul field operations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-pure-electric-dump-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "The page header contains copied ICE-style transmission/engine/power fields that conflict with the detailed electric table. Only the detailed electric specification table is used."
+  },
+  {
+    "slug": "sinotruk-howo-pure-electric-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "HOWO Pure Electric Tractor Truck",
+    "model": "HOWO Pure Electric Tractor Truck",
+    "productLine": "New Energy Vehicle",
+    "category": "Electric Tractor Truck",
+    "truckTypeSlug": "electric-tractor",
+    "class": "New Energy",
+    "shortDescription": "Pure-electric HOWO tractor product listed under SINOTRUK's Blue Cube new-energy portfolio.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/2-Howo-Pure-electric-Tractor-truck-1.jpg",
+        "alt": "SINOTRUK HOWO Pure Electric Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/howo-pure-electric-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "fuelType": "Electric"
+    },
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Electric freight transport",
+      "New-energy logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK HOWO Pure Electric Tractor Truck | Strongbuilt",
+      "description": "Pure-electric HOWO tractor product listed under SINOTRUK's Blue Cube new-energy portfolio."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-pure-electric-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "Do not publish detailed specifications from the current official page without manufacturer confirmation. Its detailed table repeats light-truck model codes, 4.15 m cargo-box dimensions, 4.5 t loaded mass and the same battery table as the electric light truck, which is inconsistent with the tractor product image/title."
+  },
+  {
+    "slug": "sinotruk-pure-electric-single-side-dock-tractor",
+    "brand": "SINOTRUK",
+    "brandSlug": "sinotruk",
+    "name": "Pure Electric Single Side Dock Tractor Truck",
+    "model": "Pure Electric Single Side Dock Tractor Truck",
+    "productLine": "New Energy Vehicle",
+    "category": "Electric Terminal / Dock Tractor",
+    "truckTypeSlug": "electric-tractor",
+    "class": "New Energy / Terminal",
+    "shortDescription": "Battery-electric single-side dock/terminal tractor for yard, container and logistics-terminal operations.",
+    "featured": false,
+    "active": true,
+    "availabilityStatus": "inquire",
+    "availabilityNote": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+    "images": [
+      {
+        "url": "https://sinotruk.international/image-library/Single-Side-Dock-Series.jpg",
+        "alt": "SINOTRUK Pure Electric Single Side Dock Tractor Truck",
+        "isPrimary": true,
+        "order": 1,
+        "localPathSuggested": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.jpg",
+        "status": "verified-official-url"
+      }
+    ],
+    "imageStatus": "verified-official-url",
+    "keySpecs": {
+      "fuelType": "Electric"
+    },
+    "specificationGroups": [],
+    "configurations": [],
+    "applications": [
+      "Terminal operations",
+      "Container yards",
+      "Dock logistics"
+    ],
+    "brochureUrl": null,
+    "seo": {
+      "title": "SINOTRUK Pure Electric Single Side Dock Tractor Truck | Strongbuilt",
+      "description": "Battery-electric single-side dock/terminal tractor for yard, container and logistics-terminal operations."
+    },
+    "source": {
+      "website": "SINOTRUK International",
+      "productUrl": "https://sinotruk.international/products/howo-pure-electric-single-side-dock-tractor-truck/",
+      "verifiedAt": "2026-09-02"
+    },
+    "notes": null,
+    "sourceDataWarning": "The official page's detailed table appears copied from the electric light-truck page and does not match the dock-tractor image/title. Detailed chassis, motor and battery specifications are therefore intentionally omitted pending manufacturer verification."
+  }
+]

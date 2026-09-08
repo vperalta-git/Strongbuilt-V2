@@ -1,0 +1,22 @@
+{
+  "brandCount": 1,
+  "productCount": 15,
+  "categories": {
+    "Mini Truck": 5,
+    "Light Truck": 4,
+    "Heavy-duty Truck": 1,
+    "Dump Truck": 4,
+    "Special Vehicle": 1
+  },
+  "publicPricesIncluded": false,
+  "directImageUrlsIncluded": 0,
+  "officialImageSourcePagesVerified": 15,
+  "verifiedAt": "2026-09-02",
+  "notes": [
+    "FORLAND's global product pages were used as the authoritative source.",
+    "The site exposes official product imagery visually but did not consistently expose stable direct image file URLs through extraction. No guessed URLs were inserted.",
+    "Some model families have many region-specific powertrain/GVW configurations. These are consolidated under a product-family record instead of creating dozens of duplicate-looking products.",
+    "All records are marked availabilityStatus=inquire until Strongbuilt confirms Philippine sourcing/stock.",
+    "No public prices are included."
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "forland-t5-mini-truck",
+    "name": "T5 Mini Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/xianglingV5/785.html",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/t5-mini-truck.webp"
+  },
+  {
+    "slug": "forland-t5e-mini-truck",
+    "name": "T5e Mini Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/xianglingQ/1022",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/t5e-mini-truck.webp"
+  },
+  {
+    "slug": "forland-t5-ev-mini-truck",
+    "name": "T5 EV Mini Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/xianglingm2p/787",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/t5-ev-mini-truck.webp"
+  },
+  {
+    "slug": "forland-t6-mini-truck",
+    "name": "T6 Mini Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/T6/1095",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/t6-mini-truck.webp"
+  },
+  {
+    "slug": "forland-t7-mini-truck",
+    "name": "T7 Mini Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/T7/1096.html",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/t7-mini-truck.webp"
+  },
+  {
+    "slug": "forland-l5-light-truck",
+    "name": "L5 Light Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/linghangG5EV/1008",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/l5-light-truck.webp"
+  },
+  {
+    "slug": "forland-l5e-light-truck",
+    "name": "L5e Light Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/linghangS1EV/1009.html",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/l5e-light-truck.webp"
+  },
+  {
+    "slug": "forland-l5e-ev-light-truck",
+    "name": "L5e EV Light Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/lhs1/1006.html",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/l5e-ev-light-truck.webp"
+  },
+  {
+    "slug": "forland-l7-light-truck",
+    "name": "L7 Light Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/linghangM5EV/1010",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/l7-light-truck.webp"
+  },
+  {
+    "slug": "forland-h7-heavy-duty-truck",
+    "name": "H7 Heavy-duty Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/H7/1023.html",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/h7-heavy-duty-truck.webp"
+  },
+  {
+    "slug": "forland-t5-dump-truck",
+    "name": "T5 Dump Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/T5/1025",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/t5-dump-truck.webp"
+  },
+  {
+    "slug": "forland-h7-dump-truck",
+    "name": "H7 Dump Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/ruiwoTS6/1024",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/h7-dump-truck.webp"
+  },
+  {
+    "slug": "forland-l7-dump-truck",
+    "name": "L7 Dump Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/jingangES3Pro/1017",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/l7-dump-truck.webp"
+  },
+  {
+    "slug": "forland-l5e-dump-truck",
+    "name": "L5e Dump Truck",
+    "officialProductPage": "https://www.forland.com/ftcar/jingangS1/1013",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/l5e-dump-truck.webp"
+  },
+  {
+    "slug": "forland-h7-compactor",
+    "name": "H7 Compactor",
+    "officialProductPage": "https://www.forland.com/ftcar/SpecialVehicle/",
+    "directImageUrl": null,
+    "status": "official-image-visible-and-verified; stable direct file URL not exposed by source crawler",
+    "suggestedLocalPath": "/images/trucks/forland/h7-compactor.webp"
+  }
+]

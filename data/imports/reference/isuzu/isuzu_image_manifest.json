@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "isuzu-traviz-s",
+    "name": "TRAVIZ S",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-S-UV.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/traviz-s.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/traviz"
+  },
+  {
+    "slug": "isuzu-traviz-l",
+    "name": "TRAVIZ L",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/traviz/Traviz-L-UV.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/traviz-l.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/traviz"
+  },
+  {
+    "slug": "isuzu-nmr85hs",
+    "name": "NMR85HS (6-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85HS%20Aluminum%20Van%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nmr85hs.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-nqr75ls",
+    "name": "NQR75LS (6-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75LS-Aluminum-Van-2023%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nqr75ls.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-qlr77e",
+    "name": "QLR77E (4-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/QLR77-BS%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/qlr77e.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-nlr85es",
+    "name": "NLR85ES (4-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/n-series-variant%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nlr85es.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-nlr77h",
+    "name": "NLR77H (4-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NLR77H%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nlr77h.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-nlr85e",
+    "name": "NLR85E (4-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/New-GR1_6275-NLR85-quarter-right%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nlr85e.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-nmr85h",
+    "name": "NMR85H",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NMR85H_Aluminum_Van%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nmr85h.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-npr85k",
+    "name": "NPR85K (6-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NPR85K%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/npr85k.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-nqr75l",
+    "name": "NQR75L (6-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/n-series/NQR75L%201.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nqr75l.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/n-series"
+  },
+  {
+    "slug": "isuzu-frr90m",
+    "name": "FRR90 M (Cab Chassis)",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FRR90-M.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/frr90m.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-ftr90m",
+    "name": "FTR90 M (Cab Chassis)",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/ftr90m2022.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/ftr90m.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-fvr34q",
+    "name": "FVR34 Q (Cab Chassis)",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//GR1_6354-FVR34-quarter%20right.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/fvr34q.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-fvm34w",
+    "name": "FVM34 W (G-Cargo Wingvan)",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//GR1_5282-FVM34%20W%20quarter%20right.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/fvm34w.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-fvm34t",
+    "name": "FVM34 T",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVM34-T.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/fvm34t.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-fxm60w",
+    "name": "FXM60 W",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FXM-Beauty-Shot.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/fxm60w.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-fvr34qs",
+    "name": "FVR34QS (6-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//f%20series%20trucks/FVR34QS-Truck-Crane.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/fvr34qs.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-frr90ms",
+    "name": "FRR90MS (6-Wheeler)",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//trucks/F-SERIES_FOR_ADV.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/frr90ms.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-fvz34",
+    "name": "FVZ34",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media/f%20series%20trucks/FVZ34.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/fvz34.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-gxz60n-tractor-head",
+    "name": "GXZ60N Tractor Head",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/f-series/GXZ.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/gxz60n.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/f-series"
+  },
+  {
+    "slug": "isuzu-traviz-puv",
+    "name": "TRAVIZ PUV",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//traviz-puv-variant.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/traviz-puv.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/puv"
+  },
+  {
+    "slug": "isuzu-nlr77-puv",
+    "name": "NLR77 PUV",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NLR77%202.0%20Almazora.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/nlr77-puv.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/puv"
+  },
+  {
+    "slug": "isuzu-npr85-puv",
+    "name": "NPR85 PUV",
+    "officialImageUrl": "https://www.isuzuphil.com/storage/app/media//puv-variants/NPR85%20PUV.png",
+    "suggestedLocalPath": "/images/trucks/isuzu/npr85-puv.png",
+    "sourcePage": "https://www.isuzuphil.com/trucks/puv"
+  },
+  {
+    "slug": "isuzu-nqr-bus",
+    "name": "NQR Bus",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-nqr-01.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/nqr-bus.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/buses"
+  },
+  {
+    "slug": "isuzu-fvr-bus",
+    "name": "FVR Bus",
+    "officialImageUrl": "https://www.isuzuphil.com/themes/isuzuphil/assets/2026/images/buses/bus-fvr-02.webp",
+    "suggestedLocalPath": "/images/trucks/isuzu/fvr-bus.webp",
+    "sourcePage": "https://www.isuzuphil.com/trucks/buses"
+  }
+]

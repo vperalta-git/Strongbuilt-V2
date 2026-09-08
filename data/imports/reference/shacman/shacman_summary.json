@@ -1,0 +1,28 @@
+{
+  "brandCount": 1,
+  "truckProductCount": 9,
+  "productFamilies": [
+    "X6000",
+    "X5000",
+    "X3000",
+    "H3000",
+    "F3000",
+    "L3000",
+    "L6000e",
+    "T5000 Port Tractor",
+    "Specialized Trucks"
+  ],
+  "imageUrlCount": 14,
+  "brochureCount": 8,
+  "publicPricesIncluded": false,
+  "powertrainReferenceIncludedSeparately": true,
+  "verifiedAt": "2026-09-02",
+  "notes": [
+    "X6000, X5000, X3000, H3000, F3000 and L3000 are stored as product/platform families because SHACMAN officially lists multiple tractor/dump/cargo and axle configurations under each series.",
+    "Specialized Trucks is stored as one vocational-family document because the official page lists applications/body types rather than separate chassis specifications.",
+    "The Powertrain link is stored in a separate reference JSON and should not be imported into the trucks collection.",
+    "All product image URLs are official shacman.com assets.",
+    "No public pricing is included.",
+    "All catalog records use availabilityStatus=inquire until Strongbuilt confirms Philippine sourcing."
+  ]
+}
