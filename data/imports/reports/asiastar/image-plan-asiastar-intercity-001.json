@@ -1,0 +1,197 @@
+{
+  "manufacturer": "asiastar",
+  "generatedAt": "2026-09-09T06:11:30.237Z",
+  "summary": {
+    "imagesTested": 13,
+    "sourceImagesAvailable": 13,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 13,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "YBL6859H",
+      "slug": "asiastar-ybl6859h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6859hdb5534de-f51a-4636-933b-2b2840975969.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6859h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6859h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6140T",
+      "slug": "asiastar-ybl6140t",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6140t7f4c4be0-e90f-403f-80bd-03299a0d4bd7.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/13-m-intercity-bus/ybl6140t.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6140t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6130T",
+      "slug": "asiastar-ybl6130t",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6130t510caca6-76c9-491e-becf-242e3b9fe1dc.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12-5-m-intercity-bus/ybl6130t.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6129T",
+      "slug": "asiastar-ybl6129t",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6129tf07653cc-7b97-425c-9a7a-3d511b2e697c.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129t.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6121H",
+      "slug": "asiastar-ybl6121h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6121h88d97566-32ce-4eee-b6d1-1fe01a684932.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6121h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6121h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6890G",
+      "slug": "asiastar-js6890g",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6890g027823fa-e52e-419b-9703-ff659e1c7e8f.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6890g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6890g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6840G",
+      "slug": "asiastar-js6840g",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6840g8b591281-9186-45fd-bb31-9857159a8e84.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6840g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6762G",
+      "slug": "asiastar-js6762g",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6762g577552cd-f668-4f1d-9986-e9368b87a252.png",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/7m-intercity-bus/js6762g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6762g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6129H",
+      "slug": "asiastar-ybl6129h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6129h30517624834.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6829H",
+      "slug": "asiastar-ybl6829h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6829h43221677189.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6829h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6829h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6909H",
+      "slug": "asiastar-ybl6909h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6909h39511290766.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6909h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6840GJ Front Engine Bus",
+      "slug": "asiastar-js6840gj-front-engine",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6840gjfront-engine-bus36588790369.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840gjfront-engine-bus.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6840gj-front-engine.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6909HQ",
+      "slug": "asiastar-ybl6909hq",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6909hq30191923890.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/intercity-bus/9m-intercity-bus/ybl6909hq.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909hq.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

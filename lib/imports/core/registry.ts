@@ -1,5 +1,6 @@
 import type { ManufacturerConfiguration } from "@/lib/imports/core/types"
 import { asiastarAdapter } from "@/lib/imports/manufacturers/asiastar"
+import { asiastarReviewedBatches } from "@/lib/imports/manufacturers/asiastar-review"
 import { fawAdapter } from "@/lib/imports/manufacturers/faw"
 import { forlandAdapter } from "@/lib/imports/manufacturers/forland"
 import { isuzuAdapter } from "@/lib/imports/manufacturers/isuzu"
@@ -151,6 +152,8 @@ manufacturerRegistry.isuzu.reviewedBatches = {
     "FVR",
   ],
 }
+
+manufacturerRegistry.asiastar.reviewedBatches = asiastarReviewedBatches
 
 export type ManufacturerSlug = keyof typeof manufacturerRegistry
 

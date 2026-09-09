@@ -1,0 +1,71 @@
+{
+  "manufacturer": "asiastar",
+  "generatedAt": "2026-09-09T06:11:26.862Z",
+  "summary": {
+    "imagesTested": 4,
+    "sourceImagesAvailable": 4,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 4,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "YBL6128HQ1",
+      "slug": "asiastar-ybl6128hq1",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6128hq1d81de370-c57b-4f5b-9c20-0e448aa6893d.png",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128hq1.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128hq1.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6130H",
+      "slug": "asiastar-ybl6130h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6130ha8a6b5e8-dbed-4055-87b6-366df1c6e897.png",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6130h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6148H",
+      "slug": "asiastar-ybl6148h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6148h53524512405.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6148h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6148h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "YBL6125H",
+      "slug": "asiastar-ybl6125h",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6125h01462522259.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6125h.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6125h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

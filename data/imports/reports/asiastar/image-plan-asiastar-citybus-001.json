@@ -1,0 +1,169 @@
+{
+  "manufacturer": "asiastar",
+  "generatedAt": "2026-09-09T06:11:33.274Z",
+  "summary": {
+    "imagesTested": 11,
+    "sourceImagesAvailable": 11,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 11,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "JS6860GHN NG City Bus",
+      "slug": "asiastar-js6860ghn",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202524954/js6860ghn-cng-city-bus4fcb8cfb-e460-4374-8e72-d659a96dd866.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6860ghn-cng-city-bus.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6860ghn.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6960GHCP Natural Gas City Bus",
+      "slug": "asiastar-js6960ghcp",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202524954/js6960ghcp-nature-gas-city-bus86bd4e69-cf92-4ef3-beca-4c83a371333c.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6960ghcp-nature-gas-city-bus.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6960ghcp.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6128",
+      "slug": "asiastar-js6128-city-bus",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6128e3d21b69-f83d-4cd6-9388-bf74048a968a.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6128-city-bus.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6108",
+      "slug": "asiastar-js6108-city-bus",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6108089e1367-4c82-4609-93fe-1a2f656f007a.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6108-city-bus.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6181GHBEV",
+      "slug": "asiastar-js6181ghbev",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6181ghbevbf5dfed7-7f42-4cf9-b113-3d5e104b4b0f.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/18m-brt-bus/js6181ghbev.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6181ghbev.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6120GHBEV",
+      "slug": "asiastar-js6120ghbev",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6120ghbev05452777925.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/13m-city-bus/js6120ghbev.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6120ghbev.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6128GH / JS6128GHP",
+      "slug": "asiastar-js6128gh",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6128gh01331249095.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128gh.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6128gh.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6108GHA / JS6108GHP",
+      "slug": "asiastar-js6108gha",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6108gha09076589172.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108gha.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6108gha.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6851GH / JS6851GHP",
+      "slug": "asiastar-js6851gh",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6851gh11200896968.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6851gh.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6851gh.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6926GHCP",
+      "slug": "asiastar-js6926ghcp",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6926ghcp00498646705.png",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6926ghcp.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6926ghcp.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "JS6600G / JS6600GP",
+      "slug": "asiastar-js6600g",
+      "images": [
+        {
+          "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6600g12554343632.jpg",
+          "sourcePage": "https://www.asiastarbuses.com/city-buses/6m-city-bus/js6600g.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/asiastar/js6600g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

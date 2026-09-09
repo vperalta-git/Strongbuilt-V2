@@ -18,6 +18,8 @@
     "promote:manufacturer": "tsx scripts/promote-manufacturer.ts",
     "test:manufacturer-importer": "tsx scripts/test-manufacturer-importer.ts",
     "prepare:isuzu-remaining-images": "tsx scripts/prepare-isuzu-remaining-images.ts",
+    "prepare:asiastar-images": "tsx scripts/prepare-asiastar-images.ts",
+    "report:asiastar-prep": "tsx scripts/report-asiastar-promotion-prep.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },

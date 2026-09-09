@@ -428,8 +428,13 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
 
   const validationPath = reportPath(config.slug, "validation.json")
   const promotionPath = reportPath(config.slug, "promotion-plan.json")
-  const imagePath = reportPath(config.slug, "image-plan.json")
-  await writeReport(options.mode === "validate" ? validationPath : promotionPath, report)
+  const batchPromotionPath = options.batchId
+    ? reportPath(config.slug, `promotion-plan-${options.batchId}.json`)
+    : promotionPath
+  const imagePath = options.batchId
+    ? reportPath(config.slug, `image-plan-${options.batchId}.json`)
+    : reportPath(config.slug, "image-plan.json")
+  await writeReport(options.mode === "validate" ? validationPath : batchPromotionPath, report)
   await writeReport(imagePath, { manufacturer: config.slug, generatedAt: timestamp.toISOString(), summary: imageSummary, records: reportRecords.map(({ model, slug, images }) => ({ model, slug, images })) })
 
   console.log(`${config.displayName} ${report.mode}`)
@@ -443,7 +448,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
   console.log("expected updates: 0")
   console.log("expected deletes: 0")
   console.log(`writes performed: ${report.promotion.writesPerformed}`)
-  console.log(`report: ${options.mode === "validate" ? validationPath : promotionPath}`)
+  console.log(`report: ${options.mode === "validate" ? validationPath : batchPromotionPath}`)
   return report
 }
 

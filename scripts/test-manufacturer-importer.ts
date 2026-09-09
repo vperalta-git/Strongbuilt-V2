@@ -2,6 +2,12 @@ import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
 import { ObjectId } from "mongodb"
 import { getManufacturerConfiguration, manufacturerRegistry } from "@/lib/imports/core/registry"
+import {
+  asiastarExcludedProductionDuplicates,
+  asiastarPromotionModels,
+  asiastarReviewedBatches,
+  asiastarVariantReviewRequired,
+} from "@/lib/imports/manufacturers/asiastar-review"
 import { normalizeIsuzuSourceRecord } from "@/lib/imports/isuzu"
 import { stageVehicleImports } from "@/lib/imports/normalize-vehicle"
 import { createInsertOnlyPromotionPlan, type ExistingVehicleIdentity, type PromotionCandidate } from "@/lib/imports/vehicle-promotion"
@@ -210,6 +216,16 @@ async function main() {
   console.log("Invalid record isolation, collision classification, canonical validation, legacy compatibility, and BSON sanitization: PASS")
   console.log("FAW adapter fixture: 22 normalized, 4 canonical categories, 3 unresolved-image records isolated")
   console.log("Remaining manufacturer fixtures: 146 records normalized with unresolved images and ambiguous taxonomy isolated")
+  assert.equal(asiastarPromotionModels.length, 28)
+  assert.equal(new Set(asiastarPromotionModels).size, 28)
+  assert.deepEqual(Object.fromEntries(Object.entries(asiastarReviewedBatches).map(([id, models]) => [id, models.length])), {
+    "asiastar-coach-001": 4,
+    "asiastar-intercity-001": 13,
+    "asiastar-citybus-001": 11,
+  })
+  assert.equal(asiastarPromotionModels.some((model) => (asiastarExcludedProductionDuplicates as readonly string[]).includes(model)), false)
+  assert.equal(asiastarPromotionModels.some((model) => (asiastarVariantReviewRequired as readonly string[]).includes(model)), false)
+  console.log("ASIASTAR reviewed batches: 28 unique candidates; production duplicate and ambiguous base-model variants excluded")
 }
 
 void main().catch((error: unknown) => {

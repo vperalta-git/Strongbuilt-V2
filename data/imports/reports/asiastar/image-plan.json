@@ -1,13 +1,13 @@
 {
   "manufacturer": "asiastar",
-  "generatedAt": "2026-09-08T08:54:10.501Z",
+  "generatedAt": "2026-09-09T06:11:23.329Z",
   "summary": {
     "imagesTested": 31,
     "sourceImagesAvailable": 31,
     "sourceImagesUnresolved": 0,
     "sharedSourceImageUrls": 0,
-    "localAssetsReady": 0,
-    "localMigrationRequired": 31,
+    "localAssetsReady": 28,
+    "localMigrationRequired": 3,
     "missingImageRecords": 0
   },
   "records": [
@@ -19,7 +19,7 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6128h-x9-3d0bff2b5-91ca-474c-afd9-1cacaf62c4eb.jpg",
           "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128h-x9-3.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128h-x9-3.jpg",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128h-x9-3.webp",
           "localAssetExists": false,
           "status": "LOCAL_MIGRATION_REQUIRED"
         }
@@ -33,9 +33,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6128hq1d81de370-c57b-4f5b-9c20-0e448aa6893d.png",
           "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6128hq1.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128hq1.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128hq1.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -47,9 +47,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6130ha8a6b5e8-dbed-4055-87b6-366df1c6e897.png",
           "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6130h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130h.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -61,9 +61,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6148h53524512405.jpg",
           "sourcePage": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6148h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6148h.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6148h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -75,7 +75,7 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6128h56231939859.jpg",
           "sourcePage": "https://www.asiastarbuses.com/coaches/13m-coach/ybl6128h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128h-coach.jpg",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6128h-coach.webp",
           "localAssetExists": false,
           "status": "LOCAL_MIGRATION_REQUIRED"
         }
@@ -89,9 +89,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/ybl6125h01462522259.jpg",
           "sourcePage": "https://www.asiastarbuses.com/coaches/12m-coach/ybl6125h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6125h.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6125h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -103,9 +103,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6859hdb5534de-f51a-4636-933b-2b2840975969.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6859h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6859h.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6859h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -117,9 +117,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6140t7f4c4be0-e90f-403f-80bd-03299a0d4bd7.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/13-m-intercity-bus/ybl6140t.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6140t.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6140t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -131,9 +131,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6130t510caca6-76c9-491e-becf-242e3b9fe1dc.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12-5-m-intercity-bus/ybl6130t.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130t.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6130t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -145,9 +145,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6129tf07653cc-7b97-425c-9a7a-3d511b2e697c.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129t.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129t.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129t.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -159,9 +159,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/ybl6121h88d97566-32ce-4eee-b6d1-1fe01a684932.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6121h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6121h.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6121h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -173,9 +173,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6890g027823fa-e52e-419b-9703-ff659e1c7e8f.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6890g.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6890g.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6890g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -187,9 +187,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6840g8b591281-9186-45fd-bb31-9857159a8e84.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840g.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6840g.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6840g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -201,9 +201,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6762g577552cd-f668-4f1d-9986-e9368b87a252.png",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/7m-intercity-bus/js6762g.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6762g.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6762g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -215,9 +215,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6129h30517624834.jpg",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/12m-intercity-bus/ybl6129h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129h.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6129h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -229,7 +229,7 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6119h22290941996.jpg",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/11m-intercity-bus/ybl6119h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6119h.jpg",
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6119h.webp",
           "localAssetExists": false,
           "status": "LOCAL_MIGRATION_REQUIRED"
         }
@@ -243,9 +243,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6829h43221677189.jpg",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6829h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6829h.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6829h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -257,9 +257,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6909h39511290766.jpg",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/ybl6909h.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909h.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909h.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -271,9 +271,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6840gjfront-engine-bus36588790369.jpg",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/8m-intercity-bus/js6840gjfront-engine-bus.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6840gj-front-engine.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6840gj-front-engine.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -285,9 +285,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/ybl6909hq30191923890.jpg",
           "sourcePage": "https://www.asiastarbuses.com/intercity-bus/9m-intercity-bus/ybl6909hq.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909hq.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/ybl6909hq.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -299,9 +299,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202524954/js6860ghn-cng-city-bus4fcb8cfb-e460-4374-8e72-d659a96dd866.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6860ghn-cng-city-bus.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6860ghn.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6860ghn.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -313,9 +313,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202524954/js6960ghcp-nature-gas-city-bus86bd4e69-cf92-4ef3-beca-4c83a371333c.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6960ghcp-nature-gas-city-bus.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6960ghcp.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6960ghcp.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -327,9 +327,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6128e3d21b69-f83d-4cd6-9388-bf74048a968a.png",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6128-city-bus.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6128-city-bus.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -341,9 +341,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6108089e1367-4c82-4609-93fe-1a2f656f007a.png",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6108-city-bus.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6108-city-bus.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -355,9 +355,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202324954/js6181ghbevbf5dfed7-7f42-4cf9-b113-3d5e104b4b0f.png",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/18m-brt-bus/js6181ghbev.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6181ghbev.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6181ghbev.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -369,9 +369,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6120ghbev05452777925.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/13m-city-bus/js6120ghbev.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6120ghbev.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6120ghbev.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -383,9 +383,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6128gh01331249095.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/12m-city-bus/js6128gh.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6128gh.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6128gh.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -397,9 +397,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6108gha09076589172.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/10m-city-bus/js6108gha.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6108gha.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6108gha.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -411,9 +411,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6851gh11200896968.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/8m-city-bus/js6851gh.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6851gh.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6851gh.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -425,9 +425,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202124954/js6926ghcp00498646705.png",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/9m-city-bus/js6926ghcp.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6926ghcp.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6926ghcp.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -439,9 +439,9 @@
           "sourceUrl": "https://www.asiastarbuses.com/uploads/202024954/js6600g12554343632.jpg",
           "sourcePage": "https://www.asiastarbuses.com/city-buses/6m-city-bus/js6600g.html",
           "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/asiastar/js6600g.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "suggestedLocalPath": "/images/trucks/asiastar/js6600g.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     }
