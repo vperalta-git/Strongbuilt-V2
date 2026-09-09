@@ -9,6 +9,7 @@ import { normalizeTaxonomyValue } from "@/lib/domain/vehicle-taxonomy"
 import { stageVehicleImports } from "@/lib/imports/normalize-vehicle"
 import { mockTrucks } from "@/lib/data/mock-trucks"
 import { approvedLocalTruckImagePaths } from "@/lib/data/truck-local-images"
+import { catalogSearchText, getCatalogBodyType, getCatalogBodyTypes, matchesCatalogBodyType } from "@/lib/data/catalog-filters"
 import { brandSeeds, truckSeeds, truckTypeSeeds } from "@/scripts/seed-data"
 
 function verifyLegacyAdapter() {
@@ -18,7 +19,7 @@ function verifyLegacyAdapter() {
   for (const truck of mockTrucks) {
     const roundTrip = vehicleToLegacyTruck(legacyTruckToVehicle(truck))
     assert.deepEqual(
-      JSON.parse(JSON.stringify({ ...roundTrip, _id: undefined, specifications: undefined })),
+      JSON.parse(JSON.stringify({ ...roundTrip, _id: undefined, specifications: undefined, catalogTaxonomy: undefined })),
       JSON.parse(JSON.stringify({ ...truck, _id: undefined, specifications: undefined })),
     )
     for (const group of new Set(truck.specifications.map((specification) => specification.group))) {
@@ -28,6 +29,23 @@ function verifyLegacyAdapter() {
       )
     }
   }
+}
+
+function verifyCatalogTaxonomy() {
+  const legacyBus = mockTrucks.find((truck) => truck.bodyType === "Bus")!
+  const coachVehicle = legacyTruckToVehicle(legacyBus)
+  coachVehicle.vehicleFamily = "Coach"
+  coachVehicle.bodyType = "Coach"
+  coachVehicle.propulsion = "Diesel"
+  const coach = vehicleToLegacyTruck(coachVehicle)
+
+  assert.equal(coach.bodyType, "Bus")
+  assert.equal(getCatalogBodyType(coach), "Coach")
+  assert.equal(matchesCatalogBodyType(coach, "Coach"), true)
+  assert.equal(matchesCatalogBodyType(coach, "Bus"), true)
+  assert.equal(matchesCatalogBodyType(coach, "City Bus"), false)
+  assert.deepEqual(getCatalogBodyTypes([coach]), ["Coach"])
+  assert.match(catalogSearchText(coach), /coach/)
 }
 
 function buildMongoFixtures() {
@@ -170,6 +188,7 @@ verifyBrandResolution()
 verifyStagingValidation()
 verifyLegacyQuoteField()
 verifyApprovedLocalImages()
+verifyCatalogTaxonomy()
 
 console.log("Vehicle migration foundation validation passed.")
 console.log("12 legacy records, 26 controlled local ISUZU images, 28 reviewed local ASIASTAR images, MongoDB isolation, taxonomy, staging QA, and quote compatibility verified.")

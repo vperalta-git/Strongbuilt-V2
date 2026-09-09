@@ -194,6 +194,12 @@ export function vehicleToLegacyTruck(vehicle: Vehicle): Truck {
     model: vehicle.model || vehicle.name,
     category: resolveLegacyCategory(vehicle),
     bodyType: resolveLegacyBodyType(vehicle),
+    catalogTaxonomy: {
+      vehicleFamily: vehicle.vehicleFamily,
+      bodyType: vehicle.bodyType,
+      ...(vehicle.dutyClass ? { dutyClass: vehicle.dutyClass } : {}),
+      propulsion: vehicle.propulsion,
+    },
     shortDescription: vehicle.shortDescription || "",
     description: vehicle.description || "",
     images,

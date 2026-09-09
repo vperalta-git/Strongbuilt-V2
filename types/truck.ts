@@ -1,3 +1,10 @@
+import type {
+  VehicleBodyType,
+  VehicleDutyClass,
+  VehicleFamily,
+  VehiclePropulsion,
+} from "@/lib/domain/vehicle-taxonomy"
+
 export type TruckCategory =
   | "Light Duty"
   | "Medium Duty"
@@ -41,6 +48,13 @@ export type Truck = {
   model: string
   category: TruckCategory
   bodyType: TruckBodyType
+  /** Canonical taxonomy used by the catalog without changing the legacy projection. */
+  catalogTaxonomy?: {
+    vehicleFamily: VehicleFamily
+    bodyType: VehicleBodyType
+    dutyClass?: VehicleDutyClass
+    propulsion: VehiclePropulsion
+  }
   shortDescription: string
   description: string
   images: MediaAsset[]

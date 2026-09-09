@@ -2,10 +2,12 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowUpRight, FileText } from "lucide-react"
 import type { Truck } from "@/types/truck"
+import { getCatalogBodyType } from "@/lib/data/catalog-filters"
 
 export function TruckCard({ truck, priority = false }: { truck: Truck; priority?: boolean }) {
   const image = truck.images[0]
   const quickSpecs = truck.specifications.filter((spec) => spec.featured).slice(0, 3)
+  const bodyType = getCatalogBodyType(truck)
 
   return (
     <article className="group flex h-full flex-col border border-line bg-white transition-[border-color,transform] duration-300 hover:-translate-y-1 hover:border-brand">
@@ -25,7 +27,7 @@ export function TruckCard({ truck, priority = false }: { truck: Truck; priority?
           <span className="absolute inset-0 grid place-items-center px-6 text-center text-xs font-bold uppercase tracking-[0.12em] text-white/58">Vehicle photography unavailable</span>
         )}
         <span className="absolute left-0 top-0 bg-brand px-3 py-2 text-[10px] font-extrabold uppercase tracking-[0.16em] text-ink">
-          {truck.bodyType}
+          {bodyType}
         </span>
       </Link>
 

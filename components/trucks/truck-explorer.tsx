@@ -5,6 +5,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { Search, SlidersHorizontal, X } from "lucide-react"
 import type { Truck } from "@/types/truck"
 import { TruckCard } from "@/components/trucks/truck-card"
+import { catalogSearchText, getCatalogBodyTypes, matchesCatalogBodyType } from "@/lib/data/catalog-filters"
 
 type SortOption = "featured" | "model-asc" | "model-desc"
 
@@ -118,7 +119,7 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
   }, [])
 
   const brands = useMemo(() => [...new Set(trucks.map((truck) => truck.brand))].sort(), [trucks])
-  const bodyTypes = useMemo(() => [...new Set(trucks.map((truck) => truck.bodyType))].sort(), [trucks])
+  const bodyTypes = useMemo(() => getCatalogBodyTypes(trucks), [trucks])
 
   useEffect(() => {
     if (!mobileFiltersOpen) return
@@ -183,18 +184,9 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
   const filtered = useMemo(() => {
     const normalized = query.trim().toLowerCase()
     const result = trucks.filter((truck) => {
-      const searchable = [
-        truck.brand,
-        truck.model,
-        truck.bodyType,
-        truck.category,
-        truck.shortDescription,
-        ...truck.applications,
-      ]
-        .join(" ")
-        .toLowerCase()
+      const searchable = catalogSearchText(truck)
 
-      return (!normalized || searchable.includes(normalized)) && (!brand || truck.brand === brand) && (!bodyType || truck.bodyType === bodyType)
+      return (!normalized || searchable.includes(normalized)) && (!brand || truck.brand === brand) && matchesCatalogBodyType(truck, bodyType)
     })
 
     return result.sort((a, b) => {
