@@ -11,6 +11,7 @@
     "start": "next start",
     "seed": "tsx scripts/seed-cli.ts",
     "validate:vehicles": "tsx scripts/validate-vehicle-foundation.ts",
+    "validate:site-url": "tsx scripts/validate-site-url.ts",
     "validate:isuzu": "tsx scripts/validate-manufacturer.ts isuzu --models NMR85HS,NQR75LS,QLR77E,NLR85ES,NLR77H,NLR85E,NMR85H,NPR85K",
     "upsert:isuzu-brand": "tsx scripts/upsert-isuzu-brand.ts",
     "promote:isuzu": "tsx scripts/promote-manufacturer.ts isuzu --models NMR85HS,NQR75LS,QLR77E,NLR85ES,NLR77H,NLR85E,NMR85H,NPR85K",

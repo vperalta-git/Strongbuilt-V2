@@ -1,9 +1,30 @@
+export const officialSiteUrl = "https://www.strongbuilt.com.ph"
+
+export function resolveSiteUrl(configuredUrl = process.env.NEXT_PUBLIC_SITE_URL) {
+  if (!configuredUrl?.trim()) return officialSiteUrl
+
+  try {
+    const url = new URL(configuredUrl.trim())
+    if (url.protocol !== "http:" && url.protocol !== "https:") return officialSiteUrl
+
+    const official = new URL(officialSiteUrl)
+    const officialApex = official.hostname.replace(/^www\./, "")
+    if (url.hostname === officialApex || url.hostname === official.hostname || url.hostname.endsWith(".vercel.app")) {
+      return officialSiteUrl
+    }
+
+    return url.origin
+  } catch {
+    return officialSiteUrl
+  }
+}
+
 export const siteConfig = {
   name: "Strongbuilt",
   legalName: "Strongbuilt Motors and Equipment Inc.",
   description:
     "Commercial trucks, truck-body solutions, and fleet-focused vehicle configuration for Philippine businesses.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.strongbuilt.com.ph",
+  url: resolveSiteUrl(),
   locale: "en_PH",
   contact: {
     phoneDisplay: "+63 (917) 891-3681",

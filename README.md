@@ -38,7 +38,7 @@ Copy `.env.example` to `.env.local` and provide only the integrations in use.
 
 | Variable | Required | Purpose |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Recommended | Canonical base URL, sitemap, and structured data |
+| `NEXT_PUBLIC_SITE_URL` | Required in Vercel | Canonical base URL, sitemap, robots, metadata, and structured data. Use `https://www.strongbuilt.com.ph`. |
 | `MONGODB_URI` | Required for database features | MongoDB Atlas connection string |
 | `MONGODB_DB` | Optional | Database name; defaults to `strongbuilt` |
 | `NEXT_PUBLIC_EMAILJS_SERVICE_ID` | Optional | EmailJS service identifier |
@@ -57,7 +57,9 @@ Import `vperalta-git/Strongbuilt-V2` into Vercel or deploy it with the Vercel CL
 - Build command: `npm run build`
 - Output directory: managed automatically by Next.js
 
-Set `NEXT_PUBLIC_SITE_URL` to the final production domain. The website and mock catalog work without database variables; inquiry persistence requires MongoDB. Add production variables through Vercel Project Settings rather than committing them. After setting `MONGODB_URI` and `MONGODB_DB`, redeploy and verify `/api/health/database` returns `connected: true`.
+Set `NEXT_PUBLIC_SITE_URL=https://www.strongbuilt.com.ph` for Production and Preview. The code rejects temporary `*.vercel.app` hosts as canonical SEO origins and normalizes the apex `strongbuilt.com.ph` hostname to the primary `www` origin. Configure Vercel Domains so `strongbuilt.com.ph` redirects permanently to `www.strongbuilt.com.ph`; do not add an application-level JavaScript redirect.
+
+The website and mock catalog work without database variables; inquiry persistence requires MongoDB. Add production variables through Vercel Project Settings rather than committing them. After setting `MONGODB_URI` and `MONGODB_DB`, redeploy and verify `/api/health/database` returns `connected: true`.
 
 ## Database setup
 

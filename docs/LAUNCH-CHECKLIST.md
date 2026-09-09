@@ -28,4 +28,6 @@
 - Validate hero image crops after final photography is supplied.
 - Run `npm run lint`, `npm run typecheck`, and `npm run build`.
 - Run accessibility and Lighthouse checks against the production deployment.
-- Submit `/sitemap.xml` after the final production domain is connected.
+- Keep `www.strongbuilt.com.ph` as the primary Vercel domain and permanently redirect the apex `strongbuilt.com.ph` hostname to it.
+- Set `NEXT_PUBLIC_SITE_URL=https://www.strongbuilt.com.ph` for Production and Preview.
+- Verify and submit `https://www.strongbuilt.com.ph/sitemap.xml` after the production domain is connected.
