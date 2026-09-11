@@ -1,0 +1,102 @@
+{
+  "manufacturer": "forland",
+  "generatedAt": "2026-09-11T04:53:50.539Z",
+  "summary": {
+    "sourceRecords": 15,
+    "imagesReady": 0,
+    "lowResolution": 0,
+    "fallbackRequired": 15
+  },
+  "records": [
+    {
+      "model": "T5 Mini Truck",
+      "slug": "forland-t5-mini-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "T5e Mini Truck",
+      "slug": "forland-t5e-mini-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "T5 EV Mini Truck",
+      "slug": "forland-t5-ev-mini-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "T6 Mini Truck",
+      "slug": "forland-t6-mini-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "T7 Mini Truck",
+      "slug": "forland-t7-mini-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "L5 Light Truck",
+      "slug": "forland-l5-light-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "L5e Light Truck",
+      "slug": "forland-l5e-light-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "L5e EV Light Truck",
+      "slug": "forland-l5e-ev-light-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "L7 Light Truck",
+      "slug": "forland-l7-light-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "H7 Heavy-duty Truck",
+      "slug": "forland-h7-heavy-duty-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "T5 Dump Truck",
+      "slug": "forland-t5-dump-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "H7 Dump Truck",
+      "slug": "forland-h7-dump-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "L7 Dump Truck",
+      "slug": "forland-l7-dump-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "L5e Dump Truck",
+      "slug": "forland-l5e-dump-truck",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "H7 Compactor",
+      "slug": "forland-h7-compactor",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    }
+  ]
+}

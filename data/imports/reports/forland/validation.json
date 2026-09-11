@@ -1,7 +1,7 @@
 {
   "manufacturer": "forland",
   "displayName": "Forland",
-  "generatedAt": "2026-09-08T08:53:21.625Z",
+  "generatedAt": "2026-09-11T05:02:21.312Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,17 +22,18 @@
   "summary": {
     "recordsLoaded": 15,
     "recordsNormalized": 15,
-    "eligible": 0,
-    "warnings": 33,
-    "errors": 39,
+    "eligible": 15,
+    "warnings": 42,
+    "errors": 0,
     "alreadyExists": 0,
-    "expectedInserts": 0,
+    "excluded": 0,
+    "expectedInserts": 15,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
-    "applyAllowed": false,
-    "blocked": 15,
+    "applyAllowed": true,
+    "blocked": 0,
     "batchErrors": []
   },
   "brandResolution": {
@@ -132,7 +133,8 @@
       "Medical Vehicle",
       "Emergency Vehicle",
       "Municipal Vehicle",
-      "Special Purpose Vehicle"
+      "Special Purpose Vehicle",
+      "Configurable Truck Platform"
     ],
     "dutyClasses": [
       "Mini",
@@ -141,7 +143,8 @@
       "Heavy Duty",
       "Passenger",
       "Trailer",
-      "Special Purpose"
+      "Special Purpose",
+      "Multiple / Configurable"
     ],
     "propulsions": [
       "Diesel",
@@ -217,7 +220,7 @@
   },
   "promotion": {
     "writesPerformed": 0,
-    "expectedInserts": 0,
+    "expectedInserts": 15,
     "expectedUpdates": 0,
     "expectedDeletes": 0,
     "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
@@ -231,16 +234,16 @@
   "dataSafety": {
     "countsBefore": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -309,8 +312,9 @@
     {
       "model": "T5 Mini Truck",
       "slug": "forland-t5-mini-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5",
         "category": "Mini Truck",
@@ -342,39 +346,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Mini / Light Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -390,6 +379,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Mini Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Multiple / Configurable",
         "applicationTags": [
           "Urban Logistics"
@@ -419,17 +409,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "T5e Mini Truck",
       "slug": "forland-t5e-mini-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5e",
         "category": "Mini Truck",
@@ -458,39 +449,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Mini / Light Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -506,6 +482,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Mini Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Unknown",
         "applicationTags": [
           "Urban Logistics",
@@ -533,17 +510,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 2,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "T5 EV Mini Truck",
       "slug": "forland-t5-ev-mini-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5 EV",
         "category": "Mini Truck",
@@ -571,39 +549,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Mini / Light Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -619,6 +582,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Mini Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Battery Electric",
         "applicationTags": [
           "Urban Logistics"
@@ -645,17 +609,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "T6 Mini Truck",
       "slug": "forland-t6-mini-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T6",
         "category": "Mini Truck",
@@ -684,39 +649,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Mini / Light Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -732,6 +682,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Mini Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Gasoline",
         "applicationTags": [
           "Urban Logistics",
@@ -762,17 +713,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 11,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "T7 Mini Truck",
       "slug": "forland-t7-mini-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T7",
         "category": "Mini Truck",
@@ -801,10 +753,19 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         },
@@ -818,31 +779,7 @@
           "normalizedValue": "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Mini / Light Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -858,6 +795,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Mini Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Unknown",
         "applicationTags": [
           "Urban Logistics"
@@ -885,17 +823,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
         "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L5 Light Truck",
       "slug": "forland-l5-light-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5",
         "category": "Light Truck",
@@ -925,29 +864,14 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -990,17 +914,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L5e Light Truck",
       "slug": "forland-l5e-light-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5e",
         "category": "Light Truck",
@@ -1035,29 +960,14 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1103,17 +1013,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L5e EV Light Truck",
       "slug": "forland-l5e-ev-light-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5e EV",
         "category": "Light Truck",
@@ -1143,29 +1054,14 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1211,17 +1107,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 12,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L7 Light Truck",
       "slug": "forland-l7-light-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L7",
         "category": "Light Truck",
@@ -1251,9 +1148,9 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         },
@@ -1267,22 +1164,7 @@
           "normalizedValue": "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1328,17 +1210,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "H7 Heavy-duty Truck",
       "slug": "forland-h7-heavy-duty-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "H7",
         "category": "Heavy-duty Truck",
@@ -1366,10 +1249,19 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         },
@@ -1383,31 +1275,7 @@
           "normalizedValue": "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Medium / Heavy Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1423,6 +1291,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Rigid Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Unknown",
         "applicationTags": [
           "Construction",
@@ -1452,17 +1321,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
         "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "T5 Dump Truck",
       "slug": "forland-t5-dump-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5",
         "category": "Dump Truck",
@@ -1491,39 +1361,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Mini / Light Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Mini / Light Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1539,6 +1394,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Dump Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Unknown",
         "applicationTags": [
           "Construction",
@@ -1567,17 +1423,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "H7 Dump Truck",
       "slug": "forland-h7-dump-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "H7",
         "category": "Dump Truck",
@@ -1605,29 +1462,14 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1674,17 +1516,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 10,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L7 Dump Truck",
       "slug": "forland-l7-dump-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L7",
         "category": "Dump Truck",
@@ -1713,39 +1556,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Medium / Heavy Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1761,6 +1589,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Dump Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Diesel",
         "applicationTags": [
           "Construction",
@@ -1791,17 +1620,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L5e Dump Truck",
       "slug": "forland-l5e-dump-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5e",
         "category": "Dump Truck",
@@ -1832,39 +1662,24 @@
         },
         {
           "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "reason": "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Light / Medium Duty",
+          "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "reason": "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Light / Medium Duty",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -1880,6 +1695,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Dump Truck",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Battery Electric",
         "applicationTags": [
           "Construction",
@@ -1911,17 +1727,18 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "H7 Compactor",
       "slug": "forland-h7-compactor",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "H7",
         "category": "Special Vehicle",
@@ -1950,29 +1767,14 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "forland",
         "name": "Forland",
@@ -2019,10 +1821,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 12,
+        "quoteSnapshotCompatible": true
       }
     }
   ]

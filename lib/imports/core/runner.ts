@@ -1,6 +1,5 @@
 import assert from "node:assert/strict"
 import { createHash } from "node:crypto"
-import { existsSync } from "node:fs"
 import { mkdir, writeFile } from "node:fs/promises"
 import { dirname, resolve } from "node:path"
 import type { Db } from "mongodb"
@@ -16,6 +15,7 @@ import { closeMongoConnection, getMongoDatabase } from "@/lib/db/mongodb"
 import type { ManufacturerImportIssue, ManufacturerNormalizationResult } from "@/lib/imports/core/types"
 import { catalogCounts, fingerprint, resolveCatalogDatabase } from "@/lib/imports/core/database"
 import { loadManufacturerSource } from "@/lib/imports/core/loader"
+import { existingLocalImagePath, optimizedLocalImagePath } from "@/lib/imports/core/images"
 import { getManufacturerConfiguration } from "@/lib/imports/core/registry"
 import { resolveLegacyTypes, resolveManufacturerBrand } from "@/lib/imports/core/relationships"
 import { stageVehicleImports, type StagedVehicleImport } from "@/lib/imports/normalize-vehicle"
@@ -88,10 +88,12 @@ function imageInspection(normalized: ManufacturerNormalizationResult | undefined
       })
     : []
   return (normalizedImages.length ? normalizedImages : rawImages).map((image) => {
-    const suggested = image.suggestedLocalPath
-    const localExists = Boolean(suggested?.startsWith("/") && existsSync(resolve("public", suggested.slice(1))))
+    const suggested = image.suggestedLocalPath ? optimizedLocalImagePath(image.suggestedLocalPath) : null
+    const localPath = existingLocalImagePath(image.suggestedLocalPath || undefined)
+    const localExists = Boolean(localPath)
     return {
       ...image,
+      suggestedLocalPath: suggested,
       localAssetExists: localExists,
       status: localExists
         ? "LOCAL_ASSET_READY"
@@ -290,11 +292,14 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     index,
     adapted[sourceIndex].success ? adapted[sourceIndex] as ManufacturerNormalizationResult & { success: true } : undefined,
   ]))
-  const reportRecords = plan.records.map((record, index) => ({
+  const reportRecords = plan.records.map((record, index) => {
+    const reviewExclusion = config.reviewExclusions?.[record.model]
+    return {
     model: record.model,
     slug: record.slug,
-    status: record.promotionStatus === "already-exists" ? "ALREADY_EXISTS" : record.promotionStatus === "eligible" ? (record.warnings.length ? "WARNING" : "PASS") : "ERROR",
-    promotionEligible: record.promotionStatus === "eligible",
+    status: reviewExclusion?.classification || (record.promotionStatus === "already-exists" ? "ALREADY_EXISTS" : record.promotionStatus === "eligible" ? (record.warnings.length ? "WARNING" : "PASS") : "ERROR"),
+    promotionEligible: !reviewExclusion && record.promotionStatus === "eligible",
+    reviewExclusion: reviewExclusion || null,
     sourceInventory: sourceSnapshot(candidates[index].raw),
     warnings: record.warnings,
     errors: record.errors,
@@ -315,7 +320,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
     source: record.canonicalPreview?.source || normalizedByIndex.get(index)?.input.source || null,
     images: imageInspection(normalizedByIndex.get(index), candidates[index].raw),
     legacyCompatibility: record.legacyCompatibility,
-  }))
+  }})
   const warningCount = reportRecords.reduce((total, record) => total + record.warnings.length, 0)
   const errorCount = reportRecords.reduce((total, record) => total + record.errors.length, 0) + plan.batchErrors.length
   const inspectedImages = reportRecords.flatMap((record) => record.images)
@@ -361,6 +366,7 @@ export async function runManufacturerCommand(options: ManufacturerCommandOptions
       warnings: warningCount,
       errors: errorCount,
       alreadyExists: plan.alreadyExists,
+      excluded: reportRecords.filter((record) => Boolean(record.reviewExclusion)).length,
       expectedInserts: plan.applyAllowed ? plan.eligible : 0,
       expectedUpdates: 0,
       expectedDeletes: 0,

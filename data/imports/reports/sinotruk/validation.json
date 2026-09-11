@@ -1,7 +1,7 @@
 {
   "manufacturer": "sinotruk",
   "displayName": "SINOTRUK",
-  "generatedAt": "2026-09-08T08:53:23.477Z",
+  "generatedAt": "2026-09-11T05:02:13.626Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,17 +22,18 @@
   "summary": {
     "recordsLoaded": 50,
     "recordsNormalized": 50,
-    "eligible": 32,
-    "warnings": 77,
-    "errors": 18,
+    "eligible": 50,
+    "warnings": 74,
+    "errors": 0,
     "alreadyExists": 0,
-    "expectedInserts": 0,
+    "excluded": 0,
+    "expectedInserts": 50,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
-    "applyAllowed": false,
-    "blocked": 18,
+    "applyAllowed": true,
+    "blocked": 0,
     "batchErrors": []
   },
   "brandResolution": {
@@ -164,7 +165,8 @@
       "Medical Vehicle",
       "Emergency Vehicle",
       "Municipal Vehicle",
-      "Special Purpose Vehicle"
+      "Special Purpose Vehicle",
+      "Configurable Truck Platform"
     ],
     "dutyClasses": [
       "Mini",
@@ -173,7 +175,8 @@
       "Heavy Duty",
       "Passenger",
       "Trailer",
-      "Special Purpose"
+      "Special Purpose",
+      "Multiple / Configurable"
     ],
     "propulsions": [
       "Diesel",
@@ -276,13 +279,13 @@
     "sourceImagesAvailable": 50,
     "sourceImagesUnresolved": 0,
     "sharedSourceImageUrls": 5,
-    "localAssetsReady": 0,
-    "localMigrationRequired": 50,
+    "localAssetsReady": 50,
+    "localMigrationRequired": 0,
     "missingImageRecords": 0
   },
   "frontendCompatibility": {
     "recordsTested": 50,
-    "recordsPassed": 0,
+    "recordsPassed": 50,
     "surfaces": {
       "catalogList": "legacy Truck projection",
       "detailRoute": "slug and legacy Truck projection",
@@ -291,11 +294,11 @@
       "sorting": "name, model, and displayOrder fields",
       "requestQuote": "selectedTruck.truckId ObjectId snapshot"
     },
-    "allPassed": false
+    "allPassed": true
   },
   "promotion": {
     "writesPerformed": 0,
-    "expectedInserts": 0,
+    "expectedInserts": 50,
     "expectedUpdates": 0,
     "expectedDeletes": 0,
     "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
@@ -309,16 +312,16 @@
   "dataSafety": {
     "countsBefore": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -389,6 +392,7 @@
       "slug": "sinotruk-howo-tx-6x4-dump",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Dump Truck",
@@ -454,15 +458,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/howo-TX7.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -472,6 +476,7 @@
       "slug": "sinotruk-howo-tx-8x4-dump",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Dump Truck",
@@ -537,15 +542,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/howo-TX7-2.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 8,
         "quoteSnapshotCompatible": true
       }
@@ -555,6 +560,7 @@
       "slug": "sinotruk-howo-n-6x4-dump",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Dump Truck",
@@ -620,15 +626,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/HOWO-N-6X4-dump-truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-6x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -638,6 +644,7 @@
       "slug": "sinotruk-howo-n-8x4-dump",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Dump Truck",
@@ -703,15 +710,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Dump-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-8x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -721,6 +728,7 @@
       "slug": "sinotruk-howo-6x4-dump",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Dump Truck",
@@ -786,15 +794,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Sinotruk-Howo-7-6X4-b.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-6x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -804,6 +812,7 @@
       "slug": "sinotruk-howo-8x4-dump",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Dump Truck",
@@ -869,15 +878,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/HOWO-7-8X4-0.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-8x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -887,6 +896,7 @@
       "slug": "sinotruk-howo-t7-6x4-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Tractor Truck",
@@ -950,15 +960,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-T7-6X24Tractor-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-t7-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -968,6 +978,7 @@
       "slug": "sinotruk-howo-tx-6x4-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Tractor Truck",
@@ -1031,15 +1042,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-6X4-Tractor-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -1049,6 +1060,7 @@
       "slug": "sinotruk-howo-n-4x2-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Tractor Truck",
@@ -1131,15 +1143,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-4x2-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1149,6 +1161,7 @@
       "slug": "sinotruk-howo-n-6x4-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Tractor Truck",
@@ -1221,15 +1234,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1239,6 +1252,7 @@
       "slug": "sinotruk-howo-6x4-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Tractor Truck",
@@ -1302,15 +1316,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Tractor-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1320,6 +1334,7 @@
       "slug": "sinotruk-howo-4x2-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Tractor Truck",
@@ -1383,15 +1398,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-4X2-Tractor-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-4x2-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-4x2-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-4x2-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1401,6 +1416,7 @@
       "slug": "sinotruk-howo-6x4-cargo",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Cargo Truck",
@@ -1465,15 +1481,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Cargo-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-6x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1483,6 +1499,7 @@
       "slug": "sinotruk-howo-tx-4x2-cargo",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Cargo Truck",
@@ -1557,15 +1574,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-4X2-Cargo-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-4x2-cargo-truck-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1575,6 +1592,7 @@
       "slug": "sinotruk-howo-tx-8x4-cargo",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Cargo Truck",
@@ -1639,15 +1657,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-8X4-Cargo-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1657,6 +1675,7 @@
       "slug": "sinotruk-howo-n-6x4-cargo",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Cargo Truck",
@@ -1721,15 +1740,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Cargo-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-6x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -1739,6 +1758,7 @@
       "slug": "sinotruk-howo-n-8x4-cargo",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
         "category": "Cargo Truck",
@@ -1803,15 +1823,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Cargo-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-8x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -1821,6 +1841,7 @@
       "slug": "sinotruk-howo-cargo-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Cargo Truck",
@@ -1883,15 +1904,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-0.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 6,
         "quoteSnapshotCompatible": true
       }
@@ -1901,6 +1922,7 @@
       "slug": "sinotruk-howo-light-cargo-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Cargo Truck",
@@ -1963,15 +1985,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Howo-Light-Cargo-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-light-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1981,6 +2003,7 @@
       "slug": "sinotruk-howo-box-van-cargo-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Box Van",
@@ -2043,15 +2066,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-4.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-box-van-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -2061,6 +2084,7 @@
       "slug": "sinotruk-howo-light-stake-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Stake Truck",
@@ -2121,15 +2145,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/4-Howo-Light-Stake-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-light-stake-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-stake-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-stake-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -2139,6 +2163,7 @@
       "slug": "sinotruk-howo-refrigerator-cargo-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Refrigerated Truck",
@@ -2203,15 +2228,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-Refrigerator-66.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-refrigerator-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -2221,6 +2246,7 @@
       "slug": "sinotruk-howo-wing-van-cargo-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Wing Van",
@@ -2284,15 +2310,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/2-Wing-Van-Truck-4.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-wing-van-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -2302,6 +2328,7 @@
       "slug": "sinotruk-howo-mini-tipper-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Tipper Truck",
@@ -2376,15 +2403,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mini-tipper-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2394,6 +2421,7 @@
       "slug": "sinotruk-howo-light-duty-tipper-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
         "category": "Tipper Truck",
@@ -2468,15 +2496,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-light-duty-tipper-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2484,8 +2512,9 @@
     {
       "model": "HOWO Water Tanker",
       "slug": "sinotruk-howo-water-tanker",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Water Tanker",
@@ -2512,15 +2541,7 @@
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-water-tanker requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-water-tanker requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -2557,24 +2578,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Oil Tanker",
       "slug": "sinotruk-howo-oil-tanker",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Oil Tanker",
@@ -2608,15 +2630,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-oil-tanker requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-oil-tanker requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -2653,24 +2667,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO 8×4 Oil Tanker",
       "slug": "sinotruk-howo-8x4-oil-tanker",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Oil Tanker",
@@ -2706,15 +2721,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-8x4-oil-tanker requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-8x4-oil-tanker requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -2751,24 +2758,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO 6×4 Oil Tanker",
       "slug": "sinotruk-howo-6x4-oil-tanker",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Oil Tanker",
@@ -2804,15 +2812,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-6x4-oil-tanker requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-6x4-oil-tanker requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -2849,24 +2849,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO N 6×4 Mixer Truck",
       "slug": "sinotruk-howo-n-6x4-mixer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Mixer Truck",
@@ -2902,15 +2903,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-n-6x4-mixer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-n-6x4-mixer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -2947,24 +2940,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO N 8×4 Mixer Truck",
       "slug": "sinotruk-howo-n-8x4-mixer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Mixer Truck",
@@ -3000,15 +2994,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-n-8x4-mixer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-n-8x4-mixer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3045,24 +3031,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO TX 8×4 Mixer Truck",
       "slug": "sinotruk-howo-tx-8x4-mixer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Mixer Truck",
@@ -3098,15 +3085,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-tx-8x4-mixer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-tx-8x4-mixer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3143,24 +3122,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO T7H 6×4 Mixer Truck",
       "slug": "sinotruk-howo-t7h-6x4-mixer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Mixer Truck",
@@ -3196,15 +3176,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-t7h-6x4-mixer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-t7h-6x4-mixer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3241,24 +3213,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO T7H 8×4 Mixer Truck",
       "slug": "sinotruk-howo-t7h-8x4-mixer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Mixer Truck",
@@ -3294,15 +3267,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-t7h-8x4-mixer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-t7h-8x4-mixer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3339,24 +3304,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO 7 6×4 Mixer Truck",
       "slug": "sinotruk-howo-7-6x4-mixer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Mixer Truck",
@@ -3392,15 +3358,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-7-6x4-mixer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-7-6x4-mixer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3437,24 +3395,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Synchronous Chip Seal / Bitumen Tank",
       "slug": "sinotruk-howo-synchronous-chip-seal",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Bitumen / Road Maintenance",
@@ -3488,15 +3447,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-synchronous-chip-seal requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-synchronous-chip-seal requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3532,24 +3483,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Bitumen Sprayer Tank",
       "slug": "sinotruk-howo-bitumen-sprayer",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Bitumen / Road Maintenance",
@@ -3583,15 +3535,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-bitumen-sprayer requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-bitumen-sprayer requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3627,24 +3571,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Garbage Truck",
       "slug": "sinotruk-howo-garbage-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Garbage / Refuse Truck",
@@ -3669,15 +3614,7 @@
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-garbage-truck requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-garbage-truck requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3714,24 +3651,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Mounted Crane Truck",
       "slug": "sinotruk-howo-mounted-crane",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Truck-Mounted Crane",
@@ -3766,15 +3704,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-mounted-crane requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-mounted-crane requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3810,24 +3740,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Small Truck Crane",
       "slug": "sinotruk-howo-small-truck-crane",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
         "category": "Truck Crane",
@@ -3862,15 +3793,7 @@
           "normalizedValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg"
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-small-truck-crane requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-small-truck-crane requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -3906,17 +3829,17 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3924,6 +3847,7 @@
       "slug": "sinotruk-dump-semi-trailer",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
         "category": "Dump Semi Trailer",
@@ -3985,15 +3909,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Dump-Semi-Trailer-Truck-3.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-dump-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/dump-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/dump-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 2,
         "quoteSnapshotCompatible": true
       }
@@ -4003,6 +3927,7 @@
       "slug": "sinotruk-fuel-tanker-semi-trailer",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
         "category": "Fuel Tanker Trailer",
@@ -4063,15 +3988,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/6-Fuel-Tanker-Trailer-6.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-fuel-tanker-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -4081,6 +4006,7 @@
       "slug": "sinotruk-fence-semi-trailer",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
         "category": "Fence Semi Trailer",
@@ -4140,15 +4066,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/5-Fence-Semi-Trailer-6-1.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-fence-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/fence-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/fence-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 2,
         "quoteSnapshotCompatible": true
       }
@@ -4158,6 +4084,7 @@
       "slug": "sinotruk-sidewall-semi-trailer",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
         "category": "Sidewall Semi Trailer",
@@ -4216,15 +4143,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/4-Sidewall-Semi-Trailer-6.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-sidewall-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/sidewall-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/sidewall-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 2,
         "quoteSnapshotCompatible": true
       }
@@ -4234,6 +4161,7 @@
       "slug": "sinotruk-flatbed-semi-trailer",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
         "category": "Flatbed Semi Trailer",
@@ -4295,15 +4223,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/2-Flatbed-Semi-Trailer-4.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-flatbed-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/flatbed-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/flatbed-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 2,
         "quoteSnapshotCompatible": true
       }
@@ -4313,6 +4241,7 @@
       "slug": "sinotruk-low-bed-semi-trailer",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
         "category": "Low Bed Semi Trailer",
@@ -4385,15 +4314,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Low-Bed-Semi-Trailer-3.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-low-bed-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/low-bed-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/low-bed-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 2,
         "quoteSnapshotCompatible": true
       }
@@ -4403,6 +4332,7 @@
       "slug": "sinotruk-howo-pure-electric-light-truck",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
         "category": "Electric Light Truck",
@@ -4480,15 +4410,15 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-light-truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-light-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 8,
         "quoteSnapshotCompatible": true
       }
@@ -4496,8 +4426,9 @@
     {
       "model": "HOWO Pure Electric Dump Truck",
       "slug": "sinotruk-howo-pure-electric-dump-truck",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
         "category": "Electric Dump Truck",
@@ -4527,15 +4458,6 @@
         },
         {
           "severity": "warning",
-          "field": "dutyClass",
-          "message": "The source class describes new-energy/terminal use rather than vehicle weight; duty class remains unset.",
-          "reason": "The source class describes new-energy/terminal use rather than vehicle weight; duty class remains unset.",
-          "code": "SOURCE_DUTY_CLASS_UNRESOLVED",
-          "sourceValue": "New Energy",
-          "normalizedValue": null
-        },
-        {
-          "severity": "warning",
           "field": "source.dataWarnings",
           "message": "Prepared source QA warning retained through normalization.",
           "reason": "Prepared source QA warning retained through normalization.",
@@ -4544,15 +4466,7 @@
           "normalizedValue": "The page header contains copied ICE-style transmission/engine/power fields that conflict with the detailed electric table. Only the detailed electric specification table is used."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-pure-electric-dump-truck requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-pure-electric-dump-truck requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -4568,6 +4482,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Dump Truck",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Battery Electric",
         "applicationTags": [
           "Construction",
@@ -4591,24 +4506,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-Dump-Truck-2.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "HOWO Pure Electric Tractor Truck",
       "slug": "sinotruk-howo-pure-electric-tractor",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
         "category": "Electric Tractor Truck",
@@ -4634,15 +4550,6 @@
         },
         {
           "severity": "warning",
-          "field": "dutyClass",
-          "message": "The source class describes new-energy/terminal use rather than vehicle weight; duty class remains unset.",
-          "reason": "The source class describes new-energy/terminal use rather than vehicle weight; duty class remains unset.",
-          "code": "SOURCE_DUTY_CLASS_UNRESOLVED",
-          "sourceValue": "New Energy",
-          "normalizedValue": null
-        },
-        {
-          "severity": "warning",
           "field": "source.dataWarnings",
           "message": "Prepared source QA warning retained through normalization.",
           "reason": "Prepared source QA warning retained through normalization.",
@@ -4651,15 +4558,7 @@
           "normalizedValue": "Do not publish detailed specifications from the current official page without manufacturer confirmation. Its detailed table repeats light-truck model codes, 4.15 m cargo-box dimensions, 4.5 t loaded mass and the same battery table as the electric light truck, which is inconsistent with the tractor product image/title."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-howo-pure-electric-tractor requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-howo-pure-electric-tractor requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -4675,6 +4574,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Tractor Head",
+        "dutyClass": "Heavy Duty",
         "propulsion": "Battery Electric",
         "applicationTags": [
           "Urban Logistics",
@@ -4696,24 +4596,25 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/2-Howo-Pure-electric-Tractor-truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "Pure Electric Single Side Dock Tractor Truck",
       "slug": "sinotruk-pure-electric-single-side-dock-tractor",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
         "category": "Electric Terminal / Dock Tractor",
@@ -4740,15 +4641,6 @@
         },
         {
           "severity": "warning",
-          "field": "dutyClass",
-          "message": "The source class describes new-energy/terminal use rather than vehicle weight; duty class remains unset.",
-          "reason": "The source class describes new-energy/terminal use rather than vehicle weight; duty class remains unset.",
-          "code": "SOURCE_DUTY_CLASS_UNRESOLVED",
-          "sourceValue": "New Energy / Terminal",
-          "normalizedValue": null
-        },
-        {
-          "severity": "warning",
           "field": "source.dataWarnings",
           "message": "Prepared source QA warning retained through normalization.",
           "reason": "Prepared source QA warning retained through normalization.",
@@ -4757,15 +4649,7 @@
           "normalizedValue": "The official page's detailed table appears copied from the electric light-truck page and does not match the dock-tractor image/title. Detailed chassis, motor and battery specifications are therefore intentionally omitted pending manufacturer verification."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle sinotruk-pure-electric-single-side-dock-tractor requires an explicit legacy category projection.",
-          "reason": "Vehicle sinotruk-pure-electric-single-side-dock-tractor requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "sinotruck",
         "name": "Sinotruck",
@@ -4781,6 +4665,7 @@
       "taxonomy": {
         "vehicleFamily": "Truck",
         "bodyType": "Tractor Head",
+        "dutyClass": "Special Purpose",
         "propulsion": "Battery Electric",
         "applicationTags": [
           "Urban Logistics",
@@ -4803,17 +4688,17 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Single-Side-Dock-Series.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-single-side-dock-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 1,
+        "quoteSnapshotCompatible": true
       }
     }
   ]

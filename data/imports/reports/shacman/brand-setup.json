@@ -1,0 +1,47 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T04:57:03.653Z",
+  "mode": "dry-run",
+  "action": "reused",
+  "objectId": "6a97ba5526fa08a50cf0f52b",
+  "proposed": {
+    "name": "SHACMAN",
+    "slug": "shacman",
+    "aliases": [
+      "shacman",
+      "SHACMAN"
+    ],
+    "officialWebsite": "https://www.shacman.com/",
+    "description": "Heavy commercial vehicle brand offering road, construction, new-energy, port-operation and specialized truck platforms.",
+    "logoMetadata": {
+      "url": "https://www.shacman.com/upload/images/2024/08/12/8663024ef62a4ef9acfd264f1a924297.png",
+      "alt": "SHACMAN logo",
+      "suggestedLocalPath": "/images/brands/shacman.png",
+      "status": "verified-official-url"
+    },
+    "source": {
+      "website": "https://www.shacman.com/",
+      "verifiedAt": "2026-09-02T00:00:00.000Z"
+    },
+    "active": true,
+    "displayOrder": 4
+  },
+  "countsBefore": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "countsAfter": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "protectedCollectionsUnchanged": true,
+  "idempotent": true
+}

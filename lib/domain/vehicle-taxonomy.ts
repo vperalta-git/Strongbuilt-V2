@@ -34,6 +34,7 @@ export const vehicleBodyTypes = [
   "Emergency Vehicle",
   "Municipal Vehicle",
   "Special Purpose Vehicle",
+  "Configurable Truck Platform",
 ] as const
 
 export const vehicleDutyClasses = [
@@ -44,6 +45,7 @@ export const vehicleDutyClasses = [
   "Passenger",
   "Trailer",
   "Special Purpose",
+  "Multiple / Configurable",
 ] as const
 
 export const vehiclePropulsions = [

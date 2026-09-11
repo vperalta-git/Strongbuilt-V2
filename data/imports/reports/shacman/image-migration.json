@@ -1,0 +1,152 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T04:48:32.242Z",
+  "summary": {
+    "sourceRecords": 9,
+    "imagesReady": 14,
+    "lowResolution": 0,
+    "fallbackRequired": 0
+  },
+  "records": [
+    {
+      "model": "X6000",
+      "slug": "shacman-x6000",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/08/20/l/996ad657259f45ca9c5f604a23150520.png",
+      "localPath": "/images/trucks/shacman/x6000.webp",
+      "status": "READY",
+      "width": 442,
+      "height": 564,
+      "bytes": 32866
+    },
+    {
+      "model": "X5000",
+      "slug": "shacman-x5000",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/10/31/l/706db4e42ccd406d8fe6141a6078339b.png",
+      "localPath": "/images/trucks/shacman/x5000.webp",
+      "status": "READY",
+      "width": 452,
+      "height": 576,
+      "bytes": 40646
+    },
+    {
+      "model": "X3000",
+      "slug": "shacman-x3000",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/08/19/l/a0425a64606f4e29bd476e2f55bc347e.png",
+      "localPath": "/images/trucks/shacman/x3000.webp",
+      "status": "READY",
+      "width": 452,
+      "height": 576,
+      "bytes": 37700
+    },
+    {
+      "model": "H3000",
+      "slug": "shacman-h3000",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/08/22/l/95c8a697cf074b16b16dae04dc1c5a36.png",
+      "localPath": "/images/trucks/shacman/h3000.webp",
+      "status": "READY",
+      "width": 500,
+      "height": 637,
+      "bytes": 36468
+    },
+    {
+      "model": "F3000",
+      "slug": "shacman-f3000",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/11/01/l/16bc3ec59f7949b582fcfcd5979208f7.png",
+      "localPath": "/images/trucks/shacman/f3000.webp",
+      "status": "READY",
+      "width": 442,
+      "height": 564,
+      "bytes": 38972
+    },
+    {
+      "model": "L3000",
+      "slug": "shacman-l3000",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/10/14/l/2bddfd07ccd64470afc6fc2ccd666593.png",
+      "localPath": "/images/trucks/shacman/l3000.webp",
+      "status": "READY",
+      "width": 442,
+      "height": 564,
+      "bytes": 23026
+    },
+    {
+      "model": "L6000e",
+      "slug": "shacman-l6000e",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/10/15/l/6c700ef50f484875ade0f21e7dc9c9ef.png",
+      "localPath": "/images/trucks/shacman/l6000e.webp",
+      "status": "READY",
+      "width": 442,
+      "height": 564,
+      "bytes": 20960
+    },
+    {
+      "model": "T5000 Port Tractor",
+      "slug": "shacman-t5000-port-tractor",
+      "sourceUrl": "https://www.shacman.com/upload/images/2024/10/12/l/00d98079e02a4c2b9f8782f11bcc1e31.png",
+      "localPath": "/images/trucks/shacman/t5000-port-tractor.webp",
+      "status": "READY",
+      "width": 442,
+      "height": 564,
+      "bytes": 34104
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/5626168561b6477595e610749072b98c.jpg",
+      "localPath": "/images/trucks/shacman/specialized-concrete.webp",
+      "status": "READY",
+      "width": 1450,
+      "height": 500,
+      "bytes": 209238
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/379ad6f22ac346d38351dfde5f9fdfbe.jpg",
+      "localPath": "/images/trucks/shacman/specialized-sanitation.webp",
+      "status": "READY",
+      "width": 1450,
+      "height": 500,
+      "bytes": 190480
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a47a6c02c5bf4ec391ff82dbb3714679.jpg",
+      "localPath": "/images/trucks/shacman/specialized-crane.webp",
+      "status": "READY",
+      "width": 1450,
+      "height": 500,
+      "bytes": 123318
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/86c732410d594d9bbe6e007c6a8fcc35.jpg",
+      "localPath": "/images/trucks/shacman/specialized-hazardous.webp",
+      "status": "READY",
+      "width": 1450,
+      "height": 500,
+      "bytes": 145322
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/fee98b7229844a778800eaada19dd123.jpg",
+      "localPath": "/images/trucks/shacman/specialized-roadside-assistance.webp",
+      "status": "READY",
+      "width": 1450,
+      "height": 500,
+      "bytes": 132076
+    },
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a17dfbe8d9984d599c8911d7a1801be5.jpg",
+      "localPath": "/images/trucks/shacman/specialized-special-purpose.webp",
+      "status": "READY",
+      "width": 1450,
+      "height": 500,
+      "bytes": 110938
+    }
+  ]
+}

@@ -99,7 +99,7 @@ export const mongoVehicleDocumentSchema = z.object({
   description: z.string().optional(),
   featured: z.boolean(),
   active: z.boolean(),
-  images: z.array(vehicleImageSchema).min(1),
+  images: z.array(vehicleImageSchema),
   keySpecs: vehicleKeySpecsSchema.optional(),
   specifications: z.record(z.string(), z.union([z.string(), z.number(), z.null()])).optional(),
   specificationGroups: z.array(vehicleSpecificationGroupSchema).optional(),
@@ -151,7 +151,7 @@ export const canonicalVehicleSchema = z.object({
   applicationTags: z.array(z.enum(vehicleApplicationTags)),
   shortDescription: z.string().optional(),
   description: z.string().optional(),
-  images: z.array(vehicleImageSchema).min(1),
+  images: z.array(vehicleImageSchema),
   keySpecs: vehicleKeySpecsSchema.optional(),
   specificationGroups: z.array(vehicleSpecificationGroupSchema),
   applications: z.array(nonEmptyString),
@@ -181,11 +181,11 @@ export const canonicalVehicleSchema = z.object({
   createdAt: nonEmptyString,
   updatedAt: nonEmptyString,
   legacy: z.object({
-    category: z.enum(["Light Duty", "Medium Duty", "Heavy Duty", "Passenger", "Trailer"]),
+    category: z.enum(["Light Duty", "Medium Duty", "Heavy Duty", "Passenger", "Trailer", "Special Purpose", "Multiple / Configurable"]),
     bodyType: z.enum(["Cargo", "Dump Truck", "Tractor Head", "Bus", "Trailer", "Specialized / Custom"]),
   }).optional(),
 }).superRefine((vehicle, context) => {
-  if (vehicle.images.filter((image) => image.isPrimary).length !== 1) {
+  if (vehicle.images.length > 0 && vehicle.images.filter((image) => image.isPrimary).length !== 1) {
     context.addIssue({ code: "custom", path: ["images"], message: "Exactly one primary image is required." })
   }
 })

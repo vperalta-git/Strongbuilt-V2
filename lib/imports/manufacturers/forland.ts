@@ -6,6 +6,7 @@ import {
 
 function dutyClass(record: PreparedTruckSource) {
   if (["Light Duty", "Heavy Duty", "Special Purpose"].includes(record.class || "")) return record.class || undefined
+  if (record.class?.includes(" / ")) return "Multiple / Configurable"
   return undefined
 }
 
@@ -27,17 +28,17 @@ export const forlandAdapter = createPreparedManufacturerAdapter({
       bodyType: record.category,
       legacyTypeSlug: record.truckTypeSlug,
     }
-    const ambiguousDuty = Boolean(record.class?.includes(" / "))
+    const configurableDuty = Boolean(record.class?.includes(" / "))
     return {
       ...mapping,
       dutyClass: dutyClass(record),
-      issues: ambiguousDuty ? [preparedIssue(
-        "error",
+      issues: configurableDuty ? [preparedIssue(
+        "warning",
         "dutyClass",
-        "The source spans more than one canonical duty class; select an approved configuration/class before promotion.",
-        "AMBIGUOUS_DUTY_CLASS",
+        "The official source spans more than one duty class; the configurable range is preserved without inventing a single class.",
+        "CONFIGURABLE_DUTY_CLASS_PRESERVED",
         record.class,
-        null,
+        "Multiple / Configurable",
       )] : [],
     }
   },

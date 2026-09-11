@@ -42,5 +42,6 @@ export type ManufacturerConfiguration = {
   allowedVehicleFamilies: string[]
   importVersion: number
   reviewedBatches?: Record<string, readonly string[]>
+  reviewExclusions?: Record<string, { classification: "EXCLUDED_DUPLICATE" | "SOURCE_AMBIGUOUS"; reason: string }>
   adapter: ManufacturerAdapter
 }

@@ -1,7 +1,7 @@
 {
   "manufacturer": "shacman",
   "displayName": "SHACMAN",
-  "generatedAt": "2026-09-08T08:53:24.541Z",
+  "generatedAt": "2026-09-11T05:02:09.937Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,17 +22,18 @@
   "summary": {
     "recordsLoaded": 9,
     "recordsNormalized": 9,
-    "eligible": 1,
-    "warnings": 10,
-    "errors": 23,
+    "eligible": 7,
+    "warnings": 17,
+    "errors": 2,
     "alreadyExists": 0,
+    "excluded": 2,
     "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
     "applyAllowed": false,
-    "blocked": 8,
+    "blocked": 2,
     "batchErrors": []
   },
   "brandResolution": {
@@ -44,18 +45,14 @@
   },
   "typeCompatibility": {
     "requestedSourceTypes": [
-      "heavy-duty-truck",
-      "rigid-truck",
-      "electric-truck",
-      "tractor-head",
-      "special-purpose"
+      "special-purpose",
+      "tractor-head"
     ],
     "resolvedSourceTypes": [
-      "rigid-truck",
-      "tractor-head",
-      "special-purpose"
+      "special-purpose",
+      "tractor-head"
     ],
-    "allResolved": false,
+    "allResolved": true,
     "availableLegacyTypes": [
       {
         "slug": "cargo",
@@ -130,7 +127,8 @@
       "Medical Vehicle",
       "Emergency Vehicle",
       "Municipal Vehicle",
-      "Special Purpose Vehicle"
+      "Special Purpose Vehicle",
+      "Configurable Truck Platform"
     ],
     "dutyClasses": [
       "Mini",
@@ -139,7 +137,8 @@
       "Heavy Duty",
       "Passenger",
       "Trailer",
-      "Special Purpose"
+      "Special Purpose",
+      "Multiple / Configurable"
     ],
     "propulsions": [
       "Diesel",
@@ -176,13 +175,13 @@
     "sourceImagesAvailable": 14,
     "sourceImagesUnresolved": 0,
     "sharedSourceImageUrls": 0,
-    "localAssetsReady": 0,
-    "localMigrationRequired": 14,
+    "localAssetsReady": 14,
+    "localMigrationRequired": 0,
     "missingImageRecords": 0
   },
   "frontendCompatibility": {
     "recordsTested": 9,
-    "recordsPassed": 0,
+    "recordsPassed": 9,
     "surfaces": {
       "catalogList": "legacy Truck projection",
       "detailRoute": "slug and legacy Truck projection",
@@ -191,7 +190,7 @@
       "sorting": "name, model, and displayOrder fields",
       "requestQuote": "selectedTruck.truckId ObjectId snapshot"
     },
-    "allPassed": false
+    "allPassed": true
   },
   "promotion": {
     "writesPerformed": 0,
@@ -209,16 +208,16 @@
   "dataSafety": {
     "countsBefore": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -287,8 +286,9 @@
     {
       "model": "X6000",
       "slug": "shacman-x6000",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "6000 Series",
         "category": "Heavy Truck Platform",
@@ -321,15 +321,13 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "bodyType",
-          "message": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "reason": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "code": "AMBIGUOUS_BODY_TYPE",
+          "message": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "reason": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": [
             "Tractor",
             "Dump",
@@ -339,25 +337,10 @@
             "6x4",
             "8x4"
           ],
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "bodyType",
-          "message": "Unsupported body type: Heavy Truck Platform.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported body type: Heavy Truck Platform."
-        },
-        {
-          "severity": "error",
-          "field": "typeSlug",
-          "message": "The legacy compatibility truck type could not be resolved.",
-          "reason": "The legacy compatibility truck type could not be resolved.",
-          "code": "UNRESOLVED_TYPE",
-          "sourceValue": "per-record",
-          "normalizedValue": null
+          "normalizedValue": "Configurable Truck Platform"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "shacman",
         "name": "SHACMAN",
@@ -365,11 +348,14 @@
         "matchedBy": "slug"
       },
       "typeResolution": {
-        "resolved": false
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Heavy Truck Platform",
+        "bodyType": "Configurable Truck Platform",
         "dutyClass": "Heavy Duty",
         "propulsion": "Unknown",
         "applicationTags": [
@@ -393,24 +379,25 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/08/20/l/996ad657259f45ca9c5f604a23150520.png",
           "sourcePage": "https://www.shacman.com/product/6000-series/x6000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/x6000.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/x6000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "X5000",
       "slug": "shacman-x5000",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "5000 Series",
         "category": "Heavy Truck Platform",
@@ -442,15 +429,13 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "bodyType",
-          "message": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "reason": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "code": "AMBIGUOUS_BODY_TYPE",
+          "message": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "reason": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": [
             "Tractor",
             "Dump",
@@ -459,25 +444,10 @@
             "6x4",
             "8x4"
           ],
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "bodyType",
-          "message": "Unsupported body type: Heavy Truck Platform.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported body type: Heavy Truck Platform."
-        },
-        {
-          "severity": "error",
-          "field": "typeSlug",
-          "message": "The legacy compatibility truck type could not be resolved.",
-          "reason": "The legacy compatibility truck type could not be resolved.",
-          "code": "UNRESOLVED_TYPE",
-          "sourceValue": "per-record",
-          "normalizedValue": null
+          "normalizedValue": "Configurable Truck Platform"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "shacman",
         "name": "SHACMAN",
@@ -485,11 +455,14 @@
         "matchedBy": "slug"
       },
       "typeResolution": {
-        "resolved": false
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Heavy Truck Platform",
+        "bodyType": "Configurable Truck Platform",
         "dutyClass": "Heavy Duty",
         "propulsion": "Unknown",
         "applicationTags": [
@@ -513,24 +486,28 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/10/31/l/706db4e42ccd406d8fe6141a6078339b.png",
           "sourcePage": "https://www.shacman.com/product/5000-series/x5000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/x5000.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/x5000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "X3000",
       "slug": "shacman-x3000",
-      "status": "ERROR",
+      "status": "EXCLUDED_DUPLICATE",
       "promotionEligible": false,
+      "reviewExclusion": {
+        "classification": "EXCLUDED_DUPLICATE",
+        "reason": "Protected production already contains two X3000 configurations; adding the broad platform-family record would duplicate that represented family."
+      },
       "sourceInventory": {
         "productLine": "3000 Series",
         "category": "Heavy Truck Platform",
@@ -561,15 +538,13 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "bodyType",
-          "message": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "reason": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "code": "AMBIGUOUS_BODY_TYPE",
+          "message": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "reason": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": [
             "Tractor",
             "Dump",
@@ -578,15 +553,10 @@
             "6x4",
             "8x4"
           ],
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "bodyType",
-          "message": "Unsupported body type: Heavy Truck Platform.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported body type: Heavy Truck Platform."
-        },
+          "normalizedValue": "Configurable Truck Platform"
+        }
+      ],
+      "errors": [
         {
           "severity": "error",
           "field": "model",
@@ -595,15 +565,6 @@
           "code": "PRODUCTION_LIKELY_EQUIVALENT_MODEL",
           "sourceValue": "X3000",
           "normalizedValue": "X3000 SX42554V324 6×4 420HP"
-        },
-        {
-          "severity": "error",
-          "field": "typeSlug",
-          "message": "The legacy compatibility truck type could not be resolved.",
-          "reason": "The legacy compatibility truck type could not be resolved.",
-          "code": "UNRESOLVED_TYPE",
-          "sourceValue": "per-record",
-          "normalizedValue": null
         }
       ],
       "brandResolution": {
@@ -613,11 +574,14 @@
         "matchedBy": "slug"
       },
       "typeResolution": {
-        "resolved": false
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Heavy Truck Platform",
+        "bodyType": "Configurable Truck Platform",
         "dutyClass": "Heavy Duty",
         "propulsion": "Unknown",
         "applicationTags": [
@@ -641,24 +605,28 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/08/19/l/a0425a64606f4e29bd476e2f55bc347e.png",
           "sourcePage": "https://www.shacman.com/product/3000-series/x3000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/x3000.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/x3000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "H3000",
       "slug": "shacman-h3000",
-      "status": "ERROR",
+      "status": "EXCLUDED_DUPLICATE",
       "promotionEligible": false,
+      "reviewExclusion": {
+        "classification": "EXCLUDED_DUPLICATE",
+        "reason": "Protected production already contains two H3000 configurations; adding the broad platform-family record would duplicate that represented family."
+      },
       "sourceInventory": {
         "productLine": "3000 Series",
         "category": "Heavy Truck Platform",
@@ -692,15 +660,13 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "bodyType",
-          "message": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "reason": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "code": "AMBIGUOUS_BODY_TYPE",
+          "message": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "reason": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": [
             "Tractor",
             "Dump",
@@ -712,15 +678,10 @@
             "H3000-H",
             "H3000-M"
           ],
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "bodyType",
-          "message": "Unsupported body type: Heavy Truck Platform.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported body type: Heavy Truck Platform."
-        },
+          "normalizedValue": "Configurable Truck Platform"
+        }
+      ],
+      "errors": [
         {
           "severity": "error",
           "field": "model",
@@ -729,15 +690,6 @@
           "code": "PRODUCTION_LIKELY_EQUIVALENT_MODEL",
           "sourceValue": "H3000",
           "normalizedValue": "H3000 SX3315GV406 8×4 420HP"
-        },
-        {
-          "severity": "error",
-          "field": "typeSlug",
-          "message": "The legacy compatibility truck type could not be resolved.",
-          "reason": "The legacy compatibility truck type could not be resolved.",
-          "code": "UNRESOLVED_TYPE",
-          "sourceValue": "per-record",
-          "normalizedValue": null
         }
       ],
       "brandResolution": {
@@ -747,11 +699,14 @@
         "matchedBy": "slug"
       },
       "typeResolution": {
-        "resolved": false
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Heavy Truck Platform",
+        "bodyType": "Configurable Truck Platform",
         "dutyClass": "Heavy Duty",
         "propulsion": "Unknown",
         "applicationTags": [
@@ -775,24 +730,25 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/08/22/l/95c8a697cf074b16b16dae04dc1c5a36.png",
           "sourcePage": "https://www.shacman.com/product/3000-series/h3000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/h3000.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/h3000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 13,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "F3000",
       "slug": "shacman-f3000",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "3000 Series",
         "category": "Heavy Truck Platform",
@@ -824,15 +780,13 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "bodyType",
-          "message": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "reason": "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "code": "AMBIGUOUS_BODY_TYPE",
+          "message": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "reason": "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": [
             "Tractor",
             "Dump",
@@ -841,25 +795,10 @@
             "6x4",
             "8x4"
           ],
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "bodyType",
-          "message": "Unsupported body type: Heavy Truck Platform.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported body type: Heavy Truck Platform."
-        },
-        {
-          "severity": "error",
-          "field": "typeSlug",
-          "message": "The legacy compatibility truck type could not be resolved.",
-          "reason": "The legacy compatibility truck type could not be resolved.",
-          "code": "UNRESOLVED_TYPE",
-          "sourceValue": "per-record",
-          "normalizedValue": null
+          "normalizedValue": "Configurable Truck Platform"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "shacman",
         "name": "SHACMAN",
@@ -867,11 +806,14 @@
         "matchedBy": "slug"
       },
       "typeResolution": {
-        "resolved": false
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Heavy Truck Platform",
+        "bodyType": "Configurable Truck Platform",
         "dutyClass": "Heavy Duty",
         "propulsion": "Unknown",
         "applicationTags": [
@@ -895,24 +837,25 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/11/01/l/16bc3ec59f7949b582fcfcd5979208f7.png",
           "sourcePage": "https://www.shacman.com/product/3000-series/F3000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/f3000.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/f3000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 13,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L3000",
       "slug": "shacman-l3000",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "3000 Series",
         "category": "Medium / Heavy Truck Platform",
@@ -944,26 +887,18 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "dutyClass",
-          "message": "The source combines medium- and heavy-duty variants; select a reviewed duty class before promotion.",
-          "reason": "The source combines medium- and heavy-duty variants; select a reviewed duty class before promotion.",
-          "code": "AMBIGUOUS_DUTY_CLASS",
-          "sourceValue": "Medium / Heavy Duty",
-          "normalizedValue": null
         },
         {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle shacman-l3000 requires an explicit legacy category projection.",
-          "reason": "Vehicle shacman-l3000 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
+          "severity": "warning",
+          "field": "dutyClass",
+          "message": "The official platform spans medium- and heavy-duty configurations; the mixed duty class is preserved explicitly.",
+          "reason": "The official platform spans medium- and heavy-duty configurations; the mixed duty class is preserved explicitly.",
+          "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
+          "sourceValue": "Medium / Heavy Duty",
+          "normalizedValue": "Multiple / Configurable"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "shacman",
         "name": "SHACMAN",
@@ -972,13 +907,14 @@
       },
       "typeResolution": {
         "resolved": true,
-        "id": "6a97ba5626fa08a50cf0f52f",
-        "name": "Cargo",
-        "slug": "cargo"
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Rigid Truck",
+        "bodyType": "Configurable Truck Platform",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Unknown",
         "applicationTags": [
           "Urban Logistics",
@@ -1000,24 +936,25 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/10/14/l/2bddfd07ccd64470afc6fc2ccd666593.png",
           "sourcePage": "https://www.shacman.com/product/3000-series/L3000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/l3000.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/l3000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 14,
+        "quoteSnapshotCompatible": true
       }
     },
     {
       "model": "L6000e",
       "slug": "shacman-l6000e",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-fuel",
         "category": "Electric Truck",
@@ -1042,35 +979,18 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
+          "severity": "warning",
           "field": "bodyType",
-          "message": "Electric describes propulsion, not body configuration; a reviewed body and legacy type are required.",
-          "reason": "Electric describes propulsion, not body configuration; a reviewed body and legacy type are required.",
-          "code": "AMBIGUOUS_BODY_TYPE",
+          "message": "The official source describes a battery-electric commercial platform without a single body configuration; the platform identity is preserved.",
+          "reason": "The official source describes a battery-electric commercial platform without a single body configuration; the platform identity is preserved.",
+          "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": "Electric Truck",
-          "normalizedValue": null
-        },
-        {
-          "severity": "error",
-          "field": "bodyType",
-          "message": "Unsupported body type: Electric Truck.",
-          "code": "UNSUPPORTED_TAXONOMY",
-          "reason": "Unsupported body type: Electric Truck."
-        },
-        {
-          "severity": "error",
-          "field": "typeSlug",
-          "message": "The legacy compatibility truck type could not be resolved.",
-          "reason": "The legacy compatibility truck type could not be resolved.",
-          "code": "UNRESOLVED_TYPE",
-          "sourceValue": "per-record",
-          "normalizedValue": null
+          "normalizedValue": "Configurable Truck Platform"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "shacman",
         "name": "SHACMAN",
@@ -1078,11 +998,15 @@
         "matchedBy": "slug"
       },
       "typeResolution": {
-        "resolved": false
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
       },
       "taxonomy": {
         "vehicleFamily": "Truck",
-        "bodyType": "Electric Truck",
+        "bodyType": "Configurable Truck Platform",
+        "dutyClass": "Multiple / Configurable",
         "propulsion": "Battery Electric",
         "applicationTags": [
           "Urban Logistics"
@@ -1102,17 +1026,17 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/10/15/l/6c700ef50f484875ade0f21e7dc9c9ef.png",
           "sourcePage": "https://www.shacman.com/product/e-fuel/l6000-e/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/l6000e.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/l6000e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1120,6 +1044,7 @@
       "slug": "shacman-t5000-port-tractor",
       "status": "WARNING",
       "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Port Operation",
         "category": "Port Tractor",
@@ -1187,15 +1112,15 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2024/10/12/l/00d98079e02a4c2b9f8782f11bcc1e31.png",
           "sourcePage": "https://www.shacman.com/product/port-operation/T5000/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/t5000-port-tractor.png",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/t5000-port-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 14,
         "quoteSnapshotCompatible": true
       }
@@ -1203,8 +1128,9 @@
     {
       "model": "Specialized Trucks",
       "slug": "shacman-specialized-trucks",
-      "status": "ERROR",
-      "promotionEligible": false,
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialized Trucks",
         "category": "Special Purpose",
@@ -1264,15 +1190,7 @@
           "normalizedValue": "This official SHACMAN page is a vocational family overview, not a single chassis/model specification page. The record is intentionally stored as one family with body/application configurations."
         }
       ],
-      "errors": [
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle shacman-specialized-trucks requires an explicit legacy category projection.",
-          "reason": "Vehicle shacman-specialized-trucks requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
-        }
-      ],
+      "errors": [],
       "brandResolution": {
         "slug": "shacman",
         "name": "SHACMAN",
@@ -1313,57 +1231,57 @@
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/5626168561b6477595e610749072b98c.jpg",
           "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/specialized-concrete.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-concrete.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         },
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/379ad6f22ac346d38351dfde5f9fdfbe.jpg",
           "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/specialized-sanitation.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-sanitation.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         },
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a47a6c02c5bf4ec391ff82dbb3714679.jpg",
           "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/specialized-crane.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         },
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/86c732410d594d9bbe6e007c6a8fcc35.jpg",
           "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/specialized-hazardous.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-hazardous.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         },
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/fee98b7229844a778800eaada19dd123.jpg",
           "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/specialized-roadside-assistance.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-roadside-assistance.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         },
         {
           "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a17dfbe8d9984d599c8911d7a1801be5.jpg",
           "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/shacman/specialized-special-purpose.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-special-purpose.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
+        "passed": true,
+        "imagesExposed": 6,
         "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "quoteSnapshotCompatible": true
       }
     }
   ]

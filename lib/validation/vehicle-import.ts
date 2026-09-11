@@ -60,7 +60,7 @@ export const rawVehicleImportSchema = z.object({
   applicationTags: z.array(nonEmptyString).default([]),
   shortDescription: nonEmptyString.optional(),
   description: nonEmptyString.optional(),
-  images: z.array(importImageSchema).min(1),
+  images: z.array(importImageSchema).default([]),
   keySpecs: vehicleKeySpecsSchema.optional(),
   specificationGroups: z.array(vehicleSpecificationGroupSchema).default([]),
   applications: z.array(nonEmptyString).default([]),
@@ -82,7 +82,7 @@ export const rawVehicleImportSchema = z.object({
   displayOrder: z.number().int().nonnegative().default(0),
 }).superRefine((record, context) => {
   const primaryImages = record.images.filter((image) => image.isPrimary)
-  if (primaryImages.length !== 1) {
+  if (record.images.length > 0 && primaryImages.length !== 1) {
     context.addIssue({
       code: "custom",
       path: ["images"],

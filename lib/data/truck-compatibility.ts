@@ -45,6 +45,8 @@ const legacyCategories = new Set<TruckCategory>([
   "Heavy Duty",
   "Passenger",
   "Trailer",
+  "Special Purpose",
+  "Multiple / Configurable",
 ])
 
 function inferLegacySpecificationGroup(title: string, label: string): TruckSpecification["group"] | undefined {
@@ -151,6 +153,7 @@ function resolveLegacyBodyType(vehicle: Vehicle): TruckBodyType {
     "Flatbed Trailer": "Trailer",
     "Low Bed Trailer": "Trailer",
     "Special Purpose Vehicle": "Specialized / Custom",
+    "Configurable Truck Platform": "Specialized / Custom",
     "Medical Vehicle": "Specialized / Custom",
     "Emergency Vehicle": "Specialized / Custom",
     "Municipal Vehicle": "Specialized / Custom",

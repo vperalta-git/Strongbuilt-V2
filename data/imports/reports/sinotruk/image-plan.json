@@ -1,13 +1,13 @@
 {
   "manufacturer": "sinotruk",
-  "generatedAt": "2026-09-08T08:54:15.117Z",
+  "generatedAt": "2026-09-11T05:02:13.626Z",
   "summary": {
     "imagesTested": 50,
     "sourceImagesAvailable": 50,
     "sourceImagesUnresolved": 0,
     "sharedSourceImageUrls": 5,
-    "localAssetsReady": 0,
-    "localMigrationRequired": 50,
+    "localAssetsReady": 50,
+    "localMigrationRequired": 0,
     "missingImageRecords": 0
   },
   "records": [
@@ -18,10 +18,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/howo-TX7.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -32,10 +32,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/howo-TX7-2.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -46,10 +46,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/HOWO-N-6X4-dump-truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-6x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -60,10 +60,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Dump-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-8x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -74,10 +74,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Sinotruk-Howo-7-6X4-b.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-6x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -88,10 +88,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/HOWO-7-8X4-0.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-8x4-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-dump.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -102,10 +102,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-T7-6X24Tractor-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-t7-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -116,10 +116,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-6X4-Tractor-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -130,10 +130,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-4x2-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -144,10 +144,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -158,10 +158,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Tractor-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-6x4-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -172,10 +172,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-4X2-Tractor-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-4x2-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-4x2-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-4x2-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -186,10 +186,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Cargo-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-6x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -200,10 +200,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-4X2-Cargo-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-4x2-cargo-truck-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -214,10 +214,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-8X4-Cargo-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -228,10 +228,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Cargo-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-6x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -242,10 +242,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Cargo-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-n-8x4-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -256,10 +256,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-0.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -270,10 +270,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Howo-Light-Cargo-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-light-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -284,10 +284,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-4.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-box-van-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -298,10 +298,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/4-Howo-Light-Stake-Truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-light-stake-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-stake-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-stake-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -312,10 +312,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-Refrigerator-66.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-refrigerator-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -326,10 +326,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/2-Wing-Van-Truck-4.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-wing-van-cargo-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -340,10 +340,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mini-tipper-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -354,10 +354,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-1-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-light-duty-tipper-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -368,10 +368,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -382,10 +382,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -396,10 +396,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -410,10 +410,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -424,10 +424,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -438,10 +438,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -452,10 +452,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -466,10 +466,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -480,10 +480,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -494,10 +494,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -508,10 +508,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -522,10 +522,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -536,10 +536,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -550,10 +550,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -564,10 +564,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -578,10 +578,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/1-Dump-Semi-Trailer-Truck-3.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-dump-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/dump-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/dump-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -592,10 +592,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/6-Fuel-Tanker-Trailer-6.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-fuel-tanker-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -606,10 +606,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/5-Fence-Semi-Trailer-6-1.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-fence-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/fence-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/fence-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -620,10 +620,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/4-Sidewall-Semi-Trailer-6.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-sidewall-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/sidewall-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/sidewall-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -634,10 +634,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/2-Flatbed-Semi-Trailer-4.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-flatbed-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/flatbed-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/flatbed-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -648,10 +648,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/3-Low-Bed-Semi-Trailer-3.jpg",
           "sourcePage": "https://sinotruk.international/products/sinotruck-low-bed-semi-trailer-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/low-bed-semi-trailer.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/low-bed-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -662,10 +662,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-light-truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-light-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -676,10 +676,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-Dump-Truck-2.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-dump-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -690,10 +690,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/2-Howo-Pure-electric-Tractor-truck-1.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     },
@@ -704,10 +704,10 @@
         {
           "sourceUrl": "https://sinotruk.international/image-library/Single-Side-Dock-Series.jpg",
           "sourcePage": "https://sinotruk.international/products/howo-pure-electric-single-side-dock-tractor-truck/",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ]
     }

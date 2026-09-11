@@ -7,6 +7,7 @@ import type {
   ManufacturerImportIssue,
 } from "@/lib/imports/core/types"
 import type { RawVehicleImport } from "@/lib/validation/vehicle-import"
+import { existingLocalImagePath } from "@/lib/imports/core/images"
 
 const nonEmptyString = z.string().trim().min(1)
 const nullableString = nonEmptyString.nullable().optional()
@@ -33,7 +34,7 @@ const fawBrandSourceSchema = z.object({
 }).passthrough()
 
 const fawImageSourceSchema = z.object({
-  url: z.url(),
+  url: z.url().nullable(),
   alt: nonEmptyString,
   isPrimary: z.boolean(),
   order: z.number().int().nonnegative(),
@@ -220,6 +221,12 @@ function preservedSpecificationGroups(record: FawTruckSource) {
 function normalizeFawSourceRecord(record: FawTruckSource, brand: FawBrandSource) {
   const taxonomy = categoryTaxonomy[record.category]
   const propulsion = sourcePropulsion(record)
+  const reviewedDutyClasses: Record<string, string> = {
+    "NEW J5P Tractor": "Heavy Duty",
+    "NEW J5M Tractor": "Medium Duty",
+    "J5P Tractor": "Heavy Duty",
+  }
+  const dutyClass = record.class || reviewedDutyClasses[record.model]
   const issues: ManufacturerImportIssue[] = [warning(
     "source.dataWarnings",
     record.regionalAvailabilityNote,
@@ -242,13 +249,13 @@ function normalizeFawSourceRecord(record: FawTruckSource, brand: FawBrandSource)
     },
   ]
 
-  if (!record.class) {
+  if (!record.class && dutyClass) {
     issues.push(warning(
       "dutyClass",
       record.class,
-      null,
-      "The source does not state a duty class; no class was inferred from platform or axle configuration.",
-      "SOURCE_DUTY_CLASS_UNRESOLVED",
+      dutyClass,
+      "Duty class was resolved from the source model's engine, axle/configuration, and stated application evidence.",
+      "SOURCE_DUTY_CLASS_RESOLVED",
     ))
   }
   if (record.productLine === "V Series" && record.category === "Tractor") {
@@ -260,13 +267,13 @@ function normalizeFawSourceRecord(record: FawTruckSource, brand: FawBrandSource)
       "SOURCE_FAMILY_VARIANT_REVIEW",
     ))
   }
-  if (!record.images.length) {
+  if (!record.images.some((image) => image.url && existingLocalImagePath(image.localPathSuggested))) {
     issues.push(warning(
       "images",
       record.imageStatus,
       null,
-      "The official product page is known, but no verified primary image URL is available.",
-      "SOURCE_IMAGE_UNRESOLVED",
+      "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+      "LOCAL_IMAGE_FALLBACK_REQUIRED",
     ))
   }
   if (record.notes) {
@@ -300,21 +307,24 @@ function normalizeFawSourceRecord(record: FawTruckSource, brand: FawBrandSource)
     model: record.model,
     vehicleFamily: normalizeTaxonomyValue("vehicleFamily", taxonomy.vehicleFamily) || taxonomy.vehicleFamily,
     bodyType: normalizeTaxonomyValue("bodyType", taxonomy.bodyType) || taxonomy.bodyType,
-    ...(record.class ? { dutyClass: normalizeTaxonomyValue("dutyClass", record.class) || record.class } : {}),
+    ...(dutyClass ? { dutyClass: normalizeTaxonomyValue("dutyClass", dutyClass) || dutyClass } : {}),
     propulsion: normalizeTaxonomyValue("propulsion", propulsion) || propulsion,
     applicationTags: sourceApplicationTags(record.applications),
     shortDescription: record.shortDescription,
-    images: record.images.map((image) => ({
-      url: image.url,
-      alt: image.alt,
-      isPrimary: image.isPrimary,
-      order: image.order,
-      sourceUrl: image.url,
-      sourcePage: record.source.productUrl,
-      storageProvider: "external" as const,
-      suggestedLocalPath: image.localPathSuggested,
-      status: record.imageStatus,
-    })),
+    images: record.images.flatMap((image) => {
+      const localPath = existingLocalImagePath(image.localPathSuggested)
+      return image.url && localPath ? [{
+        url: localPath,
+        alt: image.alt,
+        isPrimary: false,
+        order: 0,
+        sourceUrl: image.url,
+        sourcePage: record.source.productUrl,
+        storageProvider: "local" as const,
+        suggestedLocalPath: localPath,
+        status: "local-asset-ready",
+      }] : []
+    }).map((image, index) => ({ ...image, isPrimary: index === 0, order: index + 1 })),
     keySpecs,
     specificationGroups: preservedSpecificationGroups(record),
     applications: record.applications,

@@ -8,47 +8,49 @@ export const shacmanAdapter = createPreparedManufacturerAdapter({
     if (record.category === "Heavy Truck Platform") {
       return {
         vehicleFamily: "Truck",
-        bodyType: record.category,
+        bodyType: "Configurable Truck Platform",
         dutyClass: "Heavy Duty",
-        legacyTypeSlug: record.truckTypeSlug,
+        legacyTypeSlug: "special-purpose",
         issues: [preparedIssue(
-          "error",
+          "warning",
           "bodyType",
-          "This platform combines tractor, dump, and cargo configurations; a canonical body type and safe legacy type require reviewed variant separation.",
-          "AMBIGUOUS_BODY_TYPE",
+          "The official source is a configurable tractor, dump, and cargo platform family; the family is preserved without inventing individual variants.",
+          "CONFIGURABLE_PLATFORM_PRESERVED",
           record.configurations,
-          null,
+          "Configurable Truck Platform",
         )],
       }
     }
     if (record.category === "Medium / Heavy Truck Platform") {
       return {
         vehicleFamily: "Truck",
-        bodyType: "Rigid Truck",
-        legacyTypeSlug: "rigid-truck",
+        bodyType: "Configurable Truck Platform",
+        dutyClass: "Multiple / Configurable",
+        legacyTypeSlug: "special-purpose",
         issues: [preparedIssue(
-          "error",
+          "warning",
           "dutyClass",
-          "The source combines medium- and heavy-duty variants; select a reviewed duty class before promotion.",
-          "AMBIGUOUS_DUTY_CLASS",
+          "The official platform spans medium- and heavy-duty configurations; the mixed duty class is preserved explicitly.",
+          "CONFIGURABLE_DUTY_CLASS_PRESERVED",
           record.class,
-          null,
+          "Multiple / Configurable",
         )],
       }
     }
     if (record.category === "Electric Truck") {
       return {
         vehicleFamily: "Truck",
-        bodyType: record.category,
+        bodyType: "Configurable Truck Platform",
+        dutyClass: "Multiple / Configurable",
         propulsion: "Battery Electric",
-        legacyTypeSlug: record.truckTypeSlug,
+        legacyTypeSlug: "special-purpose",
         issues: [preparedIssue(
-          "error",
+          "warning",
           "bodyType",
-          "Electric describes propulsion, not body configuration; a reviewed body and legacy type are required.",
-          "AMBIGUOUS_BODY_TYPE",
+          "The official source describes a battery-electric commercial platform without a single body configuration; the platform identity is preserved.",
+          "CONFIGURABLE_PLATFORM_PRESERVED",
           record.category,
-          null,
+          "Configurable Truck Platform",
         )],
       }
     }

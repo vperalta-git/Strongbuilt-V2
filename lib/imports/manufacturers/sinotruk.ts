@@ -40,9 +40,13 @@ export const sinotrukAdapter = createPreparedManufacturerAdapter({
       "Special Purpose": "Special Purpose",
       Trailer: "Trailer",
     }
-    const dutyClass = record.category === "Electric Light Truck"
-      ? "Light Duty"
-      : record.class ? knownDuty[record.class] : undefined
+    const newEnergyDuty: Record<string, string> = {
+      "Electric Light Truck": "Light Duty",
+      "Electric Dump Truck": "Heavy Duty",
+      "Electric Tractor Truck": "Heavy Duty",
+      "Electric Terminal / Dock Tractor": "Special Purpose",
+    }
+    const dutyClass = newEnergyDuty[record.category] || (record.class ? knownDuty[record.class] : undefined)
     const issues = !dutyClass && record.class ? [preparedIssue(
       "warning",
       "dutyClass",

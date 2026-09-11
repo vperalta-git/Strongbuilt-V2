@@ -1,0 +1,48 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T04:57:07.790Z",
+  "mode": "dry-run",
+  "action": "reused",
+  "objectId": "6a97ba5526fa08a50cf0f52c",
+  "proposed": {
+    "name": "SINOTRUK",
+    "slug": "sinotruk",
+    "aliases": [
+      "sinotruk",
+      "SINOTRUK",
+      "SINOTRUCK",
+      "sinotruck"
+    ],
+    "officialWebsite": "https://sinotruk.international/",
+    "description": "Commercial vehicle manufacturer offering heavy trucks, light trucks, special-purpose vehicles, semi-trailers and new-energy commercial vehicles.",
+    "logoMetadata": {
+      "alt": "SINOTRUK logo",
+      "suggestedLocalPath": "/images/brands/sinotruk.png",
+      "status": "official-branding-verified-direct-logo-asset-not-confidently-resolved"
+    },
+    "source": {
+      "website": "https://sinotruk.international/",
+      "verifiedAt": "2026-09-02T00:00:00.000Z"
+    },
+    "active": true,
+    "displayOrder": 6
+  },
+  "countsBefore": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "countsAfter": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "protectedCollectionsUnchanged": true,
+  "idempotent": true
+}

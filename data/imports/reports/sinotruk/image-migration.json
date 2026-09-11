@@ -1,0 +1,512 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T04:53:45.799Z",
+  "summary": {
+    "sourceRecords": 50,
+    "imagesReady": 50,
+    "lowResolution": 0,
+    "fallbackRequired": 0
+  },
+  "records": [
+    {
+      "model": "HOWO TX 6×4 Dump Truck",
+      "slug": "sinotruk-howo-tx-6x4-dump",
+      "sourceUrl": "https://sinotruk.international/image-library/howo-TX7.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 147362
+    },
+    {
+      "model": "HOWO TX 8×4 Dump Truck",
+      "slug": "sinotruk-howo-tx-8x4-dump",
+      "sourceUrl": "https://sinotruk.international/image-library/howo-TX7-2.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 246354
+    },
+    {
+      "model": "HOWO N 6×4 Dump Truck",
+      "slug": "sinotruk-howo-n-6x4-dump",
+      "sourceUrl": "https://sinotruk.international/image-library/HOWO-N-6X4-dump-truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-6x4-dump.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 53224
+    },
+    {
+      "model": "HOWO N 8×4 Dump Truck",
+      "slug": "sinotruk-howo-n-8x4-dump",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Dump-Truck-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-8x4-dump.webp",
+      "status": "READY",
+      "width": 690,
+      "height": 378,
+      "bytes": 37066
+    },
+    {
+      "model": "HOWO 6×4 Dump Truck",
+      "slug": "sinotruk-howo-6x4-dump",
+      "sourceUrl": "https://sinotruk.international/image-library/Sinotruk-Howo-7-6X4-b.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-6x4-dump.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 74686
+    },
+    {
+      "model": "HOWO 8×4 Dump Truck",
+      "slug": "sinotruk-howo-8x4-dump",
+      "sourceUrl": "https://sinotruk.international/image-library/HOWO-7-8X4-0.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-8x4-dump.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 108598
+    },
+    {
+      "model": "HOWO T7 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-t7-6x4-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-T7-6X24Tractor-Truck-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 88374
+    },
+    {
+      "model": "HOWO TX 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-tx-6x4-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-6X4-Tractor-Truck-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 224428
+    },
+    {
+      "model": "HOWO N 4×2 Tractor Truck",
+      "slug": "sinotruk-howo-n-4x2-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 83230
+    },
+    {
+      "model": "HOWO N 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-n-6x4-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 83230
+    },
+    {
+      "model": "HOWO 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-6x4-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Tractor-Truck-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-6x4-tractor.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 87402
+    },
+    {
+      "model": "HOWO 4×2 Tractor Truck",
+      "slug": "sinotruk-howo-4x2-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-4X2-Tractor-Truck-1-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-4x2-tractor.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 99454
+    },
+    {
+      "model": "HOWO 6×4 Cargo Truck",
+      "slug": "sinotruk-howo-6x4-cargo",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Cargo-Truck-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-6x4-cargo.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 36320
+    },
+    {
+      "model": "HOWO TX 4×2 Cargo Truck",
+      "slug": "sinotruk-howo-tx-4x2-cargo",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-4X2-Cargo-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 38872
+    },
+    {
+      "model": "HOWO TX 8×4 Cargo Truck",
+      "slug": "sinotruk-howo-tx-8x4-cargo",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-8X4-Cargo-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 65410
+    },
+    {
+      "model": "HOWO N 6×4 Cargo Truck",
+      "slug": "sinotruk-howo-n-6x4-cargo",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Cargo-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 42756
+    },
+    {
+      "model": "HOWO N 8×4 Cargo Truck",
+      "slug": "sinotruk-howo-n-8x4-cargo",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Cargo-Truck-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 65656
+    },
+    {
+      "model": "HOWO Cargo Truck",
+      "slug": "sinotruk-howo-cargo-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-0.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-cargo-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 600,
+      "bytes": 63196
+    },
+    {
+      "model": "HOWO Light Cargo Truck",
+      "slug": "sinotruk-howo-light-cargo-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Howo-Light-Cargo-Truck-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-light-cargo-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 600,
+      "bytes": 70290
+    },
+    {
+      "model": "HOWO Box Van Cargo Truck",
+      "slug": "sinotruk-howo-box-van-cargo-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-4.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 163834
+    },
+    {
+      "model": "HOWO Light Stake Truck",
+      "slug": "sinotruk-howo-light-stake-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/4-Howo-Light-Stake-Truck-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-light-stake-truck.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 39938
+    },
+    {
+      "model": "HOWO Refrigerator Cargo Truck",
+      "slug": "sinotruk-howo-refrigerator-cargo-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-Refrigerator-66.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 62146
+    },
+    {
+      "model": "HOWO Wing Van Cargo Truck",
+      "slug": "sinotruk-howo-wing-van-cargo-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/2-Wing-Van-Truck-4.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 69992
+    },
+    {
+      "model": "HOWO Mini Tipper Truck",
+      "slug": "sinotruk-howo-mini-tipper-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 600,
+      "bytes": 293208
+    },
+    {
+      "model": "HOWO Light Duty Tipper Truck",
+      "slug": "sinotruk-howo-light-duty-tipper-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-1-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 600,
+      "bytes": 116668
+    },
+    {
+      "model": "HOWO Water Tanker",
+      "slug": "sinotruk-howo-water-tanker",
+      "sourceUrl": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-water-tanker.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 31736
+    },
+    {
+      "model": "HOWO Oil Tanker",
+      "slug": "sinotruk-howo-oil-tanker",
+      "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-oil-tanker.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 183968
+    },
+    {
+      "model": "HOWO 8×4 Oil Tanker",
+      "slug": "sinotruk-howo-8x4-oil-tanker",
+      "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 183968
+    },
+    {
+      "model": "HOWO 6×4 Oil Tanker",
+      "slug": "sinotruk-howo-6x4-oil-tanker",
+      "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 183968
+    },
+    {
+      "model": "HOWO N 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-n-6x4-mixer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 192940
+    },
+    {
+      "model": "HOWO N 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-n-8x4-mixer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 192940
+    },
+    {
+      "model": "HOWO TX 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-tx-8x4-mixer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 192940
+    },
+    {
+      "model": "HOWO T7H 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-t7h-6x4-mixer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 192940
+    },
+    {
+      "model": "HOWO T7H 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-t7h-8x4-mixer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 192940
+    },
+    {
+      "model": "HOWO 7 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-7-6x4-mixer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 591,
+      "bytes": 192940
+    },
+    {
+      "model": "HOWO Synchronous Chip Seal / Bitumen Tank",
+      "slug": "sinotruk-howo-synchronous-chip-seal",
+      "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 149388
+    },
+    {
+      "model": "HOWO Bitumen Sprayer Tank",
+      "slug": "sinotruk-howo-bitumen-sprayer",
+      "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 149388
+    },
+    {
+      "model": "HOWO Garbage Truck",
+      "slug": "sinotruk-howo-garbage-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-garbage-truck.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 60612
+    },
+    {
+      "model": "HOWO Mounted Crane Truck",
+      "slug": "sinotruk-howo-mounted-crane",
+      "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-mounted-crane.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 115164
+    },
+    {
+      "model": "HOWO Small Truck Crane",
+      "slug": "sinotruk-howo-small-truck-crane",
+      "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-small-truck-crane.webp",
+      "status": "READY",
+      "width": 1600,
+      "height": 526,
+      "bytes": 115164
+    },
+    {
+      "model": "Dump Semi Trailer",
+      "slug": "sinotruk-dump-semi-trailer",
+      "sourceUrl": "https://sinotruk.international/image-library/1-Dump-Semi-Trailer-Truck-3.jpg",
+      "localPath": "/images/trucks/sinotruk/dump-semi-trailer.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 36336
+    },
+    {
+      "model": "Fuel Tanker Semi Trailer",
+      "slug": "sinotruk-fuel-tanker-semi-trailer",
+      "sourceUrl": "https://sinotruk.international/image-library/6-Fuel-Tanker-Trailer-6.jpg",
+      "localPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 34870
+    },
+    {
+      "model": "Fence Semi Trailer",
+      "slug": "sinotruk-fence-semi-trailer",
+      "sourceUrl": "https://sinotruk.international/image-library/5-Fence-Semi-Trailer-6-1.jpg",
+      "localPath": "/images/trucks/sinotruk/fence-semi-trailer.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 73842
+    },
+    {
+      "model": "Sidewall Semi Trailer",
+      "slug": "sinotruk-sidewall-semi-trailer",
+      "sourceUrl": "https://sinotruk.international/image-library/4-Sidewall-Semi-Trailer-6.jpg",
+      "localPath": "/images/trucks/sinotruk/sidewall-semi-trailer.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 48632
+    },
+    {
+      "model": "Flatbed Semi Trailer",
+      "slug": "sinotruk-flatbed-semi-trailer",
+      "sourceUrl": "https://sinotruk.international/image-library/2-Flatbed-Semi-Trailer-4.jpg",
+      "localPath": "/images/trucks/sinotruk/flatbed-semi-trailer.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 52034
+    },
+    {
+      "model": "Low Bed Semi Trailer",
+      "slug": "sinotruk-low-bed-semi-trailer",
+      "sourceUrl": "https://sinotruk.international/image-library/3-Low-Bed-Semi-Trailer-3.jpg",
+      "localPath": "/images/trucks/sinotruk/low-bed-semi-trailer.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 43090
+    },
+    {
+      "model": "HOWO Pure Electric Light Truck",
+      "slug": "sinotruk-howo-pure-electric-light-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-light-truck-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 39294
+    },
+    {
+      "model": "HOWO Pure Electric Dump Truck",
+      "slug": "sinotruk-howo-pure-electric-dump-truck",
+      "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-Dump-Truck-2.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 52642
+    },
+    {
+      "model": "HOWO Pure Electric Tractor Truck",
+      "slug": "sinotruk-howo-pure-electric-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/2-Howo-Pure-electric-Tractor-truck-1.jpg",
+      "localPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 42100
+    },
+    {
+      "model": "Pure Electric Single Side Dock Tractor Truck",
+      "slug": "sinotruk-pure-electric-single-side-dock-tractor",
+      "sourceUrl": "https://sinotruk.international/image-library/Single-Side-Dock-Series.jpg",
+      "localPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.webp",
+      "status": "READY",
+      "width": 750,
+      "height": 411,
+      "bytes": 49842
+    }
+  ]
+}

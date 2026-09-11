@@ -4,6 +4,8 @@ export type TruckCategory =
   | "Heavy Duty"
   | "Passenger"
   | "Trailer"
+  | "Special Purpose"
+  | "Multiple / Configurable"
 
 export type TruckBodyType =
   | "Cargo"

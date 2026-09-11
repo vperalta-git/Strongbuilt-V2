@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-09-11T04:55:08.688Z",
+  "database": "strongbuilt",
+  "counts": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "fingerprints": {
+    "seedOwned": "a9109cbfbfb829db25c05f1a7ace27e35aaa88a069779cd3059dc4d2b9a6c427",
+    "allTrucks": "09e53155e090d539274656e44dc7598e9b379eb6c84ea70b5d828452b1b81888",
+    "brands": "d89978ac8ab5b5513fcce5e7fe09fcb9ce182edf5cecbbe7757bca94b3dff1a6",
+    "truckTypes": "9c2b677d8e47078eb272dc25a5160a80395a86be8c466f196d04cb537b1d483b",
+    "inquiries": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "quoteRequests": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "seedOwnedCount": 12,
+  "importedGroups": [
+    {
+      "manufacturer": "isuzu",
+      "count": 26,
+      "fingerprint": "efb85f204eedb87e87a64d7b54c06ffc2bbd7c6bb1d22069debad85f4831008c"
+    },
+    {
+      "manufacturer": "asiastar",
+      "count": 28,
+      "fingerprint": "86a781a90d6f85c515cf3f6e6c0f08846c5305fe6eae552a1832d80d398e16a2"
+    },
+    {
+      "manufacturer": "shacman",
+      "count": 0,
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "manufacturer": "sinotruk",
+      "count": 0,
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "manufacturer": "faw",
+      "count": 0,
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "manufacturer": "forland",
+      "count": 0,
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "manufacturer": "yutong",
+      "count": 0,
+      "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "brands": [
+    {
+      "_id": "6a97ba5526fa08a50cf0f52e",
+      "name": "Asiastar",
+      "slug": "asiastar",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52d",
+      "name": "CIMC RJST Trailer",
+      "slug": "cimc-rjst-trailer",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52a",
+      "name": "Forland",
+      "slug": "forland",
+      "aliases": []
+    },
+    {
+      "_id": "6a98e3cfcdc2f8376dac64bc",
+      "name": "ISUZU",
+      "slug": "isuzu",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52b",
+      "name": "SHACMAN",
+      "slug": "shacman",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52c",
+      "name": "Sinotruck",
+      "slug": "sinotruck",
+      "aliases": []
+    }
+  ]
+}

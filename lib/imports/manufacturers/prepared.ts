@@ -7,6 +7,7 @@ import type {
   ManufacturerImportIssue,
 } from "@/lib/imports/core/types"
 import type { RawVehicleImport } from "@/lib/validation/vehicle-import"
+import { existingLocalImagePath } from "@/lib/imports/core/images"
 
 const nonEmptyString = z.string().trim().min(1)
 const nullableString = nonEmptyString.nullable().optional()
@@ -66,7 +67,7 @@ export const preparedTruckSourceSchema = z.object({
   active: z.boolean(),
   availabilityStatus: nonEmptyString,
   availabilityNote: nonEmptyString,
-  images: z.array(preparedImageSchema).min(1),
+  images: z.array(preparedImageSchema),
   imageStatus: nonEmptyString,
   keySpecs: z.record(z.string(), z.unknown()),
   specificationGroups: z.array(specificationGroupSchema),
@@ -254,12 +255,12 @@ function normalizePreparedRecord(
     ),
     ...(taxonomy.issues || []),
   ]
-  if (record.images.some((image) => !image.url)) {
+  if (!record.images.some((image) => image.url && existingLocalImagePath(image.localPathSuggested))) {
     issues.push(preparedIssue(
       "warning",
       "images",
-      "The official source page is known, but no verified direct primary image URL is available.",
-      "SOURCE_IMAGE_UNRESOLVED",
+      "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+      "LOCAL_IMAGE_FALLBACK_REQUIRED",
       record.imageStatus,
       null,
     ))
@@ -287,7 +288,10 @@ function normalizePreparedRecord(
     ...(taxonomy.decisions || []),
   ]
   const dataWarnings = [record.availabilityNote, record.notes, record.sourceDataWarning].filter((value): value is string => Boolean(value))
-  const validImages = record.images.filter((image): image is typeof image & { url: string } => Boolean(image.url))
+  const validImages = record.images.flatMap((image) => {
+    const localPath = existingLocalImagePath(image.localPathSuggested)
+    return image.url && localPath ? [{ image: image as typeof image & { url: string }, localPath }] : []
+  })
   const input: RawVehicleImport = {
     slug: record.slug,
     brandSlug: record.brandSlug,
@@ -299,16 +303,16 @@ function normalizePreparedRecord(
     propulsion: normalizeTaxonomyValue("propulsion", propulsion) || propulsion,
     applicationTags: applicationTags(record.applications),
     shortDescription: record.shortDescription,
-    images: validImages.map((image) => ({
-      url: image.url,
+    images: validImages.map(({ image, localPath }, index) => ({
+      url: localPath,
       alt: image.alt,
-      isPrimary: image.isPrimary,
-      order: image.order,
+      isPrimary: index === 0,
+      order: index + 1,
       sourceUrl: image.url,
       sourcePage: image.sourcePage || record.source.productUrl,
-      storageProvider: "external" as const,
-      suggestedLocalPath: image.localPathSuggested,
-      status: image.status || record.imageStatus,
+      storageProvider: "local" as const,
+      suggestedLocalPath: localPath,
+      status: "local-asset-ready",
     })),
     keySpecs: normalizedKeySpecs(record),
     specificationGroups: preservedSpecificationGroups(record),

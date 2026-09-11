@@ -1,7 +1,7 @@
 {
   "manufacturer": "yutong",
   "displayName": "YUTONG",
-  "generatedAt": "2026-09-08T08:58:23.719Z",
+  "generatedAt": "2026-09-11T05:02:24.783Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -24,8 +24,9 @@
     "recordsNormalized": 41,
     "eligible": 0,
     "warnings": 48,
-    "errors": 51,
+    "errors": 42,
     "alreadyExists": 0,
+    "excluded": 0,
     "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0
@@ -138,7 +139,8 @@
       "Medical Vehicle",
       "Emergency Vehicle",
       "Municipal Vehicle",
-      "Special Purpose Vehicle"
+      "Special Purpose Vehicle",
+      "Configurable Truck Platform"
     ],
     "dutyClasses": [
       "Mini",
@@ -147,7 +149,8 @@
       "Heavy Duty",
       "Passenger",
       "Trailer",
-      "Special Purpose"
+      "Special Purpose",
+      "Multiple / Configurable"
     ],
     "propulsions": [
       "Diesel",
@@ -246,13 +249,13 @@
     "sourceImagesAvailable": 40,
     "sourceImagesUnresolved": 1,
     "sharedSourceImageUrls": 0,
-    "localAssetsReady": 0,
-    "localMigrationRequired": 40,
+    "localAssetsReady": 40,
+    "localMigrationRequired": 0,
     "missingImageRecords": 1
   },
   "frontendCompatibility": {
     "recordsTested": 41,
-    "recordsPassed": 0,
+    "recordsPassed": 40,
     "surfaces": {
       "catalogList": "legacy Truck projection",
       "detailRoute": "slug and legacy Truck projection",
@@ -279,16 +282,16 @@
   "dataSafety": {
     "countsBefore": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -359,6 +362,7 @@
       "slug": "yutong-h10",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Hybrid City Bus",
@@ -441,15 +445,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/9/24/product/productCatPic/41b689645ca2439fbe32501513740785.webp",
           "sourcePage": "https://en.yutong.com/products/H10.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/h10.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 8,
         "quoteSnapshotCompatible": true
       }
@@ -459,6 +463,7 @@
       "slug": "yutong-e7s",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric City Bus",
@@ -529,15 +534,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/7/17/product/productCatPic/2ec1faf804c64667878b181b4d37eeca.webp",
           "sourcePage": "https://en.yutong.com/products/E7S.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/e7s.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 6,
         "quoteSnapshotCompatible": true
       }
@@ -547,6 +552,7 @@
       "slug": "yutong-u12",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric City Bus",
@@ -620,15 +626,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/10/24/product/productCatPic/bfe7efa3bc8f4610a67d63560fdcb88f.webp",
           "sourcePage": "https://en.yutong.com/products/U12.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/u12.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -638,6 +644,7 @@
       "slug": "yutong-e12",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric City Bus",
@@ -710,15 +717,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/8/14/product/productCatPic/4722c7f9c4c44cadb922279e40918c09.webp",
           "sourcePage": "https://en.yutong.com/products/xE12.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/e12.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 7,
         "quoteSnapshotCompatible": true
       }
@@ -728,6 +735,7 @@
       "slug": "yutong-u18",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric Articulated Bus",
@@ -799,15 +807,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/1/23/product/productCatPic/b42a2c04a2a74d62824a96c872a10401.webp",
           "sourcePage": "https://en.yutong.com/products/U18.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/u18.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -817,6 +825,7 @@
       "slug": "yutong-e12pro",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric City Bus",
@@ -889,15 +898,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/3/27/product/productCatPic/e671deafbc1849d5bc1fa2987ff5b042.webp",
           "sourcePage": "https://en.yutong.com/products/E12PRO.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/e12pro.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -907,6 +916,7 @@
       "slug": "yutong-u12dd",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric Double-Decker Bus",
@@ -979,15 +989,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/2134d6a9016047aba491d5ea5615ac2b.webp",
           "sourcePage": "https://en.yutong.com/products/U12DD.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/u12dd.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -997,6 +1007,7 @@
       "slug": "yutong-u15",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric City Bus",
@@ -1078,15 +1089,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/1/7/product/productCatPic/9ed26742e67045589e3d0aa6151e6d3a.webp",
           "sourcePage": "https://en.yutong.com/products/U15.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/u15.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -1096,6 +1107,7 @@
       "slug": "yutong-e9",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Bus",
         "category": "Electric City Bus",
@@ -1166,15 +1178,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/64f738c2f89f4b60abfdda6fde4247f4.webp",
           "sourcePage": "https://en.yutong.com/products/E9.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/e9.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1184,6 +1196,7 @@
       "slug": "yutong-t12e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1257,15 +1270,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/c4530f92da19432eb3c3b49bc8cb32e5.jpg",
           "sourcePage": "https://en.yutong.com/products/T12E.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/t12e.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/t12e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 6,
         "quoteSnapshotCompatible": true
       }
@@ -1275,6 +1288,7 @@
       "slug": "yutong-ic12e-2026",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1359,15 +1373,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/7/23/product/productCatPic/17156954e3c64461953bbb99e675ac42.webp",
           "sourcePage": "https://en.yutong.com/products/IC12E_2026.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/ic12e-2026.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1377,6 +1391,7 @@
       "slug": "yutong-t15e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1450,15 +1465,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/43dd135b21bc4487b1526aa5f71ed5e1.webp",
           "sourcePage": "https://en.yutong.com/products/T15E.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/t15e.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1468,6 +1483,7 @@
       "slug": "yutong-ic12e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1552,15 +1568,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/a7b2c62a1b6047d6b90abba007aec2c3.webp",
           "sourcePage": "https://en.yutong.com/products/IC12E.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/ic12e.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1570,6 +1586,7 @@
       "slug": "yutong-c13e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1643,15 +1660,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/7/9/product/productCatPic/dc4d63884756415e80a40b32af6ebe50.webp",
           "sourcePage": "https://en.yutong.com/products/C13E.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/c13e.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 6,
         "quoteSnapshotCompatible": true
       }
@@ -1661,6 +1678,7 @@
       "slug": "yutong-t14e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1734,15 +1752,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/4b75299306374bcf9a0fc649d7ccd15d.webp",
           "sourcePage": "https://en.yutong.com/products/T14E.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/t14e.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -1752,6 +1770,7 @@
       "slug": "yutong-c11e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1825,15 +1844,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/12/25/product/productCatPic/1f99c72eca0a4c1393f8542b4f21d3eb.webp",
           "sourcePage": "https://en.yutong.com/products/C11E.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/c11e.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 6,
         "quoteSnapshotCompatible": true
       }
@@ -1843,6 +1862,7 @@
       "slug": "yutong-c9e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -1872,9 +1892,9 @@
         {
           "severity": "warning",
           "field": "images",
-          "message": "The official source page is known, but no verified direct primary image URL is available.",
-          "reason": "The official source page is known, but no verified direct primary image URL is available.",
-          "code": "SOURCE_IMAGE_UNRESOLVED",
+          "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
+          "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-product-page-verified-image-url-needs-extraction",
           "normalizedValue": null
         }
@@ -1882,17 +1902,10 @@
       "errors": [
         {
           "severity": "error",
-          "field": "images",
-          "message": "Too small: expected array to have >=1 items",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Too small: expected array to have >=1 items"
-        },
-        {
-          "severity": "error",
-          "field": "images",
-          "message": "Exactly one primary image is required.",
-          "code": "INVALID_SOURCE_SHAPE",
-          "reason": "Exactly one primary image is required."
+          "field": "brandSlug",
+          "message": "Unknown brand slug: yutong.",
+          "code": "UNKNOWN_BRAND",
+          "reason": "Unknown brand slug: yutong."
         }
       ],
       "brandResolution": {
@@ -1939,10 +1952,10 @@
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
+        "passed": true,
         "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -1950,6 +1963,7 @@
       "slug": "yutong-d8e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-Coach",
         "category": "Electric Coach",
@@ -2023,15 +2037,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e428350082.jpg",
           "sourcePage": "https://en.yutong.com/products/D8E.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/d8e.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/d8e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 6,
         "quoteSnapshotCompatible": true
       }
@@ -2041,6 +2055,7 @@
       "slug": "yutong-zk6890hg",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2110,15 +2125,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/e5791f06a0f84d75b74c9eafe3921de5.webp",
           "sourcePage": "https://en.yutong.com/products/ZK6890HG.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/zk6890hg.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2128,6 +2143,7 @@
       "slug": "yutong-zk6126hg",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2197,15 +2213,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/315d2488a9e7499689562050e6392969.webp",
           "sourcePage": "https://en.yutong.com/products/ZK6126HG.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/zk6126hg.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2215,6 +2231,7 @@
       "slug": "yutong-zk6186hg",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2284,15 +2301,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/645da21152a24020b8fc49463c29db41.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK6186HG.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/zk6186hg.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6186hg.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2302,6 +2319,7 @@
       "slug": "yutong-t12",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2374,15 +2392,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/2011711982792740864.webp",
           "sourcePage": "https://en.yutong.com/products/T12.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/t12.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 9,
         "quoteSnapshotCompatible": true
       }
@@ -2392,6 +2410,7 @@
       "slug": "yutong-c12pro",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2464,15 +2483,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/9/12/product/productCatPic/1ec899b35a0d4a12bc4c7bf1dcd7b07c.webp",
           "sourcePage": "https://en.yutong.com/products/C12PRO.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/c12pro.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2482,6 +2501,7 @@
       "slug": "yutong-d14",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2554,15 +2574,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/3/14/product/productCatPic/99e42b2bda4949ee96f8424c8b9356c8.webp",
           "sourcePage": "https://en.yutong.com/products/D14.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/d14.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2572,6 +2592,7 @@
       "slug": "yutong-t14",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2646,15 +2667,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2026/7/20/product/productCatPic/5424823260b34e5e87225c12cf2e60b5.webp",
           "sourcePage": "https://en.yutong.com/products/T14.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/t14.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 8,
         "quoteSnapshotCompatible": true
       }
@@ -2664,6 +2685,7 @@
       "slug": "yutong-c11",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2736,15 +2758,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/e96236114066403091ee69de01adefa4.webp",
           "sourcePage": "https://en.yutong.com/products/C11.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/c11.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 10,
         "quoteSnapshotCompatible": true
       }
@@ -2754,6 +2776,7 @@
       "slug": "yutong-c13pro",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2826,15 +2849,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2023/9/6/product/productCatPic/ff8080818a686a84018a6936acb2007b.jpg",
           "sourcePage": "https://en.yutong.com/products/C13PRO.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/c13pro.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/c13pro.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -2844,6 +2867,7 @@
       "slug": "yutong-c9",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -2916,15 +2940,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/9/13/product/productCatPic/508f5d8ec7164f10920d9cafee372606.webp",
           "sourcePage": "https://en.yutong.com/products/C9.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/c9.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 5,
         "quoteSnapshotCompatible": true
       }
@@ -2934,6 +2958,7 @@
       "slug": "yutong-t7",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -3006,15 +3031,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/5/10/product/productCatPic/c25fb3af329c49939edec18eb81a09be.webp",
           "sourcePage": "https://en.yutong.com/products/T7.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/t7.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -3024,6 +3049,7 @@
       "slug": "yutong-zk6126d",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -3096,15 +3122,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2023/11/16/product/productCatPic/8ac292568b888b81018bd61f03bd0208.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK6126D.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/zk6126d.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6126d.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 3,
         "quoteSnapshotCompatible": true
       }
@@ -3114,6 +3140,7 @@
       "slug": "yutong-ab14",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Apron Bus",
         "category": "Airport Apron Bus",
@@ -3184,15 +3211,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e5d7c10083.jpg",
           "sourcePage": "https://en.yutong.com/products/AB14.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/ab14.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ab14.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -3202,6 +3229,7 @@
       "slug": "yutong-ab14e",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Apron Bus",
         "category": "Electric Airport Apron Bus",
@@ -3274,15 +3302,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/5/28/product/productCatPic/b9706b7abf7b4fa1847d1b6ef8ef1fe2.webp",
           "sourcePage": "https://en.yutong.com/products/AB14E.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/ab14e.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 4,
         "quoteSnapshotCompatible": true
       }
@@ -3292,6 +3320,7 @@
       "slug": "yutong-bc12",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Blood Collection Vehicle",
@@ -3323,13 +3352,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-bc12 requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-bc12 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -3367,17 +3389,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925690168c0f019025b3a8020029.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK6128H.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/bc12.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/bc12.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3385,6 +3407,7 @@
       "slug": "yutong-pt9",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Health Check AWD Vehicle",
@@ -3416,13 +3439,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-pt9 requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-pt9 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -3460,17 +3476,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/3/26/product/productCatPic/666ecabfd2d84a00a90a79e99d2f8777.webp",
           "sourcePage": "https://en.yutong.com/products/ZK5180XYL.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/pt9.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3478,6 +3494,7 @@
       "slug": "yutong-pc9",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Health Check Vehicle",
@@ -3509,13 +3526,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-pc9 requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-pc9 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -3553,17 +3563,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925790168d46019025ac3e330023.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK6907H.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/pc9.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pc9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3571,6 +3581,7 @@
       "slug": "yutong-ascle",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Off-Road Ambulance",
@@ -3602,13 +3613,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-ascle requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-ascle requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -3647,17 +3651,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930593340458405888.jpg",
           "sourcePage": "https://en.yutong.com/products/ASCLE.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/ascle.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ascle.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
+        "passed": true,
+        "imagesExposed": 1,
         "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3665,6 +3669,7 @@
       "slug": "yutong-akeso",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Urban Ambulance",
@@ -3696,13 +3701,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-akeso requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-akeso requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -3742,17 +3740,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930591515659341824.jpg",
           "sourcePage": "https://en.yutong.com/products/AKESO.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/akeso.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
+        "passed": true,
+        "imagesExposed": 1,
         "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3760,6 +3758,7 @@
       "slug": "yutong-mc6",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Police Trailer",
@@ -3838,15 +3837,15 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2023/10/10/product/productCatPic/8ac292568adb3ee8018b18bdba8e0052.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK9020XJY.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/mc6.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/mc6.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
         "passed": true,
-        "imagesExposed": 0,
+        "imagesExposed": 1,
         "specifications": 2,
         "quoteSnapshotCompatible": true
       }
@@ -3856,6 +3855,7 @@
       "slug": "yutong-pv9",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Prisoner Vehicle",
@@ -3887,13 +3887,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-pv9 requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-pv9 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -3931,17 +3924,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292568e600485018ec7592da30102.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK6907H-2.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/pv9.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pv9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -3949,6 +3942,7 @@
       "slug": "yutong-rv9",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Riot Resistance Vehicle",
@@ -3980,13 +3974,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-rv9 requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-rv9 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -4024,17 +4011,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292578e600484018ec756a30f014e.jpg",
           "sourcePage": "https://en.yutong.com/products/ZK6907H-1.shtml",
-          "storageProvider": "external",
-          "suggestedLocalPath": "/images/trucks/yutong/rv9.jpg",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/rv9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
-        "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
       }
     },
     {
@@ -4042,6 +4029,7 @@
       "slug": "yutong-akeso5",
       "status": "ERROR",
       "promotionEligible": false,
+      "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialty Vehicle",
         "category": "Emergency Medical Vehicle",
@@ -4082,13 +4070,6 @@
           "message": "Unknown brand slug: yutong.",
           "code": "UNKNOWN_BRAND",
           "reason": "Unknown brand slug: yutong."
-        },
-        {
-          "severity": "error",
-          "field": "legacyAdapter",
-          "message": "Vehicle yutong-akeso5 requires an explicit legacy category projection.",
-          "reason": "Vehicle yutong-akeso5 requires an explicit legacy category projection.",
-          "code": "LEGACY_ADAPTER_FAILURE"
         }
       ],
       "brandResolution": {
@@ -4129,17 +4110,17 @@
         {
           "sourceUrl": "https://en.yutong.com/res/res/2025/12/22/product/productCatPic/e12b610808dc4b298607a90332844a16.webp",
           "sourcePage": "https://en.yutong.com/products/AKESO5.shtml",
-          "storageProvider": "external",
+          "storageProvider": "local",
           "suggestedLocalPath": "/images/trucks/yutong/akeso5.webp",
-          "localAssetExists": false,
-          "status": "LOCAL_MIGRATION_REQUIRED"
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
         }
       ],
       "legacyCompatibility": {
-        "passed": false,
-        "imagesExposed": 0,
+        "passed": true,
+        "imagesExposed": 1,
         "specifications": 0,
-        "quoteSnapshotCompatible": false
+        "quoteSnapshotCompatible": true
       }
     }
   ]

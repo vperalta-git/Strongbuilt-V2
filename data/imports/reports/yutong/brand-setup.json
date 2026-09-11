@@ -1,0 +1,46 @@
+{
+  "manufacturer": "yutong",
+  "generatedAt": "2026-09-11T04:57:18.795Z",
+  "mode": "dry-run",
+  "action": "planned",
+  "objectId": null,
+  "proposed": {
+    "name": "YUTONG",
+    "slug": "yutong",
+    "aliases": [
+      "yutong",
+      "YUTONG"
+    ],
+    "officialWebsite": "https://en.yutong.com/",
+    "description": "Global bus and coach manufacturer offering electric buses, electric coaches, city buses, coaches, apron buses and specialty vehicles.",
+    "logoMetadata": {
+      "alt": "YUTONG logo",
+      "suggestedLocalPath": "/images/brands/yutong.png",
+      "status": "official-branding-verified-direct-logo-asset-not-confidently-resolved"
+    },
+    "source": {
+      "website": "https://en.yutong.com/",
+      "verifiedAt": "2026-09-02T00:00:00.000Z"
+    },
+    "active": true,
+    "displayOrder": 7
+  },
+  "countsBefore": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "countsAfter": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "protectedCollectionsUnchanged": true,
+  "idempotent": false
+}

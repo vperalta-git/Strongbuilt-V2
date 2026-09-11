@@ -1,7 +1,7 @@
 {
   "manufacturer": "isuzu",
   "displayName": "ISUZU",
-  "generatedAt": "2026-09-08T08:53:24.854Z",
+  "generatedAt": "2026-09-11T04:38:39.346Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -253,16 +253,16 @@
   "dataSafety": {
     "countsBefore": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0

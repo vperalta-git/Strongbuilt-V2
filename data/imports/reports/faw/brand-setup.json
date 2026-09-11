@@ -1,0 +1,48 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-11T04:57:11.605Z",
+  "mode": "dry-run",
+  "action": "planned",
+  "objectId": null,
+  "proposed": {
+    "name": "FAW TRUCKS",
+    "slug": "faw",
+    "aliases": [
+      "faw-trucks",
+      "FAW TRUCKS",
+      "FAW",
+      "faw"
+    ],
+    "officialWebsite": "https://www.fawtrucks-global.com/EN/",
+    "description": "Commercial truck brand with tractor, rigid truck, dump truck and special-purpose vehicle ranges.",
+    "logoMetadata": {
+      "url": "https://www.fawtrucks-global.com/uploads/image/20230711/1689046088292760.webp",
+      "alt": "FAW TRUCKS logo",
+      "suggestedLocalPath": "/images/brands/faw-trucks.webp"
+    },
+    "source": {
+      "website": "https://www.fawtrucks-global.com/EN/",
+      "verifiedAt": "2026-09-02T00:00:00.000Z"
+    },
+    "active": true,
+    "displayOrder": 1
+  },
+  "countsBefore": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "countsAfter": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "protectedCollectionsUnchanged": true,
+  "idempotent": false
+}

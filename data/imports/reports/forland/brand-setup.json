@@ -1,0 +1,47 @@
+{
+  "manufacturer": "forland",
+  "generatedAt": "2026-09-11T04:57:15.446Z",
+  "mode": "dry-run",
+  "action": "reused",
+  "objectId": "6a97ba5526fa08a50cf0f52a",
+  "proposed": {
+    "name": "FORLAND",
+    "slug": "forland",
+    "aliases": [
+      "forland",
+      "FORLAND",
+      "Forland"
+    ],
+    "officialWebsite": "https://www.forland.com/ftcar",
+    "description": "Commercial vehicle brand offering mini trucks, light trucks, heavy-duty trucks, dump trucks, electric commercial vehicles and special-purpose vehicles.",
+    "logoMetadata": {
+      "alt": "FORLAND logo",
+      "suggestedLocalPath": "/images/brands/forland.png",
+      "status": "official-wordmark-verified-direct-asset-url-not-stable"
+    },
+    "source": {
+      "website": "https://www.forland.com/ftcar",
+      "verifiedAt": "2026-09-02T00:00:00.000Z"
+    },
+    "active": true,
+    "displayOrder": 3
+  },
+  "countsBefore": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "countsAfter": {
+    "brands": 6,
+    "trucks": 66,
+    "uniqueTruckSlugs": 66,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "protectedCollectionsUnchanged": true,
+  "idempotent": true
+}

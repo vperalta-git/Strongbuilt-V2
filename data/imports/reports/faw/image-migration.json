@@ -1,0 +1,182 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-11T04:52:50.151Z",
+  "summary": {
+    "sourceRecords": 22,
+    "imagesReady": 0,
+    "lowResolution": 0,
+    "fallbackRequired": 22
+  },
+  "records": [
+    {
+      "model": "J7",
+      "slug": "faw-j7-tractor",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20230517/298cc3b0adcc5890fc906e251cfa9b7e.webp",
+      "localPath": "/images/trucks/faw/j7-tractor.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "JH6 Tractor",
+      "slug": "faw-jh6-tractor",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/35f51790cae447f409e97c3a42e87f0c.png",
+      "localPath": "/images/trucks/faw/jh6-tractor.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "J6P Tractor",
+      "slug": "faw-j6p-tractor",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210204/15040c9612f7cc7ed428dc71abafc966.png",
+      "localPath": "/images/trucks/faw/j6p-tractor.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "NEW J5P Tractor",
+      "slug": "faw-new-j5p-tractor",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/0c1ad7619202188477bddc1089eb99ee.png",
+      "localPath": "/images/trucks/faw/new-j5p-tractor.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "NEW J5M Tractor",
+      "slug": "faw-new-j5m-tractor",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/b5aaf027465fa4839845b343801f9a5d.png",
+      "localPath": "/images/trucks/faw/new-j5m-tractor.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "J5P Tractor",
+      "slug": "faw-j5p-tractor",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/6c36b13d471cc61a7dac3b53915c8f0e.png",
+      "localPath": "/images/trucks/faw/j5p-tractor.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "JK6 Rigid",
+      "slug": "faw-jk6-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210324/bced770b0a0298d8206b7ccd8423692d.png",
+      "localPath": "/images/trucks/faw/jk6-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "J6L Rigid",
+      "slug": "faw-j6l-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/664fb9c1254cccede41dbd2143360575.png",
+      "localPath": "/images/trucks/faw/j6l-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "Dragon V Rigid",
+      "slug": "faw-dragon-v-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210207/3bfc5eb8225056aed5c29016c7908367.png",
+      "localPath": "/images/trucks/faw/dragon-v-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "Tiger VH Rigid",
+      "slug": "faw-tiger-vh-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210210/545fdbc73e3f18a08c1109ba359b51eb.png",
+      "localPath": "/images/trucks/faw/tiger-vh-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "Tiger VN Rigid",
+      "slug": "faw-tiger-vn-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/f62cd735b90c9f513c28841dd661b7b8.png",
+      "localPath": "/images/trucks/faw/tiger-vn-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "Tiger VR Rigid",
+      "slug": "faw-tiger-vr-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/02d1e870020046a812e6e0b57194d687.png",
+      "localPath": "/images/trucks/faw/tiger-vr-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "Baling Rigid",
+      "slug": "faw-baling-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20220830/aa9842a3936f5bc3172755d2b5ec33f0.png",
+      "localPath": "/images/trucks/faw/baling-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "T80 Rigid",
+      "slug": "faw-t80-rigid",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20220830/58fcadc1c5e9758db3abb7ae4b483525.png",
+      "localPath": "/images/trucks/faw/t80-rigid.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "JH6 Dump Truck",
+      "slug": "faw-jh6-dump",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/9bbdd523b9fbb61392ef7a58a460acd6.png",
+      "localPath": "/images/trucks/faw/jh6-dump.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "J6P Dump Truck",
+      "slug": "faw-j6p-dump",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "NEW J5P Dump Truck",
+      "slug": "faw-new-j5p-dump",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/77089f9aa1dee6fc53b3863c51b23a36.png",
+      "localPath": "/images/trucks/faw/new-j5p-dump.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "Dragon V Dump Truck",
+      "slug": "faw-dragon-v-dump",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    },
+    {
+      "model": "Tiger V 4x4 Dump Truck",
+      "slug": "faw-tiger-v-dump",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/2d582e063d07147cb0f0e77cfd30013e.png",
+      "localPath": "/images/trucks/faw/tiger-v-4x4-dump.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "JH6 Special Purpose",
+      "slug": "faw-jh6-special-purpose",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210310/38f4d0bc1a2197094608cd404643c6e2.png",
+      "localPath": "/images/trucks/faw/jh6-special-purpose.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "J6P Special Purpose",
+      "slug": "faw-j6p-special-purpose",
+      "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210310/471cece8962466eb29b0e220a9afad9b.png",
+      "localPath": "/images/trucks/faw/j6p-special-purpose.webp",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "model": "J6L Special Purpose",
+      "slug": "faw-j6l-special-purpose",
+      "status": "FALLBACK_REQUIRED",
+      "reason": "No verified direct official image URL."
+    }
+  ]
+}

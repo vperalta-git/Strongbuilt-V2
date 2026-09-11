@@ -1,7 +1,7 @@
 {
   "manufacturer": "asiastar",
   "displayName": "ASIASTAR",
-  "generatedAt": "2026-09-09T06:11:23.329Z",
+  "generatedAt": "2026-09-11T04:38:51.264Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,10 +22,10 @@
   "summary": {
     "recordsLoaded": 31,
     "recordsNormalized": 31,
-    "eligible": 30,
-    "warnings": 33,
+    "eligible": 2,
+    "warnings": 61,
     "errors": 1,
-    "alreadyExists": 0,
+    "alreadyExists": 28,
     "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0
@@ -147,7 +147,7 @@
     ]
   },
   "duplicateChecks": {
-    "alreadyExists": 0,
+    "alreadyExists": 28,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "batchVariantWarnings": 2,
@@ -240,16 +240,16 @@
   "dataSafety": {
     "countsBefore": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
       "brands": 6,
-      "trucks": 38,
-      "uniqueTruckSlugs": 38,
+      "trucks": 66,
+      "uniqueTruckSlugs": 66,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -413,8 +413,8 @@
     {
       "model": "YBL6128HQ1",
       "slug": "asiastar-ybl6128hq1",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -440,6 +440,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6128hq1",
+          "normalizedValue": "asiastar-ybl6128hq1"
         }
       ],
       "errors": [],
@@ -497,8 +506,8 @@
     {
       "model": "YBL6130H",
       "slug": "asiastar-ybl6130h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -524,6 +533,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6130h",
+          "normalizedValue": "asiastar-ybl6130h"
         }
       ],
       "errors": [],
@@ -581,8 +599,8 @@
     {
       "model": "YBL6148H",
       "slug": "asiastar-ybl6148h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -608,6 +626,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6148h",
+          "normalizedValue": "asiastar-ybl6148h"
         }
       ],
       "errors": [],
@@ -760,8 +787,8 @@
     {
       "model": "YBL6125H",
       "slug": "asiastar-ybl6125h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Coach",
         "category": "Coach",
@@ -784,6 +811,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6125h",
+          "normalizedValue": "asiastar-ybl6125h"
         }
       ],
       "errors": [],
@@ -841,8 +877,8 @@
     {
       "model": "YBL6859H",
       "slug": "asiastar-ybl6859h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -869,6 +905,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6859h",
+          "normalizedValue": "asiastar-ybl6859h"
         }
       ],
       "errors": [],
@@ -924,8 +969,8 @@
     {
       "model": "YBL6140T",
       "slug": "asiastar-ybl6140t",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -949,6 +994,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6140t",
+          "normalizedValue": "asiastar-ybl6140t"
         }
       ],
       "errors": [],
@@ -1004,8 +1058,8 @@
     {
       "model": "YBL6130T",
       "slug": "asiastar-ybl6130t",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1029,6 +1083,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6130t",
+          "normalizedValue": "asiastar-ybl6130t"
         }
       ],
       "errors": [],
@@ -1084,8 +1147,8 @@
     {
       "model": "YBL6129T",
       "slug": "asiastar-ybl6129t",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1109,6 +1172,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6129t",
+          "normalizedValue": "asiastar-ybl6129t"
         }
       ],
       "errors": [],
@@ -1164,8 +1236,8 @@
     {
       "model": "YBL6121H",
       "slug": "asiastar-ybl6121h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1192,6 +1264,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6121h",
+          "normalizedValue": "asiastar-ybl6121h"
         }
       ],
       "errors": [],
@@ -1247,8 +1328,8 @@
     {
       "model": "JS6890G",
       "slug": "asiastar-js6890g",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1275,6 +1356,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6890g",
+          "normalizedValue": "asiastar-js6890g"
         }
       ],
       "errors": [],
@@ -1330,8 +1420,8 @@
     {
       "model": "JS6840G",
       "slug": "asiastar-js6840g",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1358,6 +1448,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6840g",
+          "normalizedValue": "asiastar-js6840g"
         }
       ],
       "errors": [],
@@ -1413,8 +1512,8 @@
     {
       "model": "JS6762G",
       "slug": "asiastar-js6762g",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1441,6 +1540,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6762g",
+          "normalizedValue": "asiastar-js6762g"
         }
       ],
       "errors": [],
@@ -1496,8 +1604,8 @@
     {
       "model": "YBL6129H",
       "slug": "asiastar-ybl6129h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1521,6 +1629,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6129h",
+          "normalizedValue": "asiastar-ybl6129h"
         }
       ],
       "errors": [],
@@ -1666,8 +1783,8 @@
     {
       "model": "YBL6829H",
       "slug": "asiastar-ybl6829h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1694,6 +1811,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6829h",
+          "normalizedValue": "asiastar-ybl6829h"
         }
       ],
       "errors": [],
@@ -1749,8 +1875,8 @@
     {
       "model": "YBL6909H",
       "slug": "asiastar-ybl6909h",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1777,6 +1903,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6909h",
+          "normalizedValue": "asiastar-ybl6909h"
         }
       ],
       "errors": [],
@@ -1832,8 +1967,8 @@
     {
       "model": "JS6840GJ Front Engine Bus",
       "slug": "asiastar-js6840gj-front-engine",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1857,6 +1992,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6840gj-front-engine",
+          "normalizedValue": "asiastar-js6840gj-front-engine"
         }
       ],
       "errors": [],
@@ -1912,8 +2056,8 @@
     {
       "model": "YBL6909HQ",
       "slug": "asiastar-ybl6909hq",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "Intercity Bus",
         "category": "Intercity Bus",
@@ -1937,6 +2081,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-ybl6909hq",
+          "normalizedValue": "asiastar-ybl6909hq"
         }
       ],
       "errors": [],
@@ -1992,8 +2145,8 @@
     {
       "model": "JS6860GHN NG City Bus",
       "slug": "asiastar-js6860ghn",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2017,6 +2170,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6860ghn",
+          "normalizedValue": "asiastar-js6860ghn"
         }
       ],
       "errors": [],
@@ -2073,8 +2235,8 @@
     {
       "model": "JS6960GHCP Natural Gas City Bus",
       "slug": "asiastar-js6960ghcp",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2098,6 +2260,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6960ghcp",
+          "normalizedValue": "asiastar-js6960ghcp"
         }
       ],
       "errors": [],
@@ -2154,8 +2325,8 @@
     {
       "model": "JS6128",
       "slug": "asiastar-js6128-city-bus",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2179,6 +2350,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6128-city-bus",
+          "normalizedValue": "asiastar-js6128-city-bus"
         }
       ],
       "errors": [],
@@ -2235,8 +2415,8 @@
     {
       "model": "JS6108",
       "slug": "asiastar-js6108-city-bus",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2260,6 +2440,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6108-city-bus",
+          "normalizedValue": "asiastar-js6108-city-bus"
         }
       ],
       "errors": [],
@@ -2316,8 +2505,8 @@
     {
       "model": "JS6181GHBEV",
       "slug": "asiastar-js6181ghbev",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2343,6 +2532,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6181ghbev",
+          "normalizedValue": "asiastar-js6181ghbev"
         }
       ],
       "errors": [],
@@ -2399,8 +2597,8 @@
     {
       "model": "JS6120GHBEV",
       "slug": "asiastar-js6120ghbev",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2426,6 +2624,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6120ghbev",
+          "normalizedValue": "asiastar-js6120ghbev"
         }
       ],
       "errors": [],
@@ -2482,8 +2689,8 @@
     {
       "model": "JS6128GH / JS6128GHP",
       "slug": "asiastar-js6128gh",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2505,6 +2712,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6128gh",
+          "normalizedValue": "asiastar-js6128gh"
         }
       ],
       "errors": [],
@@ -2561,8 +2777,8 @@
     {
       "model": "JS6108GHA / JS6108GHP",
       "slug": "asiastar-js6108gha",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2584,6 +2800,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6108gha",
+          "normalizedValue": "asiastar-js6108gha"
         }
       ],
       "errors": [],
@@ -2640,8 +2865,8 @@
     {
       "model": "JS6851GH / JS6851GHP",
       "slug": "asiastar-js6851gh",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2663,6 +2888,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6851gh",
+          "normalizedValue": "asiastar-js6851gh"
         }
       ],
       "errors": [],
@@ -2719,8 +2953,8 @@
     {
       "model": "JS6926GHCP",
       "slug": "asiastar-js6926ghcp",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2744,6 +2978,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6926ghcp",
+          "normalizedValue": "asiastar-js6926ghcp"
         }
       ],
       "errors": [],
@@ -2800,8 +3043,8 @@
     {
       "model": "JS6600G / JS6600GP",
       "slug": "asiastar-js6600g",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "sourceInventory": {
         "productLine": "City Bus",
         "category": "City Bus",
@@ -2824,6 +3067,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official ASIASTAR global product listing. Confirm Strongbuilt sourcing, Philippine homologation/configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "asiastar-js6600g",
+          "normalizedValue": "asiastar-js6600g"
         }
       ],
       "errors": [],

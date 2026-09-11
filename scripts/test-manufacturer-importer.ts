@@ -157,8 +157,11 @@ async function main() {
     "tractor-head", "rigid-truck", "dump-truck", "special-purpose",
   ])
   const fawStaged = stageVehicleImports(successfulFaw.map((record) => record.input), { knownBrandSlugs: ["faw-trucks"] })
-  assert.equal(fawStaged.rejected, 3)
-  assert.equal(fawStaged.records.filter((record) => record.issues.some((issue) => issue.field === "images")).length, 3)
+  assert.equal(fawStaged.rejected, 0)
+  assert.equal(fawVehicles.filter((record) => {
+    const value = record as { images?: Array<{ url?: string | null }> }
+    return !value.images?.some((image) => image.url)
+  }).length, 3)
   assert.equal(fawStaged.records.some((record) => record.issues.some((issue) => issue.code === "UNKNOWN_BRAND")), false)
   const fawJ7 = successfulFaw.find((record) => record.input.model === "J7")
   const fawJh6 = successfulFaw.find((record) => record.input.model === "JH6 Tractor")
@@ -171,11 +174,11 @@ async function main() {
   assert.equal(fawConfig.adapter.normalizeVehicle(fawVehicles[1], fawBrand.data).success, true)
 
   const preparedExpectations = {
-    forland: { records: 15, missingImages: 15, stagedRejected: 15, sourceErrors: 9 },
-    shacman: { records: 9, missingImages: 0, stagedRejected: 6, sourceErrors: 7 },
-    asiastar: { records: 31, missingImages: 0, stagedRejected: 0, sourceErrors: 0 },
-    sinotruk: { records: 50, missingImages: 0, stagedRejected: 0, sourceErrors: 0 },
-    yutong: { records: 41, missingImages: 1, stagedRejected: 1, sourceErrors: 0 },
+    forland: { records: 15, sourceMissingImages: 15, stagedRejected: 0, sourceErrors: 0 },
+    shacman: { records: 9, sourceMissingImages: 0, stagedRejected: 0, sourceErrors: 0 },
+    asiastar: { records: 31, sourceMissingImages: 0, stagedRejected: 0, sourceErrors: 0 },
+    sinotruk: { records: 50, sourceMissingImages: 0, stagedRejected: 0, sourceErrors: 0 },
+    yutong: { records: 41, sourceMissingImages: 1, stagedRejected: 0, sourceErrors: 0 },
   } as const
   for (const [manufacturer, expected] of Object.entries(preparedExpectations)) {
     const preparedConfig = getManufacturerConfiguration(manufacturer)
@@ -189,7 +192,10 @@ async function main() {
     assert.equal(adapterFailures.length, 0, `${manufacturer} adapter failures: ${JSON.stringify(adapterFailures)}`)
     assert.equal(preparedNormalized.filter((record) => record.success).length, expected.records, `${manufacturer} normalized records`)
     const successful = preparedNormalized.flatMap((record) => record.success ? [record] : [])
-    assert.equal(successful.filter((record) => record.input.images.length === 0).length, expected.missingImages, `${manufacturer} unresolved images`)
+    assert.equal(preparedVehicles.filter((record) => {
+      const value = record as { images?: Array<{ url?: string | null }> }
+      return !value.images?.some((image) => image.url)
+    }).length, expected.sourceMissingImages, `${manufacturer} source records without verified image URLs`)
     assert.equal(successful.reduce((total, record) => total + record.issues.filter((issue) => issue.severity === "error").length, 0), expected.sourceErrors, `${manufacturer} source errors`)
     const preparedStaged = stageVehicleImports(successful.map((record) => record.input), { knownBrandSlugs: [preparedBrand.data.slug] })
     assert.equal(preparedStaged.rejected, expected.stagedRejected, `${manufacturer} staged rejections`)
@@ -226,6 +232,18 @@ async function main() {
   assert.equal(asiastarPromotionModels.some((model) => (asiastarExcludedProductionDuplicates as readonly string[]).includes(model)), false)
   assert.equal(asiastarPromotionModels.some((model) => (asiastarVariantReviewRequired as readonly string[]).includes(model)), false)
   console.log("ASIASTAR reviewed batches: 28 unique candidates; production duplicate and ambiguous base-model variants excluded")
+  assert.deepEqual(Object.fromEntries(Object.entries(manufacturerRegistry.shacman.reviewedBatches || {}).map(([id, models]) => [id, models.length])), {
+    "shacman-platforms-001": 3,
+    "shacman-rigid-001": 1,
+    "shacman-electric-001": 1,
+    "shacman-port-tractor-001": 1,
+    "shacman-special-001": 1,
+  })
+  assert.equal(Object.values(manufacturerRegistry.sinotruk.reviewedBatches || {}).flat().length, 50)
+  assert.equal(Object.values(manufacturerRegistry.faw.reviewedBatches || {}).flat().length, 22)
+  assert.equal(Object.values(manufacturerRegistry.forland.reviewedBatches || {}).flat().length, 15)
+  assert.equal(Object.values(manufacturerRegistry.yutong.reviewedBatches || {}).flat().length, 41)
+  console.log("Remaining manufacturer reviewed batches: 135 unique promotion candidates; SHACMAN X3000/H3000 excluded from apply")
 }
 
 void main().catch((error: unknown) => {
