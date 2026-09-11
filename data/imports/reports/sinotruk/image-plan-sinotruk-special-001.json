@@ -1,0 +1,225 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T05:12:59.262Z",
+  "summary": {
+    "imagesTested": 15,
+    "sourceImagesAvailable": 15,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 4,
+    "localAssetsReady": 15,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "HOWO Water Tanker",
+      "slug": "sinotruk-howo-water-tanker",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Oil Tanker",
+      "slug": "sinotruk-howo-oil-tanker",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 8×4 Oil Tanker",
+      "slug": "sinotruk-howo-8x4-oil-tanker",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 6×4 Oil Tanker",
+      "slug": "sinotruk-howo-6x4-oil-tanker",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-n-6x4-mixer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-n-8x4-mixer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO TX 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-tx-8x4-mixer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO T7H 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-t7h-6x4-mixer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO T7H 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-t7h-8x4-mixer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 7 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-7-6x4-mixer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Synchronous Chip Seal / Bitumen Tank",
+      "slug": "sinotruk-howo-synchronous-chip-seal",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Bitumen Sprayer Tank",
+      "slug": "sinotruk-howo-bitumen-sprayer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Garbage Truck",
+      "slug": "sinotruk-howo-garbage-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Mounted Crane Truck",
+      "slug": "sinotruk-howo-mounted-crane",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Small Truck Crane",
+      "slug": "sinotruk-howo-small-truck-crane",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

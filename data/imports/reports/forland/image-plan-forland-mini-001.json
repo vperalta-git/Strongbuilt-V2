@@ -1,0 +1,85 @@
+{
+  "manufacturer": "forland",
+  "generatedAt": "2026-09-11T05:17:42.276Z",
+  "summary": {
+    "imagesTested": 5,
+    "sourceImagesAvailable": 0,
+    "sourceImagesUnresolved": 5,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 5
+  },
+  "records": [
+    {
+      "model": "T5 Mini Truck",
+      "slug": "forland-t5-mini-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/xianglingV5/785.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "T5e Mini Truck",
+      "slug": "forland-t5e-mini-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/xianglingQ/1022",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5e-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "T5 EV Mini Truck",
+      "slug": "forland-t5-ev-mini-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/xianglingm2p/787",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5-ev-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "T6 Mini Truck",
+      "slug": "forland-t6-mini-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/T6/1095",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t6-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "T7 Mini Truck",
+      "slug": "forland-t7-mini-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/T7/1096.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t7-mini-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    }
+  ]
+}

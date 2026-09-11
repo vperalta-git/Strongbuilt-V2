@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-09-11T05:22:07.197Z",
+  "database": "strongbuilt",
+  "counts": {
+    "brands": 8,
+    "trucks": 201,
+    "uniqueTruckSlugs": 201,
+    "truckTypes": 6,
+    "inquiries": 0,
+    "quoteRequests": 0
+  },
+  "fingerprints": {
+    "seedOwned": "3065b40c09e93f444527e4013f4d979e4d6cb93aa0393a67a466d31dbb7e2719",
+    "allTrucks": "e6d11344d0b46e041df6259cbf64b6160e0a1369afe8bfa8323ebe92da6ec4c5",
+    "brands": "e1b8939e1586a253b55a2590eb71b6810cf6797a7c398b4f2101f77016a5052f",
+    "truckTypes": "e7352cb3f01bfcde6ef3d9900e28a920421c160e580c6640440d6c0a5f0af550",
+    "inquiries": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "quoteRequests": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "seedOwnedCount": 12,
+  "importedGroups": [
+    {
+      "manufacturer": "isuzu",
+      "count": 26,
+      "fingerprint": "efb85f204eedb87e87a64d7b54c06ffc2bbd7c6bb1d22069debad85f4831008c",
+      "integrity": {
+        "uniqueIds": 26,
+        "uniqueSlugs": 26,
+        "active": 26,
+        "structurallyComplete": 26,
+        "localImageRecords": 0,
+        "fallbackImageRecords": 0,
+        "sourceWarningRecords": 2,
+        "normalizationWarningRecords": 12,
+        "brandIds": [
+          "6a98e3cfcdc2f8376dac64bc"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f52f",
+          "6a97ba5626fa08a50cf0f531",
+          "6a97ba5626fa08a50cf0f532"
+        ],
+        "batches": [
+          "isuzu-n-series-001",
+          "isuzu-remaining-001"
+        ]
+      }
+    },
+    {
+      "manufacturer": "asiastar",
+      "count": 28,
+      "fingerprint": "86a781a90d6f85c515cf3f6e6c0f08846c5305fe6eae552a1832d80d398e16a2",
+      "integrity": {
+        "uniqueIds": 28,
+        "uniqueSlugs": 28,
+        "active": 28,
+        "structurallyComplete": 28,
+        "localImageRecords": 0,
+        "fallbackImageRecords": 0,
+        "sourceWarningRecords": 28,
+        "normalizationWarningRecords": 28,
+        "brandIds": [
+          "6a97ba5526fa08a50cf0f52e"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f532"
+        ],
+        "batches": [
+          "asiastar-citybus-001",
+          "asiastar-coach-001",
+          "asiastar-intercity-001"
+        ]
+      }
+    },
+    {
+      "manufacturer": "shacman",
+      "count": 7,
+      "fingerprint": "805f09591f7820e1d2d544ced33b76a041f557bb4532ddde600ec05f3e584c5d",
+      "integrity": {
+        "uniqueIds": 7,
+        "uniqueSlugs": 7,
+        "active": 7,
+        "structurallyComplete": 7,
+        "localImageRecords": 7,
+        "fallbackImageRecords": 0,
+        "sourceWarningRecords": 7,
+        "normalizationWarningRecords": 7,
+        "brandIds": [
+          "6a97ba5526fa08a50cf0f52b"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f531",
+          "6a97ba5626fa08a50cf0f534"
+        ],
+        "batches": [
+          "shacman-electric-001",
+          "shacman-platforms-001",
+          "shacman-port-tractor-001",
+          "shacman-rigid-001",
+          "shacman-special-001"
+        ]
+      }
+    },
+    {
+      "manufacturer": "sinotruk",
+      "count": 50,
+      "fingerprint": "e93b1814c201aa6b52b1a17192c979c88fb1e2febbd4798159c2c47f96d58d0e",
+      "integrity": {
+        "uniqueIds": 50,
+        "uniqueSlugs": 50,
+        "active": 50,
+        "structurallyComplete": 50,
+        "localImageRecords": 50,
+        "fallbackImageRecords": 0,
+        "sourceWarningRecords": 50,
+        "normalizationWarningRecords": 50,
+        "brandIds": [
+          "6a97ba5526fa08a50cf0f52c"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f52f",
+          "6a97ba5626fa08a50cf0f530",
+          "6a97ba5626fa08a50cf0f531",
+          "6a97ba5626fa08a50cf0f533",
+          "6a97ba5626fa08a50cf0f534"
+        ],
+        "batches": [
+          "sinotruk-heavy-001",
+          "sinotruk-light-001",
+          "sinotruk-new-energy-001",
+          "sinotruk-special-001",
+          "sinotruk-trailer-001"
+        ]
+      }
+    },
+    {
+      "manufacturer": "faw",
+      "count": 22,
+      "fingerprint": "080054a7447a239699ffb81a6aafa4af11ca442e3437e848f7078fb9e9333527",
+      "integrity": {
+        "uniqueIds": 22,
+        "uniqueSlugs": 22,
+        "active": 22,
+        "structurallyComplete": 22,
+        "localImageRecords": 0,
+        "fallbackImageRecords": 22,
+        "sourceWarningRecords": 22,
+        "normalizationWarningRecords": 22,
+        "brandIds": [
+          "6aa38cbbb57a858697442a53"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f52f",
+          "6a97ba5626fa08a50cf0f530",
+          "6a97ba5626fa08a50cf0f531",
+          "6a97ba5626fa08a50cf0f534"
+        ],
+        "batches": [
+          "faw-dump-001",
+          "faw-rigid-001",
+          "faw-special-001",
+          "faw-tractor-001"
+        ]
+      }
+    },
+    {
+      "manufacturer": "forland",
+      "count": 15,
+      "fingerprint": "f3b7bec95c6a88aae8a26a3ba749ae058c6c5f0e1a0820089d3b34b707f7cc1a",
+      "integrity": {
+        "uniqueIds": 15,
+        "uniqueSlugs": 15,
+        "active": 15,
+        "structurallyComplete": 15,
+        "localImageRecords": 0,
+        "fallbackImageRecords": 15,
+        "sourceWarningRecords": 15,
+        "normalizationWarningRecords": 15,
+        "brandIds": [
+          "6a97ba5526fa08a50cf0f52a"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f52f",
+          "6a97ba5626fa08a50cf0f530",
+          "6a97ba5626fa08a50cf0f534"
+        ],
+        "batches": [
+          "forland-dump-001",
+          "forland-mini-001",
+          "forland-rigid-001",
+          "forland-special-001"
+        ]
+      }
+    },
+    {
+      "manufacturer": "yutong",
+      "count": 41,
+      "fingerprint": "a8e5d9ebfbfd2f90f60602ee0edd3419b28313116bf991cf4f9fa260e004fd53",
+      "integrity": {
+        "uniqueIds": 41,
+        "uniqueSlugs": 41,
+        "active": 41,
+        "structurallyComplete": 41,
+        "localImageRecords": 40,
+        "fallbackImageRecords": 1,
+        "sourceWarningRecords": 41,
+        "normalizationWarningRecords": 41,
+        "brandIds": [
+          "6aa38cc99acfad1eb7c361a3"
+        ],
+        "typeIds": [
+          "6a97ba5626fa08a50cf0f532",
+          "6a97ba5626fa08a50cf0f533",
+          "6a97ba5626fa08a50cf0f534"
+        ],
+        "batches": [
+          "yutong-airfield-001",
+          "yutong-citybus-001",
+          "yutong-coach-001",
+          "yutong-ebus-001",
+          "yutong-ecoach-001",
+          "yutong-special-001"
+        ]
+      }
+    }
+  ],
+  "brands": [
+    {
+      "_id": "6a97ba5526fa08a50cf0f52e",
+      "name": "Asiastar",
+      "slug": "asiastar",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52d",
+      "name": "CIMC RJST Trailer",
+      "slug": "cimc-rjst-trailer",
+      "aliases": []
+    },
+    {
+      "_id": "6aa38cbbb57a858697442a53",
+      "name": "FAW TRUCKS",
+      "slug": "faw",
+      "aliases": [
+        "faw-trucks",
+        "FAW TRUCKS",
+        "FAW",
+        "faw"
+      ]
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52a",
+      "name": "Forland",
+      "slug": "forland",
+      "aliases": []
+    },
+    {
+      "_id": "6a98e3cfcdc2f8376dac64bc",
+      "name": "ISUZU",
+      "slug": "isuzu",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52b",
+      "name": "SHACMAN",
+      "slug": "shacman",
+      "aliases": []
+    },
+    {
+      "_id": "6a97ba5526fa08a50cf0f52c",
+      "name": "Sinotruck",
+      "slug": "sinotruck",
+      "aliases": []
+    },
+    {
+      "_id": "6aa38cc99acfad1eb7c361a3",
+      "name": "YUTONG",
+      "slug": "yutong",
+      "aliases": [
+        "yutong",
+        "YUTONG"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "manufacturer": "forland",
+  "generatedAt": "2026-09-11T05:18:05.910Z",
+  "summary": {
+    "imagesTested": 1,
+    "sourceImagesAvailable": 0,
+    "sourceImagesUnresolved": 1,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 1
+  },
+  "records": [
+    {
+      "model": "H7 Compactor",
+      "slug": "forland-h7-compactor",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/SpecialVehicle/",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/h7-compactor.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "manufacturer": "yutong",
+  "generatedAt": "2026-09-11T05:19:10.939Z",
+  "summary": {
+    "imagesTested": 2,
+    "sourceImagesAvailable": 2,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 2,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "AB14",
+      "slug": "yutong-ab14",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e5d7c10083.jpg",
+          "sourcePage": "https://en.yutong.com/products/AB14.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ab14.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "AB14E",
+      "slug": "yutong-ab14e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/5/28/product/productCatPic/b9706b7abf7b4fa1847d1b6ef8ef1fe2.webp",
+          "sourcePage": "https://en.yutong.com/products/AB14E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ab14e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

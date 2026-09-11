@@ -12,15 +12,55 @@ async function main() {
   if (!process.env.MONGODB_URI || process.env.MONGODB_URI === "[SENSITIVE]") throw new Error("A local MONGODB_URI is required.")
   const db = await resolveCatalogDatabase(await getMongoDatabase())
   process.env.MONGODB_DB = db.databaseName
-  const importedGroups = await Promise.all(["isuzu", "asiastar", "shacman", "sinotruk", "faw", "forland", "yutong"].map(async (manufacturer) => {
+  const importedManufacturerGroups = [
+    { manufacturer: "isuzu", storedNames: ["isuzu"] },
+    { manufacturer: "asiastar", storedNames: ["asiastar"] },
+    { manufacturer: "shacman", storedNames: ["shacman"] },
+    { manufacturer: "sinotruk", storedNames: ["sinotruk", "sinotruck"] },
+    { manufacturer: "faw", storedNames: ["faw", "faw trucks"] },
+    { manufacturer: "forland", storedNames: ["forland"] },
+    { manufacturer: "yutong", storedNames: ["yutong"] },
+  ]
+  const importedGroups = await Promise.all(importedManufacturerGroups.map(async ({ manufacturer, storedNames }) => {
     const filter = {
       "importMetadata.source": "manufacturer-import" as const,
-      "importMetadata.manufacturer": { $regex: `^${manufacturer}$`, $options: "i" },
+      "importMetadata.manufacturer": { $in: storedNames.map((name) => new RegExp(`^${name}$`, "i")) },
     }
+    const records = await getTrucksCollection(db).find(filter).toArray()
+    const structurallyComplete = records.filter((record) =>
+      record._id
+      && record.slug
+      && record.name
+      && record.model
+      && record.brandId
+      && record.typeId
+      && record.vehicleFamily
+      && record.bodyType
+      && record.propulsion
+      && record.source?.productUrl
+      && record.importMetadata?.batch
+      && typeof record.active === "boolean"
+      && record.createdAt instanceof Date
+      && record.updatedAt instanceof Date
+      && (record.specifications || record.specificationGroups || record.keySpecs),
+    )
     return {
       manufacturer,
-      count: await getTrucksCollection(db).countDocuments(filter),
+      count: records.length,
       fingerprint: await fingerprint(getTrucksCollection(db), filter),
+      integrity: {
+        uniqueIds: new Set(records.map((record) => record._id?.toHexString())).size,
+        uniqueSlugs: new Set(records.map((record) => record.slug)).size,
+        active: records.filter((record) => record.active).length,
+        structurallyComplete: structurallyComplete.length,
+        localImageRecords: records.filter((record) => record.images.some((image) => image.storageProvider === "local")).length,
+        fallbackImageRecords: records.filter((record) => record.images.length === 0).length,
+        sourceWarningRecords: records.filter((record) => (record.source?.dataWarnings?.length || 0) > 0).length,
+        normalizationWarningRecords: records.filter((record) => (record.normalization?.warnings?.length || 0) > 0).length,
+        brandIds: [...new Set(records.map((record) => record.brandId.toHexString()))].sort(),
+        typeIds: [...new Set(records.map((record) => record.typeId.toHexString()))].sort(),
+        batches: [...new Set(records.map((record) => record.importMetadata?.batch).filter(Boolean))].sort(),
+      },
     }
   }))
   const brandDocuments = await getBrandsCollection(db)

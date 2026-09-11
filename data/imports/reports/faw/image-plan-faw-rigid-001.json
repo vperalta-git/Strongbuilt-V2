@@ -1,0 +1,127 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-11T05:16:56.908Z",
+  "summary": {
+    "imagesTested": 8,
+    "sourceImagesAvailable": 8,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 8,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "JK6 Rigid",
+      "slug": "faw-jk6-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210324/bced770b0a0298d8206b7ccd8423692d.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jk6-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6L Rigid",
+      "slug": "faw-j6l-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/664fb9c1254cccede41dbd2143360575.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j6l-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Dragon V Rigid",
+      "slug": "faw-dragon-v-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210207/3bfc5eb8225056aed5c29016c7908367.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/dragon-v-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Tiger VH Rigid",
+      "slug": "faw-tiger-vh-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210210/545fdbc73e3f18a08c1109ba359b51eb.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-vh-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Tiger VN Rigid",
+      "slug": "faw-tiger-vn-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/f62cd735b90c9f513c28841dd661b7b8.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-vn-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Tiger VR Rigid",
+      "slug": "faw-tiger-vr-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/02d1e870020046a812e6e0b57194d687.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-vr-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Baling Rigid",
+      "slug": "faw-baling-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20220830/aa9842a3936f5bc3172755d2b5ec33f0.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/baling-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "T80 Rigid",
+      "slug": "faw-t80-rigid",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20220830/58fcadc1c5e9758db3abb7ae4b483525.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/t80-rigid.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    }
+  ]
+}

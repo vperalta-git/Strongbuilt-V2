@@ -1,0 +1,71 @@
+{
+  "manufacturer": "forland",
+  "generatedAt": "2026-09-11T05:17:57.751Z",
+  "summary": {
+    "imagesTested": 4,
+    "sourceImagesAvailable": 0,
+    "sourceImagesUnresolved": 4,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 4
+  },
+  "records": [
+    {
+      "model": "T5 Dump Truck",
+      "slug": "forland-t5-dump-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/T5/1025",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/t5-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "H7 Dump Truck",
+      "slug": "forland-h7-dump-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/ruiwoTS6/1024",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/h7-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "L7 Dump Truck",
+      "slug": "forland-l7-dump-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/jingangES3Pro/1017",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l7-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "L5e Dump Truck",
+      "slug": "forland-l5e-dump-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/jingangS1/1013",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5e-dump-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    }
+  ]
+}

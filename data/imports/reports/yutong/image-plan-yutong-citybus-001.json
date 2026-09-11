@@ -1,0 +1,57 @@
+{
+  "manufacturer": "yutong",
+  "generatedAt": "2026-09-11T05:18:55.037Z",
+  "summary": {
+    "imagesTested": 3,
+    "sourceImagesAvailable": 3,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 3,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "ZK6890HG",
+      "slug": "yutong-zk6890hg",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/e5791f06a0f84d75b74c9eafe3921de5.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK6890HG.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6890hg.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "ZK6126HG",
+      "slug": "yutong-zk6126hg",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/315d2488a9e7499689562050e6392969.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK6126HG.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6126hg.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "ZK6186HG",
+      "slug": "yutong-zk6186hg",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/645da21152a24020b8fc49463c29db41.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6186HG.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/zk6186hg.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

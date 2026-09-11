@@ -1,0 +1,141 @@
+{
+  "manufacturer": "yutong",
+  "generatedAt": "2026-09-11T05:18:47.206Z",
+  "summary": {
+    "imagesTested": 9,
+    "sourceImagesAvailable": 8,
+    "sourceImagesUnresolved": 1,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 8,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 1
+  },
+  "records": [
+    {
+      "model": "T12E",
+      "slug": "yutong-t12e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/c4530f92da19432eb3c3b49bc8cb32e5.jpg",
+          "sourcePage": "https://en.yutong.com/products/T12E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/t12e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "IC12E (2026)",
+      "slug": "yutong-ic12e-2026",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/23/product/productCatPic/17156954e3c64461953bbb99e675ac42.webp",
+          "sourcePage": "https://en.yutong.com/products/IC12E_2026.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ic12e-2026.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "T15E",
+      "slug": "yutong-t15e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/9/23/product/productCatPic/43dd135b21bc4487b1526aa5f71ed5e1.webp",
+          "sourcePage": "https://en.yutong.com/products/T15E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/t15e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "IC12E",
+      "slug": "yutong-ic12e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/7/11/product/productCatPic/a7b2c62a1b6047d6b90abba007aec2c3.webp",
+          "sourcePage": "https://en.yutong.com/products/IC12E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ic12e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "C13E (ZK6137BEV)",
+      "slug": "yutong-c13e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/9/product/productCatPic/dc4d63884756415e80a40b32af6ebe50.webp",
+          "sourcePage": "https://en.yutong.com/products/C13E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/c13e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "T14E",
+      "slug": "yutong-t14e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/15/product/productCatPic/4b75299306374bcf9a0fc649d7ccd15d.webp",
+          "sourcePage": "https://en.yutong.com/products/T14E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/t14e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "C11E (ZK6117BEV)",
+      "slug": "yutong-c11e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/12/25/product/productCatPic/1f99c72eca0a4c1393f8542b4f21d3eb.webp",
+          "sourcePage": "https://en.yutong.com/products/C11E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/c11e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "C9E (ZK6907BEV)",
+      "slug": "yutong-c9e",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://en.yutong.com/products/C9E.shtml",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/yutong/c9e.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "D8E (ZK6772BEV)",
+      "slug": "yutong-d8e",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/9/2/product/productCatPic/ff8080818a548bd1018a54e428350082.jpg",
+          "sourcePage": "https://en.yutong.com/products/D8E.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/d8e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

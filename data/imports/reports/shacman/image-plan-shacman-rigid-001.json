@@ -1,0 +1,29 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T05:12:00.191Z",
+  "summary": {
+    "imagesTested": 1,
+    "sourceImagesAvailable": 1,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 1,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "L3000",
+      "slug": "shacman-l3000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/14/l/2bddfd07ccd64470afc6fc2ccd666593.png",
+          "sourcePage": "https://www.shacman.com/product/3000-series/L3000/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/l3000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

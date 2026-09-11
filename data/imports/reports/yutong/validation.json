@@ -1,7 +1,7 @@
 {
   "manufacturer": "yutong",
   "displayName": "YUTONG",
-  "generatedAt": "2026-09-11T05:02:24.783Z",
+  "generatedAt": "2026-09-11T05:20:40.539Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -23,9 +23,9 @@
     "recordsLoaded": 41,
     "recordsNormalized": 41,
     "eligible": 0,
-    "warnings": 48,
-    "errors": 42,
-    "alreadyExists": 0,
+    "warnings": 89,
+    "errors": 0,
+    "alreadyExists": 41,
     "excluded": 0,
     "expectedInserts": 0,
     "expectedUpdates": 0,
@@ -33,24 +33,14 @@
   },
   "batchEligibility": {
     "applyAllowed": false,
-    "blocked": 41,
-    "batchErrors": [
-      {
-        "severity": "error",
-        "field": "brandSlug",
-        "message": "The approved manufacturer brand could not be resolved.",
-        "reason": "The approved manufacturer brand could not be resolved.",
-        "code": "UNRESOLVED_BRAND",
-        "sourceValue": "yutong",
-        "normalizedValue": null
-      }
-    ]
+    "blocked": 0,
+    "batchErrors": []
   },
   "brandResolution": {
     "slug": "yutong",
-    "name": null,
-    "resolved": false,
-    "matchedBy": null,
+    "name": "YUTONG",
+    "resolved": true,
+    "matchedBy": "slug",
     "hardCodedObjectId": false
   },
   "typeCompatibility": {
@@ -164,7 +154,7 @@
     ]
   },
   "duplicateChecks": {
-    "alreadyExists": 0,
+    "alreadyExists": 41,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "batchVariantWarnings": 2,
@@ -281,17 +271,17 @@
   },
   "dataSafety": {
     "countsBefore": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -360,7 +350,7 @@
     {
       "model": "H10",
       "slug": "yutong-h10",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -396,22 +386,23 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "Although H10 is listed on YUTONG's E-Bus category page, the current product page explicitly identifies it as a hybrid city bus rather than a battery-electric bus.",
           "normalizedValue": "Although H10 is listed on YUTONG's E-Bus category page, the current product page explicitly identifies it as a hybrid city bus rather than a battery-electric bus."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-h10",
+          "normalizedValue": "yutong-h10"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -461,7 +452,7 @@
     {
       "model": "E7S (ZK6706BEVG)",
       "slug": "yutong-e7s",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -488,22 +479,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-e7s",
+          "normalizedValue": "yutong-e7s"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -550,7 +542,7 @@
     {
       "model": "U12",
       "slug": "yutong-u12",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -578,22 +570,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-u12",
+          "normalizedValue": "yutong-u12"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -642,7 +635,7 @@
     {
       "model": "E12 (ZK6128BEVG)",
       "slug": "yutong-e12",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -669,22 +662,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-e12",
+          "normalizedValue": "yutong-e12"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -733,7 +727,7 @@
     {
       "model": "U18",
       "slug": "yutong-u18",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -761,22 +755,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-u18",
+          "normalizedValue": "yutong-u18"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -823,7 +818,7 @@
     {
       "model": "E12PRO",
       "slug": "yutong-e12pro",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -850,22 +845,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-e12pro",
+          "normalizedValue": "yutong-e12pro"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -914,7 +910,7 @@
     {
       "model": "U12DD",
       "slug": "yutong-u12dd",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -941,22 +937,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-u12dd",
+          "normalizedValue": "yutong-u12dd"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1005,7 +1002,7 @@
     {
       "model": "U15",
       "slug": "yutong-u15",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1040,22 +1037,23 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "YUTONG states a range of up to 850 km under SORT2 for the referenced 662 kWh configuration; operating range depends on test cycle and configuration.",
           "normalizedValue": "YUTONG states a range of up to 850 km under SORT2 for the referenced 662 kWh configuration; operating range depends on test cycle and configuration."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-u15",
+          "normalizedValue": "yutong-u15"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1105,7 +1103,7 @@
     {
       "model": "E9 (ZK6890BEVG)",
       "slug": "yutong-e9",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1132,22 +1130,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-e9",
+          "normalizedValue": "yutong-e9"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1194,7 +1193,7 @@
     {
       "model": "T12E",
       "slug": "yutong-t12e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1222,22 +1221,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-t12e",
+          "normalizedValue": "yutong-t12e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1286,7 +1286,7 @@
     {
       "model": "IC12E (2026)",
       "slug": "yutong-ic12e-2026",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1325,22 +1325,23 @@
           "normalizedValue": [
             "IC12E"
           ]
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-ic12e-2026",
+          "normalizedValue": "yutong-ic12e-2026"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1389,7 +1390,7 @@
     {
       "model": "T15E",
       "slug": "yutong-t15e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1417,22 +1418,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-t15e",
+          "normalizedValue": "yutong-t15e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1481,7 +1483,7 @@
     {
       "model": "IC12E",
       "slug": "yutong-ic12e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1520,22 +1522,23 @@
           "normalizedValue": [
             "IC12E (2026)"
           ]
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-ic12e",
+          "normalizedValue": "yutong-ic12e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1584,7 +1587,7 @@
     {
       "model": "C13E (ZK6137BEV)",
       "slug": "yutong-c13e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1612,22 +1615,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c13e",
+          "normalizedValue": "yutong-c13e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1676,7 +1680,7 @@
     {
       "model": "T14E",
       "slug": "yutong-t14e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1704,22 +1708,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-t14e",
+          "normalizedValue": "yutong-t14e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1768,7 +1773,7 @@
     {
       "model": "C11E (ZK6117BEV)",
       "slug": "yutong-c11e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1796,22 +1801,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c11e",
+          "normalizedValue": "yutong-c11e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1860,7 +1866,7 @@
     {
       "model": "C9E (ZK6907BEV)",
       "slug": "yutong-c9e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1897,22 +1903,23 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-product-page-verified-image-url-needs-extraction",
           "normalizedValue": null
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c9e",
+          "normalizedValue": "yutong-c9e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1961,7 +1968,7 @@
     {
       "model": "D8E (ZK6772BEV)",
       "slug": "yutong-d8e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1989,22 +1996,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-d8e",
+          "normalizedValue": "yutong-d8e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2053,7 +2061,7 @@
     {
       "model": "ZK6890HG",
       "slug": "yutong-zk6890hg",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2077,22 +2085,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-zk6890hg",
+          "normalizedValue": "yutong-zk6890hg"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2141,7 +2150,7 @@
     {
       "model": "ZK6126HG",
       "slug": "yutong-zk6126hg",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2165,22 +2174,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-zk6126hg",
+          "normalizedValue": "yutong-zk6126hg"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2229,7 +2239,7 @@
     {
       "model": "ZK6186HG",
       "slug": "yutong-zk6186hg",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2253,22 +2263,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-zk6186hg",
+          "normalizedValue": "yutong-zk6186hg"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2317,7 +2328,7 @@
     {
       "model": "T12",
       "slug": "yutong-t12",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2343,22 +2354,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-t12",
+          "normalizedValue": "yutong-t12"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2408,7 +2420,7 @@
     {
       "model": "C12PRO",
       "slug": "yutong-c12pro",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2434,22 +2446,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c12pro",
+          "normalizedValue": "yutong-c12pro"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2499,7 +2512,7 @@
     {
       "model": "D14",
       "slug": "yutong-d14",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2525,22 +2538,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-d14",
+          "normalizedValue": "yutong-d14"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2590,7 +2604,7 @@
     {
       "model": "T14",
       "slug": "yutong-t14",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2618,22 +2632,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-t14",
+          "normalizedValue": "yutong-t14"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2683,7 +2698,7 @@
     {
       "model": "C11 (ZK6117H)",
       "slug": "yutong-c11",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2709,22 +2724,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c11",
+          "normalizedValue": "yutong-c11"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2774,7 +2790,7 @@
     {
       "model": "C13PRO",
       "slug": "yutong-c13pro",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2800,22 +2816,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c13pro",
+          "normalizedValue": "yutong-c13pro"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2865,7 +2882,7 @@
     {
       "model": "C9 (ZK6907H)",
       "slug": "yutong-c9",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2891,22 +2908,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-c9",
+          "normalizedValue": "yutong-c9"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2956,7 +2974,7 @@
     {
       "model": "T7",
       "slug": "yutong-t7",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2982,22 +3000,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-t7",
+          "normalizedValue": "yutong-t7"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3047,7 +3066,7 @@
     {
       "model": "ZK6126D",
       "slug": "yutong-zk6126d",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3073,22 +3092,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-zk6126d",
+          "normalizedValue": "yutong-zk6126d"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3138,7 +3158,7 @@
     {
       "model": "AB14",
       "slug": "yutong-ab14",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3163,22 +3183,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-ab14",
+          "normalizedValue": "yutong-ab14"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3227,7 +3248,7 @@
     {
       "model": "AB14E",
       "slug": "yutong-ab14e",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3254,22 +3275,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-ab14e",
+          "normalizedValue": "yutong-ab14e"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3318,7 +3340,7 @@
     {
       "model": "BC12",
       "slug": "yutong-bc12",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3343,22 +3365,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-bc12",
+          "normalizedValue": "yutong-bc12"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3405,7 +3428,7 @@
     {
       "model": "PT9",
       "slug": "yutong-pt9",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3430,22 +3453,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-pt9",
+          "normalizedValue": "yutong-pt9"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3492,7 +3516,7 @@
     {
       "model": "PC9",
       "slug": "yutong-pc9",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3517,22 +3541,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-pc9",
+          "normalizedValue": "yutong-pc9"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3579,7 +3604,7 @@
     {
       "model": "ASCLE",
       "slug": "yutong-ascle",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3604,22 +3629,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-ascle",
+          "normalizedValue": "yutong-ascle"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3667,7 +3693,7 @@
     {
       "model": "AKESO",
       "slug": "yutong-akeso",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3692,22 +3718,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-akeso",
+          "normalizedValue": "yutong-akeso"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3756,7 +3783,7 @@
     {
       "model": "MC6",
       "slug": "yutong-mc6",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3790,22 +3817,23 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page.",
           "normalizedValue": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-mc6",
+          "normalizedValue": "yutong-mc6"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3853,7 +3881,7 @@
     {
       "model": "PV9",
       "slug": "yutong-pv9",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3878,22 +3906,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-pv9",
+          "normalizedValue": "yutong-pv9"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -3940,7 +3969,7 @@
     {
       "model": "RV9",
       "slug": "yutong-rv9",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -3965,22 +3994,23 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
           "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-rv9",
+          "normalizedValue": "yutong-rv9"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -4027,7 +4057,7 @@
     {
       "model": "AKESO5",
       "slug": "yutong-akeso5",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -4061,22 +4091,23 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'.",
           "normalizedValue": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'."
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: yutong.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: yutong."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "yutong-akeso5",
+          "normalizedValue": "yutong-akeso5"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "yutong",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,

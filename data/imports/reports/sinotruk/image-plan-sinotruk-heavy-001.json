@@ -1,0 +1,253 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T05:12:50.169Z",
+  "summary": {
+    "imagesTested": 17,
+    "sourceImagesAvailable": 17,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 1,
+    "localAssetsReady": 17,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "HOWO TX 6×4 Dump Truck",
+      "slug": "sinotruk-howo-tx-6x4-dump",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/howo-TX7.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO TX 8×4 Dump Truck",
+      "slug": "sinotruk-howo-tx-8x4-dump",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/howo-TX7-2.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 6×4 Dump Truck",
+      "slug": "sinotruk-howo-n-6x4-dump",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/HOWO-N-6X4-dump-truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-n-6x4-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 8×4 Dump Truck",
+      "slug": "sinotruk-howo-n-8x4-dump",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Dump-Truck-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-n-8x4-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 6×4 Dump Truck",
+      "slug": "sinotruk-howo-6x4-dump",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Sinotruk-Howo-7-6X4-b.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-6x4-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 8×4 Dump Truck",
+      "slug": "sinotruk-howo-8x4-dump",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/HOWO-7-8X4-0.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-8x4-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-dump.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO T7 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-t7-6x4-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-T7-6X24Tractor-Truck-.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-t7-6x4-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO TX 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-tx-6x4-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-6X4-Tractor-Truck-.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-tx-6x4-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 4×2 Tractor Truck",
+      "slug": "sinotruk-howo-n-4x2-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-n-4x2-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-4x2-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-n-6x4-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-n-6x4-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 6×4 Tractor Truck",
+      "slug": "sinotruk-howo-6x4-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Tractor-Truck-.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-6x4-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 4×2 Tractor Truck",
+      "slug": "sinotruk-howo-4x2-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-4X2-Tractor-Truck-1-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-4x2-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-4x2-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO 6×4 Cargo Truck",
+      "slug": "sinotruk-howo-6x4-cargo",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-6X4-Cargo-Truck-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-6x4-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO TX 4×2 Cargo Truck",
+      "slug": "sinotruk-howo-tx-4x2-cargo",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-4X2-Cargo-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-tx-4x2-cargo-truck-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-4x2-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO TX 8×4 Cargo Truck",
+      "slug": "sinotruk-howo-tx-8x4-cargo",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-TX-8X4-Cargo-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-tx-8x4-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 6×4 Cargo Truck",
+      "slug": "sinotruk-howo-n-6x4-cargo",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-N-6X4-Cargo-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-n-6x4-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO N 8×4 Cargo Truck",
+      "slug": "sinotruk-howo-n-8x4-cargo",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-N-8X4-Cargo-Truck-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-n-8x4-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-cargo.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

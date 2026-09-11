@@ -1,7 +1,7 @@
 {
   "manufacturer": "sinotruk",
   "displayName": "SINOTRUK",
-  "generatedAt": "2026-09-11T05:02:13.626Z",
+  "generatedAt": "2026-09-11T05:20:14.954Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,17 +22,17 @@
   "summary": {
     "recordsLoaded": 50,
     "recordsNormalized": 50,
-    "eligible": 50,
-    "warnings": 74,
+    "eligible": 0,
+    "warnings": 124,
     "errors": 0,
-    "alreadyExists": 0,
+    "alreadyExists": 50,
     "excluded": 0,
-    "expectedInserts": 50,
+    "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
-    "applyAllowed": true,
+    "applyAllowed": false,
     "blocked": 0,
     "batchErrors": []
   },
@@ -190,7 +190,7 @@
     ]
   },
   "duplicateChecks": {
-    "alreadyExists": 0,
+    "alreadyExists": 50,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "batchVariantWarnings": 0,
@@ -298,7 +298,7 @@
   },
   "promotion": {
     "writesPerformed": 0,
-    "expectedInserts": 50,
+    "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0,
     "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
@@ -311,17 +311,17 @@
   },
   "dataSafety": {
     "countsBefore": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -390,8 +390,8 @@
     {
       "model": "HOWO TX 6×4 Dump Truck",
       "slug": "sinotruk-howo-tx-6x4-dump",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -418,6 +418,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-tx-6x4-dump",
+          "normalizedValue": "sinotruk-howo-tx-6x4-dump"
         }
       ],
       "errors": [],
@@ -474,8 +483,8 @@
     {
       "model": "HOWO TX 8×4 Dump Truck",
       "slug": "sinotruk-howo-tx-8x4-dump",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -502,6 +511,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-tx-8x4-dump",
+          "normalizedValue": "sinotruk-howo-tx-8x4-dump"
         }
       ],
       "errors": [],
@@ -558,8 +576,8 @@
     {
       "model": "HOWO N 6×4 Dump Truck",
       "slug": "sinotruk-howo-n-6x4-dump",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -586,6 +604,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-6x4-dump",
+          "normalizedValue": "sinotruk-howo-n-6x4-dump"
         }
       ],
       "errors": [],
@@ -642,8 +669,8 @@
     {
       "model": "HOWO N 8×4 Dump Truck",
       "slug": "sinotruk-howo-n-8x4-dump",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -670,6 +697,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-8x4-dump",
+          "normalizedValue": "sinotruk-howo-n-8x4-dump"
         }
       ],
       "errors": [],
@@ -726,8 +762,8 @@
     {
       "model": "HOWO 6×4 Dump Truck",
       "slug": "sinotruk-howo-6x4-dump",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -754,6 +790,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-6x4-dump",
+          "normalizedValue": "sinotruk-howo-6x4-dump"
         }
       ],
       "errors": [],
@@ -810,8 +855,8 @@
     {
       "model": "HOWO 8×4 Dump Truck",
       "slug": "sinotruk-howo-8x4-dump",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -838,6 +883,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-8x4-dump",
+          "normalizedValue": "sinotruk-howo-8x4-dump"
         }
       ],
       "errors": [],
@@ -894,8 +948,8 @@
     {
       "model": "HOWO T7 6×4 Tractor Truck",
       "slug": "sinotruk-howo-t7-6x4-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -921,6 +975,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-t7-6x4-tractor",
+          "normalizedValue": "sinotruk-howo-t7-6x4-tractor"
         }
       ],
       "errors": [],
@@ -976,8 +1039,8 @@
     {
       "model": "HOWO TX 6×4 Tractor Truck",
       "slug": "sinotruk-howo-tx-6x4-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1003,6 +1066,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-tx-6x4-tractor",
+          "normalizedValue": "sinotruk-howo-tx-6x4-tractor"
         }
       ],
       "errors": [],
@@ -1058,8 +1130,8 @@
     {
       "model": "HOWO N 4×2 Tractor Truck",
       "slug": "sinotruk-howo-n-4x2-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1103,6 +1175,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-4x2-tractor",
+          "normalizedValue": "sinotruk-howo-n-4x2-tractor"
         }
       ],
       "errors": [],
@@ -1159,8 +1240,8 @@
     {
       "model": "HOWO N 6×4 Tractor Truck",
       "slug": "sinotruk-howo-n-6x4-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1195,6 +1276,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/Howo-N-6X4-Tractor-Truck-1-1.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-6x4-tractor",
+          "normalizedValue": "sinotruk-howo-n-6x4-tractor"
         }
       ],
       "errors": [],
@@ -1250,8 +1340,8 @@
     {
       "model": "HOWO 6×4 Tractor Truck",
       "slug": "sinotruk-howo-6x4-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1277,6 +1367,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-6x4-tractor",
+          "normalizedValue": "sinotruk-howo-6x4-tractor"
         }
       ],
       "errors": [],
@@ -1332,8 +1431,8 @@
     {
       "model": "HOWO 4×2 Tractor Truck",
       "slug": "sinotruk-howo-4x2-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1359,6 +1458,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-4x2-tractor",
+          "normalizedValue": "sinotruk-howo-4x2-tractor"
         }
       ],
       "errors": [],
@@ -1414,8 +1522,8 @@
     {
       "model": "HOWO 6×4 Cargo Truck",
       "slug": "sinotruk-howo-6x4-cargo",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1442,6 +1550,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-6x4-cargo",
+          "normalizedValue": "sinotruk-howo-6x4-cargo"
         }
       ],
       "errors": [],
@@ -1497,8 +1614,8 @@
     {
       "model": "HOWO TX 4×2 Cargo Truck",
       "slug": "sinotruk-howo-tx-4x2-cargo",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1534,6 +1651,15 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "SINOTRUK currently lists two HOWO TX 4×2 Cargo pages with the same core specifications; consolidated into one Strongbuilt record.",
           "normalizedValue": "SINOTRUK currently lists two HOWO TX 4×2 Cargo pages with the same core specifications; consolidated into one Strongbuilt record."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-tx-4x2-cargo",
+          "normalizedValue": "sinotruk-howo-tx-4x2-cargo"
         }
       ],
       "errors": [],
@@ -1590,8 +1716,8 @@
     {
       "model": "HOWO TX 8×4 Cargo Truck",
       "slug": "sinotruk-howo-tx-8x4-cargo",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1618,6 +1744,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-tx-8x4-cargo",
+          "normalizedValue": "sinotruk-howo-tx-8x4-cargo"
         }
       ],
       "errors": [],
@@ -1673,8 +1808,8 @@
     {
       "model": "HOWO N 6×4 Cargo Truck",
       "slug": "sinotruk-howo-n-6x4-cargo",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1701,6 +1836,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-6x4-cargo",
+          "normalizedValue": "sinotruk-howo-n-6x4-cargo"
         }
       ],
       "errors": [],
@@ -1756,8 +1900,8 @@
     {
       "model": "HOWO N 8×4 Cargo Truck",
       "slug": "sinotruk-howo-n-8x4-cargo",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Heavy Truck",
@@ -1784,6 +1928,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-8x4-cargo",
+          "normalizedValue": "sinotruk-howo-n-8x4-cargo"
         }
       ],
       "errors": [],
@@ -1839,8 +1992,8 @@
     {
       "model": "HOWO Cargo Truck",
       "slug": "sinotruk-howo-cargo-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -1866,6 +2019,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-cargo-truck",
+          "normalizedValue": "sinotruk-howo-cargo-truck"
         }
       ],
       "errors": [],
@@ -1920,8 +2082,8 @@
     {
       "model": "HOWO Light Cargo Truck",
       "slug": "sinotruk-howo-light-cargo-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -1947,6 +2109,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-light-cargo-truck",
+          "normalizedValue": "sinotruk-howo-light-cargo-truck"
         }
       ],
       "errors": [],
@@ -2001,8 +2172,8 @@
     {
       "model": "HOWO Box Van Cargo Truck",
       "slug": "sinotruk-howo-box-van-cargo-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -2028,6 +2199,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-box-van-cargo-truck",
+          "normalizedValue": "sinotruk-howo-box-van-cargo-truck"
         }
       ],
       "errors": [],
@@ -2082,8 +2262,8 @@
     {
       "model": "HOWO Light Stake Truck",
       "slug": "sinotruk-howo-light-stake-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -2109,6 +2289,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-light-stake-truck",
+          "normalizedValue": "sinotruk-howo-light-stake-truck"
         }
       ],
       "errors": [],
@@ -2161,8 +2350,8 @@
     {
       "model": "HOWO Refrigerator Cargo Truck",
       "slug": "sinotruk-howo-refrigerator-cargo-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -2189,6 +2378,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-refrigerator-cargo-truck",
+          "normalizedValue": "sinotruk-howo-refrigerator-cargo-truck"
         }
       ],
       "errors": [],
@@ -2244,8 +2442,8 @@
     {
       "model": "HOWO Wing Van Cargo Truck",
       "slug": "sinotruk-howo-wing-van-cargo-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -2272,6 +2470,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-wing-van-cargo-truck",
+          "normalizedValue": "sinotruk-howo-wing-van-cargo-truck"
         }
       ],
       "errors": [],
@@ -2326,8 +2533,8 @@
     {
       "model": "HOWO Mini Tipper Truck",
       "slug": "sinotruk-howo-mini-tipper-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -2363,6 +2570,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "The page's summary metadata and detailed emission wording are not fully consistent. The record preserves the product page's listed Euro III–IV range and should be confirmed against the exact supplied chassis.",
           "normalizedValue": "The page's summary metadata and detailed emission wording are not fully consistent. The record preserves the product page's listed Euro III–IV range and should be confirmed against the exact supplied chassis."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-mini-tipper-truck",
+          "normalizedValue": "sinotruk-howo-mini-tipper-truck"
         }
       ],
       "errors": [],
@@ -2419,8 +2635,8 @@
     {
       "model": "HOWO Light Duty Tipper Truck",
       "slug": "sinotruk-howo-light-duty-tipper-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Light Truck",
@@ -2456,6 +2672,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "The page's summary metadata and detailed emission wording are not fully consistent. The record preserves the product page's listed Euro III–IV range and should be confirmed against the exact supplied chassis.",
           "normalizedValue": "The page's summary metadata and detailed emission wording are not fully consistent. The record preserves the product page's listed Euro III–IV range and should be confirmed against the exact supplied chassis."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-light-duty-tipper-truck",
+          "normalizedValue": "sinotruk-howo-light-duty-tipper-truck"
         }
       ],
       "errors": [],
@@ -2512,8 +2737,8 @@
     {
       "model": "HOWO Water Tanker",
       "slug": "sinotruk-howo-water-tanker",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -2539,6 +2764,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-water-tanker",
+          "normalizedValue": "sinotruk-howo-water-tanker"
         }
       ],
       "errors": [],
@@ -2594,8 +2828,8 @@
     {
       "model": "HOWO Oil Tanker",
       "slug": "sinotruk-howo-oil-tanker",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -2628,6 +2862,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-oil-tanker",
+          "normalizedValue": "sinotruk-howo-oil-tanker"
         }
       ],
       "errors": [],
@@ -2683,8 +2926,8 @@
     {
       "model": "HOWO 8×4 Oil Tanker",
       "slug": "sinotruk-howo-8x4-oil-tanker",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -2719,6 +2962,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-8x4-oil-tanker",
+          "normalizedValue": "sinotruk-howo-8x4-oil-tanker"
         }
       ],
       "errors": [],
@@ -2774,8 +3026,8 @@
     {
       "model": "HOWO 6×4 Oil Tanker",
       "slug": "sinotruk-howo-6x4-oil-tanker",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -2810,6 +3062,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-6x4-oil-tanker",
+          "normalizedValue": "sinotruk-howo-6x4-oil-tanker"
         }
       ],
       "errors": [],
@@ -2865,8 +3126,8 @@
     {
       "model": "HOWO N 6×4 Mixer Truck",
       "slug": "sinotruk-howo-n-6x4-mixer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -2901,6 +3162,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-6x4-mixer",
+          "normalizedValue": "sinotruk-howo-n-6x4-mixer"
         }
       ],
       "errors": [],
@@ -2956,8 +3226,8 @@
     {
       "model": "HOWO N 8×4 Mixer Truck",
       "slug": "sinotruk-howo-n-8x4-mixer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -2992,6 +3262,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-n-8x4-mixer",
+          "normalizedValue": "sinotruk-howo-n-8x4-mixer"
         }
       ],
       "errors": [],
@@ -3047,8 +3326,8 @@
     {
       "model": "HOWO TX 8×4 Mixer Truck",
       "slug": "sinotruk-howo-tx-8x4-mixer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3083,6 +3362,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-tx-8x4-mixer",
+          "normalizedValue": "sinotruk-howo-tx-8x4-mixer"
         }
       ],
       "errors": [],
@@ -3138,8 +3426,8 @@
     {
       "model": "HOWO T7H 6×4 Mixer Truck",
       "slug": "sinotruk-howo-t7h-6x4-mixer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3174,6 +3462,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-t7h-6x4-mixer",
+          "normalizedValue": "sinotruk-howo-t7h-6x4-mixer"
         }
       ],
       "errors": [],
@@ -3229,8 +3526,8 @@
     {
       "model": "HOWO T7H 8×4 Mixer Truck",
       "slug": "sinotruk-howo-t7h-8x4-mixer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3265,6 +3562,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-t7h-8x4-mixer",
+          "normalizedValue": "sinotruk-howo-t7h-8x4-mixer"
         }
       ],
       "errors": [],
@@ -3320,8 +3626,8 @@
     {
       "model": "HOWO 7 6×4 Mixer Truck",
       "slug": "sinotruk-howo-7-6x4-mixer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3356,6 +3662,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-7-6x4-mixer",
+          "normalizedValue": "sinotruk-howo-7-6x4-mixer"
         }
       ],
       "errors": [],
@@ -3411,8 +3726,8 @@
     {
       "model": "HOWO Synchronous Chip Seal / Bitumen Tank",
       "slug": "sinotruk-howo-synchronous-chip-seal",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3445,6 +3760,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-synchronous-chip-seal",
+          "normalizedValue": "sinotruk-howo-synchronous-chip-seal"
         }
       ],
       "errors": [],
@@ -3499,8 +3823,8 @@
     {
       "model": "HOWO Bitumen Sprayer Tank",
       "slug": "sinotruk-howo-bitumen-sprayer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3533,6 +3857,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-bitumen-sprayer",
+          "normalizedValue": "sinotruk-howo-bitumen-sprayer"
         }
       ],
       "errors": [],
@@ -3587,8 +3920,8 @@
     {
       "model": "HOWO Garbage Truck",
       "slug": "sinotruk-howo-garbage-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3612,6 +3945,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-garbage-truck",
+          "normalizedValue": "sinotruk-howo-garbage-truck"
         }
       ],
       "errors": [],
@@ -3667,8 +4009,8 @@
     {
       "model": "HOWO Mounted Crane Truck",
       "slug": "sinotruk-howo-mounted-crane",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3702,6 +4044,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-mounted-crane",
+          "normalizedValue": "sinotruk-howo-mounted-crane"
         }
       ],
       "errors": [],
@@ -3756,8 +4107,8 @@
     {
       "model": "HOWO Small Truck Crane",
       "slug": "sinotruk-howo-small-truck-crane",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Special Vehicle",
@@ -3791,6 +4142,15 @@
           "code": "SHARED_SOURCE_IMAGE",
           "sourceValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
           "normalizedValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-small-truck-crane",
+          "normalizedValue": "sinotruk-howo-small-truck-crane"
         }
       ],
       "errors": [],
@@ -3845,8 +4205,8 @@
     {
       "model": "Dump Semi Trailer",
       "slug": "sinotruk-dump-semi-trailer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
@@ -3871,6 +4231,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-dump-semi-trailer",
+          "normalizedValue": "sinotruk-dump-semi-trailer"
         }
       ],
       "errors": [],
@@ -3925,8 +4294,8 @@
     {
       "model": "Fuel Tanker Semi Trailer",
       "slug": "sinotruk-fuel-tanker-semi-trailer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
@@ -3952,6 +4321,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-fuel-tanker-semi-trailer",
+          "normalizedValue": "sinotruk-fuel-tanker-semi-trailer"
         }
       ],
       "errors": [],
@@ -4004,8 +4382,8 @@
     {
       "model": "Fence Semi Trailer",
       "slug": "sinotruk-fence-semi-trailer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
@@ -4030,6 +4408,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-fence-semi-trailer",
+          "normalizedValue": "sinotruk-fence-semi-trailer"
         }
       ],
       "errors": [],
@@ -4082,8 +4469,8 @@
     {
       "model": "Sidewall Semi Trailer",
       "slug": "sinotruk-sidewall-semi-trailer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
@@ -4107,6 +4494,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-sidewall-semi-trailer",
+          "normalizedValue": "sinotruk-sidewall-semi-trailer"
         }
       ],
       "errors": [],
@@ -4159,8 +4555,8 @@
     {
       "model": "Flatbed Semi Trailer",
       "slug": "sinotruk-flatbed-semi-trailer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
@@ -4184,6 +4580,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
           "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-flatbed-semi-trailer",
+          "normalizedValue": "sinotruk-flatbed-semi-trailer"
         }
       ],
       "errors": [],
@@ -4239,8 +4644,8 @@
     {
       "model": "Low Bed Semi Trailer",
       "slug": "sinotruk-low-bed-semi-trailer",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Semi Trailer",
@@ -4275,6 +4680,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "The official page conflicts internally: its description states an 80-ton standard load with 25% overload allowance, while the model summary says Max.70 tons. Both values are preserved and should be confirmed before public display.",
           "normalizedValue": "The official page conflicts internally: its description states an 80-ton standard load with 25% overload allowance, while the model summary says Max.70 tons. Both values are preserved and should be confirmed before public display."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-low-bed-semi-trailer",
+          "normalizedValue": "sinotruk-low-bed-semi-trailer"
         }
       ],
       "errors": [],
@@ -4330,8 +4744,8 @@
     {
       "model": "HOWO Pure Electric Light Truck",
       "slug": "sinotruk-howo-pure-electric-light-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
@@ -4369,6 +4783,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "The page header contains ICE-style fields such as 5F/6F transmission, Euro II–III engine and 102–116 hp. Those conflict with the detailed electric specification table and are intentionally excluded from this record.",
           "normalizedValue": "The page header contains ICE-style fields such as 5F/6F transmission, Euro II–III engine and 102–116 hp. Those conflict with the detailed electric specification table and are intentionally excluded from this record."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-pure-electric-light-truck",
+          "normalizedValue": "sinotruk-howo-pure-electric-light-truck"
         }
       ],
       "errors": [],
@@ -4426,8 +4849,8 @@
     {
       "model": "HOWO Pure Electric Dump Truck",
       "slug": "sinotruk-howo-pure-electric-dump-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
@@ -4464,6 +4887,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "The page header contains copied ICE-style transmission/engine/power fields that conflict with the detailed electric table. Only the detailed electric specification table is used.",
           "normalizedValue": "The page header contains copied ICE-style transmission/engine/power fields that conflict with the detailed electric table. Only the detailed electric specification table is used."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-pure-electric-dump-truck",
+          "normalizedValue": "sinotruk-howo-pure-electric-dump-truck"
         }
       ],
       "errors": [],
@@ -4522,8 +4954,8 @@
     {
       "model": "HOWO Pure Electric Tractor Truck",
       "slug": "sinotruk-howo-pure-electric-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
@@ -4556,6 +4988,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "Do not publish detailed specifications from the current official page without manufacturer confirmation. Its detailed table repeats light-truck model codes, 4.15 m cargo-box dimensions, 4.5 t loaded mass and the same battery table as the electric light truck, which is inconsistent with the tractor product image/title.",
           "normalizedValue": "Do not publish detailed specifications from the current official page without manufacturer confirmation. Its detailed table repeats light-truck model codes, 4.15 m cargo-box dimensions, 4.5 t loaded mass and the same battery table as the electric light truck, which is inconsistent with the tractor product image/title."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-howo-pure-electric-tractor",
+          "normalizedValue": "sinotruk-howo-pure-electric-tractor"
         }
       ],
       "errors": [],
@@ -4612,8 +5053,8 @@
     {
       "model": "Pure Electric Single Side Dock Tractor Truck",
       "slug": "sinotruk-pure-electric-single-side-dock-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "New Energy Vehicle",
@@ -4647,6 +5088,15 @@
           "code": "SOURCE_DATA_WARNING",
           "sourceValue": "The official page's detailed table appears copied from the electric light-truck page and does not match the dock-tractor image/title. Detailed chassis, motor and battery specifications are therefore intentionally omitted pending manufacturer verification.",
           "normalizedValue": "The official page's detailed table appears copied from the electric light-truck page and does not match the dock-tractor image/title. Detailed chassis, motor and battery specifications are therefore intentionally omitted pending manufacturer verification."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "sinotruk-pure-electric-single-side-dock-tractor",
+          "normalizedValue": "sinotruk-pure-electric-single-side-dock-tractor"
         }
       ],
       "errors": [],

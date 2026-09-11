@@ -1,7 +1,7 @@
 {
   "manufacturer": "faw",
   "displayName": "FAW",
-  "generatedAt": "2026-09-11T05:02:17.873Z",
+  "generatedAt": "2026-09-11T05:20:22.982Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -23,9 +23,9 @@
     "recordsLoaded": 22,
     "recordsNormalized": 22,
     "eligible": 0,
-    "warnings": 53,
-    "errors": 23,
-    "alreadyExists": 0,
+    "warnings": 75,
+    "errors": 0,
+    "alreadyExists": 22,
     "excluded": 0,
     "expectedInserts": 0,
     "expectedUpdates": 0,
@@ -33,24 +33,14 @@
   },
   "batchEligibility": {
     "applyAllowed": false,
-    "blocked": 22,
-    "batchErrors": [
-      {
-        "severity": "error",
-        "field": "brandSlug",
-        "message": "The approved manufacturer brand could not be resolved.",
-        "reason": "The approved manufacturer brand could not be resolved.",
-        "code": "UNRESOLVED_BRAND",
-        "sourceValue": "faw",
-        "normalizedValue": null
-      }
-    ]
+    "blocked": 0,
+    "batchErrors": []
   },
   "brandResolution": {
     "slug": "faw",
-    "name": null,
-    "resolved": false,
-    "matchedBy": null,
+    "name": "FAW TRUCKS",
+    "resolved": true,
+    "matchedBy": "slug",
     "hardCodedObjectId": false
   },
   "typeCompatibility": {
@@ -166,7 +156,7 @@
     ]
   },
   "duplicateChecks": {
-    "alreadyExists": 0,
+    "alreadyExists": 22,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "batchVariantWarnings": 0,
@@ -259,17 +249,17 @@
   },
   "dataSafety": {
     "countsBefore": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -338,7 +328,7 @@
     {
       "model": "J7",
       "slug": "faw-j7-tractor",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -376,22 +366,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j7-tractor",
+          "normalizedValue": "faw-j7-tractor"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -439,7 +430,7 @@
     {
       "model": "JH6 Tractor",
       "slug": "faw-jh6-tractor",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -478,22 +469,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-jh6-tractor",
+          "normalizedValue": "faw-jh6-tractor"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -540,7 +532,7 @@
     {
       "model": "J6P Tractor",
       "slug": "faw-j6p-tractor",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -577,22 +569,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j6p-tractor",
+          "normalizedValue": "faw-j6p-tractor"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -639,7 +632,7 @@
     {
       "model": "NEW J5P Tractor",
       "slug": "faw-new-j5p-tractor",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -693,22 +686,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-new-j5p-tractor",
+          "normalizedValue": "faw-new-j5p-tractor"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -753,7 +747,7 @@
     {
       "model": "NEW J5M Tractor",
       "slug": "faw-new-j5m-tractor",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -807,22 +801,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-new-j5m-tractor",
+          "normalizedValue": "faw-new-j5m-tractor"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -867,7 +862,7 @@
     {
       "model": "J5P Tractor",
       "slug": "faw-j5p-tractor",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -921,22 +916,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j5p-tractor",
+          "normalizedValue": "faw-j5p-tractor"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -983,7 +979,7 @@
     {
       "model": "JK6 Rigid",
       "slug": "faw-jk6-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1019,22 +1015,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-jk6-rigid",
+          "normalizedValue": "faw-jk6-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1081,7 +1078,7 @@
     {
       "model": "J6L Rigid",
       "slug": "faw-j6l-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1117,22 +1114,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j6l-rigid",
+          "normalizedValue": "faw-j6l-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1179,7 +1177,7 @@
     {
       "model": "Dragon V Rigid",
       "slug": "faw-dragon-v-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1215,22 +1213,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-dragon-v-rigid",
+          "normalizedValue": "faw-dragon-v-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1277,7 +1276,7 @@
     {
       "model": "Tiger VH Rigid",
       "slug": "faw-tiger-vh-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1315,22 +1314,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-tiger-vh-rigid",
+          "normalizedValue": "faw-tiger-vh-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1377,7 +1377,7 @@
     {
       "model": "Tiger VN Rigid",
       "slug": "faw-tiger-vn-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1413,22 +1413,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-tiger-vn-rigid",
+          "normalizedValue": "faw-tiger-vn-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1475,7 +1476,7 @@
     {
       "model": "Tiger VR Rigid",
       "slug": "faw-tiger-vr-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1514,22 +1515,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-tiger-vr-rigid",
+          "normalizedValue": "faw-tiger-vr-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1576,7 +1578,7 @@
     {
       "model": "Baling Rigid",
       "slug": "faw-baling-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1612,22 +1614,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-baling-rigid",
+          "normalizedValue": "faw-baling-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1674,7 +1677,7 @@
     {
       "model": "T80 Rigid",
       "slug": "faw-t80-rigid",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1710,22 +1713,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-t80-rigid",
+          "normalizedValue": "faw-t80-rigid"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1772,7 +1776,7 @@
     {
       "model": "JH6 Dump Truck",
       "slug": "faw-jh6-dump",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1811,22 +1815,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-jh6-dump",
+          "normalizedValue": "faw-jh6-dump"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1875,7 +1880,7 @@
     {
       "model": "J6P Dump Truck",
       "slug": "faw-j6p-dump",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -1923,22 +1928,23 @@
           "message": "Manufacturer source note retained for manual QA.",
           "reason": "Manufacturer source note retained for manual QA.",
           "code": "MANUFACTURER_SOURCE_WARNING"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j6p-dump",
+          "normalizedValue": "faw-j6p-dump"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -1979,7 +1985,7 @@
     {
       "model": "NEW J5P Dump Truck",
       "slug": "faw-new-j5p-dump",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2018,22 +2024,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-new-j5p-dump",
+          "normalizedValue": "faw-new-j5p-dump"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2082,7 +2089,7 @@
     {
       "model": "Dragon V Dump Truck",
       "slug": "faw-dragon-v-dump",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2127,22 +2134,23 @@
           "message": "Manufacturer source note retained for manual QA.",
           "reason": "Manufacturer source note retained for manual QA.",
           "code": "MANUFACTURER_SOURCE_WARNING"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-dragon-v-dump",
+          "normalizedValue": "faw-dragon-v-dump"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2181,7 +2189,7 @@
     {
       "model": "Tiger V 4x4 Dump Truck",
       "slug": "faw-tiger-v-dump",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2220,22 +2228,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-tiger-v-dump",
+          "normalizedValue": "faw-tiger-v-dump"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2284,7 +2293,7 @@
     {
       "model": "JH6 Special Purpose",
       "slug": "faw-jh6-special-purpose",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2321,22 +2330,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-jh6-special-purpose",
+          "normalizedValue": "faw-jh6-special-purpose"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2383,7 +2393,7 @@
     {
       "model": "J6P Special Purpose",
       "slug": "faw-j6p-special-purpose",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2422,22 +2432,23 @@
           "message": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "reason": "No validated local manufacturer image is available; the frontend photography-unavailable fallback will be used.",
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j6p-special-purpose",
+          "normalizedValue": "faw-j6p-special-purpose"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,
@@ -2484,7 +2495,7 @@
     {
       "model": "J6L Special Purpose",
       "slug": "faw-j6l-special-purpose",
-      "status": "ERROR",
+      "status": "ALREADY_EXISTS",
       "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
@@ -2531,22 +2542,23 @@
           "message": "Manufacturer source note retained for manual QA.",
           "reason": "Manufacturer source note retained for manual QA.",
           "code": "MANUFACTURER_SOURCE_WARNING"
-        }
-      ],
-      "errors": [
+        },
         {
-          "severity": "error",
-          "field": "brandSlug",
-          "message": "Unknown brand slug: faw-trucks.",
-          "code": "UNKNOWN_BRAND",
-          "reason": "Unknown brand slug: faw-trucks."
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "faw-j6l-special-purpose",
+          "normalizedValue": "faw-j6l-special-purpose"
         }
       ],
+      "errors": [],
       "brandResolution": {
         "slug": "faw",
-        "name": null,
-        "resolved": false,
-        "matchedBy": null
+        "name": "FAW TRUCKS",
+        "resolved": true,
+        "matchedBy": "slug"
       },
       "typeResolution": {
         "resolved": true,

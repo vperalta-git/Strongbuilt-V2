@@ -1,0 +1,141 @@
+{
+  "manufacturer": "yutong",
+  "generatedAt": "2026-09-11T05:18:37.448Z",
+  "summary": {
+    "imagesTested": 9,
+    "sourceImagesAvailable": 9,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 9,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "H10",
+      "slug": "yutong-h10",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/9/24/product/productCatPic/41b689645ca2439fbe32501513740785.webp",
+          "sourcePage": "https://en.yutong.com/products/H10.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/h10.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "E7S (ZK6706BEVG)",
+      "slug": "yutong-e7s",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/7/17/product/productCatPic/2ec1faf804c64667878b181b4d37eeca.webp",
+          "sourcePage": "https://en.yutong.com/products/E7S.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/e7s.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "U12",
+      "slug": "yutong-u12",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/10/24/product/productCatPic/bfe7efa3bc8f4610a67d63560fdcb88f.webp",
+          "sourcePage": "https://en.yutong.com/products/U12.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/u12.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "E12 (ZK6128BEVG)",
+      "slug": "yutong-e12",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/14/product/productCatPic/4722c7f9c4c44cadb922279e40918c09.webp",
+          "sourcePage": "https://en.yutong.com/products/xE12.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/e12.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "U18",
+      "slug": "yutong-u18",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/23/product/productCatPic/b42a2c04a2a74d62824a96c872a10401.webp",
+          "sourcePage": "https://en.yutong.com/products/U18.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/u18.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "E12PRO",
+      "slug": "yutong-e12pro",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/3/27/product/productCatPic/e671deafbc1849d5bc1fa2987ff5b042.webp",
+          "sourcePage": "https://en.yutong.com/products/E12PRO.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/e12pro.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "U12DD",
+      "slug": "yutong-u12dd",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/31/product/productCatPic/2134d6a9016047aba491d5ea5615ac2b.webp",
+          "sourcePage": "https://en.yutong.com/products/U12DD.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/u12dd.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "U15",
+      "slug": "yutong-u15",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/1/7/product/productCatPic/9ed26742e67045589e3d0aa6151e6d3a.webp",
+          "sourcePage": "https://en.yutong.com/products/U15.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/u15.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "E9 (ZK6890BEVG)",
+      "slug": "yutong-e9",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2026/8/6/product/productCatPic/64f738c2f89f4b60abfdda6fde4247f4.webp",
+          "sourcePage": "https://en.yutong.com/products/E9.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/e9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

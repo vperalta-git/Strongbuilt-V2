@@ -1,0 +1,57 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T05:11:55.048Z",
+  "summary": {
+    "imagesTested": 3,
+    "sourceImagesAvailable": 3,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 3,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "X6000",
+      "slug": "shacman-x6000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/08/20/l/996ad657259f45ca9c5f604a23150520.png",
+          "sourcePage": "https://www.shacman.com/product/6000-series/x6000/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/x6000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "X5000",
+      "slug": "shacman-x5000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/31/l/706db4e42ccd406d8fe6141a6078339b.png",
+          "sourcePage": "https://www.shacman.com/product/5000-series/x5000/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/x5000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "F3000",
+      "slug": "shacman-f3000",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/11/01/l/16bc3ec59f7949b582fcfcd5979208f7.png",
+          "sourcePage": "https://www.shacman.com/product/3000-series/F3000/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/f3000.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

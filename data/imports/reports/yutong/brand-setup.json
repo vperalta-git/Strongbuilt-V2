@@ -1,9 +1,9 @@
 {
   "manufacturer": "yutong",
-  "generatedAt": "2026-09-11T04:57:18.795Z",
-  "mode": "dry-run",
-  "action": "planned",
-  "objectId": null,
+  "generatedAt": "2026-09-11T05:08:25.794Z",
+  "mode": "apply",
+  "action": "inserted",
+  "objectId": "6aa38cc99acfad1eb7c361a3",
   "proposed": {
     "name": "YUTONG",
     "slug": "yutong",
@@ -26,7 +26,7 @@
     "displayOrder": 7
   },
   "countsBefore": {
-    "brands": 6,
+    "brands": 7,
     "trucks": 66,
     "uniqueTruckSlugs": 66,
     "truckTypes": 6,
@@ -34,7 +34,7 @@
     "quoteRequests": 0
   },
   "countsAfter": {
-    "brands": 6,
+    "brands": 8,
     "trucks": 66,
     "uniqueTruckSlugs": 66,
     "truckTypes": 6,
@@ -42,5 +42,5 @@
     "quoteRequests": 0
   },
   "protectedCollectionsUnchanged": true,
-  "idempotent": false
+  "idempotent": true
 }

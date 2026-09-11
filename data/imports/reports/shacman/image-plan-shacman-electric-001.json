@@ -1,0 +1,29 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T05:12:06.138Z",
+  "summary": {
+    "imagesTested": 1,
+    "sourceImagesAvailable": 1,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 1,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "L6000e",
+      "slug": "shacman-l6000e",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/15/l/6c700ef50f484875ade0f21e7dc9c9ef.png",
+          "sourcePage": "https://www.shacman.com/product/e-fuel/l6000-e/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/l6000e.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

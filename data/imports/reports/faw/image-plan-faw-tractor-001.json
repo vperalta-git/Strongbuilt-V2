@@ -1,0 +1,99 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-11T05:16:40.718Z",
+  "summary": {
+    "imagesTested": 6,
+    "sourceImagesAvailable": 6,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 6,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "J7",
+      "slug": "faw-j7-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20230517/298cc3b0adcc5890fc906e251cfa9b7e.webp",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j7-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "JH6 Tractor",
+      "slug": "faw-jh6-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/35f51790cae447f409e97c3a42e87f0c.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jh6-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6P Tractor",
+      "slug": "faw-j6p-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210204/15040c9612f7cc7ed428dc71abafc966.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j6p-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NEW J5P Tractor",
+      "slug": "faw-new-j5p-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/0c1ad7619202188477bddc1089eb99ee.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/new-j5p-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "NEW J5M Tractor",
+      "slug": "faw-new-j5m-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/b5aaf027465fa4839845b343801f9a5d.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/new-j5m-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J5P Tractor",
+      "slug": "faw-j5p-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/6c36b13d471cc61a7dac3b53915c8f0e.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j5p-tractor.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    }
+  ]
+}

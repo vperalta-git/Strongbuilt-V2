@@ -1,0 +1,127 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T05:12:54.919Z",
+  "summary": {
+    "imagesTested": 8,
+    "sourceImagesAvailable": 8,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 8,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "HOWO Cargo Truck",
+      "slug": "sinotruk-howo-cargo-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-0.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Light Cargo Truck",
+      "slug": "sinotruk-howo-light-cargo-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Howo-Light-Cargo-Truck-.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-light-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Box Van Cargo Truck",
+      "slug": "sinotruk-howo-box-van-cargo-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-4.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-box-van-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-box-van-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Light Stake Truck",
+      "slug": "sinotruk-howo-light-stake-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/4-Howo-Light-Stake-Truck-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-light-stake-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-stake-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Refrigerator Cargo Truck",
+      "slug": "sinotruk-howo-refrigerator-cargo-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/1-Howo-Cargo-Truck-Refrigerator-66.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-refrigerator-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-refrigerator-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Wing Van Cargo Truck",
+      "slug": "sinotruk-howo-wing-van-cargo-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/2-Wing-Van-Truck-4.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-wing-van-cargo-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-wing-van-cargo-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Mini Tipper Truck",
+      "slug": "sinotruk-howo-mini-tipper-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mini-tipper-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mini-tipper-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Light Duty Tipper Truck",
+      "slug": "sinotruk-howo-light-duty-tipper-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Tipper-Truck-1-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-light-duty-tipper-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-light-duty-tipper-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

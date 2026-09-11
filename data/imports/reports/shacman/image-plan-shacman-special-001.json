@@ -1,0 +1,69 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T05:12:15.156Z",
+  "summary": {
+    "imagesTested": 6,
+    "sourceImagesAvailable": 6,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 6,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "Specialized Trucks",
+      "slug": "shacman-specialized-trucks",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/5626168561b6477595e610749072b98c.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-concrete.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/379ad6f22ac346d38351dfde5f9fdfbe.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-sanitation.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a47a6c02c5bf4ec391ff82dbb3714679.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/86c732410d594d9bbe6e007c6a8fcc35.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-hazardous.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/fee98b7229844a778800eaada19dd123.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-roadside-assistance.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        },
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2026/04/30/a17dfbe8d9984d599c8911d7a1801be5.jpg",
+          "sourcePage": "https://www.shacman.com/product/specialized-truck/specialized-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/specialized-special-purpose.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "manufacturer": "forland",
   "displayName": "Forland",
-  "generatedAt": "2026-09-11T05:02:21.312Z",
+  "generatedAt": "2026-09-11T05:20:31.274Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,17 +22,17 @@
   "summary": {
     "recordsLoaded": 15,
     "recordsNormalized": 15,
-    "eligible": 15,
-    "warnings": 42,
+    "eligible": 0,
+    "warnings": 57,
     "errors": 0,
-    "alreadyExists": 0,
+    "alreadyExists": 15,
     "excluded": 0,
-    "expectedInserts": 15,
+    "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0
   },
   "batchEligibility": {
-    "applyAllowed": true,
+    "applyAllowed": false,
     "blocked": 0,
     "batchErrors": []
   },
@@ -158,7 +158,7 @@
     ]
   },
   "duplicateChecks": {
-    "alreadyExists": 0,
+    "alreadyExists": 15,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "batchVariantWarnings": 0,
@@ -220,7 +220,7 @@
   },
   "promotion": {
     "writesPerformed": 0,
-    "expectedInserts": 15,
+    "expectedInserts": 0,
     "expectedUpdates": 0,
     "expectedDeletes": 0,
     "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
@@ -233,17 +233,17 @@
   },
   "dataSafety": {
     "countsBefore": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -312,8 +312,8 @@
     {
       "model": "T5 Mini Truck",
       "slug": "forland-t5-mini-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5",
@@ -361,6 +361,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-t5-mini-truck",
+          "normalizedValue": "forland-t5-mini-truck"
         }
       ],
       "errors": [],
@@ -418,8 +427,8 @@
     {
       "model": "T5e Mini Truck",
       "slug": "forland-t5e-mini-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5e",
@@ -464,6 +473,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-t5e-mini-truck",
+          "normalizedValue": "forland-t5e-mini-truck"
         }
       ],
       "errors": [],
@@ -519,8 +537,8 @@
     {
       "model": "T5 EV Mini Truck",
       "slug": "forland-t5-ev-mini-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5 EV",
@@ -564,6 +582,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-t5-ev-mini-truck",
+          "normalizedValue": "forland-t5-ev-mini-truck"
         }
       ],
       "errors": [],
@@ -618,8 +645,8 @@
     {
       "model": "T6 Mini Truck",
       "slug": "forland-t6-mini-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T6",
@@ -664,6 +691,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-t6-mini-truck",
+          "normalizedValue": "forland-t6-mini-truck"
         }
       ],
       "errors": [],
@@ -722,8 +758,8 @@
     {
       "model": "T7 Mini Truck",
       "slug": "forland-t7-mini-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T7",
@@ -777,6 +813,15 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added.",
           "normalizedValue": "Official T7 product listing and imagery verified. Detailed parameter table was not reliably exposed during extraction, so no unverified numerical specifications were added."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-t7-mini-truck",
+          "normalizedValue": "forland-t7-mini-truck"
         }
       ],
       "errors": [],
@@ -832,8 +877,8 @@
     {
       "model": "L5 Light Truck",
       "slug": "forland-l5-light-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5",
@@ -869,6 +914,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-l5-light-truck",
+          "normalizedValue": "forland-l5-light-truck"
         }
       ],
       "errors": [],
@@ -923,8 +977,8 @@
     {
       "model": "L5e Light Truck",
       "slug": "forland-l5e-light-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5e",
@@ -965,6 +1019,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-l5e-light-truck",
+          "normalizedValue": "forland-l5e-light-truck"
         }
       ],
       "errors": [],
@@ -1022,8 +1085,8 @@
     {
       "model": "L5e EV Light Truck",
       "slug": "forland-l5e-ev-light-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5e EV",
@@ -1059,6 +1122,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-l5e-ev-light-truck",
+          "normalizedValue": "forland-l5e-ev-light-truck"
         }
       ],
       "errors": [],
@@ -1116,8 +1188,8 @@
     {
       "model": "L7 Light Truck",
       "slug": "forland-l7-light-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L7",
@@ -1162,6 +1234,15 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page.",
           "normalizedValue": "The highlighted automatic L7 specifications are supported by FORLAND's official 2026 global launch article in addition to the product page."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-l7-light-truck",
+          "normalizedValue": "forland-l7-light-truck"
         }
       ],
       "errors": [],
@@ -1219,8 +1300,8 @@
     {
       "model": "H7 Heavy-duty Truck",
       "slug": "forland-h7-heavy-duty-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "H7",
@@ -1273,6 +1354,15 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction.",
           "normalizedValue": "No numerical powertrain specification was added to the cargo H7 record because the verified cargo product page did not expose a dependable configuration table during extraction."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-h7-heavy-duty-truck",
+          "normalizedValue": "forland-h7-heavy-duty-truck"
         }
       ],
       "errors": [],
@@ -1330,8 +1420,8 @@
     {
       "model": "T5 Dump Truck",
       "slug": "forland-t5-dump-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "T5",
@@ -1376,6 +1466,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-t5-dump-truck",
+          "normalizedValue": "forland-t5-dump-truck"
         }
       ],
       "errors": [],
@@ -1432,8 +1531,8 @@
     {
       "model": "H7 Dump Truck",
       "slug": "forland-h7-dump-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "H7",
@@ -1467,6 +1566,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-h7-dump-truck",
+          "normalizedValue": "forland-h7-dump-truck"
         }
       ],
       "errors": [],
@@ -1525,8 +1633,8 @@
     {
       "model": "L7 Dump Truck",
       "slug": "forland-l7-dump-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L7",
@@ -1571,6 +1679,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-l7-dump-truck",
+          "normalizedValue": "forland-l7-dump-truck"
         }
       ],
       "errors": [],
@@ -1629,8 +1746,8 @@
     {
       "model": "L5e Dump Truck",
       "slug": "forland-l5e-dump-truck",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "L5e",
@@ -1677,6 +1794,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-l5e-dump-truck",
+          "normalizedValue": "forland-l5e-dump-truck"
         }
       ],
       "errors": [],
@@ -1736,8 +1862,8 @@
     {
       "model": "H7 Compactor",
       "slug": "forland-h7-compactor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "H7",
@@ -1772,6 +1898,15 @@
           "code": "LOCAL_IMAGE_FALLBACK_REQUIRED",
           "sourceValue": "official-image-source-verified",
           "normalizedValue": null
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "forland-h7-compactor",
+          "normalizedValue": "forland-h7-compactor"
         }
       ],
       "errors": [],

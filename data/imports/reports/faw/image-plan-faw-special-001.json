@@ -1,0 +1,48 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-11T05:17:12.550Z",
+  "summary": {
+    "imagesTested": 2,
+    "sourceImagesAvailable": 2,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 2,
+    "missingImageRecords": 1
+  },
+  "records": [
+    {
+      "model": "JH6 Special Purpose",
+      "slug": "faw-jh6-special-purpose",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210310/38f4d0bc1a2197094608cd404643c6e2.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jh6-special-purpose.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6P Special Purpose",
+      "slug": "faw-j6p-special-purpose",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210310/471cece8962466eb29b0e220a9afad9b.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/j6p-special-purpose.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6L Special Purpose",
+      "slug": "faw-j6l-special-purpose",
+      "images": []
+    }
+  ]
+}

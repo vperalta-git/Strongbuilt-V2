@@ -1,0 +1,141 @@
+{
+  "manufacturer": "yutong",
+  "generatedAt": "2026-09-11T05:19:21.217Z",
+  "summary": {
+    "imagesTested": 9,
+    "sourceImagesAvailable": 9,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 9,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "BC12",
+      "slug": "yutong-bc12",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925690168c0f019025b3a8020029.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6128H.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/bc12.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "PT9",
+      "slug": "yutong-pt9",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/3/26/product/productCatPic/666ecabfd2d84a00a90a79e99d2f8777.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK5180XYL.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pt9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "PC9",
+      "slug": "yutong-pc9",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925790168d46019025ac3e330023.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pc9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "ASCLE",
+      "slug": "yutong-ascle",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930593340458405888.jpg",
+          "sourcePage": "https://en.yutong.com/products/ASCLE.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ascle.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "AKESO",
+      "slug": "yutong-akeso",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930591515659341824.jpg",
+          "sourcePage": "https://en.yutong.com/products/AKESO.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "MC6",
+      "slug": "yutong-mc6",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/10/10/product/productCatPic/8ac292568adb3ee8018b18bdba8e0052.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK9020XJY.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/mc6.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "PV9",
+      "slug": "yutong-pv9",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292568e600485018ec7592da30102.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H-2.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pv9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "RV9",
+      "slug": "yutong-rv9",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292578e600484018ec756a30f014e.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H-1.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/rv9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "AKESO5",
+      "slug": "yutong-akeso5",
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/12/22/product/productCatPic/e12b610808dc4b298607a90332844a16.webp",
+          "sourcePage": "https://en.yutong.com/products/AKESO5.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso5.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

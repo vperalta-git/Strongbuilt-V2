@@ -1,0 +1,71 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T05:13:10.705Z",
+  "summary": {
+    "imagesTested": 4,
+    "sourceImagesAvailable": 4,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 4,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "HOWO Pure Electric Light Truck",
+      "slug": "sinotruk-howo-pure-electric-light-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-light-truck-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-pure-electric-light-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-light-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Pure Electric Dump Truck",
+      "slug": "sinotruk-howo-pure-electric-dump-truck",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Howo-Pure-electric-Dump-Truck-2.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-pure-electric-dump-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-dump-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "HOWO Pure Electric Tractor Truck",
+      "slug": "sinotruk-howo-pure-electric-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/2-Howo-Pure-electric-Tractor-truck-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-pure-electric-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-pure-electric-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "Pure Electric Single Side Dock Tractor Truck",
+      "slug": "sinotruk-pure-electric-single-side-dock-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/Single-Side-Dock-Series.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-pure-electric-single-side-dock-tractor-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/pure-electric-single-side-dock-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

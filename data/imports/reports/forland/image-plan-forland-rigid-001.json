@@ -1,0 +1,85 @@
+{
+  "manufacturer": "forland",
+  "generatedAt": "2026-09-11T05:17:50.108Z",
+  "summary": {
+    "imagesTested": 5,
+    "sourceImagesAvailable": 0,
+    "sourceImagesUnresolved": 5,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 5
+  },
+  "records": [
+    {
+      "model": "L5 Light Truck",
+      "slug": "forland-l5-light-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/linghangG5EV/1008",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "L5e Light Truck",
+      "slug": "forland-l5e-light-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/linghangS1EV/1009.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5e-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "L5e EV Light Truck",
+      "slug": "forland-l5e-ev-light-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/lhs1/1006.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l5e-ev-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "L7 Light Truck",
+      "slug": "forland-l7-light-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/linghangM5EV/1010",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/l7-light-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "model": "H7 Heavy-duty Truck",
+      "slug": "forland-h7-heavy-duty-truck",
+      "images": [
+        {
+          "sourceUrl": null,
+          "sourcePage": "https://www.forland.com/ftcar/H7/1023.html",
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/forland/h7-heavy-duty-truck.webp",
+          "localAssetExists": false,
+          "status": "SOURCE_URL_UNRESOLVED"
+        }
+      ]
+    }
+  ]
+}

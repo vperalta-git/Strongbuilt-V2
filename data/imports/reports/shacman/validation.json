@@ -1,7 +1,7 @@
 {
   "manufacturer": "shacman",
   "displayName": "SHACMAN",
-  "generatedAt": "2026-09-11T05:02:09.937Z",
+  "generatedAt": "2026-09-11T05:20:04.574Z",
   "mode": "validation",
   "sourceFiles": {
     "brands": {
@@ -22,10 +22,10 @@
   "summary": {
     "recordsLoaded": 9,
     "recordsNormalized": 9,
-    "eligible": 7,
-    "warnings": 17,
+    "eligible": 0,
+    "warnings": 24,
     "errors": 2,
-    "alreadyExists": 0,
+    "alreadyExists": 7,
     "excluded": 2,
     "expectedInserts": 0,
     "expectedUpdates": 0,
@@ -152,7 +152,7 @@
     ]
   },
   "duplicateChecks": {
-    "alreadyExists": 0,
+    "alreadyExists": 7,
     "batchSlugErrors": 0,
     "batchModelErrors": 0,
     "batchVariantWarnings": 0,
@@ -207,17 +207,17 @@
   },
   "dataSafety": {
     "countsBefore": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
     },
     "countsAfter": {
-      "brands": 6,
-      "trucks": 66,
-      "uniqueTruckSlugs": 66,
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
       "truckTypes": 6,
       "inquiries": 0,
       "quoteRequests": 0
@@ -286,8 +286,8 @@
     {
       "model": "X6000",
       "slug": "shacman-x6000",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "6000 Series",
@@ -338,6 +338,15 @@
             "8x4"
           ],
           "normalizedValue": "Configurable Truck Platform"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-x6000",
+          "normalizedValue": "shacman-x6000"
         }
       ],
       "errors": [],
@@ -395,8 +404,8 @@
     {
       "model": "X5000",
       "slug": "shacman-x5000",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "5000 Series",
@@ -445,6 +454,15 @@
             "8x4"
           ],
           "normalizedValue": "Configurable Truck Platform"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-x5000",
+          "normalizedValue": "shacman-x5000"
         }
       ],
       "errors": [],
@@ -746,8 +764,8 @@
     {
       "model": "F3000",
       "slug": "shacman-f3000",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "3000 Series",
@@ -796,6 +814,15 @@
             "8x4"
           ],
           "normalizedValue": "Configurable Truck Platform"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-f3000",
+          "normalizedValue": "shacman-f3000"
         }
       ],
       "errors": [],
@@ -853,8 +880,8 @@
     {
       "model": "L3000",
       "slug": "shacman-l3000",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "3000 Series",
@@ -896,6 +923,15 @@
           "code": "CONFIGURABLE_DUTY_CLASS_PRESERVED",
           "sourceValue": "Medium / Heavy Duty",
           "normalizedValue": "Multiple / Configurable"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-l3000",
+          "normalizedValue": "shacman-l3000"
         }
       ],
       "errors": [],
@@ -952,8 +988,8 @@
     {
       "model": "L6000e",
       "slug": "shacman-l6000e",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "E-fuel",
@@ -988,6 +1024,15 @@
           "code": "CONFIGURABLE_PLATFORM_PRESERVED",
           "sourceValue": "Electric Truck",
           "normalizedValue": "Configurable Truck Platform"
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-l6000e",
+          "normalizedValue": "shacman-l6000e"
         }
       ],
       "errors": [],
@@ -1042,8 +1087,8 @@
     {
       "model": "T5000 Port Tractor",
       "slug": "shacman-t5000-port-tractor",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Port Operation",
@@ -1072,6 +1117,15 @@
           "code": "REGIONAL_CONFIGURATION_WARNING",
           "sourceValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock.",
           "normalizedValue": "Global SHACMAN product family. Confirm the exact Strongbuilt/Philippine configuration and sourcing availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-t5000-port-tractor",
+          "normalizedValue": "shacman-t5000-port-tractor"
         }
       ],
       "errors": [],
@@ -1128,8 +1182,8 @@
     {
       "model": "Specialized Trucks",
       "slug": "shacman-specialized-trucks",
-      "status": "WARNING",
-      "promotionEligible": true,
+      "status": "ALREADY_EXISTS",
+      "promotionEligible": false,
       "reviewExclusion": null,
       "sourceInventory": {
         "productLine": "Specialized Trucks",
@@ -1188,6 +1242,15 @@
           "code": "MANUFACTURER_SOURCE_WARNING",
           "sourceValue": "This official SHACMAN page is a vocational family overview, not a single chassis/model specification page. The record is intentionally stored as one family with body/application configurations.",
           "normalizedValue": "This official SHACMAN page is a vocational family overview, not a single chassis/model specification page. The record is intentionally stored as one family with body/application configurations."
+        },
+        {
+          "severity": "warning",
+          "field": "identity",
+          "message": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "reason": "An equivalent manufacturer vehicle is already promoted; no write will be attempted.",
+          "code": "ALREADY_EXISTS",
+          "sourceValue": "shacman-specialized-trucks",
+          "normalizedValue": "shacman-specialized-trucks"
         }
       ],
       "errors": [],

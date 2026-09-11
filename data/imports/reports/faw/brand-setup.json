@@ -1,9 +1,9 @@
 {
   "manufacturer": "faw",
-  "generatedAt": "2026-09-11T04:57:11.605Z",
-  "mode": "dry-run",
-  "action": "planned",
-  "objectId": null,
+  "generatedAt": "2026-09-11T05:08:11.753Z",
+  "mode": "apply",
+  "action": "inserted",
+  "objectId": "6aa38cbbb57a858697442a53",
   "proposed": {
     "name": "FAW TRUCKS",
     "slug": "faw",
@@ -36,7 +36,7 @@
     "quoteRequests": 0
   },
   "countsAfter": {
-    "brands": 6,
+    "brands": 7,
     "trucks": 66,
     "uniqueTruckSlugs": 66,
     "truckTypes": 6,
@@ -44,5 +44,5 @@
     "quoteRequests": 0
   },
   "protectedCollectionsUnchanged": true,
-  "idempotent": false
+  "idempotent": true
 }

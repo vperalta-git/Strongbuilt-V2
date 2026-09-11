@@ -1,0 +1,29 @@
+{
+  "manufacturer": "shacman",
+  "generatedAt": "2026-09-11T05:12:10.397Z",
+  "summary": {
+    "imagesTested": 1,
+    "sourceImagesAvailable": 1,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 1,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "T5000 Port Tractor",
+      "slug": "shacman-t5000-port-tractor",
+      "images": [
+        {
+          "sourceUrl": "https://www.shacman.com/upload/images/2024/10/12/l/00d98079e02a4c2b9f8782f11bcc1e31.png",
+          "sourcePage": "https://www.shacman.com/product/port-operation/T5000/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/shacman/t5000-port-tractor.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

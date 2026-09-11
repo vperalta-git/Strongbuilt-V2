@@ -1,0 +1,1655 @@
+{
+  "manufacturer": "sinotruk",
+  "displayName": "SINOTRUK",
+  "generatedAt": "2026-09-11T05:12:59.262Z",
+  "mode": "apply",
+  "sourceFiles": {
+    "brands": {
+      "path": "data/imports/raw/sinotruk/sinotruk_brands.json",
+      "records": 1
+    },
+    "vehicles": {
+      "path": "data/imports/raw/sinotruk/sinotruk_trucks.json",
+      "records": 50
+    }
+  },
+  "selection": {
+    "batchId": "sinotruk-special-001",
+    "requestedModels": [
+      "HOWO Water Tanker",
+      "HOWO Oil Tanker",
+      "HOWO 8×4 Oil Tanker",
+      "HOWO 6×4 Oil Tanker",
+      "HOWO N 6×4 Mixer Truck",
+      "HOWO N 8×4 Mixer Truck",
+      "HOWO TX 8×4 Mixer Truck",
+      "HOWO T7H 6×4 Mixer Truck",
+      "HOWO T7H 8×4 Mixer Truck",
+      "HOWO 7 6×4 Mixer Truck",
+      "HOWO Synchronous Chip Seal / Bitumen Tank",
+      "HOWO Bitumen Sprayer Tank",
+      "HOWO Garbage Truck",
+      "HOWO Mounted Crane Truck",
+      "HOWO Small Truck Crane"
+    ],
+    "sourceRecords": 50,
+    "recordsTested": 15
+  },
+  "summary": {
+    "recordsLoaded": 15,
+    "recordsNormalized": 15,
+    "eligible": 15,
+    "warnings": 28,
+    "errors": 0,
+    "alreadyExists": 0,
+    "excluded": 0,
+    "expectedInserts": 15,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0
+  },
+  "batchEligibility": {
+    "applyAllowed": true,
+    "blocked": 0,
+    "batchErrors": []
+  },
+  "brandResolution": {
+    "slug": "sinotruck",
+    "name": "Sinotruck",
+    "resolved": true,
+    "matchedBy": "slug",
+    "hardCodedObjectId": false
+  },
+  "typeCompatibility": {
+    "requestedSourceTypes": [
+      "water-tanker",
+      "tanker",
+      "mixer-truck",
+      "special-purpose",
+      "garbage-truck",
+      "crane-truck"
+    ],
+    "resolvedSourceTypes": [
+      "water-tanker",
+      "tanker",
+      "mixer-truck",
+      "special-purpose",
+      "garbage-truck",
+      "crane-truck"
+    ],
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle",
+      "Configurable Truck Platform"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose",
+      "Multiple / Configurable"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
+  },
+  "duplicateChecks": {
+    "alreadyExists": 0,
+    "batchSlugErrors": 0,
+    "batchModelErrors": 0,
+    "batchVariantWarnings": 0,
+    "productionIdentityConflicts": 0,
+    "sharedOfficialProductUrls": 0,
+    "sharedProductFamilies": [
+      {
+        "productLine": "Special Vehicle",
+        "models": [
+          "HOWO Water Tanker",
+          "HOWO Oil Tanker",
+          "HOWO 8×4 Oil Tanker",
+          "HOWO 6×4 Oil Tanker",
+          "HOWO N 6×4 Mixer Truck",
+          "HOWO N 8×4 Mixer Truck",
+          "HOWO TX 8×4 Mixer Truck",
+          "HOWO T7H 6×4 Mixer Truck",
+          "HOWO T7H 8×4 Mixer Truck",
+          "HOWO 7 6×4 Mixer Truck",
+          "HOWO Synchronous Chip Seal / Bitumen Tank",
+          "HOWO Bitumen Sprayer Tank",
+          "HOWO Garbage Truck",
+          "HOWO Mounted Crane Truck",
+          "HOWO Small Truck Crane"
+        ]
+      }
+    ]
+  },
+  "imageStatus": {
+    "imagesTested": 15,
+    "sourceImagesAvailable": 15,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 4,
+    "localAssetsReady": 15,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "frontendCompatibility": {
+    "recordsTested": 15,
+    "recordsPassed": 15,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": true
+  },
+  "promotion": {
+    "writesPerformed": 15,
+    "expectedInserts": 15,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0,
+    "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
+  },
+  "seedSafety": {
+    "seedOwnedSlugs": 12,
+    "selectedSeedSlugOverlap": [],
+    "deletesUnknownSlugs": false,
+    "importerUpdatesExistingRecords": false
+  },
+  "dataSafety": {
+    "countsBefore": {
+      "brands": 8,
+      "trucks": 98,
+      "uniqueTruckSlugs": 98,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "countsAfter": {
+      "brands": 8,
+      "trucks": 113,
+      "uniqueTruckSlugs": 113,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "unchanged": false,
+    "existingImportedFingerprintsUnchanged": true,
+    "existingImportedRecordsFingerprinted": 26,
+    "existingImportedFingerprintsBefore": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    },
+    "existingImportedFingerprintsAfter": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    }
+  },
+  "records": [
+    {
+      "model": "HOWO Water Tanker",
+      "slug": "sinotruk-howo-water-tanker",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Water Tanker",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Dust suppression",
+          "Road washing",
+          "Irrigation",
+          "Emergency water / fire support"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "water-tanker"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Water Tanker",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Emergency",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/1-Water-Tanker-3.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-water-tanker-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-water-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 7,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO Oil Tanker",
+      "slug": "sinotruk-howo-oil-tanker",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Oil Tanker",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Fuel transport",
+          "Petroleum logistics"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "tanker"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Oil Tanker",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-oil-tanker/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO 8×4 Oil Tanker",
+      "slug": "sinotruk-howo-8x4-oil-tanker",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Oil Tanker",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "8x4"
+        ],
+        "applications": [
+          "Fuel transport",
+          "Petroleum logistics"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "tanker"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Oil Tanker",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-8x4-oil-tanker/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-8x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO 6×4 Oil Tanker",
+      "slug": "sinotruk-howo-6x4-oil-tanker",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Oil Tanker",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "6x4"
+        ],
+        "applications": [
+          "Fuel transport",
+          "Petroleum logistics"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "tanker"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Oil Tanker",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/8-howo-oil-tanker.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-6x4-oil-tanker-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-6x4-oil-tanker.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO N 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-n-6x4-mixer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Mixer Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "6x4"
+        ],
+        "applications": [
+          "Concrete transport",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mixer-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Mixer Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-6x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO N 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-n-8x4-mixer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Mixer Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "8x4"
+        ],
+        "applications": [
+          "Concrete transport",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mixer-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Mixer Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-n-8x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-n-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO TX 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-tx-8x4-mixer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Mixer Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "8x4"
+        ],
+        "applications": [
+          "Concrete transport",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mixer-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Mixer Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-tx-8x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-tx-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO T7H 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-t7h-6x4-mixer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Mixer Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "6x4"
+        ],
+        "applications": [
+          "Concrete transport",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mixer-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Mixer Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-6x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO T7H 8×4 Mixer Truck",
+      "slug": "sinotruk-howo-t7h-8x4-mixer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Mixer Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "8x4"
+        ],
+        "applications": [
+          "Concrete transport",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mixer-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Mixer Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-mixer-truck-t7h-8x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-t7h-8x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO 7 6×4 Mixer Truck",
+      "slug": "sinotruk-howo-7-6x4-mixer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Mixer Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [
+          "6x4"
+        ],
+        "applications": [
+          "Concrete transport",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "mixer-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Mixer Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Mixer-Truck.jpg",
+          "sourcePage": "https://sinotruk.international/products/howo-7-mixer-truck-6x4/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-7-6x4-mixer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO Synchronous Chip Seal / Bitumen Tank",
+      "slug": "sinotruk-howo-synchronous-chip-seal",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Bitumen / Road Maintenance",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Road construction",
+          "Asphalt/chip sealing"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "special-purpose"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Special Purpose Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-synchronous-chip-seal.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 5,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO Bitumen Sprayer Tank",
+      "slug": "sinotruk-howo-bitumen-sprayer",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Bitumen / Road Maintenance",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Road construction",
+          "Asphalt spraying"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "special-purpose"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/10-howo-asphalt.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Special Purpose Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/10-howo-asphalt.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-bitumen-tank/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-bitumen-sprayer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO Garbage Truck",
+      "slug": "sinotruk-howo-garbage-truck",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Garbage / Refuse Truck",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Municipal waste",
+          "Refuse collection"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "garbage-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Garbage Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Waste Collection",
+          "Municipal"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/11-howo-Garbage.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-garbage-truck-2/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-garbage-truck.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 6,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO Mounted Crane Truck",
+      "slug": "sinotruk-howo-mounted-crane",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Truck-Mounted Crane",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Material handling",
+          "Construction",
+          "Utility work"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "crane-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Crane Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-mounted-crane-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-mounted-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "HOWO Small Truck Crane",
+      "slug": "sinotruk-howo-small-truck-crane",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Special Vehicle",
+        "category": "Truck Crane",
+        "dutyClassification": "Special Purpose",
+        "configurations": [],
+        "applications": [
+          "Material handling",
+          "Service work",
+          "Construction"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "crane-truck"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+          "normalizedValue": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        },
+        {
+          "severity": "warning",
+          "field": "images",
+          "message": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "reason": "The source image is shared by more than one manufacturer record; retain the relationship for image QA.",
+          "code": "SHARED_SOURCE_IMAGE",
+          "sourceValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+          "normalizedValue": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg"
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "sinotruck",
+        "name": "Sinotruck",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Crane Truck",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Construction"
+        ]
+      },
+      "source": {
+        "manufacturer": "SINOTRUK",
+        "website": "https://sinotruk.international/",
+        "productUrl": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock.",
+        "dataWarnings": [
+          "Official SINOTRUK international product listing. Confirm Strongbuilt Philippine sourcing, exact configuration and current availability before publishing as locally available stock."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/9-Truck-Crane-.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-howo-small-truck-crane/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/howo-small-truck-crane.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 4,
+        "quoteSnapshotCompatible": true
+      }
+    }
+  ]
+}

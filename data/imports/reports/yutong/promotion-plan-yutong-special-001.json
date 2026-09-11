@@ -1,0 +1,1038 @@
+{
+  "manufacturer": "yutong",
+  "displayName": "YUTONG",
+  "generatedAt": "2026-09-11T05:19:21.217Z",
+  "mode": "apply",
+  "sourceFiles": {
+    "brands": {
+      "path": "data/imports/raw/yutong/yutong_brands.json",
+      "records": 1
+    },
+    "vehicles": {
+      "path": "data/imports/raw/yutong/yutong_trucks.json",
+      "records": 41
+    }
+  },
+  "selection": {
+    "batchId": "yutong-special-001",
+    "requestedModels": [
+      "BC12",
+      "PT9",
+      "PC9",
+      "ASCLE",
+      "AKESO",
+      "MC6",
+      "PV9",
+      "RV9",
+      "AKESO5"
+    ],
+    "sourceRecords": 41,
+    "recordsTested": 9
+  },
+  "summary": {
+    "recordsLoaded": 9,
+    "recordsNormalized": 9,
+    "eligible": 9,
+    "warnings": 11,
+    "errors": 0,
+    "alreadyExists": 0,
+    "excluded": 0,
+    "expectedInserts": 9,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0
+  },
+  "batchEligibility": {
+    "applyAllowed": true,
+    "blocked": 0,
+    "batchErrors": []
+  },
+  "brandResolution": {
+    "slug": "yutong",
+    "name": "YUTONG",
+    "resolved": true,
+    "matchedBy": "slug",
+    "hardCodedObjectId": false
+  },
+  "typeCompatibility": {
+    "requestedSourceTypes": [
+      "special-purpose",
+      "trailer"
+    ],
+    "resolvedSourceTypes": [
+      "special-purpose",
+      "trailer"
+    ],
+    "allResolved": true,
+    "availableLegacyTypes": [
+      {
+        "slug": "cargo",
+        "name": "Cargo",
+        "canonicalBodyType": "Cargo Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "dump-truck",
+        "name": "Dump Truck",
+        "canonicalBodyType": "Dump Truck",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "tractor-head",
+        "name": "Tractor Head",
+        "canonicalBodyType": "Tractor Head",
+        "vehicleFamily": "Truck"
+      },
+      {
+        "slug": "bus",
+        "name": "Bus",
+        "canonicalBodyType": "Bus",
+        "vehicleFamily": "Bus"
+      },
+      {
+        "slug": "trailer",
+        "name": "Trailer",
+        "canonicalBodyType": "Trailer",
+        "vehicleFamily": "Trailer"
+      },
+      {
+        "slug": "specialized-custom",
+        "name": "Specialized / Custom",
+        "canonicalBodyType": "Special Purpose Vehicle",
+        "vehicleFamily": "Special Purpose Vehicle"
+      }
+    ]
+  },
+  "canonicalTaxonomy": {
+    "vehicleFamilies": [
+      "Truck",
+      "Bus",
+      "Coach",
+      "Trailer",
+      "PUV",
+      "Special Purpose Vehicle"
+    ],
+    "bodyTypes": [
+      "Mini Truck",
+      "Cargo Truck",
+      "Rigid Truck",
+      "Dump Truck",
+      "Tractor Head",
+      "Box Van",
+      "Wing Van",
+      "Refrigerated Truck",
+      "Mixer Truck",
+      "Water Tanker",
+      "Oil Tanker",
+      "Garbage Truck",
+      "Crane Truck",
+      "Bus",
+      "City Bus",
+      "Intercity Bus",
+      "Coach",
+      "Apron Bus",
+      "Trailer",
+      "Semi Trailer",
+      "Flatbed Trailer",
+      "Low Bed Trailer",
+      "Medical Vehicle",
+      "Emergency Vehicle",
+      "Municipal Vehicle",
+      "Special Purpose Vehicle",
+      "Configurable Truck Platform"
+    ],
+    "dutyClasses": [
+      "Mini",
+      "Light Duty",
+      "Medium Duty",
+      "Heavy Duty",
+      "Passenger",
+      "Trailer",
+      "Special Purpose",
+      "Multiple / Configurable"
+    ],
+    "propulsions": [
+      "Diesel",
+      "Gasoline",
+      "CNG",
+      "LNG",
+      "Hybrid",
+      "Battery Electric",
+      "Multiple / Configurable",
+      "Unknown"
+    ]
+  },
+  "duplicateChecks": {
+    "alreadyExists": 0,
+    "batchSlugErrors": 0,
+    "batchModelErrors": 0,
+    "batchVariantWarnings": 0,
+    "productionIdentityConflicts": 0,
+    "sharedOfficialProductUrls": 0,
+    "sharedProductFamilies": [
+      {
+        "productLine": "Specialty Vehicle",
+        "models": [
+          "BC12",
+          "PT9",
+          "PC9",
+          "ASCLE",
+          "AKESO",
+          "MC6",
+          "PV9",
+          "RV9",
+          "AKESO5"
+        ]
+      }
+    ]
+  },
+  "imageStatus": {
+    "imagesTested": 9,
+    "sourceImagesAvailable": 9,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 9,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "frontendCompatibility": {
+    "recordsTested": 9,
+    "recordsPassed": 9,
+    "surfaces": {
+      "catalogList": "legacy Truck projection",
+      "detailRoute": "slug and legacy Truck projection",
+      "search": "brand, model, category, bodyType, and application fields",
+      "filters": "brand plus resolved legacy type/body fields",
+      "sorting": "name, model, and displayOrder fields",
+      "requestQuote": "selectedTruck.truckId ObjectId snapshot"
+    },
+    "allPassed": true
+  },
+  "promotion": {
+    "writesPerformed": 9,
+    "expectedInserts": 9,
+    "expectedUpdates": 0,
+    "expectedDeletes": 0,
+    "transactionPolicy": "Every eligible record inserts in one MongoDB transaction; any conflict or validation failure aborts the entire insert batch. Existing records are never updated."
+  },
+  "seedSafety": {
+    "seedOwnedSlugs": 12,
+    "selectedSeedSlugOverlap": [],
+    "deletesUnknownSlugs": false,
+    "importerUpdatesExistingRecords": false
+  },
+  "dataSafety": {
+    "countsBefore": {
+      "brands": 8,
+      "trucks": 192,
+      "uniqueTruckSlugs": 192,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "countsAfter": {
+      "brands": 8,
+      "trucks": 201,
+      "uniqueTruckSlugs": 201,
+      "truckTypes": 6,
+      "inquiries": 0,
+      "quoteRequests": 0
+    },
+    "unchanged": false,
+    "existingImportedFingerprintsUnchanged": true,
+    "existingImportedRecordsFingerprinted": 26,
+    "existingImportedFingerprintsBefore": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    },
+    "existingImportedFingerprintsAfter": {
+      "isuzu-frr90m": "19f231c050529940f5373b194b934e356e04aa8452b879bfa5ef4f9615fabacf",
+      "isuzu-frr90ms": "c82b22c588c3057c4deec8c715624c69b4b4c9cc4098c2075445032bc035aa6d",
+      "isuzu-ftr90m": "b3b094336807d2d5d9d2fc631651d3a1c3b5a44e2de0d1fd35400f2001c3ffc8",
+      "isuzu-fvm34t": "6386022967dca35105817d32aaac72e0f078e56deee825d9b30dea510ae4e0fb",
+      "isuzu-fvm34w": "a5a4a852429919bcc1052525a16a813e70401902f966b9aa2cf869f0b42eab35",
+      "isuzu-fvr-bus": "6a6d3f68dce3d31587d17ec1012a6c0133d260234f8a3ba6ddeb3528fbd57719",
+      "isuzu-fvr34q": "654f0ea5df052dd7311d82de316ccf91cbddfc68470a59d0647a9fbf83f0f4b3",
+      "isuzu-fvr34qs": "081f987f2bf2fa6f126ebc3e97d13132e48e45ccdbfb4578ad53567080edfee7",
+      "isuzu-fvz34": "41fdf39075df9cd91d5c7509394fadb6d7a7866855285adde83dcf33fcb0edbf",
+      "isuzu-fxm60w": "d4ecd9bc6b83a0da3e029e127a35057f8e6d8fb455169b3396a4c22be2185cf4",
+      "isuzu-gxz60n-tractor-head": "2fb0bbd9012879149bc5cc42bbddd965ba363f1a1b1c3c41df13df04494f4dbf",
+      "isuzu-nlr77-puv": "2a737c502d0d74ae91a6465f5cc642cd7889192047752ab042bdd6985dd48b87",
+      "isuzu-nlr77h": "9b80a171ba729a3491066ea8f36a3df5ac236cc64ffbe433aedcfcd73905604f",
+      "isuzu-nlr85e": "618084d1b9682b6c342fd6be7c376618018932fbce01a1fbc6081ed5393dad22",
+      "isuzu-nlr85es": "7a4d9b9bb0225be97f3104f53292c702481c3b042d4b254596587d191d402813",
+      "isuzu-nmr85h": "78191fb17204c66e511d55fe69c159c3f62dfff3b93526f1b6b469c0de5b3832",
+      "isuzu-nmr85hs": "a11a89cfcca37776e5807bf60fc7bd8ec0f06be376544a6344137de08724b56d",
+      "isuzu-npr85-puv": "e3e2cb44af4f5fbcb97986e50d7d35c2b093b98eb361a874fa66e7bc3240faa0",
+      "isuzu-npr85k": "415c59a62c0adda5e5384366bd759c7ce66f33424a0d549d65f6638a186a4383",
+      "isuzu-nqr-bus": "3b82f6d5d2a38a33cb103d613fa653ca05c4c1ed36cb21c24f03fb7a693585d2",
+      "isuzu-nqr75l": "5d9a6c31d3d0b203cd3ab6c2baebb42f77ff1f74313daccdfa112fc83b563a03",
+      "isuzu-nqr75ls": "734a70fb60f4781b65dfe6dc15d05f24468944612b055e450cd879814e811581",
+      "isuzu-qlr77e": "928d69068ee4bf3962455f10f2617cb583a20ca1f7c634cffd8cd13e20a9edd4",
+      "isuzu-traviz-l": "02730cc43dad1c5d1dbb4a6788eec135d34cb55c57555172346ce0b4cd5dcdbe",
+      "isuzu-traviz-puv": "58265505dbea6e37acdb373dc7bb02b36d531a6c738105bd3cd6d3d55ff2a92d",
+      "isuzu-traviz-s": "c38606e2711151e2ca9caba028d79e77cdc1f64133c051e614b15eb1d102a2de"
+    }
+  },
+  "records": [
+    {
+      "model": "BC12",
+      "slug": "yutong-bc12",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Blood Collection Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Mobile blood collection",
+          "Medical outreach"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "blood-collection-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Medical Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6128H.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925690168c0f019025b3a8020029.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6128H.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/bc12.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "PT9",
+      "slug": "yutong-pt9",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Health Check AWD Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Mobile health screening",
+          "Medical outreach"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "medical-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Medical Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK5180XYL.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/3/26/product/productCatPic/666ecabfd2d84a00a90a79e99d2f8777.webp",
+          "sourcePage": "https://en.yutong.com/products/ZK5180XYL.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pt9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "PC9",
+      "slug": "yutong-pc9",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Health Check Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Mobile health screening",
+          "Medical outreach"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "medical-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Medical Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6907H.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/6/17/product/productCatPic/8ac2925790168d46019025ac3e330023.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pc9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "ASCLE",
+      "slug": "yutong-ascle",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Off-Road Ambulance",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Emergency medical response",
+          "Off-road rescue"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "ambulance"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Emergency Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical",
+          "Emergency"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ASCLE.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930593340458405888.jpg",
+          "sourcePage": "https://en.yutong.com/products/ASCLE.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/ascle.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "AKESO",
+      "slug": "yutong-akeso",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Urban Ambulance",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Emergency medical response",
+          "Urban ambulance service"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "ambulance"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Emergency Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Urban Logistics",
+          "Medical",
+          "Emergency"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/AKESO.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/6/5/product/productCatPic/1930591515659341824.jpg",
+          "sourcePage": "https://en.yutong.com/products/AKESO.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "MC6",
+      "slug": "yutong-mc6",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Police Trailer",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Police operations",
+          "Mobile command/support"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "police-special-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Prepared source QA warning retained through normalization.",
+          "reason": "Prepared source QA warning retained through normalization.",
+          "code": "SOURCE_DATA_WARNING",
+          "sourceValue": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page.",
+          "normalizedValue": "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f533",
+        "name": "Trailer",
+        "slug": "trailer"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Trailer",
+        "bodyType": "Trailer",
+        "dutyClass": "Trailer",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK9020XJY.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "Current YUTONG product page identifies MC6 as a 7M Police Trailer. Older search metadata may describe MC6 differently; this record follows the current official page."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2023/10/10/product/productCatPic/8ac292568adb3ee8018b18bdba8e0052.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK9020XJY.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/mc6.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 2,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "PV9",
+      "slug": "yutong-pv9",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Prisoner Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Prisoner transport",
+          "Secure personnel movement"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "prisoner-transport"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Special Purpose Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6907H-2.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292568e600485018ec7592da30102.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H-2.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/pv9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "RV9",
+      "slug": "yutong-rv9",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Riot Resistance Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Public-safety operations",
+          "Specialist personnel/equipment transport"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "riot-control-vehicle"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Special Purpose Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/ZK6907H-1.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2024/4/10/product/productCatPic/8ac292578e600484018ec756a30f014e.jpg",
+          "sourcePage": "https://en.yutong.com/products/ZK6907H-1.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/rv9.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 3,
+        "quoteSnapshotCompatible": true
+      }
+    },
+    {
+      "model": "AKESO5",
+      "slug": "yutong-akeso5",
+      "status": "WARNING",
+      "promotionEligible": true,
+      "reviewExclusion": null,
+      "sourceInventory": {
+        "productLine": "Specialty Vehicle",
+        "category": "Emergency Medical Vehicle",
+        "dutyClassification": "Special Purpose Vehicle",
+        "configurations": [],
+        "applications": [
+          "Emergency medical response",
+          "Hospital and emergency-center support"
+        ],
+        "gvwKg": null,
+        "propulsion": null,
+        "legacyTypeHint": "ambulance"
+      },
+      "warnings": [
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer availability/configuration warning retained for manual review.",
+          "reason": "Manufacturer availability/configuration warning retained for manual review.",
+          "code": "REGIONAL_CONFIGURATION_WARNING",
+          "sourceValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "normalizedValue": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available."
+        },
+        {
+          "severity": "warning",
+          "field": "source.dataWarnings",
+          "message": "Manufacturer source note retained for manual QA.",
+          "reason": "Manufacturer source note retained for manual QA.",
+          "code": "MANUFACTURER_SOURCE_WARNING",
+          "sourceValue": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'.",
+          "normalizedValue": "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'."
+        }
+      ],
+      "errors": [],
+      "brandResolution": {
+        "slug": "yutong",
+        "name": "YUTONG",
+        "resolved": true,
+        "matchedBy": "slug"
+      },
+      "typeResolution": {
+        "resolved": true,
+        "id": "6a97ba5626fa08a50cf0f534",
+        "name": "Specialized / Custom",
+        "slug": "specialized-custom"
+      },
+      "taxonomy": {
+        "vehicleFamily": "Special Purpose Vehicle",
+        "bodyType": "Emergency Vehicle",
+        "dutyClass": "Special Purpose",
+        "propulsion": "Unknown",
+        "applicationTags": [
+          "Medical",
+          "Emergency",
+          "Port Operations"
+        ]
+      },
+      "source": {
+        "manufacturer": "YUTONG",
+        "website": "https://en.yutong.com/",
+        "productUrl": "https://en.yutong.com/products/AKESO5.shtml",
+        "verifiedAt": "2026-09-02",
+        "notes": "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+        "dataWarnings": [
+          "Official YUTONG global product listing. Product availability varies by country; confirm Strongbuilt Philippine sourcing, exact configuration and homologation before publishing as locally available.",
+          "The current product page does not display a descriptive product-type heading, but its official content describes patient treatment zones, emergency-response workflow and medical-equipment storage. Strongbuilt category is therefore 'Emergency Medical Vehicle'."
+        ]
+      },
+      "images": [
+        {
+          "sourceUrl": "https://en.yutong.com/res/res/2025/12/22/product/productCatPic/e12b610808dc4b298607a90332844a16.webp",
+          "sourcePage": "https://en.yutong.com/products/AKESO5.shtml",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/yutong/akeso5.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ],
+      "legacyCompatibility": {
+        "passed": true,
+        "imagesExposed": 1,
+        "specifications": 0,
+        "quoteSnapshotCompatible": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "manufacturer": "sinotruk",
+  "generatedAt": "2026-09-11T05:13:05.034Z",
+  "summary": {
+    "imagesTested": 6,
+    "sourceImagesAvailable": 6,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 6,
+    "localMigrationRequired": 0,
+    "missingImageRecords": 0
+  },
+  "records": [
+    {
+      "model": "Dump Semi Trailer",
+      "slug": "sinotruk-dump-semi-trailer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/1-Dump-Semi-Trailer-Truck-3.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-dump-semi-trailer-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/dump-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "Fuel Tanker Semi Trailer",
+      "slug": "sinotruk-fuel-tanker-semi-trailer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/6-Fuel-Tanker-Trailer-6.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-fuel-tanker-trailer-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/fuel-tanker-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "Fence Semi Trailer",
+      "slug": "sinotruk-fence-semi-trailer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/5-Fence-Semi-Trailer-6-1.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-fence-semi-trailer-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/fence-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "Sidewall Semi Trailer",
+      "slug": "sinotruk-sidewall-semi-trailer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/4-Sidewall-Semi-Trailer-6.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-sidewall-semi-trailer-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/sidewall-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "Flatbed Semi Trailer",
+      "slug": "sinotruk-flatbed-semi-trailer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/2-Flatbed-Semi-Trailer-4.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-flatbed-semi-trailer-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/flatbed-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    },
+    {
+      "model": "Low Bed Semi Trailer",
+      "slug": "sinotruk-low-bed-semi-trailer",
+      "images": [
+        {
+          "sourceUrl": "https://sinotruk.international/image-library/3-Low-Bed-Semi-Trailer-3.jpg",
+          "sourcePage": "https://sinotruk.international/products/sinotruck-low-bed-semi-trailer-truck/",
+          "storageProvider": "local",
+          "suggestedLocalPath": "/images/trucks/sinotruk/low-bed-semi-trailer.webp",
+          "localAssetExists": true,
+          "status": "LOCAL_ASSET_READY"
+        }
+      ]
+    }
+  ]
+}

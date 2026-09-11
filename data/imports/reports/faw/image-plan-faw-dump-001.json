@@ -1,0 +1,67 @@
+{
+  "manufacturer": "faw",
+  "generatedAt": "2026-09-11T05:17:05.211Z",
+  "summary": {
+    "imagesTested": 3,
+    "sourceImagesAvailable": 3,
+    "sourceImagesUnresolved": 0,
+    "sharedSourceImageUrls": 0,
+    "localAssetsReady": 0,
+    "localMigrationRequired": 3,
+    "missingImageRecords": 2
+  },
+  "records": [
+    {
+      "model": "JH6 Dump Truck",
+      "slug": "faw-jh6-dump",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/9bbdd523b9fbb61392ef7a58a460acd6.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/jh6-dump.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "J6P Dump Truck",
+      "slug": "faw-j6p-dump",
+      "images": []
+    },
+    {
+      "model": "NEW J5P Dump Truck",
+      "slug": "faw-new-j5p-dump",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/77089f9aa1dee6fc53b3863c51b23a36.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/new-j5p-dump.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    },
+    {
+      "model": "Dragon V Dump Truck",
+      "slug": "faw-dragon-v-dump",
+      "images": []
+    },
+    {
+      "model": "Tiger V 4x4 Dump Truck",
+      "slug": "faw-tiger-v-dump",
+      "images": [
+        {
+          "sourceUrl": "https://www.fawtrucks-global.com/uploads/image/20210305/2d582e063d07147cb0f0e77cfd30013e.png",
+          "sourcePage": null,
+          "storageProvider": "external",
+          "suggestedLocalPath": "/images/trucks/faw/tiger-v-4x4-dump.webp",
+          "localAssetExists": false,
+          "status": "LOCAL_MIGRATION_REQUIRED"
+        }
+      ]
+    }
+  ]
+}
