@@ -8,7 +8,7 @@ export const siteConfig = {
   contact: {
     phoneDisplay: "+63 (917) 891-3681",
     phoneHref: "+639178913681",
-    email: "sales@strongbuilt.com.ph",
+    email: "strongbuilt.sales@gmail.com",
     addressLines: [
       "4th Floor, Unit 405, Mercedes Plaza I",
       "Mercedes Avenue corner Luis Street",
