@@ -15,6 +15,22 @@ type InitialFilters = {
   sort: SortOption
 }
 
+function normalizeBrandKey(value: string) {
+  return value.trim().replace(/\s+/g, " ").toLocaleLowerCase()
+}
+
+function normalizeBrandNames(trucks: Truck[]) {
+  const normalized = new Map<string, string>()
+
+  for (const truck of trucks) {
+    const displayName = truck.brand.trim().replace(/\s+/g, " ")
+    const semanticKey = normalizeBrandKey(displayName)
+    if (displayName && !normalized.has(semanticKey)) normalized.set(semanticKey, displayName)
+  }
+
+  return [...normalized.values()].sort((first, second) => first.localeCompare(second, undefined, { sensitivity: "base" }))
+}
+
 function FilterPanel({
   brands,
   bodyTypes,
@@ -50,14 +66,14 @@ function FilterPanel({
             <button
               key={option || "all-brands"}
               type="button"
-              aria-pressed={brand === option}
+              aria-pressed={normalizeBrandKey(brand) === normalizeBrandKey(option)}
               onClick={() => setBrand(option)}
               className={`flex min-h-11 items-center justify-between border px-3 text-left text-sm transition-colors ${
-                brand === option ? "border-ink bg-ink font-bold text-white" : "border-transparent text-muted hover:border-line hover:text-ink"
+                normalizeBrandKey(brand) === normalizeBrandKey(option) ? "border-ink bg-ink font-bold text-white" : "border-transparent text-muted hover:border-line hover:text-ink"
               }`}
             >
               <span>{option || "All brands"}</span>
-              <span className={`h-2 w-2 ${brand === option ? "bg-brand" : "border border-line"}`} />
+              <span className={`h-2 w-2 ${normalizeBrandKey(brand) === normalizeBrandKey(option) ? "bg-brand" : "border border-line"}`} />
             </button>
           ))}
         </div>
@@ -117,7 +133,7 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
     }
   }, [])
 
-  const brands = useMemo(() => [...new Set(trucks.map((truck) => truck.brand))].sort(), [trucks])
+  const brands = useMemo(() => normalizeBrandNames(trucks), [trucks])
   const bodyTypes = useMemo(() => [...new Set(trucks.map((truck) => truck.bodyType))].sort(), [trucks])
 
   useEffect(() => {
@@ -194,7 +210,7 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
         .join(" ")
         .toLowerCase()
 
-      return (!normalized || searchable.includes(normalized)) && (!brand || truck.brand === brand) && (!bodyType || truck.bodyType === bodyType)
+      return (!normalized || searchable.includes(normalized)) && (!brand || normalizeBrandKey(truck.brand) === normalizeBrandKey(brand)) && (!bodyType || truck.bodyType === bodyType)
     })
 
     return result.sort((a, b) => {
@@ -216,22 +232,31 @@ function TruckExplorerState({ trucks, initial }: { trucks: Truck[]; initial: Ini
   return (
     <div className="grid gap-8 lg:grid-cols-[265px_1fr] xl:gap-12">
       <div className="min-w-0 border-y border-line py-5 lg:col-span-2">
-        <div className="mb-4 flex items-center justify-between gap-6">
+        <div className="mb-4 flex items-center gap-3">
           <p className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-muted">Shop by brand</p>
-          {brand ? <button type="button" onClick={() => selectBrand("")} className="text-[10px] font-extrabold uppercase tracking-[0.15em] text-brand hover:text-brand-deep">Clear brand</button> : null}
         </div>
-        <div className="hide-scrollbar flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Filter catalog by brand">
+        <div className="flex min-w-0 flex-wrap items-center gap-2 sm:gap-2.5" role="group" aria-label="Filter catalog by brand">
           {["", ...brands].map((option) => (
             <button
               key={option || "all-brands-rail"}
               type="button"
-              aria-pressed={brand === option}
+              aria-pressed={normalizeBrandKey(brand) === normalizeBrandKey(option)}
               onClick={() => selectBrand(option)}
-              className={`cut-corner min-h-12 shrink-0 border px-5 text-xs font-extrabold uppercase tracking-[0.12em] transition-colors ${brand === option ? "border-ink bg-ink text-white" : "border-line bg-white text-ink hover:border-brand hover:text-brand"}`}
+              className={`cut-corner min-h-11 max-w-full whitespace-nowrap border px-3.5 text-[11px] font-extrabold uppercase tracking-[0.1em] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 sm:min-h-12 sm:px-4 sm:text-xs sm:tracking-[0.12em] ${normalizeBrandKey(brand) === normalizeBrandKey(option) ? "border-ink bg-ink text-white shadow-[inset_0_-3px_0_var(--brand)]" : "border-line bg-white text-ink hover:border-brand hover:text-brand"}`}
             >
               {option || "All brands"}
             </button>
           ))}
+          {brand ? (
+            <button
+              type="button"
+              onClick={() => selectBrand("")}
+              className="inline-flex min-h-11 max-w-full items-center gap-2 whitespace-nowrap border border-transparent px-2 text-[10px] font-extrabold uppercase tracking-[0.13em] text-brand transition-colors hover:border-brand/35 hover:bg-brand/5 hover:text-brand-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 sm:min-h-12 sm:px-3"
+            >
+              <X aria-hidden="true" className="h-3.5 w-3.5" />
+              Clear brand
+            </button>
+          ) : null}
         </div>
       </div>
 
